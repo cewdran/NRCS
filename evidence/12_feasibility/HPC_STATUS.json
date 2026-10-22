@@ -1,0 +1,22 @@
+{
+  "status": "HPC_TEN_YEAR_FEASIBILITY_AUDIT_COMPLETED_REVIEW_PENDING",
+  "analysis_job_id": "24110649",
+  "collector_execution": {
+    "job_id": "24110650",
+    "cluster": "puma",
+    "node": "r7u12n2",
+    "job_record": "JobId=24110650 JobName=nrcs_10y_collect UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5007 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:02 TimeLimit=00:30:00 TimeMin=N/A SubmitTime=2026-10-05T15:51:36 EligibleTime=2026-10-05T15:56:27 AccrueTime=2026-10-05T15:56:27 StartTime=2026-10-05T16:01:20 EndTime=2026-10-05T16:31:20 Deadline=N/A PreemptEligibleTime=2026-10-05T16:01:20 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-05T16:01:20 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:708060 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u12n2 BatchHost=r7u12n2 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=1,mem=5G,node=1,billing=1 AllocTRES=cpu=1,mem=5G,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_ten_year_feasibility_HPC_v2/runs/run_20261005T225135Z_2460a868/COLLECT.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_ten_year_feasibility_HPC_v2/runs/run_20261005T225135Z_2460a868 StdErr=/xdisk/dinusha1/dinusha1/NRCS_ten_year_feasibility_HPC_v2/runs/run_20261005T225135Z_2460a868/logs/collector.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_ten_year_feasibility_HPC_v2/runs/run_20261005T225135Z_2460a868/logs/collector.log TresPerTask=cpu=1"
+  },
+  "scheduler_state": "COMPLETED",
+  "scheduler_exit_code": "0:0",
+  "pipeline_exit_code": 0,
+  "audit_execution_completed": true,
+  "numerical_models_fitted": false,
+  "ten_year_forecast_generated": false,
+  "eligibility_review_pending": true,
+  "collected_utc": "2026-10-05T23:01:22.805639+00:00",
+  "review": "Review recorded model eligibility and reasons before authorizing any subsequent model fitting.",
+  "source_files_changed": false,
+  "runtime_status_validation_error": null,
+  "feasibility_status_validation_error": null
+}

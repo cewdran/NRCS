@@ -1,0 +1,1032 @@
+{
+  "errors": [],
+  "execution": {
+    "cluster": "puma",
+    "job_id": "24276769",
+    "job_record": "JobId=24276769 JobName=nrcs_tt_collector UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:09 TimeLimit=01:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:01 EligibleTime=2026-10-16T14:56:01 AccrueTime=2026-10-16T14:56:01 StartTime=2026-10-16T15:00:38 EndTime=2026-10-16T16:00:38 Deadline=N/A PreemptEligibleTime=2026-10-16T15:00:38 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T15:00:38 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u11n1 BatchHost=r7u11n1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=1,mem=5G,node=1,billing=1 AllocTRES=cpu=1,mem=5G,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/COLLECT.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/collector.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/collector.log KillOInInvalidDependent=Yes TresPerTask=cpu=1",
+    "node": "r7u11n1"
+  },
+  "passed": true,
+  "proof": {
+    "combine": {
+      "completed": true,
+      "manifest_files": 36,
+      "output_manifest_sha256": "e3b0e0c5d383ca1db3721f21dbdebaf31184818aca44d33fa947e6ac7ae94ae8",
+      "report_created": true
+    },
+    "current_sources": {
+      "passed": true,
+      "proof_sha256": "200e6961b7160540f5dfd70264342984bf8d0a5293c0b6182d3b0f6c0e709e99",
+      "source_files_changed": false
+    },
+    "runtime:combine": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276768",
+          "job_record": "JobId=24276768 JobName=nrcs_tt_combine UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:25 TimeLimit=02:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:50:47 AccrueTime=2026-10-16T14:50:47 StartTime=2026-10-16T14:55:36 EndTime=2026-10-16T16:55:36 Deadline=N/A PreemptEligibleTime=2026-10-16T14:55:36 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:55:36 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u04n1 BatchHost=r7u04n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_COMBINE.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/combine.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/combine.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u04n1"
+        },
+        "hostname": "r7u04n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:56:01.144585+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276768",
+          "job_record": "JobId=24276768 JobName=nrcs_tt_combine UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=02:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:50:47 AccrueTime=2026-10-16T14:50:47 StartTime=2026-10-16T14:55:36 EndTime=2026-10-16T16:55:36 Deadline=N/A PreemptEligibleTime=2026-10-16T14:55:36 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:55:36 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u04n1 BatchHost=r7u04n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_COMBINE.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/combine.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/combine.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u04n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:55:42.331073+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276768",
+      "node": "r7u04n1",
+      "scheduler": {
+        "elapsed": "00:00:25",
+        "exit_code": "0:0",
+        "job_id": "24276768",
+        "max_rss": "",
+        "node_list": "r7u04n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276768",
+          "job_record": "JobId=24276768 JobName=nrcs_tt_combine UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:03 TimeLimit=02:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:50:47 AccrueTime=2026-10-16T14:50:47 StartTime=2026-10-16T14:55:36 EndTime=2026-10-16T16:55:36 Deadline=N/A PreemptEligibleTime=2026-10-16T14:55:36 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:55:36 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u04n1 BatchHost=r7u04n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_COMBINE.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/combine.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/combine.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u04n1"
+        },
+        "hostname": "r7u04n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:55:39.752358+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:stage": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276757",
+          "job_record": "JobId=24276757 JobName=nrcs_tt_stage UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:19 TimeLimit=04:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:01 AccrueTime=2026-10-16T14:45:01 StartTime=2026-10-16T14:45:27 EndTime=2026-10-16T18:45:27 Deadline=N/A PreemptEligibleTime=2026-10-16T14:45:27 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:45:27 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=20G,node=1,billing=4 AllocTRES=cpu=4,mem=20G,node=1,billing=4 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_STAGE.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/stage.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/stage.log TresPerTask=cpu=4",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:45:46.817095+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276757",
+          "job_record": "JobId=24276757 JobName=nrcs_tt_stage UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:05 TimeLimit=04:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:01 AccrueTime=2026-10-16T14:45:01 StartTime=2026-10-16T14:45:27 EndTime=2026-10-16T18:45:27 Deadline=N/A PreemptEligibleTime=2026-10-16T14:45:27 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:45:27 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=20G,node=1,billing=4 AllocTRES=cpu=4,mem=20G,node=1,billing=4 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_STAGE.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/stage.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/stage.log TresPerTask=cpu=4",
+          "node": "r7u13n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:45:40.690687+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276757",
+      "node": "r7u13n1",
+      "scheduler": {
+        "elapsed": "00:00:19",
+        "exit_code": "0:0",
+        "job_id": "24276757",
+        "max_rss": "",
+        "node_list": "r7u13n1",
+        "requested_memory": "20G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276757",
+          "job_record": "JobId=24276757 JobName=nrcs_tt_stage UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:03 TimeLimit=04:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:01 AccrueTime=2026-10-16T14:45:01 StartTime=2026-10-16T14:45:27 EndTime=2026-10-16T18:45:27 Deadline=N/A PreemptEligibleTime=2026-10-16T14:45:27 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:45:27 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=20G,node=1,billing=4 AllocTRES=cpu=4,mem=20G,node=1,billing=4 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_STAGE.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/stage.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/stage.log TresPerTask=cpu=4",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:45:30.180411+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:worker:annual_profile": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276764",
+          "job_record": "JobId=24276764 JobName=nrcs_tt_worker_annual_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:13 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:43.057358+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276764",
+          "job_record": "JobId=24276764 JobName=nrcs_tt_worker_annual_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:05 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:50:38.574890+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276764",
+      "node": "r7u13n1",
+      "scheduler": {
+        "elapsed": "00:00:13",
+        "exit_code": "0:0",
+        "job_id": "24276764",
+        "max_rss": "",
+        "node_list": "r7u13n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276764",
+          "job_record": "JobId=24276764 JobName=nrcs_tt_worker_annual_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:34.624401+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:worker:annual_scalar": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276760",
+          "job_record": "JobId=24276760 JobName=nrcs_tt_worker_annual_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:17 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u10n1 BatchHost=r7u10n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u10n1"
+        },
+        "hostname": "r7u10n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:47.172251+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276760",
+          "job_record": "JobId=24276760 JobName=nrcs_tt_worker_annual_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:07 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u10n1 BatchHost=r7u10n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u10n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:50:40.628977+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276760",
+      "node": "r7u10n1",
+      "scheduler": {
+        "elapsed": "00:00:17",
+        "exit_code": "0:0",
+        "job_id": "24276760",
+        "max_rss": "",
+        "node_list": "r7u10n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276760",
+          "job_record": "JobId=24276760 JobName=nrcs_tt_worker_annual_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u10n1 BatchHost=r7u10n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_annual_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u10n1"
+        },
+        "hostname": "r7u10n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:34.785898+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:worker:chester_profile": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276765",
+          "job_record": "JobId=24276765 JobName=nrcs_tt_worker_chester_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:12 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:42.382826+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276765",
+          "job_record": "JobId=24276765 JobName=nrcs_tt_worker_chester_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:05 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:50:38.575495+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276765",
+      "node": "r7u13n1",
+      "scheduler": {
+        "elapsed": "00:00:12",
+        "exit_code": "0:0",
+        "job_id": "24276765",
+        "max_rss": "",
+        "node_list": "r7u13n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276765",
+          "job_record": "JobId=24276765 JobName=nrcs_tt_worker_chester_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:34.625946+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:worker:chester_scalar": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276761",
+          "job_record": "JobId=24276761 JobName=nrcs_tt_worker_chester_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:12 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:42.439738+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276761",
+          "job_record": "JobId=24276761 JobName=nrcs_tt_worker_chester_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:05 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:50:38.574588+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276761",
+      "node": "r7u13n1",
+      "scheduler": {
+        "elapsed": "00:00:12",
+        "exit_code": "0:0",
+        "job_id": "24276761",
+        "max_rss": "",
+        "node_list": "r7u13n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276761",
+          "job_record": "JobId=24276761 JobName=nrcs_tt_worker_chester_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_chester_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:34.627803+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:worker:grenache_soil": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276767",
+          "job_record": "JobId=24276767 JobName=nrcs_tt_worker_grenache_soil UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:10 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u17n1 BatchHost=r7u17n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_grenache_soil.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_grenache_soil.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u17n1"
+        },
+        "hostname": "r7u17n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:40.522437+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276767",
+          "job_record": "JobId=24276767 JobName=nrcs_tt_worker_grenache_soil UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u17n1 BatchHost=r7u17n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_grenache_soil.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_grenache_soil.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u17n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:50:37.582708+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276767",
+      "node": "r7u17n1",
+      "scheduler": {
+        "elapsed": "00:00:10",
+        "exit_code": "0:0",
+        "job_id": "24276767",
+        "max_rss": "",
+        "node_list": "r7u17n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276767",
+          "job_record": "JobId=24276767 JobName=nrcs_tt_worker_grenache_soil UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:03 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u17n1 BatchHost=r7u17n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_grenache_soil.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_grenache_soil.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u17n1"
+        },
+        "hostname": "r7u17n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:33.342003+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:worker:oatman_profile": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276762",
+          "job_record": "JobId=24276762 JobName=nrcs_tt_worker_oatman_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:12 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:42.328680+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276762",
+          "job_record": "JobId=24276762 JobName=nrcs_tt_worker_oatman_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:05 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:50:38.574297+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276762",
+      "node": "r7u13n1",
+      "scheduler": {
+        "elapsed": "00:00:12",
+        "exit_code": "0:0",
+        "job_id": "24276762",
+        "max_rss": "",
+        "node_list": "r7u13n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276762",
+          "job_record": "JobId=24276762 JobName=nrcs_tt_worker_oatman_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:34.624119+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:worker:oatman_scalar": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276758",
+          "job_record": "JobId=24276758 JobName=nrcs_tt_worker_oatman_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:11 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u08n1 BatchHost=r7u08n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u08n1"
+        },
+        "hostname": "r7u08n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:41.511615+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276758",
+          "job_record": "JobId=24276758 JobName=nrcs_tt_worker_oatman_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u08n1 BatchHost=r7u08n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u08n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:50:37.815153+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276758",
+      "node": "r7u08n1",
+      "scheduler": {
+        "elapsed": "00:00:11",
+        "exit_code": "0:0",
+        "job_id": "24276758",
+        "max_rss": "",
+        "node_list": "r7u08n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276758",
+          "job_record": "JobId=24276758 JobName=nrcs_tt_worker_oatman_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:03 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u08n1 BatchHost=r7u08n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u08n1"
+        },
+        "hostname": "r7u08n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:33.434841+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:worker:oatman_soil": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276766",
+          "job_record": "JobId=24276766 JobName=nrcs_tt_worker_oatman_soil UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:11 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_soil.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_soil.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:41.571902+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276766",
+          "job_record": "JobId=24276766 JobName=nrcs_tt_worker_oatman_soil UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:05 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_soil.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_soil.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:50:38.573994+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276766",
+      "node": "r7u13n1",
+      "scheduler": {
+        "elapsed": "00:00:11",
+        "exit_code": "0:0",
+        "job_id": "24276766",
+        "max_rss": "",
+        "node_list": "r7u13n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276766",
+          "job_record": "JobId=24276766 JobName=nrcs_tt_worker_oatman_soil UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_soil.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_oatman_soil.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:34.629063+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:worker:petitesirah_profile": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276763",
+          "job_record": "JobId=24276763 JobName=nrcs_tt_worker_petitesirah_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:12 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:42.291825+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276763",
+          "job_record": "JobId=24276763 JobName=nrcs_tt_worker_petitesirah_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:05 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:50:38.575175+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276763",
+      "node": "r7u13n1",
+      "scheduler": {
+        "elapsed": "00:00:12",
+        "exit_code": "0:0",
+        "job_id": "24276763",
+        "max_rss": "",
+        "node_list": "r7u13n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276763",
+          "job_record": "JobId=24276763 JobName=nrcs_tt_worker_petitesirah_profile UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u13n1 BatchHost=r7u13n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_profile.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_profile.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u13n1"
+        },
+        "hostname": "r7u13n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:34.624129+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "runtime:worker:petitesirah_scalar": {
+      "end": {
+        "event": "end",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276759",
+          "job_record": "JobId=24276759 JobName=nrcs_tt_worker_petitesirah_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:14 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u10n1 BatchHost=r7u10n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u10n1"
+        },
+        "hostname": "r7u10n1.puma.hpc.arizona.edu",
+        "interpreter": "/opt/ohpc/pub/apps/python/3.11.4/bin/python3",
+        "pipeline_exit_code": 0,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:44.630485+00:00",
+        "visual_review_pending": true
+      },
+      "environment": {
+        "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276759",
+          "job_record": "JobId=24276759 JobName=nrcs_tt_worker_petitesirah_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:07 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u10n1 BatchHost=r7u10n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u10n1"
+        },
+        "package_integrity_passed": true,
+        "package_manifest_sha256": "a3b562a7f7a7a056c18dfd53b03301cc80386370bf92ce23ab84dd77dc6d9ddb",
+        "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+        "ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+        "runtime_installation_performed": false,
+        "source_manifest_sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+        "status": "COMPUTE_RUNTIME_VERIFIED",
+        "utc": "2026-10-16T21:50:40.629271+00:00",
+        "versions": {
+          "Pillow": "12.3.0",
+          "matplotlib": "3.10.8",
+          "numpy": "2.3.5",
+          "openpyxl": "3.1.5",
+          "pandas": "2.2.3",
+          "pypdf": "6.10.0",
+          "reportlab": "4.4.9",
+          "scipy": "1.17.0"
+        }
+      },
+      "job_id": "24276759",
+      "node": "r7u10n1",
+      "scheduler": {
+        "elapsed": "00:00:14",
+        "exit_code": "0:0",
+        "job_id": "24276759",
+        "max_rss": "",
+        "node_list": "r7u10n1",
+        "requested_memory": "10G",
+        "state": "COMPLETED"
+      },
+      "start": {
+        "event": "start",
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24276759",
+          "job_record": "JobId=24276759 JobName=nrcs_tt_worker_petitesirah_scalar UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=08:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:44:59 EligibleTime=2026-10-16T14:45:47 AccrueTime=2026-10-16T14:45:47 StartTime=2026-10-16T14:50:30 EndTime=2026-10-16T22:50:30 Deadline=N/A PreemptEligibleTime=2026-10-16T14:50:30 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:50:30 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u10n1 BatchHost=r7u10n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_WORKER.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_scalar.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/worker_petitesirah_scalar.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+          "node": "r7u10n1"
+        },
+        "hostname": "r7u10n1.puma.hpc.arizona.edu",
+        "interpreter": "/usr/bin/python3",
+        "pipeline_exit_code": null,
+        "platform": "Linux-5.14.0-687.29.1.el9_8.x86_64-x86_64-with-glibc2.34",
+        "predictive_validation_established": false,
+        "python": "3.9.25 (main, Jul 13 2026, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-14)]",
+        "scientific_review_pending": true,
+        "ten_year_forecast_generated": false,
+        "utc": "2026-10-16T21:50:34.796284+00:00",
+        "visual_review_pending": true
+      },
+      "verified": true
+    },
+    "stage": {
+      "completed": true,
+      "self_checks_passed": true,
+      "source_verified": true
+    },
+    "submission_release": {
+      "passed": true,
+      "release_sha256": "5c3483bd18ecb5ed51d0a71c0bf2c3ca6c40819d156e0165bc2a20c3d43107eb",
+      "submission_sha256": "7e13bc31cc42192a838e4f57d96e6dc450b2973cea7977a35d3cc4dcfac7c5d7"
+    },
+    "worker:annual_profile": {
+      "completed": true,
+      "manifest_files": 7,
+      "output_manifest_sha256": "607332324bcac5b44ed57f0ccc8f01c56f8d173ed37d9c3082109e9172f860e0"
+    },
+    "worker:annual_scalar": {
+      "completed": true,
+      "manifest_files": 6,
+      "output_manifest_sha256": "6befac89832dd9441f7f900a24101a8bc91016f63a27b2d687b876598f1a322b"
+    },
+    "worker:chester_profile": {
+      "completed": true,
+      "manifest_files": 7,
+      "output_manifest_sha256": "8d851608ce839c72dae83e21eb27458f936c94093537034c01fda7073a5bc0cd"
+    },
+    "worker:chester_scalar": {
+      "completed": true,
+      "manifest_files": 6,
+      "output_manifest_sha256": "6799b0801ef582681efa647739be92043a828be958935047d15706419c286f4b"
+    },
+    "worker:grenache_soil": {
+      "completed": true,
+      "manifest_files": 10,
+      "output_manifest_sha256": "edc12797dfce213e71818af5d5b5ca4761d9a2df2d6711f9f88dcdb47c92d689"
+    },
+    "worker:oatman_profile": {
+      "completed": true,
+      "manifest_files": 7,
+      "output_manifest_sha256": "b5f5e073a7571b9b1ace8584f40ca44b01cd14ac9f2d8285dac14cca0447c446"
+    },
+    "worker:oatman_scalar": {
+      "completed": true,
+      "manifest_files": 6,
+      "output_manifest_sha256": "1e7eec76ee6968ef67c734d126fd4fda8313207f8d2a9e9030c85161f2c416d9"
+    },
+    "worker:oatman_soil": {
+      "completed": true,
+      "manifest_files": 12,
+      "output_manifest_sha256": "9c6047137c581a9a5b89ca1ebe50046dc3e1a54befa4c490f784bf6db6f33e03"
+    },
+    "worker:petitesirah_profile": {
+      "completed": true,
+      "manifest_files": 7,
+      "output_manifest_sha256": "af7be1c9d4d2444cb7ea25ac5d2ee3e0f0db323ac589756316a50653cf535703"
+    },
+    "worker:petitesirah_scalar": {
+      "completed": true,
+      "manifest_files": 6,
+      "output_manifest_sha256": "9ce82ce46f54d48c93f0aafb5507854c006c4ca664d03128f073fe62f6cfbb1f"
+    }
+  },
+  "utc": "2026-10-16T22:00:48.080001+00:00"
+}

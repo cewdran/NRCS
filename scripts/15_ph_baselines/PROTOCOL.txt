@@ -1,0 +1,267 @@
+NRCS Whipstone Annual reported-pH trajectories and point-baseline diagnostics
+Package: NRCS_Whipstone_pH_baselines_HPC_v1
+Specification date: 7 October 2026; all recorded execution timestamps use UTC.
+State at preparation: PREPARED_NOT_SUBMITTED; Puma checks and results pending.
+
+1. Authorized question and honest timing of this specification
+
+Use current NRCS files to describe observed Whipstone Annual soil-pH plot
+trajectories and compare two fixed, simple point baselines in separate annual
+target rounds. This is a retrospectively specified, unblinded diagnostic: source
+outcomes and the accepted inventory were already viewed before this protocol.
+The file/specification freeze precedes this new execution, not the historical
+measurement of targets. No preregistration, untouched-test or prospective
+validation claim follows from the execution-order prediction freeze.
+
+The user authorized this next stage on 7 October 2026 after the source-preserving
+measured-outcome inventory. Ten-year work is authorized as a project goal, but
+the current files do not establish empirical numerical ten-year forecasts.
+This package creates no decadal curves, scenarios, confidence/prediction
+intervals, significance tests, causal effects, complex models or chosen winner.
+
+2. Immutable accepted source and response boundary
+
+Use accepted inventory main job 24147988 (Puma r7u11n1; recorded COMPLETED,
+scheduler 0:0, pipeline 0), with the separate dated root review
+review/ACCEPTED_RETURNED_REVIEW_24147988.json, SHA256
+f71809e6b50c2c4d044f672e0b7249f58217dce07fcedbcb1ecd6fc5a6fabb15.
+Its scope is accepted source preservation and inventory, not predictive skill.
+Its original review-pending HPC receipts remain unchanged. Collector 24147989
+was captured RUNNING on r7u04n2; final collector accounting is not established.
+
+The response is W_PH only, Whipstone / Annual crops / Annual analytic system.
+Exact authorized workbook measurement rows are read from staged accepted
+results/measurement_inventory.csv, SHA256
+fbf08ff60e8a35172acf4188aabee2163e22eec57b6d1751f86fd3bd60f12aec.
+Record provenance uses staged results/record_inventory.csv, SHA256
+ca4b0835b7571a2c36deb844629911823c37f257e0ff53d857a0c958131e4c6f.
+RESPONSE_SPEC.json freezes the exact record/source/page/lab/date/key forms,
+scope and planned folds. CONFIG.json freezes the complete source/review locks.
+No alias matching, newly inferred identities or other response is permitted.
+
+Authoritative values are corrected_workbook/Measurements rows, source role
+CORRECTED_PRIMARY_MEASUREMENT_NOT_A_NEW_OBSERVATION, with existing
+WB_MEASUREMENT_ inventory row IDs. Laboratory representations remain linked
+audit copies, never additional biological observations. Their existence cannot
+increase observation or plot counts. Every original value, raw measurement and
+raw record JSON, source heading, method, unit, qualifier, reporting limit,
+source/PDF pointer and collection/laboratory date remains unchanged.
+
+3. Frozen report definitions and exact source forms
+
+2023: R0166-R0177, S33 Soil_12.2023.pdf (Ward invoice 1417910), pages 1-12,
+labs 276269-276280; collection date 2023-11-16. Exact Measurement raw source
+S14, variable "1:1 Soil pH", unit "pH units", method "1:1".
+
+2024: R0194-R0205, S37 whipstone_2024.pdf (Ward invoice 1430399), pages
+1-12, labs 85219-85230. Exact Measurement raw source S37, variable
+"1:1 Soil pH", unit "pH units", method "1:1". The original Sample-record
+source S14 remains a separate provenance field; it must not be substituted for
+Measurement source S37. R0194/R0200/R0203/R0205 have collection date
+2024-08-14; the other selected 2024 records have date 2024-07-06.
+
+2025: R0217,R0219,R0221,R0223,R0225,R0227,R0229,R0231,R0233,R0235,
+R0237,R0239, S22 Soil-Results-1506923.pdf (Ward invoice 1506923), odd pages
+1,3,...,23, labs 95544,95546,...,95566; collection date 2025-08-17. Exact
+Measurement source S16, variable "Soil pH 1:1 " (one trailing space), unit
+"pH units", original method null. The source-backed reviewed 1:1 definition
+is a separate annotation; original null method cells are not filled or relabeled.
+
+Exact per-record metadata, including keys, resides in RESPONSE_SPEC.json,
+copied from the accepted source specification. Source IDs, pages and raw method
+nulls are compared in their own provenance roles. S33 legacy PODS source_field
+headings remain verbatim even where misleading; corrected variable/unit/method
+and report page determine this frozen definition, not a guess from that heading.
+
+These reports support comparability at REPORTED_DEFINITION_ONLY. The 1:1 label
+does not establish identical reagent, electrode calibration, interyear assay
+calibration or equivalent field sampling. No unit conversion is made.
+
+4. Dates, depth and available outcomes
+
+Use actual recorded collection dates, not receipt/report dates or a fabricated
+common annual date. Preserve laboratory_received and laboratory_reported fields.
+Historical assay-result availability at each proposed forecast origin remains
+NOT_VERIFIED. Chronological collection ordering alone therefore does not prove
+that a real-time forecast could have used the eventual assay results.
+
+S33/S37 print "0-8" without a unit; S22 prints "0-8 in". The separate researcher
+D14 protocol describes excluded surface material and the full remaining column
+to a 15-20 cm terminal depth. Preserve these separate literals/provenance; do not
+equate them, assign a missing unit or turn terminal depth into sampled thickness.
+Plots may be linked by confirmed identity while sampling equivalence remains
+unestablished. Temporal pH differences are interpreted within this limitation.
+
+2023 Lettuce and 2024 Onion contexts remain source context, not treatment/time
+effects or predictive drivers. The selected 2025 Annual pages report pH but do
+not report LOI organic matter or nitrate. Organic carbon is not substituted for
+LOI organic matter. KCl nitrate and H3A nitrate remain distinct. Oatman response
+averaging and other measured/function outcomes retain their existing holds.
+June R0025 / lab 34082 remains outside this Whipstone scope, soil-only, with
+physical identity/16S matching unresolved. No hold is resolved by this package.
+
+5. Observation eligibility and complete audit
+
+An eligible response has the exact frozen workbook form/scope/record/PDF/lab
+pointer, a confirmed physical plot and matching confirmed key/actual date, no
+source exclusion, and one finite recorded numeric pH that is uncensored,
+unqualified and free of unresolved numeric/text conflict. Original numeric
+representation is copied; no imputation, censor substitution, rescaling or
+source-selected averaging occurs. Missing/nonfinite/qualified/conflicting values
+are held with explicit reasons. A mismatched frozen source identity fails the
+integrity gate rather than creating a new alias.
+
+Perform uniqueness gates on all authoritative W_PH candidate source rows with
+confirmed physical/date identity BEFORE finite-value inclusion. More than one
+workbook row at a plot/event holds every row even if only one is finite. More
+than one actual event for a plot in one annual round holds every row in that
+plot-round even if another event is missing/censored. Do not silently choose
+the finite row, choose a visit, deduplicate, combine labs or average a response.
+Unexpected source/metadata changes fail closed; held rows remain visible.
+
+Measured soil eligibility does not require 16S, PICRUSt2, positive microbial
+reads, a primary microbial arm or a microbial depth-sensitivity flag. Identity
+must still be explicitly confirmed in the accepted measured inventory. Optional
+treatment/source plot-group labels are copied only from source metadata, may be
+blank, and are never inferred from plot names or used as a model/eligibility gate.
+
+observation_audit.csv preserves all candidate source rows, their dispositions
+and any expected record with no source row. An absent source creates an audit
+entry with blank observation_id, never an invented measurement. Eligible
+observation_id equals the original WB inventory_row_id. Exact reason codes and
+interfaces are frozen in RESPONSE_SPEC.json and OUTPUT_CONTRACT.json.
+
+The audit may also copy accepted outside-panel rows and laboratory representations
+without new scientific assessment. OUTSIDE_FROZEN_WH_ANNUAL_PH_SCOPE and
+AUDIT_TRANSCRIPTION_COPY_ONLY are audit-only dispositions, separately declared
+from selected W_PH eligibility/scoring reason codes. They may appear in the
+audit's eligibility_status/eligibility_reason_codes columns as preservation
+labels, but are always ineligible, not expected response rows, and have no
+reported_pH response. They never enter observations, changes, training, scoring
+or support as field responses. Outside-panel values receive no new eligibility
+or duplicate analysis; laboratory copies cannot increase biological support.
+
+6. Observed trajectories and changes
+
+eligible_observations.csv contains unchanged eligible source pH values and
+their identity/date/assay/depth provenance. plot_changes.csv contains only
+adjacent eligible observed visits of the same confirmed physical plot, actual
+dates, their two source values and to_pH minus from_pH on the reported pH scale.
+Missing or held visits remain visible through the audit; no interpolation,
+annualized rate, trend fit, temporal significance or causal contrast is generated.
+Trajectory figures show recorded points and observed segments, not fitted or
+forecast curves. Different plots/rounds are not treated as independent new farms.
+
+7. Fixed annual folds and target-blind training
+
+PH_2024_FROM_2023: training round 2023 only, strictly before cutoff 2024-01-01;
+target round 2024 comprises both 2024-07-06 and 2024-08-14 source dates. Freeze
+each baseline's parameters and every known training plot's prediction before
+scoring either date subset. July outcomes never enter the August fit. The round
+is one historical target round, not two independent validation repetitions.
+
+PH_2025_FROM_2023_2024: training rounds 2023/2024 only, strictly before cutoff
+2025-01-01; target round 2025 uses actual date 2025-08-17. Every eligible
+pre-cutoff observation/plot in the declared training rounds enters the training
+pool, irrespective of future target presence, eligibility or value. A failed,
+missing or held future response cannot remove its historical plot from training.
+
+training_membership.csv, training_plot_means.csv, fits.json and predictions.csv
+are saved and hashed in prediction_freeze.json before target scoring. Predictions
+are created for all eligible training plots for both methods, not only plots
+eventually scored. This is an execution-order anti-leakage check in a retrospective
+diagnostic; prior viewing and historical assay availability limits remain.
+
+8. Exactly two reported-scale baselines
+
+PERSISTENCE predicts a known plot's latest eligible strictly pre-cutoff source
+pH. With unique confirmed events there is no value-based tie resolution.
+
+EQUAL_PLOT_TRAINING_MEAN first takes the arithmetic temporal mean of eligible
+strictly pre-cutoff source pH within each confirmed physical plot, then averages
+those plot means with equal plot weight over ALL eligible training plots.
+Different counts of historical visits do not give a plot more cross-plot weight.
+There is no time weighting, outcome tuning, treatment-specific mean or fitted
+trend. The derived training means are baseline parameters, not replacement soil
+measurements or aggregated plot-event responses.
+
+Both methods are applicable only to known plots with at least one eligible prior
+pH observation. A cold-start target is COLD_START_NO_PRIOR_PH for both methods,
+even though a pooled mean might numerically exist. A training pool must contain
+at least one eligible plot to define its mean. These existence conditions are
+chosen design/support rules, not power, estimability or predictive-skill guarantees.
+Arithmetic pH means are declared descriptive parameters on the reported pH scale;
+they are not averages of hydrogen ion concentration/activity or soil-process
+forecasts. No nonlinear chemical interpretation is attached to them.
+
+9. Target ledger, errors and paired diagnostics
+
+plot_errors.csv is a full target-score ledger for both methods for every declared
+target record, including held/missing responses and cold starts. Score only a
+unique eligible target actual event for a known physical plot with an available
+finite frozen prediction. Record signed error = predicted_pH - reported_pH,
+absolute error and squared error. Unexpected nonfinite derived parameters fail
+closed rather than silently extending a skip rule.
+
+performance.csv reports MAE and RMSE separately for each fold and method, with
+equal weight per scored physical plot. paired_errors.csv uses the exact common
+eligible target physical plots with both predictions; paired_performance.csv
+reports the same two methods on precisely that shared set. Preserve per-method
+and common-set sample support separately. Never compare incomparable sets while
+calling them paired. n=0 means NOT_ESTIMATED and empty metric cells, not zero;
+positive n yields ESTIMATED_POINT_DIAGNOSTIC, with no inferential guarantee.
+
+cohort_support.csv and baseline_support.csv state the actual recorded training,
+target, scored and common-set support, all computed on Puma. Never pool the two
+folds as independent validation observations, rank a winner, tune against these
+targets, calculate p-values/CIs or infer causal treatment effects from them.
+Repeated observations share physical plots, and annual field/assay/crop contexts
+are not independently replicated environmental conditions.
+
+10. Execution, interfaces and truthful completion
+
+All source extraction, response/identity/duplicate eligibility, support counts,
+changes, training means, predictions, errors, metrics, synthetic scientific
+self-checks and scientific report/figure generation execute only on genuine
+Puma Slurm compute nodes after the guards and pinned runtime/source gates.
+No local import/execution or Slurm emulation is permitted. Local work is limited
+to immutable saved-source/PDF/code reading, editorial specifications, administrative
+hash/schema/syntax checks and fixed editorial workflow diagrams.
+
+OUTPUT_CONTRACT.json is authoritative for exact engine/report files, schemas,
+manifests, receipt paths and completion sentinel. Canonical engine status is
+audit/PH_ENGINE_STATUS.json with
+WHIPSTONE_PH_BASELINE_DIAGNOSTICS_COMPLETED_REVIEW_PENDING. Canonical engine
+manifest is audit/PH_ENGINE_OUTPUT_MANIFEST.csv; source preservation is
+audit/PH_SOURCE_PRESERVATION.json. Scientific fixtures run on Puma before the
+engine and their audit/ph_self_checks.json bytes enter that engine manifest.
+
+Successful computation sets models_fitted, baseline_models_fitted,
+baseline_parameters_computed and baseline_predictions_computed true because
+simple means are computed from training data. complex_models_fitted, statistical
+tests, intervals, predictive_validation_established and ten_year_forecast_generated
+remain false. Source measurements and plot-event responses remain unmodified;
+training baseline means are explicitly computed. These flags are execution facts,
+not evidence of useful predictive skill. Preparation flags remain false/pending
+until actual execution. Scientific and visual review remain pending after success.
+
+The renderer displays saved engine tables/values only and does no new scientific
+eligibility, averaging, fitting, rescoring or metric computation. Its exact seven
+outputs include five standalone figures, the combined review PDF and layout
+receipt. Source/status/hash preservation and layout/sentinel checks fail closed.
+Current main accounting COMPLETED 0:0 plus pipeline 0 is required for a completed
+main claim. Collector capture during RUNNING never establishes its final state.
+Original sources, historical failed jobs and dated acceptances are immutable.
+
+11. Interpretation and subsequent decision
+
+Accept a completed stage only after source/manifest/runtime/execution integrity,
+full ledger/paired-method consistency and scientific/visual review. A limited
+point diagnostic can support observed-period manuscript description and guide
+an independently frozen future sampling/assay/dependence/validation design.
+It cannot by itself establish prospective skill or decadal calibration. Numerical
+ten-year readiness still requires actual driver/management/scenario definitions,
+measured starting-state/outcome harmonization, appropriate external/calibration
+evidence, independent temporal validation and defensible uncertainty. None is
+invented or presumed complete here. REFERENCES.txt records sources and their
+limited methodological relevance; no literature supplies a universal visit count.

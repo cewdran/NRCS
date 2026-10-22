@@ -1,0 +1,33 @@
+{
+  "completed": true,
+  "completed_utc": "2026-10-15T04:08:00.001616+00:00",
+  "consolidation": "TWO_PASS_STREAM_NO_ALL_ROW_DATAFRAME",
+  "display_rows": 385,
+  "execution": {
+    "cluster": "puma",
+    "job_id": "24253501",
+    "job_record": "JobId=24253501 JobName=nrcs_recover_combine UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:17 TimeLimit=1-00:00:00 TimeMin=N/A SubmitTime=2026-10-14T11:06:49 EligibleTime=2026-10-14T11:46:48 AccrueTime=2026-10-14T11:46:48 StartTime=2026-10-14T11:50:05 EndTime=2026-10-15T11:50:05 Deadline=N/A PreemptEligibleTime=2026-10-14T11:50:05 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-14T11:50:04 Scheduler=Backfill Partition=standard AllocNode:Sid=wentletrap:3094220 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u14n1 BatchHost=r7u14n1 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=20G,node=1,billing=4 AllocTRES=cpu=4,mem=20G,node=1,billing=4 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/RUN_COMBINE.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b StdErr=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/logs/combine.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/logs/combine.log KillOInInvalidDependent=Yes TresPerTask=cpu=4",
+    "node": "r7u14n1"
+  },
+  "families": 12,
+  "figure_count": 12,
+  "numerical_self_checks_passed": true,
+  "numerical_ten_year_forecast": false,
+  "output_manifest_sha256": "3a930beb690e440d71afd950fb140e516efa8ba54f19a31f436c98cf3d9beeb5",
+  "package_integrity_passed": true,
+  "predictive_validation_established": false,
+  "primary_BY_discoveries": 0,
+  "recovery": {
+    "assembled_logical_workers": 2,
+    "logical_worker_count": 12,
+    "preserved_original_workers": 10,
+    "retry_chunk_count": 6
+  },
+  "report_pages": 3,
+  "scientific_review_pending": true,
+  "source_files_changed": false,
+  "ten_year_forecast_generated": false,
+  "tests_rows": 44561964,
+  "visual_review_pending": true,
+  "worker_count": 12
+}

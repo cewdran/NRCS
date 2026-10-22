@@ -1,0 +1,19 @@
+# Isolated v2 presentation refresh of the same scientific protocol
+
+V2 addresses displayed metric-number wrapping and scatter-annotation overlap. It is a full same-baseline rerun in a new genuine Puma run, including scientific fixtures, eligibility, fitting, predictions, scores and report rendering; never describe this version as report-only execution. Scientific engine/fixture bytes, RESPONSE_SPEC, OUTPUT_CONTRACT and PROTOCOL remain byte-identical to the original package. Preserve original run 24150054, all source values and historical statuses. New runtime/fixture/report success and returned scientific/visual review remain pending.
+
+Logical scientific protocol identifier remains v1; the isolated distribution directory and package_revision are v2. Collector archive naming verifies the actual v2 submission folder/revision. No local scientific imports, fixtures, guard tests, calculations or scientific report rendering are permitted. The original boundary below remains binding.
+
+# Whipstone Annual organic matter and nitrate execution boundary
+
+The user authorized this continuation on 7 October 2026 after accepted pH diagnostics. This separate package covers authoritative W_OM LOI organic matter and W_NO3 KCl nitrate source rows, observed-period descriptions and independent 2023-training whole-2024-target known-plot simple-baseline point diagnostics. Preserve every original source, exclusion, unresolved identity, merged library and historical receipt. Dated acceptance remains separate.
+
+All scientific input extraction, value/identity/eligibility checks, cohort/support counts, aggregation, fits, predictions, errors, metrics, synthetic scientific fixtures, scientific figures and scientific reports run only on a genuine Puma Slurm compute node verified by hpc_guard. Never import or run these modules locally, including negative guard tests. Never fabricate Slurm. Local immutable source/schema/code/PDF reading, administrative byte/hash/AST/bash syntax review, protocol authoring and fixed editorial documents and workflow diagrams are permitted.
+
+Use exact source forms and confirmed physical plot identities. Laboratory representations are audit copies, not additional observations. No alias matching, invented joins, imputation, censor substitution, unit conversion, source-row deduplication, value-selected record choice or plot-event measurement averaging. A measured soil response does not require 16S. Other tracks are outside this package. R0025 remains soil-only; Oatman repeated lab rules remain held. Existing Petite Sirah 2025 T1 merged library identities stay unchanged.
+
+W_OM values retain %. Arithmetic differences and errors are percentage points. W_NO3 values and errors retain ppm N. Never pool responses or substitute organic carbon for LOI organic matter or another nitrate assay for KCl nitrate. 2025 method forms remain audit-only; this package has no 2025 diagnostic.
+
+Freeze all known training-plot predictions for both tracks before any target scoring. July and August 2024 share 2023-only training and the whole 2024 target round. Training membership must not depend on future target presence, eligibility or value. Preserve actual dates, target holds, cold starts and per-method versus exact common-plot pairing. No support means explicit not-estimated outputs and false per-track fit/prediction flags. Global dynamic flags reflect any supported track, never forced success.
+
+No winner selection, p-values, causal treatment effects, tuned/trend/complex models, intervals, prospective or external validation claims, numerical ten-year forecasts or scenario curves. Previously viewed source outcomes make this retrospective diagnostic execution. Method/depth/interyear calibration/result-availability limitations remain explicit. Successful Puma execution leaves scientific and visual review pending.

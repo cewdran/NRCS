@@ -1,0 +1,86 @@
+{
+  "package": "NRCS_Oatman_Diversity_Supplements_HPC_v3",
+  "version": 3,
+  "account": "dinusha1",
+  "partition": "standard",
+  "runtime_python": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+  "runtime_ready": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/READY.json",
+  "runtime_ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+  "display_top_named_lineages": 12,
+  "sources": {
+    "corrected_source_status": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/HPC_STATUS.json",
+      "sha256": "ee3434a9e6ed7bb1c5f2233e03ed44e5c76baf8c85229e19cc80b14ca0539914",
+      "bytes": 2100,
+      "expected_job_id": "24067160"
+    },
+    "corrected_counts_bacteria": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/bacteria_counts.tsv.gz",
+      "sha256": "c69a2197857a65e525b09edb1e6ab8bd8fe910d5e42067dfd0be282b78337deb",
+      "bytes": 343150
+    },
+    "corrected_counts_archaea": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/archaea_counts.tsv.gz",
+      "sha256": "5bea33176792ae944f913abf0138159d918b53e30f66fb3cc77b3eec4f88995d",
+      "bytes": 13635
+    },
+    "taxonomy_bacteria": {
+      "path": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/dada2/bacteria/taxonomy.tsv",
+      "sha256": "ec2b506cd7ecc78cc3152c6d88fb63da26e84c3a126f29a7e0fd578de2c7e300",
+      "bytes": 2031668
+    },
+    "taxonomy_archaea": {
+      "path": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260914T201432Z_3761495/dada2/archaea/taxonomy.tsv",
+      "sha256": "0d9f4bb14475e603aee81e5d373d22cb02ff358c76e28f4359d98027d9a1cab8",
+      "bytes": 1798033
+    },
+    "corrected_workbook": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/workbook_data.json",
+      "sha256": "80c4e33f4a859115cdf50c58b0c8a1e215487366e63cd83cc25ab101ff4cd4d4",
+      "bytes": 4033525
+    },
+    "corrected_alpha_tests": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/tables/alpha_Shannon_tests.csv",
+      "sha256": "c1b5bcc1a995573763403ee39689b18da8a20db0f46441ea4728174363c256c5",
+      "bytes": 21916
+    },
+    "corrected_alpha_descriptive": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/tables/alpha_descriptive.csv",
+      "sha256": "f64167b6173369f98022ddc915df9e3d5a576e6f897200c87dd3d9378ea66a5b",
+      "bytes": 70398
+    },
+    "extra_CLR_oatman_bacteria_taxa_Family": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/oatman_bacteria_taxa/Family_primary_CLR.csv.gz",
+      "sha256": "e8724c688338005b9926e802aa5c2e3efc0bfd4a3693db3fb0c4fe1260dcb32e",
+      "bytes": null,
+      "byte_count_policy": "Exact original hash pinned; actual bytes recorded by stage"
+    },
+    "extra_CLR_oatman_archaea_taxa_Genus": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/oatman_archaea_taxa/Genus_primary_CLR.csv.gz",
+      "sha256": "360f546e0ff1996d19390280f77edc5c9245c38b09539877b3245b9266c34391",
+      "bytes": null,
+      "byte_count_policy": "Exact original hash pinned; actual bytes recorded by stage"
+    },
+    "extra_CLR_oatman_bacteria_functions_KO": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/oatman_bacteria_functions/KO_primary_CLR.csv.gz",
+      "sha256": "d078ce1a5f2333f32e2929d4915e205021e3baf1f1158c7730c11e75b5375c33",
+      "bytes": null,
+      "byte_count_policy": "Exact original hash pinned; actual bytes recorded by stage"
+    }
+  },
+  "scientific_execution": "Puma Slurm compute node only",
+  "new_inferential_tests": false,
+  "new_descriptive_PCoA": true,
+  "observed_Shannon_recalculated": false,
+  "statistical_models_recalculated": false,
+  "FDR_recalculated": false,
+  "supplements_supported": true,
+  "pcoa_eigen_relative_tolerance": 1e-12,
+  "pcoa_reconstruction_squared_tolerance": 1e-08,
+  "pcoa_primary_scope": "Exact accepted saved minimum_reads=0 target-positive sample_set per domain and field-event",
+  "pcoa_depth_scope": "No independent depth-filtered ordination; saved minimum100 and generic feature-depth flags exported separately",
+  "launch_repair_only": false,
+  "sort_repair_only": true,
+  "repair_scope": "Two DataFrame index-label repairs plus guarded synthetic stage regression",
+  "scientific_methods_inputs_parameters_unchanged_from": "NRCS_Oatman_Diversity_Supplements_HPC_v2"
+}

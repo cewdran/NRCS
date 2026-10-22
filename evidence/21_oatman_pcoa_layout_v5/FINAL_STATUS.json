@@ -1,0 +1,24 @@
+{
+  "execution": {
+    "job_id": "24348914",
+    "cluster": "puma",
+    "node": "r7u14n1",
+    "job_record": "JobId=24348914 JobName=OFR_layout_refresh UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:05 TimeLimit=01:00:00 TimeMin=N/A SubmitTime=2026-10-21T16:40:34 EligibleTime=2026-10-21T16:40:35 AccrueTime=2026-10-21T16:40:35 StartTime=2026-10-21T16:44:25 EndTime=2026-10-21T17:44:25 Deadline=N/A PreemptEligibleTime=2026-10-21T16:44:25 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-21T16:44:25 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:4159007 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u14n1 BatchHost=r7u14n1 NumNodes=1 NumCPUs=3 NumTasks=1 CPUs/Task=3 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=3,mem=15G,node=1,billing=3 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=3 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v5/RUN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v5/runs/run_20261021T234034Z_195ab1b1 StdErr=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v5/runs/run_20261021T234034Z_195ab1b1/logs/24348914_refresh.err StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v5/runs/run_20261021T234034Z_195ab1b1/logs/24348914_refresh.out TresPerTask=cpu=3"
+  },
+  "scientific_values_recomputed": false,
+  "visual_review_complete": false,
+  "output_figures": [
+    "FigS7_Oatman_Flats_Ranch_descriptive_Bray_Curtis_PCoA"
+  ],
+  "exact_saved_plot_data_audits_passed": true,
+  "canvas_and_legend_gutter_checks_passed": true,
+  "neighbor_axis_text_clearance_checks_passed": true,
+  "own_axes_marker_ink_clearance_checks_passed": true,
+  "utc": "2026-10-21T23:44:41.263899+00:00",
+  "state": "LAYOUT_REFRESH_CREATED_VISUAL_REVIEW_PENDING",
+  "rendering_completed": true,
+  "downloads_ready": true,
+  "diagnostic_only": false,
+  "download_results": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+  "download_checksum": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip.sha256.txt"
+}

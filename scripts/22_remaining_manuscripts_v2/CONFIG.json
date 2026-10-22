@@ -1,0 +1,751 @@
+{
+  "account": "dinusha1",
+  "partition": "standard",
+  "runtime_python": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+  "runtime_ready": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/READY.json",
+  "runtime_ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+  "package": "NRCS_Remaining_Manuscripts_HPC_v2",
+  "prepared_utc_date": "2026-10-22",
+  "new_inferential_tests": false,
+  "FDR_recalculated": false,
+  "manuscripts_edited": false,
+  "top_families": 12,
+  "pcoa_eigen_relative_tolerance": 1e-12,
+  "pcoa_reconstruction_squared_tolerance": 1e-08,
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0",
+    "scipy": "1.17.0"
+  },
+  "sources": {
+    "corrected_source_status": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/HPC_STATUS.json",
+      "sha256": "ee3434a9e6ed7bb1c5f2233e03ed44e5c76baf8c85229e19cc80b14ca0539914",
+      "bytes": 2100,
+      "expected_job_id": "24067160"
+    },
+    "corrected_counts_bacteria": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/bacteria_counts.tsv.gz",
+      "sha256": "c69a2197857a65e525b09edb1e6ab8bd8fe910d5e42067dfd0be282b78337deb",
+      "bytes": 343150
+    },
+    "corrected_counts_archaea": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/archaea_counts.tsv.gz",
+      "sha256": "5bea33176792ae944f913abf0138159d918b53e30f66fb3cc77b3eec4f88995d",
+      "bytes": 13635
+    },
+    "taxonomy_bacteria": {
+      "path": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/dada2/bacteria/taxonomy.tsv",
+      "sha256": "ec2b506cd7ecc78cc3152c6d88fb63da26e84c3a126f29a7e0fd578de2c7e300",
+      "bytes": 2031668
+    },
+    "taxonomy_archaea": {
+      "path": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260914T201432Z_3761495/dada2/archaea/taxonomy.tsv",
+      "sha256": "0d9f4bb14475e603aee81e5d373d22cb02ff358c76e28f4359d98027d9a1cab8",
+      "bytes": 1798033
+    },
+    "corrected_workbook": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/workbook_data.json",
+      "sha256": "80c4e33f4a859115cdf50c58b0c8a1e215487366e63cd83cc25ab101ff4cd4d4",
+      "bytes": 4033525
+    },
+    "corrected_alpha_tests": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/tables/alpha_Shannon_tests.csv",
+      "sha256": "c1b5bcc1a995573763403ee39689b18da8a20db0f46441ea4728174363c256c5",
+      "bytes": 21916
+    },
+    "corrected_alpha_descriptive": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/tables/alpha_descriptive.csv",
+      "sha256": "f64167b6173369f98022ddc915df9e3d5a576e6f897200c87dd3d9378ea66a5b",
+      "bytes": 70398
+    },
+    "CLR__oatman_bacteria_functions__KO": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/oatman_bacteria_functions/KO_primary_CLR.csv.gz",
+      "sha256": "d078ce1a5f2333f32e2929d4915e205021e3baf1f1158c7730c11e75b5375c33",
+      "bytes": null
+    },
+    "CLR__pagesprings_archaea_taxa__Family": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/pagesprings_archaea_taxa/Family_primary_CLR.csv.gz",
+      "sha256": "2a9b93851af52522d88ba690f333cff1c9cf461d9cbbf108f3fdc0abf2156580",
+      "bytes": null
+    },
+    "CLR__pagesprings_archaea_taxa__Genus": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/pagesprings_archaea_taxa/Genus_primary_CLR.csv.gz",
+      "sha256": "578fbb845d6f4560fe77e7d707558f3eb1c4af703fcc44781f201c4d2f16c2ed",
+      "bytes": null
+    },
+    "CLR__pagesprings_bacteria_functions__KO": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/pagesprings_bacteria_functions/KO_primary_CLR.csv.gz",
+      "sha256": "819b827151f19252bdef0b18d96cdd05d7b32b4f5e6cc9bb5f34e07055a15210",
+      "bytes": null
+    },
+    "CLR__pagesprings_bacteria_taxa__Genus": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/pagesprings_bacteria_taxa/Genus_primary_CLR.csv.gz",
+      "sha256": "2abea4ab020768b6d76c287e25268d55cb0081715367ea57815aa2e3407a8a51",
+      "bytes": null
+    },
+    "CLR__whipstone_archaea_taxa__Genus": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/whipstone_archaea_taxa/Genus_primary_CLR.csv.gz",
+      "sha256": "9d9d77985387fc557d1ec3a0028bdfc6261935c95a1067b6562e6769de1aba4b",
+      "bytes": null
+    },
+    "CLR__whipstone_bacteria_functions__EC": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/whipstone_bacteria_functions/EC_primary_CLR.csv.gz",
+      "sha256": "19416d72a8e4ae6111fbe879e9794993a76e8f3a5e436686f98b1e37f01616ab",
+      "bytes": null
+    }
+  },
+  "local_sources": {
+    "corrected__PageSprings_phylum_tests": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/PageSprings_phylum_tests.csv",
+      "sha256": "883f9f4b2c3ed5ecca0bf544c982fb663d8893f13abe5411697a873121cc5b4b",
+      "bytes": 14878,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/PageSprings_phylum_tests.csv"
+    },
+    "corrected__PageSprings_phylum_values": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/PageSprings_phylum_values.csv",
+      "sha256": "e232c4165316db89af474d503561aab392998ed6fdad5c8055ab3a8525393565",
+      "bytes": 30765,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/PageSprings_phylum_values.csv"
+    },
+    "corrected__Whipstone_environment_matched_values": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/Whipstone_environment_matched_values.csv",
+      "sha256": "054ad8f11861dcc076e0de8cb7aaa1cb1c269406bba40be4036985de6144c65b",
+      "bytes": 86481,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/Whipstone_environment_matched_values.csv"
+    },
+    "corrected__Whipstone_environment_tests": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/Whipstone_environment_tests.csv",
+      "sha256": "c6983139fc7ced56bf69277c0a2411c60a00fda0a56af3cd7dc93f520a80deb0",
+      "bytes": 75216,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/Whipstone_environment_tests.csv"
+    },
+    "corrected__alpha_Shannon_tests": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/alpha_Shannon_tests.csv",
+      "sha256": "c1b5bcc1a995573763403ee39689b18da8a20db0f46441ea4728174363c256c5",
+      "bytes": 21916,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/alpha_Shannon_tests.csv"
+    },
+    "corrected__alpha_descriptive": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/alpha_descriptive.csv",
+      "sha256": "f64167b6173369f98022ddc915df9e3d5a576e6f897200c87dd3d9378ea66a5b",
+      "bytes": 70398,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/alpha_descriptive.csv"
+    },
+    "corrected__analysis_observations": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/analysis_observations.csv",
+      "sha256": "6dc530b9715979691b62137b2e9f80c83135e339ce41911d75bda426379bd1df",
+      "bytes": 683695,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/analysis_observations.csv"
+    },
+    "corrected__confirmed_soil_microbiome_matches": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/confirmed_soil_microbiome_matches.csv",
+      "sha256": "ec0ac146157d0c440d06f2a2cfbc406060def6de8e0a94626487ff5f1c00da77",
+      "bytes": 1093942,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/confirmed_soil_microbiome_matches.csv"
+    },
+    "corrected__confirmed_soil_microbiome_tests": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/confirmed_soil_microbiome_tests.csv",
+      "sha256": "29630b00a3c2596bea2a3f3b4825bdea53dcfa3f45ab703ae957b2d39a5883ca",
+      "bytes": 333768,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/confirmed_soil_microbiome_tests.csv"
+    },
+    "corrected__environment_matched_values": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/environment_matched_values.csv",
+      "sha256": "4266b4f3e54df6dc650db6d0854bbc811313d5bb391f65600ac0efb516dbbe74",
+      "bytes": 34563,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/environment_matched_values.csv"
+    },
+    "corrected__environment_tests": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/environment_tests.csv",
+      "sha256": "f04db45eb588b600606f681dbd25d25844e93c933d82b152235f5272285c67eb",
+      "bytes": 49638,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/environment_tests.csv"
+    },
+    "corrected__held_records": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/held_records.csv",
+      "sha256": "3f80fcfc9bf57e35628a6580d751fa9f5f50c0846142636b95841b2a845fd637",
+      "bytes": 6026,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/held_records.csv"
+    },
+    "corrected__matched_plot_changes": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/matched_plot_changes.csv",
+      "sha256": "c0510026b69c594f24a4ad92c3f9a97999ffb37ffb4de4c7747c7a2490a29250",
+      "bytes": 42084,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/matched_plot_changes.csv"
+    },
+    "corrected__matched_plot_summary": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/matched_plot_summary.csv",
+      "sha256": "965485461987762ff95222d131332bbaee6fe4e9df819aabe352153966a6b985",
+      "bytes": 9757,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/matched_plot_summary.csv"
+    },
+    "corrected__record_disposition": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/record_disposition.csv",
+      "sha256": "e0ae3262061f710367916c394e908342223967414939a65468ad33fd24946aa5",
+      "bytes": 41218,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/record_disposition.csv"
+    },
+    "corrected__retained_measurements": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/retained_measurements.csv",
+      "sha256": "6f21230e6f57be7b419257ff918cfbc036dbad2ab1264fd2b57159c43c34ff17",
+      "bytes": 458367,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/retained_measurements.csv"
+    },
+    "corrected__soil_crop_control_differences": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/soil_crop_control_differences.csv",
+      "sha256": "6acc01e90434616a8ca73a9f2ebf48e4fe31fb0daa0af4c39cd135a7aea845df",
+      "bytes": 355425,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/soil_crop_control_differences.csv"
+    },
+    "corrected__soil_crop_descriptive": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/soil_crop_descriptive.csv",
+      "sha256": "f4e2ab5e5e84097cb55ddc42350e5e30cfaa61d5b1fb4bbd4d0e1f07818bec78",
+      "bytes": 277566,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/soil_crop_descriptive.csv"
+    },
+    "corrected__soil_crop_tests": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/soil_crop_tests.csv",
+      "sha256": "7627e1b336d2c15ed9182069e8eadd0a3e98db825f4678d723c650bf21de5e1d",
+      "bytes": 165302,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/soil_crop_tests.csv"
+    },
+    "corrected__soil_temporal_changes": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/soil_temporal_changes.csv",
+      "sha256": "6e27f38ad764fc2ff4339aeb861d93ab0ccf351add2e94d9ff7895353316d4d0",
+      "bytes": 130904,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/soil_temporal_changes.csv"
+    },
+    "corrected__soil_temporal_control_differences": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/soil_temporal_control_differences.csv",
+      "sha256": "360d0bfa4219ea45ac2d832cec635bad977e76b9bf24db98672d01acd0423f29",
+      "bytes": 40421,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/soil_temporal_control_differences.csv"
+    },
+    "corrected__soil_temporal_descriptive": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/soil_temporal_descriptive.csv",
+      "sha256": "7fd6ef20518fc258c11fd880de8765905bb71ccbc8e7a031ffdaec07f9f27de4",
+      "bytes": 29663,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/soil_temporal_descriptive.csv"
+    },
+    "corrected__soil_temporal_tests": {
+      "file": "inputs/analyses/06_corrected_companions/payload/tables/soil_temporal_tests.csv",
+      "sha256": "73b5a66e67ae94a48e20a35ced8a6177df1434c080bc03c1491cc98069997655",
+      "bytes": 22972,
+      "repository_member": "analyses/06_corrected_companions/payload/tables/soil_temporal_tests.csv"
+    },
+    "functions__FEATURE_PANEL": {
+      "file": "inputs/analyses/10_functional_comparisons/results/FEATURE_PANEL.csv",
+      "sha256": "0dfacd04c072c1f49012bf416f1531e488a52d454d201b56ced984a64c77e044",
+      "bytes": 1695,
+      "repository_member": "analyses/10_functional_comparisons/results/FEATURE_PANEL.csv"
+    },
+    "functions__dispersion_diagnostics": {
+      "file": "inputs/analyses/10_functional_comparisons/results/dispersion_diagnostics.csv",
+      "sha256": "7b682681c74bdd6953ef1dc01f9e06e1ceb8ec60d1b4f7a6bb46c843ab0a21b6",
+      "bytes": 482502,
+      "repository_member": "analyses/10_functional_comparisons/results/dispersion_diagnostics.csv"
+    },
+    "functions__event_design_audit": {
+      "file": "inputs/analyses/10_functional_comparisons/results/event_design_audit.csv",
+      "sha256": "6dd68732f57f0fa64dc8aa0204099b5f5e540f5317e6cd2a60b882b3aee2c6d7",
+      "bytes": 130732,
+      "repository_member": "analyses/10_functional_comparisons/results/event_design_audit.csv"
+    },
+    "functions__feature_sample_values": {
+      "file": "inputs/analyses/10_functional_comparisons/results/feature_sample_values.csv",
+      "sha256": "a8bf7b1e6f424506d3de71afb617f23e41df46b9175b60c81e541709a31c1c97",
+      "bytes": 2714587,
+      "repository_member": "analyses/10_functional_comparisons/results/feature_sample_values.csv"
+    },
+    "functions__feature_summaries": {
+      "file": "inputs/analyses/10_functional_comparisons/results/feature_summaries.csv",
+      "sha256": "7eb6253c658f1aa5a8876e6d685c94a64c26f59cb2f23a8cc8ced6c9b8b1709b",
+      "bytes": 1197643,
+      "repository_member": "analyses/10_functional_comparisons/results/feature_summaries.csv"
+    },
+    "functions__figure_manifest": {
+      "file": "inputs/analyses/10_functional_comparisons/results/figure_manifest.csv",
+      "sha256": "2536b6fabd4b5e29616aa622af5b939b56b5a46965cfb7ce772418296ace8569",
+      "bytes": 12951,
+      "repository_member": "analyses/10_functional_comparisons/results/figure_manifest.csv"
+    },
+    "functions__global_tests": {
+      "file": "inputs/analyses/10_functional_comparisons/results/global_tests.csv",
+      "sha256": "27a369c42ae0472b574969b7913561c4ed603472f21fa92c8989927e83a69ace",
+      "bytes": 300334,
+      "repository_member": "analyses/10_functional_comparisons/results/global_tests.csv"
+    },
+    "functions__multiplicity_family_audit": {
+      "file": "inputs/analyses/10_functional_comparisons/results/multiplicity_family_audit.csv",
+      "sha256": "21f7ff7bcc31cb28c2f179fdb57d7efbfc3a161fa17346d05f9999a20b9dac40",
+      "bytes": 26205,
+      "repository_member": "analyses/10_functional_comparisons/results/multiplicity_family_audit.csv"
+    },
+    "functions__ordination": {
+      "file": "inputs/analyses/10_functional_comparisons/results/ordination.csv",
+      "sha256": "cef503050d5d78601b176cfc3222ac42fbeae2459a10dab1ceba80d6fc1fe005",
+      "bytes": 336563,
+      "repository_member": "analyses/10_functional_comparisons/results/ordination.csv"
+    },
+    "functions__paired_profile_changes": {
+      "file": "inputs/analyses/10_functional_comparisons/results/paired_profile_changes.csv",
+      "sha256": "2529c5094bf6e09f7da0480fb5ce1c2cb9c91f901e168ba91c7fb01584d0ba0e",
+      "bytes": 178260,
+      "repository_member": "analyses/10_functional_comparisons/results/paired_profile_changes.csv"
+    },
+    "functions__robustness": {
+      "file": "inputs/analyses/10_functional_comparisons/results/robustness.csv",
+      "sha256": "508e0fdf573e40b224f266a3a68d2dff45672d39abe040c8fcdce6a40048f44e",
+      "bytes": 2312606,
+      "repository_member": "analyses/10_functional_comparisons/results/robustness.csv"
+    },
+    "functions__sample_eligibility": {
+      "file": "inputs/analyses/10_functional_comparisons/results/sample_eligibility.csv",
+      "sha256": "08df78a24f26794c6a9bfb24230a4d9b0cc323ca78d0c1ab7eeeaa32411db375",
+      "bytes": 268861,
+      "repository_member": "analyses/10_functional_comparisons/results/sample_eligibility.csv"
+    },
+    "functions__targeted_tests": {
+      "file": "inputs/analyses/10_functional_comparisons/results/targeted_tests.csv",
+      "sha256": "acd73a8bd850efb2a114ff206fab558bff3af27814885bb59475ed5ad59dae09",
+      "bytes": 3960821,
+      "repository_member": "analyses/10_functional_comparisons/results/targeted_tests.csv"
+    },
+    "followup__all_cohort_audit": {
+      "file": "inputs/analyses/18_treatment_time/results/all_cohort_audit.csv",
+      "sha256": "719b4dd35e617197ec5aa55d40b478dbbe9b34185513199ea7d15f52fbe5e96c",
+      "bytes": 178781,
+      "repository_member": "analyses/18_treatment_time/results/all_cohort_audit.csv"
+    },
+    "followup__all_group_summaries": {
+      "file": "inputs/analyses/18_treatment_time/results/all_group_summaries.csv",
+      "sha256": "72fa97747d9e904ddf849bd69d3a258260372e058cff0cb9daaf7f1c2cb0b148",
+      "bytes": 277542,
+      "repository_member": "analyses/18_treatment_time/results/all_group_summaries.csv"
+    },
+    "followup__all_observations": {
+      "file": "inputs/analyses/18_treatment_time/results/all_observations.csv",
+      "sha256": "28fe0e3a02b62e56e85bb0b1d2b5538c41f2d932433ab165472d43910838d3ef",
+      "bytes": 647572,
+      "repository_member": "analyses/18_treatment_time/results/all_observations.csv"
+    },
+    "followup__analysis_summary": {
+      "file": "inputs/analyses/18_treatment_time/results/analysis_summary.csv",
+      "sha256": "2e54d6199ae20fcb525295447e6836443728dc2b13be903045bb232d7acd62e7",
+      "bytes": 802,
+      "repository_member": "analyses/18_treatment_time/results/analysis_summary.csv"
+    },
+    "followup__multiplicity_family_audit": {
+      "file": "inputs/analyses/18_treatment_time/results/multiplicity_family_audit.csv",
+      "sha256": "ebefa77244ae0df2af130f0b3df24e0636726fc92f2c76a399472534f2c4e17e",
+      "bytes": 1214,
+      "repository_member": "analyses/18_treatment_time/results/multiplicity_family_audit.csv"
+    },
+    "followup__tests_with_multiplicity": {
+      "file": "inputs/analyses/18_treatment_time/results/tests_with_multiplicity.csv",
+      "sha256": "6a8541e6182331c6382d77a30a6da0a21580a3472470d4b0d8a57deb22ced169",
+      "bytes": 401206,
+      "repository_member": "analyses/18_treatment_time/results/tests_with_multiplicity.csv"
+    },
+    "association__association_display_rows": {
+      "file": "inputs/analyses/17_soil_associations/results/association_display_rows.csv",
+      "sha256": "7442992850207a6a010de1c5d791bf68d4bfb803b418ca7dbdf2e73882590b9e",
+      "bytes": 376685,
+      "repository_member": "analyses/17_soil_associations/results/association_display_rows.csv"
+    },
+    "association__association_summary": {
+      "file": "inputs/analyses/17_soil_associations/results/association_summary.csv",
+      "sha256": "aa5ea746be5c7b3ddb41783c641226eb23c0be40318bb835db757a5bebcb466e",
+      "bytes": 166758,
+      "repository_member": "analyses/17_soil_associations/results/association_summary.csv"
+    },
+    "association__output_manifest": {
+      "file": "inputs/analyses/17_soil_associations/OUTPUT_SHA256SUMS.txt",
+      "sha256": "1170940cbfc8088271480e063ed4afc52e9069f04994766580a6510cb7addec4",
+      "bytes": 181318,
+      "repository_member": "analyses/17_soil_associations/OUTPUT_SHA256SUMS.txt"
+    },
+    "oatman_bacteria_functions__cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/oatman_bacteria_functions/cohorts.csv",
+      "sha256": "ec6f983b44728b29bd3880e7b1cfc4b12c8bf65f4c5efd73a0ce4719ab0dcdac",
+      "bytes": 81102,
+      "repository_member": "analyses/17_soil_associations/workers/oatman_bacteria_functions/cohorts.csv"
+    },
+    "oatman_bacteria_functions__scenario_cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/oatman_bacteria_functions/scenario_cohorts.csv",
+      "sha256": "dad4a9eb382ac6c29ec50b34678e490149f3d187024067fb904a755a4ae51e3e",
+      "bytes": 911755,
+      "repository_member": "analyses/17_soil_associations/workers/oatman_bacteria_functions/scenario_cohorts.csv"
+    },
+    "oatman_bacteria_functions__matched_endpoints": {
+      "file": "inputs/analyses/17_soil_associations/workers/oatman_bacteria_functions/matched_endpoints.csv.gz",
+      "sha256": "ee38b9aafeda6e51fa1f5775809413746652427460e4019ee564811e5db7ccc8",
+      "bytes": 10911,
+      "repository_member": "analyses/17_soil_associations/workers/oatman_bacteria_functions/matched_endpoints.csv.gz"
+    },
+    "oatman_bacteria_functions__sample_metadata": {
+      "file": "inputs/analyses/17_soil_associations/workers/oatman_bacteria_functions/sample_metadata.csv.gz",
+      "sha256": "20793339b7c2d7405e9e00a66933d32caa2c7c8f44c56af4666c2f3620ef92b2",
+      "bytes": 2678,
+      "repository_member": "analyses/17_soil_associations/workers/oatman_bacteria_functions/sample_metadata.csv.gz"
+    },
+    "oatman_bacteria_functions__FEATURE_REFERENCE": {
+      "file": "inputs/analyses/17_soil_associations/workers/oatman_bacteria_functions/FEATURE_REFERENCE.json",
+      "sha256": "244233ef989c26bc0a6fe3a052a6161e184a23d5e9ef93aa6477fc1f044374b4",
+      "bytes": 2937626,
+      "repository_member": "analyses/17_soil_associations/workers/oatman_bacteria_functions/FEATURE_REFERENCE.json"
+    },
+    "pagesprings_archaea_taxa__cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_archaea_taxa/cohorts.csv",
+      "sha256": "632f6d608151765fd2e4bfb29c8ca5c72c15eea1ecc98280f524e528187be787",
+      "bytes": 218881,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_archaea_taxa/cohorts.csv"
+    },
+    "pagesprings_archaea_taxa__scenario_cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_archaea_taxa/scenario_cohorts.csv",
+      "sha256": "4fd0e66c754c2dcd2c5b987bfbc6407ad5ce292be94de325b20981e4cc5b58a3",
+      "bytes": 1784947,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_archaea_taxa/scenario_cohorts.csv"
+    },
+    "pagesprings_archaea_taxa__matched_endpoints": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_archaea_taxa/matched_endpoints.csv.gz",
+      "sha256": "8c8c61246a17cde31924a8649e4153940f906240d44373bdb2bd8b4bbb6b3520",
+      "bytes": 18618,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_archaea_taxa/matched_endpoints.csv.gz"
+    },
+    "pagesprings_archaea_taxa__sample_metadata": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_archaea_taxa/sample_metadata.csv.gz",
+      "sha256": "93a1f9b1c8d1aa8aca7f5efc1baafa8d8f5db57ec5bf1e5d0689a25dc0cb703d",
+      "bytes": 3963,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_archaea_taxa/sample_metadata.csv.gz"
+    },
+    "pagesprings_archaea_taxa__FEATURE_REFERENCE": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_archaea_taxa/FEATURE_REFERENCE.json",
+      "sha256": "5c752d10b8d618abe8a389a8b45420d399abba4d1d518a68bab27c92667dcd9c",
+      "bytes": 17593,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_archaea_taxa/FEATURE_REFERENCE.json"
+    },
+    "pagesprings_bacteria_functions__cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_bacteria_functions/cohorts.csv",
+      "sha256": "1c158bc10724662ec59dfd08a47500570e2d61e0858d128b3357f9b2f707ac36",
+      "bytes": 218881,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_bacteria_functions/cohorts.csv"
+    },
+    "pagesprings_bacteria_functions__scenario_cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_bacteria_functions/scenario_cohorts.csv",
+      "sha256": "5aa80f11f3259e2bba19365653a7b79869b40a14b3bb12faa417d3508d2bb925",
+      "bytes": 2746135,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_bacteria_functions/scenario_cohorts.csv"
+    },
+    "pagesprings_bacteria_functions__matched_endpoints": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_bacteria_functions/matched_endpoints.csv.gz",
+      "sha256": "20d28035d63242709033bf47cfdd46da97d1f1a681c8df109e37bbfe36844b40",
+      "bytes": 18799,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_bacteria_functions/matched_endpoints.csv.gz"
+    },
+    "pagesprings_bacteria_functions__sample_metadata": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_bacteria_functions/sample_metadata.csv.gz",
+      "sha256": "47e6302d664c46c520184b5af504b7e701b36f86c9ef42033b8767ee94d6bcb8",
+      "bytes": 3939,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_bacteria_functions/sample_metadata.csv.gz"
+    },
+    "pagesprings_bacteria_functions__FEATURE_REFERENCE": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_bacteria_functions/FEATURE_REFERENCE.json",
+      "sha256": "eabb9022accf894cdfb95731eb970cdce87aa07d2408894b5b8a6b1eb2ed966b",
+      "bytes": 3006409,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_bacteria_functions/FEATURE_REFERENCE.json"
+    },
+    "pagesprings_bacteria_taxa__cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_bacteria_taxa/cohorts.csv",
+      "sha256": "1c158bc10724662ec59dfd08a47500570e2d61e0858d128b3357f9b2f707ac36",
+      "bytes": 218881,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_bacteria_taxa/cohorts.csv"
+    },
+    "pagesprings_bacteria_taxa__scenario_cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_bacteria_taxa/scenario_cohorts.csv",
+      "sha256": "63b781da6bfc91b855331ab518f3d3e1e733e109563347aadac41e5b68dd3ffa",
+      "bytes": 1822573,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_bacteria_taxa/scenario_cohorts.csv"
+    },
+    "pagesprings_bacteria_taxa__matched_endpoints": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_bacteria_taxa/matched_endpoints.csv.gz",
+      "sha256": "8ebb03065dea8f412ef7672b59a5eb4a605fb159fa39bcc747f96be7ab610d56",
+      "bytes": 18799,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_bacteria_taxa/matched_endpoints.csv.gz"
+    },
+    "pagesprings_bacteria_taxa__sample_metadata": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_bacteria_taxa/sample_metadata.csv.gz",
+      "sha256": "6f57b091f98cf6a30ebe4c17854590e804c63be312181ae5fd22911a32bc5969",
+      "bytes": 3939,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_bacteria_taxa/sample_metadata.csv.gz"
+    },
+    "pagesprings_bacteria_taxa__FEATURE_REFERENCE": {
+      "file": "inputs/analyses/17_soil_associations/workers/pagesprings_bacteria_taxa/FEATURE_REFERENCE.json",
+      "sha256": "75abce7799136a2a535cd13a6044c25a411c00df9d2b3b256388e53b323a5fd1",
+      "bytes": 887529,
+      "repository_member": "analyses/17_soil_associations/workers/pagesprings_bacteria_taxa/FEATURE_REFERENCE.json"
+    },
+    "whipstone_archaea_taxa__cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_archaea_taxa/cohorts.csv",
+      "sha256": "fd723b9ff733ba8f0092d9d0036e5f899147af8900a12390031a0072eef98b48",
+      "bytes": 255894,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_archaea_taxa/cohorts.csv"
+    },
+    "whipstone_archaea_taxa__scenario_cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_archaea_taxa/scenario_cohorts.csv",
+      "sha256": "281f3c5b670df240acfe570824591e537276cb8700c79a5bc5535ea3990db454",
+      "bytes": 1801243,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_archaea_taxa/scenario_cohorts.csv"
+    },
+    "whipstone_archaea_taxa__matched_endpoints": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_archaea_taxa/matched_endpoints.csv.gz",
+      "sha256": "dea90a6fe84af588689caaafde3264d93e4b048452a2b31ba8c6590306558474",
+      "bytes": 22066,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_archaea_taxa/matched_endpoints.csv.gz"
+    },
+    "whipstone_archaea_taxa__sample_metadata": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_archaea_taxa/sample_metadata.csv.gz",
+      "sha256": "456adf49ac376250574222edf1197f60b7e739ecad0c04ce083ecdcafdd9b57c",
+      "bytes": 4939,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_archaea_taxa/sample_metadata.csv.gz"
+    },
+    "whipstone_archaea_taxa__FEATURE_REFERENCE": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_archaea_taxa/FEATURE_REFERENCE.json",
+      "sha256": "2362498de40a66631733d42ff66b7b7f008af4489d68730755630edbaf4f68b1",
+      "bytes": 11831,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_archaea_taxa/FEATURE_REFERENCE.json"
+    },
+    "whipstone_bacteria_functions__cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_bacteria_functions/cohorts.csv",
+      "sha256": "2185a0c55e84a90af09a5aa2b9745c2aca591640f64bf8ee5f3774a26d929774",
+      "bytes": 255894,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_bacteria_functions/cohorts.csv"
+    },
+    "whipstone_bacteria_functions__scenario_cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_bacteria_functions/scenario_cohorts.csv",
+      "sha256": "4afecf322736bda31bae966d152f9cc0d26c107c669fada7ec437eff2d320f3a",
+      "bytes": 2871031,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_bacteria_functions/scenario_cohorts.csv"
+    },
+    "whipstone_bacteria_functions__matched_endpoints": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_bacteria_functions/matched_endpoints.csv.gz",
+      "sha256": "a176ea2e8d3734ce2c1c044af3733ccb9923cd1d308d331f0c441aaf120febc7",
+      "bytes": 22247,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_bacteria_functions/matched_endpoints.csv.gz"
+    },
+    "whipstone_bacteria_functions__sample_metadata": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_bacteria_functions/sample_metadata.csv.gz",
+      "sha256": "6969eb6197db2d5a6313d5a3f0224e6c8725a9a6e5dea83b981c4d055a747aad",
+      "bytes": 4929,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_bacteria_functions/sample_metadata.csv.gz"
+    },
+    "whipstone_bacteria_functions__FEATURE_REFERENCE": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_bacteria_functions/FEATURE_REFERENCE.json",
+      "sha256": "5aa517c16aec1206223997249bb1c8b369a09353ed58fd3daac246ef94e6eadc",
+      "bytes": 3056405,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_bacteria_functions/FEATURE_REFERENCE.json"
+    },
+    "whipstone_bacteria_taxa__cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_bacteria_taxa/cohorts.csv",
+      "sha256": "2185a0c55e84a90af09a5aa2b9745c2aca591640f64bf8ee5f3774a26d929774",
+      "bytes": 255894,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_bacteria_taxa/cohorts.csv"
+    },
+    "whipstone_bacteria_taxa__scenario_cohorts": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_bacteria_taxa/scenario_cohorts.csv",
+      "sha256": "b6657b0f55e0dfdde7c735f0cb1ef9fb617084a01e452ba6b1c7e0fadb9ab447",
+      "bytes": 1901809,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_bacteria_taxa/scenario_cohorts.csv"
+    },
+    "whipstone_bacteria_taxa__matched_endpoints": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_bacteria_taxa/matched_endpoints.csv.gz",
+      "sha256": "bf80cefe2a9eddbf7286fa1444de4694889ed7f3754f394a7ff9fa7f00aba9bd",
+      "bytes": 22247,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_bacteria_taxa/matched_endpoints.csv.gz"
+    },
+    "whipstone_bacteria_taxa__sample_metadata": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_bacteria_taxa/sample_metadata.csv.gz",
+      "sha256": "0fcc5d736ab6cd3c66eeb9b191571debecfdb1171ceecb1d4966f622b0e7ebaa",
+      "bytes": 4929,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_bacteria_taxa/sample_metadata.csv.gz"
+    },
+    "whipstone_bacteria_taxa__FEATURE_REFERENCE": {
+      "file": "inputs/analyses/17_soil_associations/workers/whipstone_bacteria_taxa/FEATURE_REFERENCE.json",
+      "sha256": "00563479d072f06bec9f32de3006f527ba7cd181b857b1fb36e3009d56a24346",
+      "bytes": 887669,
+      "repository_member": "analyses/17_soil_associations/workers/whipstone_bacteria_taxa/FEATURE_REFERENCE.json"
+    }
+  },
+  "selected_association_ids": [
+    "d52576778cc4a6b1bceaadca",
+    "891c2a56f8b7d635ef666325",
+    "18ec6fb6ac0eb34ca401c8ee",
+    "b76a54dd148096f512409bcf",
+    "6900683e7a585afe9efb0f6c",
+    "c82047fb5db16403cb091e43",
+    "e07a78396ada37b1280b1592",
+    "a6bb73b9dff221ef64edacf3",
+    "b672b299e39c814f6eb53456",
+    "d38a2f4feeff636b4f1b386c",
+    "9008b88e189e74127d7ce3fc",
+    "81f40bf4978b9725101d8463",
+    "7bb2152664e9c69bf060052d",
+    "30cb278ad5a8cfc51fa7a0b5",
+    "7a6bfb1383b02c55c4047709",
+    "a7d3611cd8ef98578c82f558",
+    "14f70d1002747fd6ae04a4e7",
+    "2589580486ce284278bc7716"
+  ],
+  "systems": [
+    {
+      "farm": "Page Springs",
+      "system": "Grape_Grenache",
+      "label": "Grenache",
+      "slug": "Grenache",
+      "dates": [
+        "2023-10-20",
+        "2024-08-05",
+        "2024-11-06"
+      ],
+      "treatments": {
+        "ControlFertigationOnly": "T1",
+        "FreshGrapePomace": "T7",
+        "CompostedGrapePomaceHorseManure": "T8",
+        "CompostedHorseManure": "T9"
+      }
+    },
+    {
+      "farm": "Page Springs",
+      "system": "Grape_PetiteSirah",
+      "label": "Petite Sirah",
+      "slug": "PetiteSirah",
+      "dates": [
+        "2023-10-20",
+        "2024-08-05",
+        "2024-11-06",
+        "2025-10-10"
+      ],
+      "treatments": {
+        "ControlFertigationOnly": "T1",
+        "SteerManure": "T2",
+        "FishManure": "T3",
+        "HorseManurePomace": "T4"
+      }
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Annual",
+      "label": "Annual crops",
+      "slug": "Annual",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "treatments": {
+        "Control": "C",
+        "BloodMealFeatherMeal": "A",
+        "CC": "B",
+        "BloodMealFeatherMealCC": "D"
+      }
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Blackberry_Chester",
+      "label": "Chester blackberry",
+      "slug": "Chester",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "treatments": {
+        "Control": "C",
+        "BloodMealFeatherMeal": "A",
+        "CC": "B",
+        "BloodMealFeatherMealCC": "D"
+      }
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Blackberry_Natchez",
+      "label": "Natchez blackberry",
+      "slug": "Natchez",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "treatments": {
+        "Control": "C",
+        "BloodMealFeatherMeal": "A",
+        "CC": "B",
+        "BloodMealFeatherMealCC": "D"
+      }
+    }
+  ],
+  "paired_panels": [
+    {
+      "farm": "Page Springs",
+      "system": "Grape_PetiteSirah",
+      "slug": "PetiteSirah",
+      "features": [
+        [
+          "METACYC",
+          "DENITRIFICATION-PWY",
+          "Nitrate reduction I"
+        ],
+        [
+          "METACYC",
+          "GLYCOLYSIS",
+          "Glycolysis I"
+        ],
+        [
+          "EC",
+          "1.7.2.5",
+          "Nitric oxide reductase"
+        ]
+      ]
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Annual",
+      "slug": "Annual",
+      "features": [
+        [
+          "METACYC",
+          "DENITRIFICATION-PWY",
+          "Nitrate reduction I"
+        ],
+        [
+          "METACYC",
+          "GLYCOLYSIS",
+          "Glycolysis I"
+        ],
+        [
+          "METACYC",
+          "GLYOXYLATE-BYPASS",
+          "Glyoxylate cycle"
+        ]
+      ]
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Blackberry_Chester",
+      "slug": "Chester",
+      "features": [
+        [
+          "METACYC",
+          "GLYCOLYSIS",
+          "Glycolysis I"
+        ]
+      ]
+    }
+  ]
+}

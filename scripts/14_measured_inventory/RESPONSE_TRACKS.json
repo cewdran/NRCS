@@ -1,0 +1,1464 @@
+{
+  "schema_version": "1.0",
+  "package": "NRCS_measured_outcomes_HPC_v1",
+  "prepared_utc_date": "2026-10-07",
+  "freeze_kind": "PROSPECTIVE_SOURCE_BACKED_INVENTORY_SPECIFICATION_NOT_A_RESULT",
+  "method_review": {
+    "path": "review/MEASURED_METHOD_REVIEW.txt",
+    "sha256": "2393f88d949a3b1d1be589859894fff1e1fbcc8ce91afef254df74aea2995d62",
+    "disposition": "ACCEPTED_REPORTED_DEFINITION_DECISIONS_ONLY"
+  },
+  "source_reports": {
+    "S22": {
+      "source_id": "S22",
+      "original_filename": "Soil-Results-1506923.pdf",
+      "sha256": "23173a6994ac68270fef0d6ec99c8a42ca2f95dc2be4311a8434e7b32b338b8e",
+      "local_path": "review/source_reports/S22.pdf",
+      "report_identity": "Ward invoice 1506923; Annual odd pages 1-23 only",
+      "reported_heading_evidence": "Soil pH 1:1; Organic Carbon, % C is different; no nitrate or LOI OM on Annual pages",
+      "pdf_depth_literal": "0-8 in",
+      "depth_status": "SOURCE_LITERAL_ONLY_NO_SAMPLING_EQUIVALENCE_OR_STOCK_THICKNESS"
+    },
+    "S24": {
+      "source_id": "S24",
+      "original_filename": "Brown Lab_Haney_12-1-2023.pdf",
+      "sha256": "bc4c294e1f676728fbefa1c1e030d20a501d9016f277b4a0959907aab09f78c4",
+      "local_path": "review/source_reports/S24.pdf",
+      "report_identity": "Regen Ag Lab / Haney Soil Health Analysis; record-specific pages",
+      "reported_heading_evidence": "Soil pH / 1:1; Soil OM / % LOI; Nitrogen / H3A Extract / Nitrate / ppm NO3-N",
+      "pdf_depth_literal": "0-8 (unit not printed)",
+      "depth_status": "SOURCE_LITERAL_ONLY_NO_SAMPLING_EQUIVALENCE_OR_STOCK_THICKNESS"
+    },
+    "S25": {
+      "source_id": "S25",
+      "original_filename": "June_2024_soil_nutrients.pdf",
+      "sha256": "649b7425ac86e331be434a9017a58bf88c3fc244db90f075a9e82c2b2eb68684",
+      "local_path": "review/source_reports/S25.pdf",
+      "report_identity": "Regen Ag Lab / Haney Soil Health Analysis; R0025/lab34082/p10 remains soil-only",
+      "reported_heading_evidence": "Soil pH / 1:1; Soil OM / % LOI; Nitrogen / H3A Extract / Nitrate / ppm NO3-N",
+      "pdf_depth_literal": "0-8 (unit not printed)",
+      "depth_status": "SOURCE_LITERAL_ONLY_NO_SAMPLING_EQUIVALENCE_OR_STOCK_THICKNESS"
+    },
+    "S26": {
+      "source_id": "S26",
+      "original_filename": "December_2024_soil_nutrients.pdf",
+      "sha256": "4b7cb73e3461df86ae5e5bb1bf7ffa50f63356a18aed448e477948a30875fae2",
+      "local_path": "review/source_reports/S26.pdf",
+      "report_identity": "Regen Ag Lab / Haney Soil Health Analysis; record-specific pages",
+      "reported_heading_evidence": "Soil pH / 1:1; Soil OM / % LOI; Nitrogen / H3A Extract / Nitrate / ppm NO3-N",
+      "pdf_depth_literal": "0-8 (unit not printed)",
+      "depth_status": "SOURCE_LITERAL_ONLY_NO_SAMPLING_EQUIVALENCE_OR_STOCK_THICKNESS"
+    },
+    "S33": {
+      "source_id": "S33",
+      "original_filename": "Soil_12.2023.pdf",
+      "sha256": "c00673ce8948a8d5a57a6287ea161a15292f63ddc21aa83254bd044df1dc6cf4",
+      "local_path": "review/source_reports/S33.pdf",
+      "report_identity": "Ward invoice 1417910; Annual pages 1-12",
+      "reported_heading_evidence": "1:1 Soil pH; Organic Matter LOI, %; Nitrate-N KCl, ppm N",
+      "pdf_depth_literal": "0-8 (unit not printed)",
+      "depth_status": "SOURCE_LITERAL_ONLY_NO_SAMPLING_EQUIVALENCE_OR_STOCK_THICKNESS"
+    },
+    "S37": {
+      "source_id": "S37",
+      "original_filename": "whipstone_2024.pdf",
+      "sha256": "7a4afd18e969a498a3f456d6e36d8d5ce9cb054290da612da17a884a7e684c2f",
+      "local_path": "review/source_reports/S37.pdf",
+      "report_identity": "Ward invoice 1430399; Annual pages 1-12",
+      "reported_heading_evidence": "1:1 Soil pH; Organic Matter LOI, %; Nitrate-N KCl, ppm N",
+      "pdf_depth_literal": "0-8 (unit not printed)",
+      "depth_status": "SOURCE_LITERAL_ONLY_NO_SAMPLING_EQUIVALENCE_OR_STOCK_THICKNESS"
+    }
+  },
+  "scope_records": {
+    "OATMAN_OLDER": {
+      "farm_literal": "Oatman Flats",
+      "system_literal": "Wheat / cover-crop rotation",
+      "dataset_literal": "Oatman Soil lab records",
+      "expected_analytic_system": "OFR_2023_2024_Field",
+      "record_ids": [
+        "R0001",
+        "R0002",
+        "R0003",
+        "R0004",
+        "R0005",
+        "R0006",
+        "R0007",
+        "R0008",
+        "R0009",
+        "R0010",
+        "R0011",
+        "R0012",
+        "R0013",
+        "R0014",
+        "R0015",
+        "R0016",
+        "R0017",
+        "R0018",
+        "R0019",
+        "R0020",
+        "R0021",
+        "R0022",
+        "R0023",
+        "R0024",
+        "R0025",
+        "R0026",
+        "R0027",
+        "R0028",
+        "R0029",
+        "R0030",
+        "R0031",
+        "R0032",
+        "R0033",
+        "R0034",
+        "R0035",
+        "R0036"
+      ],
+      "epochs": [
+        {
+          "epoch_id": "OATMAN_2023",
+          "preferred_pdf_source_id": "S24",
+          "record_ids": [
+            "R0001",
+            "R0002",
+            "R0003",
+            "R0004",
+            "R0005",
+            "R0006",
+            "R0007",
+            "R0008",
+            "R0009",
+            "R0010",
+            "R0011",
+            "R0012",
+            "R0013",
+            "R0014",
+            "R0015",
+            "R0016",
+            "R0017",
+            "R0018"
+          ],
+          "availability_note": "Three declared reported response definitions; repeated laboratory records are retained, never independent plots or averaged here."
+        },
+        {
+          "epoch_id": "OATMAN_2024_JUNE",
+          "preferred_pdf_source_id": "S25",
+          "record_ids": [
+            "R0019",
+            "R0020",
+            "R0021",
+            "R0022",
+            "R0023",
+            "R0024",
+            "R0025",
+            "R0026",
+            "R0027"
+          ],
+          "availability_note": "Three declared reported response definitions; R0025 remains soil-only with unconfirmed physical identity and no 16S join."
+        },
+        {
+          "epoch_id": "OATMAN_2024_DECEMBER",
+          "preferred_pdf_source_id": "S26",
+          "record_ids": [
+            "R0028",
+            "R0029",
+            "R0030",
+            "R0031",
+            "R0032",
+            "R0033",
+            "R0034",
+            "R0035",
+            "R0036"
+          ],
+          "availability_note": "Three declared reported response definitions; exact confirmed collection dates retained."
+        }
+      ],
+      "comparator_variables": [
+        "soil_haney_H2O_Total_N",
+        "soil_haney_H2O_Organic_N",
+        "soil_haney_H2O_Total_Organic_C",
+        "soil_haney_H3A_Ammonium",
+        "soil_haney_H3A_Inorganic_Nitrogen",
+        "soil_haney_Available_N",
+        "soil_haney_WDRF_Buffer"
+      ]
+    },
+    "WHIPSTONE_ANNUAL": {
+      "farm_literal": "Whipstone",
+      "system_literal": "Annual crops",
+      "dataset_literals": [
+        "Whipstone PODS soil",
+        "Whipstone 2025 lab"
+      ],
+      "expected_analytic_system": "Annual",
+      "record_ids": [
+        "R0166",
+        "R0167",
+        "R0168",
+        "R0169",
+        "R0170",
+        "R0171",
+        "R0172",
+        "R0173",
+        "R0174",
+        "R0175",
+        "R0176",
+        "R0177",
+        "R0194",
+        "R0195",
+        "R0196",
+        "R0197",
+        "R0198",
+        "R0199",
+        "R0200",
+        "R0201",
+        "R0202",
+        "R0203",
+        "R0204",
+        "R0205",
+        "R0217",
+        "R0219",
+        "R0221",
+        "R0223",
+        "R0225",
+        "R0227",
+        "R0229",
+        "R0231",
+        "R0233",
+        "R0235",
+        "R0237",
+        "R0239"
+      ],
+      "epochs": [
+        {
+          "epoch_id": "WHIPSTONE_2023",
+          "preferred_pdf_source_id": "S33",
+          "record_ids": [
+            "R0166",
+            "R0167",
+            "R0168",
+            "R0169",
+            "R0170",
+            "R0171",
+            "R0172",
+            "R0173",
+            "R0174",
+            "R0175",
+            "R0176",
+            "R0177"
+          ],
+          "availability_note": "Reported 1:1 pH, LOI organic matter and KCl nitrate-N; Lettuce context remains separate."
+        },
+        {
+          "epoch_id": "WHIPSTONE_2024",
+          "preferred_pdf_source_id": "S37",
+          "record_ids": [
+            "R0194",
+            "R0195",
+            "R0196",
+            "R0197",
+            "R0198",
+            "R0199",
+            "R0200",
+            "R0201",
+            "R0202",
+            "R0203",
+            "R0204",
+            "R0205"
+          ],
+          "availability_note": "Reported 1:1 pH, LOI organic matter and KCl nitrate-N; per-record 2024-07-06/2024-08-14 collection dates retained within the annual round; Onion context remains separate."
+        },
+        {
+          "epoch_id": "WHIPSTONE_2025",
+          "preferred_pdf_source_id": "S22",
+          "record_ids": [
+            "R0217",
+            "R0219",
+            "R0221",
+            "R0223",
+            "R0225",
+            "R0227",
+            "R0229",
+            "R0231",
+            "R0233",
+            "R0235",
+            "R0237",
+            "R0239"
+          ],
+          "availability_note": "Reported 1:1 pH only. Organic carbon is not LOI organic matter; nitrate and LOI OM are absent from the inspected Annual report pages. Availability rows for W_OM/W_NO3 express absence of that definition, never fabricated zero-valued measurements."
+        }
+      ],
+      "comparator_variables": [
+        "Organic Carbon, % C",
+        "Organic Carbon % C",
+        "Total Carbon, % C",
+        "Nitrate-N, lbs N / Acre",
+        "BpH Modified WDRF"
+      ]
+    }
+  },
+  "expected_record_sources": {
+    "R0001": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 3,
+      "original_lab_id": "50665",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_sheep_2_Mid|2023-11-20"
+    },
+    "R0002": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 4,
+      "original_lab_id": "50666",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_2_Mid|2023-11-20"
+    },
+    "R0003": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 5,
+      "original_lab_id": "50667",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_sheep_3_West|2023-11-20"
+    },
+    "R0004": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 6,
+      "original_lab_id": "50668",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_2_Mid|2023-11-20"
+    },
+    "R0005": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 10,
+      "original_lab_id": "50672",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_sheep_3_West|2023-11-20"
+    },
+    "R0006": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 12,
+      "original_lab_id": "50674",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_sheep_2_Mid|2023-11-20"
+    },
+    "R0007": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 13,
+      "original_lab_id": "50675",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_Control_1_East|2023-11-20"
+    },
+    "R0008": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 14,
+      "original_lab_id": "50676",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_3_West|2023-11-20"
+    },
+    "R0009": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 15,
+      "original_lab_id": "50677",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_Control_2_Mid|2023-11-20"
+    },
+    "R0010": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 16,
+      "original_lab_id": "50678",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_Control_3_West|2023-11-20"
+    },
+    "R0011": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 17,
+      "original_lab_id": "50679",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_Control_2_Mid|2023-11-20"
+    },
+    "R0012": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 18,
+      "original_lab_id": "50680",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_sheep_1_East|2023-11-20"
+    },
+    "R0013": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 19,
+      "original_lab_id": "50681",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_1_East|2023-11-20"
+    },
+    "R0014": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 20,
+      "original_lab_id": "50682",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_Control_1_East|2023-11-20"
+    },
+    "R0015": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 21,
+      "original_lab_id": "50683",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_1_East|2023-11-20"
+    },
+    "R0016": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 22,
+      "original_lab_id": "50684",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_3_West|2023-11-20"
+    },
+    "R0017": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 23,
+      "original_lab_id": "50685",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_CC_sheep_1_East|2023-11-20"
+    },
+    "R0018": {
+      "source_id": "S03",
+      "preferred_pdf_source_id": "S24",
+      "preferred_pdf_page": 24,
+      "original_lab_id": "50686",
+      "collection_date": "2023-11-20",
+      "confirmed_sample_key": "OFR_Control_3_West|2023-11-20"
+    },
+    "R0019": {
+      "source_id": "S04",
+      "preferred_pdf_source_id": "S25",
+      "preferred_pdf_page": 1,
+      "original_lab_id": "34073",
+      "collection_date": "2024-06-06",
+      "confirmed_sample_key": "OFR_Control_1_East|2024-06-06"
+    },
+    "R0020": {
+      "source_id": "S04",
+      "preferred_pdf_source_id": "S25",
+      "preferred_pdf_page": 2,
+      "original_lab_id": "34074",
+      "collection_date": "2024-06-06",
+      "confirmed_sample_key": "OFR_Control_2_Mid|2024-06-06"
+    },
+    "R0021": {
+      "source_id": "S04",
+      "preferred_pdf_source_id": "S25",
+      "preferred_pdf_page": 3,
+      "original_lab_id": "34075",
+      "collection_date": "2024-06-06",
+      "confirmed_sample_key": "OFR_Control_3_West|2024-06-06"
+    },
+    "R0022": {
+      "source_id": "S04",
+      "preferred_pdf_source_id": "S25",
+      "preferred_pdf_page": 7,
+      "original_lab_id": "34079",
+      "collection_date": "2024-06-06",
+      "confirmed_sample_key": "OFR_CC_1_East|2024-06-06"
+    },
+    "R0023": {
+      "source_id": "S04",
+      "preferred_pdf_source_id": "S25",
+      "preferred_pdf_page": 8,
+      "original_lab_id": "34080",
+      "collection_date": "2024-06-06",
+      "confirmed_sample_key": "OFR_CC_2_Mid|2024-06-06"
+    },
+    "R0024": {
+      "source_id": "S04",
+      "preferred_pdf_source_id": "S25",
+      "preferred_pdf_page": 9,
+      "original_lab_id": "34081",
+      "collection_date": "2024-06-06",
+      "confirmed_sample_key": "OFR_CC_3_West|2024-06-06"
+    },
+    "R0025": {
+      "source_id": "S04",
+      "preferred_pdf_source_id": "S25",
+      "preferred_pdf_page": 10,
+      "original_lab_id": "34082",
+      "collection_date": "2024-06-06",
+      "confirmed_sample_key": null
+    },
+    "R0026": {
+      "source_id": "S04",
+      "preferred_pdf_source_id": "S25",
+      "preferred_pdf_page": 11,
+      "original_lab_id": "34083",
+      "collection_date": "2024-06-06",
+      "confirmed_sample_key": "OFR_CC_sheep_2_Mid|2024-06-06"
+    },
+    "R0027": {
+      "source_id": "S04",
+      "preferred_pdf_source_id": "S25",
+      "preferred_pdf_page": 12,
+      "original_lab_id": "34084",
+      "collection_date": "2024-06-06",
+      "confirmed_sample_key": "OFR_CC_sheep_3_West|2024-06-06"
+    },
+    "R0028": {
+      "source_id": "S05",
+      "preferred_pdf_source_id": "S26",
+      "preferred_pdf_page": 1,
+      "original_lab_id": "67661",
+      "collection_date": "2024-12-06",
+      "confirmed_sample_key": "OFR_Control_1_East|2024-12-06"
+    },
+    "R0029": {
+      "source_id": "S05",
+      "preferred_pdf_source_id": "S26",
+      "preferred_pdf_page": 2,
+      "original_lab_id": "67662",
+      "collection_date": "2024-12-06",
+      "confirmed_sample_key": "OFR_Control_2_Mid|2024-12-06"
+    },
+    "R0030": {
+      "source_id": "S05",
+      "preferred_pdf_source_id": "S26",
+      "preferred_pdf_page": 3,
+      "original_lab_id": "67663",
+      "collection_date": "2024-12-06",
+      "confirmed_sample_key": "OFR_Control_3_West|2024-12-06"
+    },
+    "R0031": {
+      "source_id": "S05",
+      "preferred_pdf_source_id": "S26",
+      "preferred_pdf_page": 7,
+      "original_lab_id": "67667",
+      "collection_date": "2024-12-06",
+      "confirmed_sample_key": "OFR_CC_1_East|2024-12-06"
+    },
+    "R0032": {
+      "source_id": "S05",
+      "preferred_pdf_source_id": "S26",
+      "preferred_pdf_page": 8,
+      "original_lab_id": "67668",
+      "collection_date": "2024-12-06",
+      "confirmed_sample_key": "OFR_CC_2_Mid|2024-12-06"
+    },
+    "R0033": {
+      "source_id": "S05",
+      "preferred_pdf_source_id": "S26",
+      "preferred_pdf_page": 9,
+      "original_lab_id": "67669",
+      "collection_date": "2024-12-06",
+      "confirmed_sample_key": "OFR_CC_3_West|2024-12-06"
+    },
+    "R0034": {
+      "source_id": "S05",
+      "preferred_pdf_source_id": "S26",
+      "preferred_pdf_page": 10,
+      "original_lab_id": "67670",
+      "collection_date": "2024-12-06",
+      "confirmed_sample_key": "OFR_CC_sheep_1_East|2024-12-06"
+    },
+    "R0035": {
+      "source_id": "S05",
+      "preferred_pdf_source_id": "S26",
+      "preferred_pdf_page": 11,
+      "original_lab_id": "67671",
+      "collection_date": "2024-12-06",
+      "confirmed_sample_key": "OFR_CC_sheep_2_Mid|2024-12-06"
+    },
+    "R0036": {
+      "source_id": "S05",
+      "preferred_pdf_source_id": "S26",
+      "preferred_pdf_page": 12,
+      "original_lab_id": "67672",
+      "collection_date": "2024-12-06",
+      "confirmed_sample_key": "OFR_CC_sheep_3_West|2024-12-06"
+    },
+    "R0166": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 1,
+      "original_lab_id": "276269",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_1A|2023-11-16"
+    },
+    "R0167": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 2,
+      "original_lab_id": "276270",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_1B|2023-11-16"
+    },
+    "R0168": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 3,
+      "original_lab_id": "276271",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_1C|2023-11-16"
+    },
+    "R0169": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 4,
+      "original_lab_id": "276272",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_1D|2023-11-16"
+    },
+    "R0170": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 5,
+      "original_lab_id": "276273",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_2A|2023-11-16"
+    },
+    "R0171": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 6,
+      "original_lab_id": "276274",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_2B|2023-11-16"
+    },
+    "R0172": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 7,
+      "original_lab_id": "276275",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_2C|2023-11-16"
+    },
+    "R0173": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 8,
+      "original_lab_id": "276276",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_2D|2023-11-16"
+    },
+    "R0174": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 9,
+      "original_lab_id": "276277",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_3A|2023-11-16"
+    },
+    "R0175": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 10,
+      "original_lab_id": "276278",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_3B|2023-11-16"
+    },
+    "R0176": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 11,
+      "original_lab_id": "276279",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_3C|2023-11-16"
+    },
+    "R0177": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S33",
+      "preferred_pdf_page": 12,
+      "original_lab_id": "276280",
+      "collection_date": "2023-11-16",
+      "confirmed_sample_key": "Annual_plot_3D|2023-11-16"
+    },
+    "R0194": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 1,
+      "original_lab_id": "85219",
+      "collection_date": "2024-08-14",
+      "confirmed_sample_key": "Annual_plot_1A|2024-08-14"
+    },
+    "R0195": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 2,
+      "original_lab_id": "85220",
+      "collection_date": "2024-07-06",
+      "confirmed_sample_key": "Annual_plot_1B|2024-07-06"
+    },
+    "R0196": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 3,
+      "original_lab_id": "85221",
+      "collection_date": "2024-07-06",
+      "confirmed_sample_key": "Annual_plot_1C|2024-07-06"
+    },
+    "R0197": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 4,
+      "original_lab_id": "85222",
+      "collection_date": "2024-07-06",
+      "confirmed_sample_key": "Annual_plot_1D|2024-07-06"
+    },
+    "R0198": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 5,
+      "original_lab_id": "85223",
+      "collection_date": "2024-07-06",
+      "confirmed_sample_key": "Annual_plot_2A|2024-07-06"
+    },
+    "R0199": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 6,
+      "original_lab_id": "85224",
+      "collection_date": "2024-07-06",
+      "confirmed_sample_key": "Annual_plot_2B|2024-07-06"
+    },
+    "R0200": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 7,
+      "original_lab_id": "85225",
+      "collection_date": "2024-08-14",
+      "confirmed_sample_key": "Annual_plot_2C|2024-08-14"
+    },
+    "R0201": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 8,
+      "original_lab_id": "85226",
+      "collection_date": "2024-07-06",
+      "confirmed_sample_key": "Annual_plot_2D|2024-07-06"
+    },
+    "R0202": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 9,
+      "original_lab_id": "85227",
+      "collection_date": "2024-07-06",
+      "confirmed_sample_key": "Annual_plot_3A|2024-07-06"
+    },
+    "R0203": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 10,
+      "original_lab_id": "85228",
+      "collection_date": "2024-08-14",
+      "confirmed_sample_key": "Annual_plot_3B|2024-08-14"
+    },
+    "R0204": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 11,
+      "original_lab_id": "85229",
+      "collection_date": "2024-07-06",
+      "confirmed_sample_key": "Annual_plot_3C|2024-07-06"
+    },
+    "R0205": {
+      "source_id": "S14",
+      "preferred_pdf_source_id": "S37",
+      "preferred_pdf_page": 12,
+      "original_lab_id": "85230",
+      "collection_date": "2024-08-14",
+      "confirmed_sample_key": "Annual_plot_3D|2024-08-14"
+    },
+    "R0217": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 1,
+      "original_lab_id": "95544",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_1A|2025-08-17"
+    },
+    "R0219": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 3,
+      "original_lab_id": "95546",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_1B|2025-08-17"
+    },
+    "R0221": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 5,
+      "original_lab_id": "95548",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_1C|2025-08-17"
+    },
+    "R0223": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 7,
+      "original_lab_id": "95550",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_1D|2025-08-17"
+    },
+    "R0225": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 9,
+      "original_lab_id": "95552",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_2A|2025-08-17"
+    },
+    "R0227": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 11,
+      "original_lab_id": "95554",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_2B|2025-08-17"
+    },
+    "R0229": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 13,
+      "original_lab_id": "95556",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_2C|2025-08-17"
+    },
+    "R0231": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 15,
+      "original_lab_id": "95558",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_2D|2025-08-17"
+    },
+    "R0233": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 17,
+      "original_lab_id": "95560",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_3A|2025-08-17"
+    },
+    "R0235": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 19,
+      "original_lab_id": "95562",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_3B|2025-08-17"
+    },
+    "R0237": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 21,
+      "original_lab_id": "95564",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_3C|2025-08-17"
+    },
+    "R0239": {
+      "source_id": "S16",
+      "preferred_pdf_source_id": "S22",
+      "preferred_pdf_page": 23,
+      "original_lab_id": "95566",
+      "collection_date": "2025-08-17",
+      "confirmed_sample_key": "Annual_plot_3D|2025-08-17"
+    }
+  },
+  "tracks": [
+    {
+      "track_id": "O_PH",
+      "scope_id": "OATMAN_OLDER",
+      "reported_response_definition": "1:1 soil pH",
+      "reported_method": "1:1",
+      "reported_unit": "pH units",
+      "compatibility_level": "REPORTED_DEFINITION_ONLY",
+      "forms": [
+        {
+          "preferred_pdf_source_id": "S24",
+          "raw_source_ids": [
+            "S03"
+          ],
+          "raw_variables": [
+            "soil_haney_1_1_Soil_pH"
+          ],
+          "raw_units": [
+            "pH units"
+          ],
+          "raw_methods_allowed": [
+            null
+          ],
+          "record_ids": [
+            "R0001",
+            "R0002",
+            "R0003",
+            "R0004",
+            "R0005",
+            "R0006",
+            "R0007",
+            "R0008",
+            "R0009",
+            "R0010",
+            "R0011",
+            "R0012",
+            "R0013",
+            "R0014",
+            "R0015",
+            "R0016",
+            "R0017",
+            "R0018"
+          ],
+          "reported_heading": "Soil pH / 1:1",
+          "source_field_rule": "Preserve exact raw source_field '1:1 Soil pH'; report heading supplies reviewed definition without changing blank original method."
+        },
+        {
+          "preferred_pdf_source_id": "S25",
+          "raw_source_ids": [
+            "S04"
+          ],
+          "raw_variables": [
+            "soil_haney_1_1_Soil_pH"
+          ],
+          "raw_units": [
+            "pH units"
+          ],
+          "raw_methods_allowed": [
+            null
+          ],
+          "record_ids": [
+            "R0019",
+            "R0020",
+            "R0021",
+            "R0022",
+            "R0023",
+            "R0024",
+            "R0025",
+            "R0026",
+            "R0027"
+          ],
+          "reported_heading": "Soil pH / 1:1",
+          "source_field_rule": "Preserve exact raw source_field '1:1 Soil pH'; report heading supplies reviewed definition without changing blank original method."
+        },
+        {
+          "preferred_pdf_source_id": "S26",
+          "raw_source_ids": [
+            "S05"
+          ],
+          "raw_variables": [
+            "soil_haney_1_1_Soil_pH"
+          ],
+          "raw_units": [
+            "pH units"
+          ],
+          "raw_methods_allowed": [
+            null
+          ],
+          "record_ids": [
+            "R0028",
+            "R0029",
+            "R0030",
+            "R0031",
+            "R0032",
+            "R0033",
+            "R0034",
+            "R0035",
+            "R0036"
+          ],
+          "reported_heading": "Soil pH / 1:1",
+          "source_field_rule": "Preserve exact raw source_field '1:1 Soil pH'; report heading supplies reviewed definition without changing blank original method."
+        }
+      ]
+    },
+    {
+      "track_id": "O_OM",
+      "scope_id": "OATMAN_OLDER",
+      "reported_response_definition": "Soil organic matter by reported LOI, percent",
+      "reported_method": "LOI",
+      "reported_unit": "% LOI",
+      "compatibility_level": "REPORTED_DEFINITION_ONLY",
+      "forms": [
+        {
+          "preferred_pdf_source_id": "S24",
+          "raw_source_ids": [
+            "S03"
+          ],
+          "raw_variables": [
+            "soil_haney_Organic_Matter"
+          ],
+          "raw_units": [
+            "% LOI"
+          ],
+          "raw_methods_allowed": [
+            null
+          ],
+          "record_ids": [
+            "R0001",
+            "R0002",
+            "R0003",
+            "R0004",
+            "R0005",
+            "R0006",
+            "R0007",
+            "R0008",
+            "R0009",
+            "R0010",
+            "R0011",
+            "R0012",
+            "R0013",
+            "R0014",
+            "R0015",
+            "R0016",
+            "R0017",
+            "R0018"
+          ],
+          "reported_heading": "Soil OM / % LOI",
+          "source_field_rule": "Preserve exact raw source_field 'Organic Matter'; report heading supplies reviewed definition without changing blank original method."
+        },
+        {
+          "preferred_pdf_source_id": "S25",
+          "raw_source_ids": [
+            "S04"
+          ],
+          "raw_variables": [
+            "soil_haney_Organic_Matter"
+          ],
+          "raw_units": [
+            "% LOI"
+          ],
+          "raw_methods_allowed": [
+            null
+          ],
+          "record_ids": [
+            "R0019",
+            "R0020",
+            "R0021",
+            "R0022",
+            "R0023",
+            "R0024",
+            "R0025",
+            "R0026",
+            "R0027"
+          ],
+          "reported_heading": "Soil OM / % LOI",
+          "source_field_rule": "Preserve exact raw source_field 'Organic Matter'; report heading supplies reviewed definition without changing blank original method."
+        },
+        {
+          "preferred_pdf_source_id": "S26",
+          "raw_source_ids": [
+            "S05"
+          ],
+          "raw_variables": [
+            "soil_haney_Organic_Matter"
+          ],
+          "raw_units": [
+            "% LOI"
+          ],
+          "raw_methods_allowed": [
+            null
+          ],
+          "record_ids": [
+            "R0028",
+            "R0029",
+            "R0030",
+            "R0031",
+            "R0032",
+            "R0033",
+            "R0034",
+            "R0035",
+            "R0036"
+          ],
+          "reported_heading": "Soil OM / % LOI",
+          "source_field_rule": "Preserve exact raw source_field 'Organic Matter'; report heading supplies reviewed definition without changing blank original method."
+        }
+      ]
+    },
+    {
+      "track_id": "O_NO3",
+      "scope_id": "OATMAN_OLDER",
+      "reported_response_definition": "H3A-extracted nitrate-N concentration",
+      "reported_method": "H3A",
+      "reported_unit": "ppm NO3-N",
+      "compatibility_level": "REPORTED_DEFINITION_ONLY",
+      "forms": [
+        {
+          "preferred_pdf_source_id": "S24",
+          "raw_source_ids": [
+            "S03"
+          ],
+          "raw_variables": [
+            "soil_haney_H3A_Nitrate"
+          ],
+          "raw_units": [
+            "ppm NO3-N"
+          ],
+          "raw_methods_allowed": [
+            null
+          ],
+          "record_ids": [
+            "R0001",
+            "R0002",
+            "R0003",
+            "R0004",
+            "R0005",
+            "R0006",
+            "R0007",
+            "R0008",
+            "R0009",
+            "R0010",
+            "R0011",
+            "R0012",
+            "R0013",
+            "R0014",
+            "R0015",
+            "R0016",
+            "R0017",
+            "R0018"
+          ],
+          "reported_heading": "Nitrogen / H3A Extract / Nitrate / ppm NO3-N",
+          "source_field_rule": "Preserve exact raw source_field 'H3A Nitrate'; report heading supplies reviewed definition without changing blank original method."
+        },
+        {
+          "preferred_pdf_source_id": "S25",
+          "raw_source_ids": [
+            "S04"
+          ],
+          "raw_variables": [
+            "soil_haney_H3A_Nitrate"
+          ],
+          "raw_units": [
+            "ppm NO3-N"
+          ],
+          "raw_methods_allowed": [
+            null
+          ],
+          "record_ids": [
+            "R0019",
+            "R0020",
+            "R0021",
+            "R0022",
+            "R0023",
+            "R0024",
+            "R0025",
+            "R0026",
+            "R0027"
+          ],
+          "reported_heading": "Nitrogen / H3A Extract / Nitrate / ppm NO3-N",
+          "source_field_rule": "Preserve exact raw source_field 'H3A Nitrate'; report heading supplies reviewed definition without changing blank original method."
+        },
+        {
+          "preferred_pdf_source_id": "S26",
+          "raw_source_ids": [
+            "S05"
+          ],
+          "raw_variables": [
+            "soil_haney_H3A_Nitrate"
+          ],
+          "raw_units": [
+            "ppm NO3-N"
+          ],
+          "raw_methods_allowed": [
+            null
+          ],
+          "record_ids": [
+            "R0028",
+            "R0029",
+            "R0030",
+            "R0031",
+            "R0032",
+            "R0033",
+            "R0034",
+            "R0035",
+            "R0036"
+          ],
+          "reported_heading": "Nitrogen / H3A Extract / Nitrate / ppm NO3-N",
+          "source_field_rule": "Preserve exact raw source_field 'H3A Nitrate'; report heading supplies reviewed definition without changing blank original method."
+        }
+      ]
+    },
+    {
+      "track_id": "W_PH",
+      "scope_id": "WHIPSTONE_ANNUAL",
+      "reported_response_definition": "1:1 soil pH",
+      "reported_method": "1:1",
+      "reported_unit": "pH units",
+      "compatibility_level": "REPORTED_DEFINITION_ONLY",
+      "forms": [
+        {
+          "preferred_pdf_source_id": "S33",
+          "raw_source_ids": [
+            "S14"
+          ],
+          "raw_variables": [
+            "1:1 Soil pH"
+          ],
+          "raw_units": [
+            "pH units"
+          ],
+          "raw_methods_allowed": [
+            "1:1"
+          ],
+          "record_ids": [
+            "R0166",
+            "R0167",
+            "R0168",
+            "R0169",
+            "R0170",
+            "R0171",
+            "R0172",
+            "R0173",
+            "R0174",
+            "R0175",
+            "R0176",
+            "R0177"
+          ],
+          "reported_heading": "1:1 Soil pH",
+          "source_field_rule": "Legacy PODS source_field is retained verbatim as provenance, including misleading old sheet heading. Select by exact corrected variable/unit/method/record/PDF page; never infer an analyte from old heading."
+        },
+        {
+          "preferred_pdf_source_id": "S37",
+          "raw_source_ids": [
+            "S37"
+          ],
+          "raw_variables": [
+            "1:1 Soil pH"
+          ],
+          "raw_units": [
+            "pH units"
+          ],
+          "raw_methods_allowed": [
+            "1:1"
+          ],
+          "record_ids": [
+            "R0194",
+            "R0195",
+            "R0196",
+            "R0197",
+            "R0198",
+            "R0199",
+            "R0200",
+            "R0201",
+            "R0202",
+            "R0203",
+            "R0204",
+            "R0205"
+          ],
+          "reported_heading": "1:1 Soil pH",
+          "source_field_rule": "Exact source_field retained verbatim; exact corrected variable/unit/method/record/PDF page required."
+        },
+        {
+          "preferred_pdf_source_id": "S22",
+          "raw_source_ids": [
+            "S16"
+          ],
+          "raw_variables": [
+            "Soil pH 1:1 "
+          ],
+          "raw_units": [
+            "pH units"
+          ],
+          "raw_methods_allowed": [
+            null
+          ],
+          "record_ids": [
+            "R0217",
+            "R0219",
+            "R0221",
+            "R0223",
+            "R0225",
+            "R0227",
+            "R0229",
+            "R0231",
+            "R0233",
+            "R0235",
+            "R0237",
+            "R0239"
+          ],
+          "reported_heading": "Soil pH 1:1",
+          "source_field_rule": "Trailing space in raw variable retained. Blank original method remains blank; reviewed 1:1 definition is separately sourced to PDF."
+        }
+      ]
+    },
+    {
+      "track_id": "W_OM",
+      "scope_id": "WHIPSTONE_ANNUAL",
+      "reported_response_definition": "Soil organic matter by reported LOI, percent",
+      "reported_method": "LOI",
+      "reported_unit": "%",
+      "compatibility_level": "REPORTED_DEFINITION_ONLY",
+      "forms": [
+        {
+          "preferred_pdf_source_id": "S33",
+          "raw_source_ids": [
+            "S14"
+          ],
+          "raw_variables": [
+            "Organic Matter LOI, %"
+          ],
+          "raw_units": [
+            "%"
+          ],
+          "raw_methods_allowed": [
+            "LOI"
+          ],
+          "record_ids": [
+            "R0166",
+            "R0167",
+            "R0168",
+            "R0169",
+            "R0170",
+            "R0171",
+            "R0172",
+            "R0173",
+            "R0174",
+            "R0175",
+            "R0176",
+            "R0177"
+          ],
+          "reported_heading": "Organic Matter LOI, %",
+          "source_field_rule": "Legacy PODS source_field is retained verbatim as provenance, including misleading old sheet heading. Select by exact corrected variable/unit/method/record/PDF page; never infer an analyte from old heading."
+        },
+        {
+          "preferred_pdf_source_id": "S37",
+          "raw_source_ids": [
+            "S37"
+          ],
+          "raw_variables": [
+            "Organic Matter LOI, %"
+          ],
+          "raw_units": [
+            "%"
+          ],
+          "raw_methods_allowed": [
+            "LOI"
+          ],
+          "record_ids": [
+            "R0194",
+            "R0195",
+            "R0196",
+            "R0197",
+            "R0198",
+            "R0199",
+            "R0200",
+            "R0201",
+            "R0202",
+            "R0203",
+            "R0204",
+            "R0205"
+          ],
+          "reported_heading": "Organic Matter LOI, %",
+          "source_field_rule": "Exact source_field retained verbatim; exact corrected variable/unit/method/record/PDF page required."
+        }
+      ]
+    },
+    {
+      "track_id": "W_NO3",
+      "scope_id": "WHIPSTONE_ANNUAL",
+      "reported_response_definition": "KCl-extracted nitrate-N concentration",
+      "reported_method": "KCl",
+      "reported_unit": "ppm N",
+      "compatibility_level": "REPORTED_DEFINITION_ONLY",
+      "forms": [
+        {
+          "preferred_pdf_source_id": "S33",
+          "raw_source_ids": [
+            "S14"
+          ],
+          "raw_variables": [
+            "Nitrate-N KCl, ppm N"
+          ],
+          "raw_units": [
+            "ppm N"
+          ],
+          "raw_methods_allowed": [
+            "KCl"
+          ],
+          "record_ids": [
+            "R0166",
+            "R0167",
+            "R0168",
+            "R0169",
+            "R0170",
+            "R0171",
+            "R0172",
+            "R0173",
+            "R0174",
+            "R0175",
+            "R0176",
+            "R0177"
+          ],
+          "reported_heading": "Nitrate-N KCl, ppm N",
+          "source_field_rule": "Legacy PODS source_field is retained verbatim as provenance, including misleading old sheet heading. Select by exact corrected variable/unit/method/record/PDF page; never infer an analyte from old heading."
+        },
+        {
+          "preferred_pdf_source_id": "S37",
+          "raw_source_ids": [
+            "S37"
+          ],
+          "raw_variables": [
+            "Nitrate-N KCl, ppm N"
+          ],
+          "raw_units": [
+            "ppm N"
+          ],
+          "raw_methods_allowed": [
+            "KCl"
+          ],
+          "record_ids": [
+            "R0194",
+            "R0195",
+            "R0196",
+            "R0197",
+            "R0198",
+            "R0199",
+            "R0200",
+            "R0201",
+            "R0202",
+            "R0203",
+            "R0204",
+            "R0205"
+          ],
+          "reported_heading": "Nitrate-N KCl, ppm N",
+          "source_field_rule": "Exact source_field retained verbatim; exact corrected variable/unit/method/record/PDF page required."
+        }
+      ]
+    }
+  ],
+  "rules": {
+    "original_cells_immutable": true,
+    "all_workbook_measurements_and_laboratory_catalog_rows_preserved": true,
+    "exact_match_only_no_fuzzy_aliases": true,
+    "reviewed_method_fields_separate_from_original": true,
+    "collection_date_is_record_specific": true,
+    "laboratory_dates_not_collection_dates": true,
+    "depth_literals_and_field_protocol_separate": true,
+    "no_unit_or_carbon_or_stock_conversion": true,
+    "no_imputation_or_response_aggregation": true,
+    "censored_missing_nonfinite_conflicted_values_held": true,
+    "duplicate_rows_retained_no_automatic_resolution": true,
+    "same_plot_event_laboratory_records_not_independent_plots": true,
+    "R0025_physical_identity_and_microbiome_join_held": true,
+    "no_automatic_model_power_validation_or_forecast_gate": true,
+    "scientific_inventory_checks_counts_and_reports_puma_only": true,
+    "current_files_only": true
+  },
+  "unsupported_extensions": [
+    "Whipstone Annual 2025 LOI organic matter",
+    "Whipstone Annual 2025 nitrate-N",
+    "Organic carbon to organic matter conversion",
+    "Oatman H3A nitrate pooled with Whipstone KCl nitrate",
+    "Blackberry/Chester/Natchez merged with Annual crops",
+    "Oatman 2025 new field merged with older field",
+    "Biological independence from repeated laboratory records",
+    "Calibration, sampling equivalence, causal models, predictive validation or numerical ten-year forecasts"
+  ]
+}

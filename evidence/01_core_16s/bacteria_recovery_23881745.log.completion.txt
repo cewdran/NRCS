@@ -1,0 +1,4 @@
+Exact completion lines extracted from NRCS_Repository_2026-10-20.zip / analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/logs/bacteria_recovery_23881745.log
+Original log SHA256: a155e8edf9fef249bfd3e256e78869d56c523def8edeec21888edc9f256b5a5a
+
+Completed bacteria: /xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/dada2/bacteria

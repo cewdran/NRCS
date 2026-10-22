@@ -1,0 +1,14 @@
+{
+  "state": "SUBMITTED_RELEASE_REQUESTED_NOT_YET_COMPLETE",
+  "run_directory": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a",
+  "jobs": {
+    "stage": "24334143",
+    "bacteria": "24334144",
+    "archaea": "24334145",
+    "extras": "24334146",
+    "collector": "24334147"
+  },
+  "scientific_execution_completed": false,
+  "downloads_ready": false,
+  "source_files_pinned": true
+}

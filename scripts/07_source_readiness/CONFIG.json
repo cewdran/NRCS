@@ -1,0 +1,23 @@
+{
+  "source_run": "/xdisk/dinusha1/dinusha1/NRCS_companion_HPC_v2/runs/run_20260930T180333Z_a656ad69",
+  "source_analysis_job_id": "24054963",
+  "sources": {
+    "payload/inputs/workbook_data.json": "00dadbca5998aa3da40fc48e5bbea1af733264b08604f30a641a607c8f430aef",
+    "payload/tables/analysis_observations.csv": "7e3e1ff8481ec04381ce9cab5922025769c05d11cd6801bcffea535f8e632c0d",
+    "payload/tables/record_disposition.csv": "2fed2cd72e74116dfe02a516e7cfd904035fc89abaa52c0bebfba68a07bb1721",
+    "payload/inputs/bacteria_counts.tsv.gz": "c69a2197857a65e525b09edb1e6ab8bd8fe910d5e42067dfd0be282b78337deb",
+    "payload/inputs/archaea_counts.tsv.gz": "5bea33176792ae944f913abf0138159d918b53e30f66fb3cc77b3eec4f88995d",
+    "HPC_STATUS.json": "548ea4c11e423478d41f833b4c33f96a2f3a8d806610bc5c2174348eb9f7c4ae"
+  },
+  "download_directory": "/xdisk/dinusha1/dinusha1",
+  "candidate_roots": [
+    "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260914T201432Z_3761495/dada2",
+    "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/dada2"
+  ],
+  "max_scan_files_per_root": 3000,
+  "max_scan_depth": 7,
+  "max_header_read_bytes": 2000000,
+  "max_fasta_bytes": 50000000,
+  "max_hash_bytes": 50000000,
+  "scope": "Input readiness and temporal-support audit only; no fitted model or forecast."
+}

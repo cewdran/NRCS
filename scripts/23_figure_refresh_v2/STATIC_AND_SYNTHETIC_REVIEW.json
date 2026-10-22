@@ -1,0 +1,31 @@
+{
+  "structural_checks_passed": true,
+  "source_value_row_counts": {
+    "Grenache_Shannon": 44,
+    "Grenache_depth": 44,
+    "Grenache_PCoA": 44,
+    "PetiteSirah_Shannon": 68,
+    "PetiteSirah_depth": 68,
+    "PetiteSirah_PCoA": 68,
+    "Annual_Shannon": 72,
+    "Annual_depth": 72,
+    "Annual_PCoA": 72,
+    "Chester_Shannon": 46,
+    "Chester_depth": 46,
+    "Chester_PCoA": 46,
+    "Natchez_Shannon": 46,
+    "Natchez_depth": 46,
+    "Natchez_PCoA": 46
+  },
+  "selected_associations_validated": 18,
+  "synthetic_layout_tests_passed": 11,
+  "synthetic_figures_visually_inspected": 11,
+  "real_data_figures_regenerated_locally": false,
+  "scientific_execution_on_Puma_pending": true,
+  "synthetic_overlap_and_clipped_marker_rejection_passed": true,
+  "local_synthetic_environment": {
+    "Python": "3.12.14",
+    "Matplotlib": "3.10.8"
+  },
+  "Puma_runtime_Python": "3.11.4"
+}

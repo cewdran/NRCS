@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-22",
+  "repair": "Restore login-node standard-library launch and compute-node Python module initialization from successful manuscript v2 run.",
+  "reported_failure": "START_HERE.sh line 6 could not execute pinned compute runtime on login; no submission occurred.",
+  "source_run_evidence": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/RUN.sh and audit/environment_24369738.json",
+  "exact_module": "python/3.11/3.11.4",
+  "python_version": "3.11.4",
+  "source_archive_sha256": "6cf1ea04c863156a210db3c666dc232a431dcce7915b9c1fb304c7c160b7b692",
+  "unchanged_files_sha256": {
+    "worker.py": "591b0c4f2a702e29757d6c9f8090a1a1f99f9c97dcbcaf878d2b2093aa21a8df",
+    "plot_layouts.py": "a534c870d149334c867b1fb4a78668037c0bb806b97dbcd2a6208de8bbb8039d",
+    "hpc_guard.py": "7240a5f33c5ee1c97d4e95d20ce3316fd54e8af6e6d93f2cdd62a1e29fd93f2d",
+    "layout_audit.py": "ba3c9fe2ba13bd077936541d39a9b7ae87a6a81a46e0de6d47b69d6a9ed93743",
+    "check.py": "7c74fbf7c3dbe3c5f403a2dc4cbafc591cf5a8f449c8e2b85b5b89296e516de4",
+    "test_synthetic_layouts.py": "0b0d0a9dcb7d8d8e06882458408867e37e3c99fd336fafe5a241e17bd8916aa3",
+    "V2_REVIEW.json": "8216a3262d092a13fffcf9a843004410d6f3b7409d91b29e659b65eb25c9a49e",
+    "STATIC_AND_SYNTHETIC_REVIEW.json": "078d77c324db16b26350a6e87709064f6d72b17e975d726ab9e9979e24fb40e1"
+  },
+  "config_unchanged_except_package_name": true,
+  "all_python_syntax_passed": true,
+  "all_shell_syntax_passed": true,
+  "launcher_only_dummy_tests_passed": 6,
+  "hpc_guard_unchanged_and_not_bypassed": true,
+  "scientific_execution_performed_locally": false,
+  "plotting_repeated_locally": false,
+  "actual_puma_launch_verified": false,
+  "remaining_limitation": "Puma execution must confirm availability of the original runtime; the repair never creates or substitutes an environment."
+}

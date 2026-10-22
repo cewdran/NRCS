@@ -1,0 +1,80 @@
+{
+  "state": "HPC_DIVERSITY_SUPPLEMENTS_CREATED_REVIEW_PENDING",
+  "scientific_execution_completed": true,
+  "visual_review_complete": false,
+  "workers": {
+    "bacteria": {
+      "status": "DIVERSITY_SUPPLEMENTS_DOMAIN_COMPLETED_REVIEW_PENDING",
+      "domain": "bacteria",
+      "sample_count": 32,
+      "family_lineage_count": 446,
+      "target_count_conservation": true,
+      "closure_passed": true,
+      "new_inferential_tests": false,
+      "figures": [
+        "FigS1_Oatman_Flats_Ranch_bacteria_family_composition.pdf",
+        "FigS1_Oatman_Flats_Ranch_bacteria_family_composition.svg",
+        "FigS1_Oatman_Flats_Ranch_bacteria_family_composition.png",
+        "FigS1_Oatman_Flats_Ranch_bacteria_family_composition.tif",
+        "FigS1_Oatman_Flats_Ranch_bacteria_family_composition.eps"
+      ],
+      "observed_Shannon_recalculated": false,
+      "FDR_recalculated": false,
+      "new_descriptive_PCoA": true
+    },
+    "archaea": {
+      "status": "DIVERSITY_SUPPLEMENTS_DOMAIN_COMPLETED_REVIEW_PENDING",
+      "domain": "archaea",
+      "sample_count": 31,
+      "family_lineage_count": 11,
+      "target_count_conservation": true,
+      "closure_passed": true,
+      "new_inferential_tests": false,
+      "figures": [
+        "FigS2_Oatman_Flats_Ranch_archaea_family_composition.pdf",
+        "FigS2_Oatman_Flats_Ranch_archaea_family_composition.svg",
+        "FigS2_Oatman_Flats_Ranch_archaea_family_composition.png",
+        "FigS2_Oatman_Flats_Ranch_archaea_family_composition.tif",
+        "FigS2_Oatman_Flats_Ranch_archaea_family_composition.eps"
+      ],
+      "observed_Shannon_recalculated": false,
+      "FDR_recalculated": false,
+      "new_descriptive_PCoA": true
+    },
+    "extras": {
+      "status": "EXTRA_OUTPUTS_CREATED_SCIENTIFIC_AND_VISUAL_REVIEW_PENDING",
+      "execution": {
+        "job_id": "24334146",
+        "cluster": "puma",
+        "node": "r7u01n2",
+        "job_record": "JobId=24334146 JobName=OFR_supp_extras UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5004 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:05 TimeLimit=02:00:00 TimeMin=N/A SubmitTime=2026-10-21T12:27:22 EligibleTime=2026-10-21T12:28:30 AccrueTime=2026-10-21T12:28:30 StartTime=2026-10-21T12:33:25 EndTime=2026-10-21T14:33:25 Deadline=N/A PreemptEligibleTime=2026-10-21T12:33:25 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-21T12:33:25 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:4159007 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u01n2 BatchHost=r7u01n2 NumNodes=1 NumCPUs=3 NumTasks=1 CPUs/Task=3 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=3,mem=15G,node=1,billing=3 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=3 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/RUN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a StdErr=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/logs/24334146_extras.err StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/logs/24334146_extras.out KillOInInvalidDependent=Yes TresPerTask=cpu=3"
+      },
+      "figures": [
+        "FigS5_Oatman_Flats_Ranch_individual_paired_function_trajectories",
+        "FigS6_Oatman_Flats_Ranch_selected_CLR_soil_associations"
+      ],
+      "table_files": 62,
+      "selected_association_n": [
+        9,
+        9,
+        8,
+        8
+      ],
+      "source_checks_passed": true,
+      "pair_and_coordinate_checks_passed": true,
+      "CLR_recomputed": false,
+      "new_inferential_tests": false,
+      "multiplicity_recomputed": false,
+      "visual_review_complete": false,
+      "utc": "2026-10-21T19:33:43.905286+00:00"
+    }
+  },
+  "downloads_ready": true,
+  "new_descriptive_PCoA": true,
+  "new_inferential_tests": false,
+  "observed_Shannon_recalculated": false,
+  "FDR_recalculated": false,
+  "supplements_supported": true,
+  "download_results": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+  "download_checksum": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip.sha256.txt"
+}

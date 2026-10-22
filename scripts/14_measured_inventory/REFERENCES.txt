@@ -1,0 +1,51 @@
+PRIMARY SOURCE AND DESIGN REFERENCES
+Prepared 7 October 2026. Current-file source verification; no new external data.
+
+1. Accepted MEASURED_METHOD_REVIEW.txt/.json, originally prepared5 October 2026,
+   returned unchanged with the validation/readiness lineage and packaged under
+   review/. Text SHA256:
+   2393f88d949a3b1d1be589859894fff1e1fbcc8ce91afef254df74aea2995d62.
+   The review records all relevant Annual/Haney pages inspected by text and
+   representative pages inspected visually. It supports reported-definition
+   matching only; analytical calibration and sampling equivalence are unproven.
+
+2. S24 Brown Lab_Haney_12-1-2023.pdf, Regen Ag Lab/Haney Soil Health Analysis.
+   S25 June_2024_soil_nutrients.pdf, same report family.
+   S26 December_2024_soil_nutrients.pdf, same report family.
+   Original archive title NIFA_Organics_soil_data.zip; selected immutable files
+   packaged as review/source_reports/S24.pdf, S25.pdf and S26.pdf.
+   Exact SHA256, selected record/page/lab IDs and headings: RESPONSE_TRACKS.json.
+   Source headings Soil pH/1:1, Soil OM/%LOI and Nitrogen/H3A Extract/Nitrate/
+   ppm NO3-N define O_PH/O_OM/O_NO3 separately from neighboring H2O N columns.
+
+3. S33 Soil_12.2023.pdf (corrected input Whipstone_Soil_12.2023.pdf),
+   Ward invoice 1417910; Annual pages 1-12.
+   S37 whipstone_2024.pdf, Ward invoice 1430399; Annual pages 1-12.
+   Packaged review/source_reports/S33.pdf and S37.pdf.
+   Exact SHA256 and source record/page/lab IDs: RESPONSE_TRACKS.json.
+   Explicit report headings 1:1 Soil pH, Organic Matter LOI, % and Nitrate-N KCl, ppm N
+   define W_PH/W_OM/W_NO3; nitrate pounds/acre is a separate response.
+
+4. S22 Soil-Results-1506923.pdf, Ward invoice 1506923, original archive
+   NIFA_Organics_soil_data.zip; Annual odd pages 1-23 only.
+   Packaged review/source_reports/S22.pdf; SHA256 and exact IDs in JSON.
+   Soil pH 1:1 supports W_PH 2025. Organic Carbon, % C does not establish LOI OM;
+   selected Annual pages contain no nitrate. Laboratory dates remain distinct
+   from confirmed collection 2025-08-17. BB/intervening pages are outside Annual.
+
+5. Corrected HPC source workbook_data.json, Sample records and Measurements;
+   corrections/NRCS_Sample_Decisions_and_Open_Questions_2026-09-30.txt,
+   D6/D7 exact Whipstone 2025 specimen/date identity; D10 exact2024 nutrient/16S
+   date identity; D14 field depth protocol; corrections/NIFA_Method_Provenance.txt.
+   Corrected source_identity.py preserves R0025/lab34082 source-only identity
+   and prohibits a fabricated microbiome/manuscript key. Sources are read, not
+   executed locally. Runtime CONFIG/manifest pins the precise returned paths.
+
+6. Accepted corrected feasibility v2 job 24110649 and current-file validation/
+   forecast-readiness job 24128032 reviews, packaged under review/. They define
+   the remaining source/assay/depth/identity/availability limits and preserve
+   withheld numerical-forecast status. Scope decisions are prospective mapping
+   specifications; source-report compatibility is not a statistical power rule.
+
+This inventory does not derive a universal visit-count requirement from a paper,
+claim external calibration, or introduce a literature-based forecast model.

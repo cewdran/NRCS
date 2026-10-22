@@ -1,0 +1,36 @@
+METHODS RECORD FOR LATER MANUSCRIPT INTEGRATION
+
+This file describes prepared methods, not completed scientific results.
+Replace prospective tense after the returned Puma execution and outputs have
+been reviewed. Read PROTOCOL.txt for full hypotheses, cohorts and assumptions.
+
+The follow-up compares treatment-associated differences in fixed-date changes
+using independently identified plots. Predicted bacterial functions retain
+the original fourteen-function panel and complete EC, KO and MetaCyc profiles.
+Paired endpoint differences in full-profile relative abundance or Hellinger
+coordinates are tested by whole-plot treatment-label permutations preserving
+group sizes. Soil analyses compare fixed-visit plot averages and vectors of
+change from baseline. Five planned Holm families retain all 146 planned rows,
+including untestable hypotheses. Primary and original depth-sensitivity
+populations remain separate. All hypotheses are exploratory follow-ups.
+
+Prepared code uses the existing Python 3.11.4 runtime with NumPy 2.3.5, pandas
+2.2.3, SciPy 1.17.0, Matplotlib 3.10.8 and ReportLab 4.4.9, verified against
+the frozen corrected-runtime READY record on each compute allocation. Exact
+enumeration is used up to 5000 allocations, otherwise 19999 plus-one Monte
+Carlo allocations. Functional seeds use SHA-256-derived cohort facts and base
+seed 20261016. Soil seeds hash each frozen endpoint, estimand and plot design.
+The first observed visit is the comparison baseline, without asserting that
+it preceded treatment.
+
+Code drafting, orchestration, static review, reporting text and documentation
+were prepared with OpenAI ChatGPT/Codex assistance. Numerical computation and
+statistical self-checks are restricted to the researcher's Puma Slurm compute
+allocations. Researchers remain responsible for verifying the code, source
+mapping, statistical assumptions, returned results and final interpretation.
+Retain the actual returned job IDs, versions and checksums when writing the
+final Methods and the journal-required AI-use disclosure.
+
+Predictions concern inferred functional genomic potential. They do not measure
+expression, enzyme activity or nutrient flux. Treatment comparisons are
+conditional field associations rather than established causal effects.

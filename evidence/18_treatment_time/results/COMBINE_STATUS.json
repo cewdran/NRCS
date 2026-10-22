@@ -1,0 +1,45 @@
+{
+  "all_workers_verified": true,
+  "completed": true,
+  "created_utc": "2026-10-16T21:56:00.836712+00:00",
+  "execution": {
+    "cluster": "puma",
+    "job_id": "24276768",
+    "job_record": "JobId=24276768 JobName=nrcs_tt_combine UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:07 TimeLimit=02:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:00 EligibleTime=2026-10-16T14:50:47 AccrueTime=2026-10-16T14:50:47 StartTime=2026-10-16T14:55:36 EndTime=2026-10-16T16:55:36 Deadline=N/A PreemptEligibleTime=2026-10-16T14:55:36 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T14:55:36 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u04n1 BatchHost=r7u04n1 NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=2,mem=10G,node=1,billing=2 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=2 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/RUN_COMBINE.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/combine.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/combine.log KillOInInvalidDependent=Yes TresPerTask=cpu=2",
+    "node": "r7u04n1"
+  },
+  "expected_family_sizes": {
+    "profile__depth_sensitivity": 12,
+    "profile__primary": 12,
+    "scalar__depth_sensitivity": 56,
+    "scalar__primary": 56,
+    "soil__soil_primary": 10
+  },
+  "figure_count": 12,
+  "numerical_self_checks_passed": true,
+  "numerical_ten_year_forecast": false,
+  "output_manifest_sha256": "e3b0e0c5d383ca1db3721f21dbdebaf31184818aca44d33fa947e6ac7ae94ae8",
+  "package_integrity_passed": true,
+  "planned_hypotheses": 146,
+  "predictive_validation_established": false,
+  "report_created": true,
+  "scientific_review_pending": true,
+  "scientific_scripts_completed": true,
+  "source_files_changed": false,
+  "status": "HPC_TREATMENT_TIME_COMPLETED_SCIENTIFIC_AND_VISUAL_REVIEW_PENDING",
+  "ten_year_forecast_generated": false,
+  "visual_review_pending": true,
+  "worker_count": 10,
+  "worker_ids": [
+    "oatman_scalar",
+    "petitesirah_scalar",
+    "annual_scalar",
+    "chester_scalar",
+    "oatman_profile",
+    "petitesirah_profile",
+    "annual_profile",
+    "chester_profile",
+    "oatman_soil",
+    "grenache_soil"
+  ]
+}

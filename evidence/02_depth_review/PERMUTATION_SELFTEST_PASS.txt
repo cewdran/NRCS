@@ -1,0 +1,1 @@
+PASS: cached matrices identical; within-date restriction and permutation rows verified

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "all_report_local_links_exist": 14,
+  "BH_all_four_variants_matches_independent_scipy": true,
+  "primary_omnibus_rows": 155,
+  "primary_contrast_rows": 465,
+  "all_four_figures_visually_reviewed": true,
+  "primary_genus_tests_below_joint_q_0_05": 0,
+  "all_positive_reference_only_crossings": 2
+}

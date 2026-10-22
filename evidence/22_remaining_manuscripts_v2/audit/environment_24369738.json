@@ -1,0 +1,18 @@
+{
+  "execution": {
+    "job_id": "24369738",
+    "cluster": "puma",
+    "node": "r3u03n1",
+    "job_record": "JobId=24369738 JobName=NRCS_remaining_extras UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:03 TimeLimit=04:00:00 TimeMin=N/A SubmitTime=2026-10-22T12:32:17 EligibleTime=2026-10-22T12:37:28 AccrueTime=2026-10-22T12:37:28 StartTime=2026-10-22T12:42:16 EndTime=2026-10-22T16:42:16 Deadline=N/A PreemptEligibleTime=2026-10-22T12:42:16 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-22T12:42:16 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:860039 ReqNodeList=(null) ExcNodeList=(null) NodeList=r3u03n1 BatchHost=r3u03n1 NumNodes=1 NumCPUs=5 NumTasks=1 CPUs/Task=5 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=5,mem=25G,node=1,billing=5 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=5 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_Remaining_Manuscripts_HPC_v2/RUN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_Remaining_Manuscripts_HPC_v2/runs/run_20261022T193217Z_1a7828f4 StdErr=/xdisk/dinusha1/dinusha1/NRCS_Remaining_Manuscripts_HPC_v2/runs/run_20261022T193217Z_1a7828f4/logs/24369738_extras.err StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_Remaining_Manuscripts_HPC_v2/runs/run_20261022T193217Z_1a7828f4/logs/24369738_extras.out KillOInInvalidDependent=Yes TresPerTask=cpu=5"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0",
+    "scipy": "1.17.0"
+  },
+  "python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+  "executable": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+  "utc": "2026-10-22T19:42:19.999555+00:00"
+}

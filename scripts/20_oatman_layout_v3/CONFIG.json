@@ -1,0 +1,259 @@
+{
+  "package": "NRCS_Oatman_Layout_Refresh_HPC_v3",
+  "version": 3,
+  "purpose": "Layout-only refresh from frozen v3 saved data; no scientific recalculation",
+  "account": "dinusha1",
+  "partition": "standard",
+  "runtime_python": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+  "runtime_ready": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/READY.json",
+  "runtime_ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0"
+  },
+  "source_run": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a",
+  "source_archive_sha256": "f9c76cac1e7238a18a37385d2b13c200b18c7d7f500ee18db676ebef254264ad",
+  "source_files": [
+    {
+      "relative": "results/bacteria/observed_Shannon_values_and_exact_eligibility.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/bacteria/observed_Shannon_values_and_exact_eligibility.csv",
+      "sha256": "c42342a75ca7ef181c44f5b8da1325fd8ec9a9f22e777ee46b5b80b365448ddc",
+      "bytes": 19766,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/bacteria/saved_Shannon_model_rows.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/bacteria/saved_Shannon_model_rows.csv",
+      "sha256": "82d82375768d2c40db8d95fe701f844f2d4335bccc96a0c95926900997a0cbf9",
+      "bytes": 2705,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/bacteria/saved_Shannon_descriptive_rows.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/bacteria/saved_Shannon_descriptive_rows.csv",
+      "sha256": "3614ab1e5ca0c9016bd2d4f58cd5ad3bc1dc93bf88f0836c1fb059276561fc89",
+      "bytes": 5833,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/bacteria/sample_retention_by_event.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/bacteria/sample_retention_by_event.csv",
+      "sha256": "9c9bd8459bc4c3f3adfc5d3b574305c406486f3bf26e3df6a63314b8d37481ce",
+      "bytes": 454,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/bacteria/complete_corrected_sample_retention_inventory.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/bacteria/complete_corrected_sample_retention_inventory.csv",
+      "sha256": "179b49a36ade85a21ef0c897676b2f3a2df3918f89288d73d38409e3ae095b3e",
+      "bytes": 19560,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/bacteria/PCoA_all_positive_coordinates_and_sample_metadata.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/bacteria/PCoA_all_positive_coordinates_and_sample_metadata.csv",
+      "sha256": "0f4f121acf6772143af32b204c58b3c6375527e150ec503ce7163d34b816a43f",
+      "bytes": 27766,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/archaea/observed_Shannon_values_and_exact_eligibility.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/archaea/observed_Shannon_values_and_exact_eligibility.csv",
+      "sha256": "69a46fb551c2c46e5384c405b567ab1b07e246b9dc0d5a8494e2a574d6993902",
+      "bytes": 19124,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/archaea/saved_Shannon_model_rows.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/archaea/saved_Shannon_model_rows.csv",
+      "sha256": "f9a137ca6a038e8415ad5114a5f403ae98cf9c18a73145ac8865487b163f7056",
+      "bytes": 2695,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/archaea/saved_Shannon_descriptive_rows.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/archaea/saved_Shannon_descriptive_rows.csv",
+      "sha256": "dd0b47218fa2b9f4a726888d566f7b4de858d89caae60d4fc061790bd1a0b3b9",
+      "bytes": 5664,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/archaea/sample_retention_by_event.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/archaea/sample_retention_by_event.csv",
+      "sha256": "0e56b083841c825e7202d8024b351b730f80fd2f6076c9453190c69e3ea3799d",
+      "bytes": 450,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/archaea/complete_corrected_sample_retention_inventory.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/archaea/complete_corrected_sample_retention_inventory.csv",
+      "sha256": "e6f3aea378ffe2f5ea7831b4ba1b403e9a6bc1b60ed2a47af205962ebf57b5fd",
+      "bytes": 19445,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "results/archaea/PCoA_all_positive_coordinates_and_sample_metadata.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/archaea/PCoA_all_positive_coordinates_and_sample_metadata.csv",
+      "sha256": "ede3f8580eab3df827b8ef3aa482f24ac894c7e8d7877bc3ed61ed30805d56b1",
+      "bytes": 26767,
+      "kind": "saved_render_input"
+    },
+    {
+      "relative": "FINAL_STATUS.json",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/FINAL_STATUS.json",
+      "sha256": "b7abb6a42c24024658cd93107d1a0910138134246869243e3379e47bc61cc8be",
+      "bytes": 4578,
+      "kind": "source_receipt"
+    },
+    {
+      "relative": "STAGE_STATUS.json",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/STAGE_STATUS.json",
+      "sha256": "4939510795c3e1e53d0ff106e7e862ff73bf761a523bb986f174393b52e181ec",
+      "bytes": 5509,
+      "kind": "source_receipt"
+    },
+    {
+      "relative": "audit/frozen_package_code/CONFIG.json",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/audit/frozen_package_code/CONFIG.json",
+      "sha256": "696dbaebd9fb646547147a7ec42aa94c26ddadf200a0bb229277e0f6b13c20cb",
+      "bytes": 4931,
+      "kind": "source_receipt"
+    },
+    {
+      "relative": "results/combined/PANEL_SAVED_MODEL_ANNOTATIONS.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/combined/PANEL_SAVED_MODEL_ANNOTATIONS.csv",
+      "sha256": "b0a15574254c385317b0733175272104d60e2799b7760b334761568595660d09",
+      "bytes": 1132,
+      "kind": "unchanged_output_baseline"
+    },
+    {
+      "relative": "results/combined/PCoA_PANEL_AND_CORRECTION_AUDIT.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/combined/PCoA_PANEL_AND_CORRECTION_AUDIT.csv",
+      "sha256": "94dc27b495e69c212b344d6fcd7736d6822d99dd20541816ef952ee39cca16e1",
+      "bytes": 1033,
+      "kind": "unchanged_output_baseline"
+    },
+    {
+      "relative": "results/combined/Table_S2_complete_sample_retention_and_source_eligibility.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/combined/Table_S2_complete_sample_retention_and_source_eligibility.csv",
+      "sha256": "79177dab8674eafb523933ab4f7c8432c393f3389c87d9e81f708f0641f692d8",
+      "bytes": 38311,
+      "kind": "unchanged_output_baseline"
+    },
+    {
+      "relative": "results/combined/Table_S3_saved_Shannon_models_all_four_events.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/combined/Table_S3_saved_Shannon_models_all_four_events.csv",
+      "sha256": "fe2caf36cb5566cd4af81cf28bfbb013f7a943b954fb18bdc5958ab33e485390",
+      "bytes": 5155,
+      "kind": "unchanged_output_baseline"
+    },
+    {
+      "relative": "results/combined/saved_Shannon_descriptives_all_four_events.csv",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/results/combined/saved_Shannon_descriptives_all_four_events.csv",
+      "sha256": "d40682c1ad14c174d47a47807e42b0c6fe8906d439ef8e0d701fb9d6f81e7afd",
+      "bytes": 11320,
+      "kind": "unchanged_output_baseline"
+    }
+  ],
+  "unchanged_output_baselines": [
+    "PANEL_SAVED_MODEL_ANNOTATIONS.csv",
+    "PCoA_PANEL_AND_CORRECTION_AUDIT.csv",
+    "Table_S2_complete_sample_retention_and_source_eligibility.csv",
+    "Table_S3_saved_Shannon_models_all_four_events.csv",
+    "saved_Shannon_descriptives_all_four_events.csv"
+  ],
+  "expected_figures": [
+    "Fig2_Oatman_Flats_Ranch_Shannon_all_shared_field_events",
+    "FigS3_Oatman_Flats_Ranch_Shannon_separate_2025_field",
+    "FigS4_Oatman_Flats_Ranch_target_read_depth_and_retention",
+    "FigS7_Oatman_Flats_Ranch_descriptive_Bray_Curtis_PCoA"
+  ],
+  "layout_changes": [
+    "Shorten Fig2 overall title",
+    "Increase FigS4 left margin; move zero-target counts to panel subtitle; move low-q n labels clear of guide",
+    "Shorten FigS7 title; reserve bottom gutter; separate legend/axis labels; wrap footer"
+  ],
+  "scientific_methods_and_values_changed": false,
+  "original_stage_source_pins": [
+    {
+      "role": "corrected_source_status",
+      "original": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/HPC_STATUS.json",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/corrected_source_status.json",
+      "sha256": "ee3434a9e6ed7bb1c5f2233e03ed44e5c76baf8c85229e19cc80b14ca0539914",
+      "bytes": 2100
+    },
+    {
+      "role": "corrected_counts_bacteria",
+      "original": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/bacteria_counts.tsv.gz",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/corrected_counts_bacteria.tsv.gz",
+      "sha256": "c69a2197857a65e525b09edb1e6ab8bd8fe910d5e42067dfd0be282b78337deb",
+      "bytes": 343150
+    },
+    {
+      "role": "corrected_counts_archaea",
+      "original": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/archaea_counts.tsv.gz",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/corrected_counts_archaea.tsv.gz",
+      "sha256": "5bea33176792ae944f913abf0138159d918b53e30f66fb3cc77b3eec4f88995d",
+      "bytes": 13635
+    },
+    {
+      "role": "taxonomy_bacteria",
+      "original": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/dada2/bacteria/taxonomy.tsv",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/taxonomy_bacteria.tsv",
+      "sha256": "ec2b506cd7ecc78cc3152c6d88fb63da26e84c3a126f29a7e0fd578de2c7e300",
+      "bytes": 2031668
+    },
+    {
+      "role": "taxonomy_archaea",
+      "original": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260914T201432Z_3761495/dada2/archaea/taxonomy.tsv",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/taxonomy_archaea.tsv",
+      "sha256": "0d9f4bb14475e603aee81e5d373d22cb02ff358c76e28f4359d98027d9a1cab8",
+      "bytes": 1798033
+    },
+    {
+      "role": "corrected_workbook",
+      "original": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/workbook_data.json",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/corrected_workbook.json",
+      "sha256": "80c4e33f4a859115cdf50c58b0c8a1e215487366e63cd83cc25ab101ff4cd4d4",
+      "bytes": 4033525
+    },
+    {
+      "role": "corrected_alpha_tests",
+      "original": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/tables/alpha_Shannon_tests.csv",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/corrected_alpha_tests.csv",
+      "sha256": "c1b5bcc1a995573763403ee39689b18da8a20db0f46441ea4728174363c256c5",
+      "bytes": 21916
+    },
+    {
+      "role": "corrected_alpha_descriptive",
+      "original": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/tables/alpha_descriptive.csv",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/corrected_alpha_descriptive.csv",
+      "sha256": "f64167b6173369f98022ddc915df9e3d5a576e6f897200c87dd3d9378ea66a5b",
+      "bytes": 70398
+    },
+    {
+      "role": "extra_CLR_oatman_bacteria_taxa_Family",
+      "original": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/oatman_bacteria_taxa/Family_primary_CLR.csv.gz",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/extra_CLR_oatman_bacteria_taxa_Family.csv.gz",
+      "sha256": "e8724c688338005b9926e802aa5c2e3efc0bfd4a3693db3fb0c4fe1260dcb32e",
+      "bytes": 41799
+    },
+    {
+      "role": "extra_CLR_oatman_archaea_taxa_Genus",
+      "original": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/oatman_archaea_taxa/Genus_primary_CLR.csv.gz",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/extra_CLR_oatman_archaea_taxa_Genus.csv.gz",
+      "sha256": "360f546e0ff1996d19390280f77edc5c9245c38b09539877b3245b9266c34391",
+      "bytes": 2452
+    },
+    {
+      "role": "extra_CLR_oatman_bacteria_functions_KO",
+      "original": "/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/workers/oatman_bacteria_functions/KO_primary_CLR.csv.gz",
+      "snapshot": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Diversity_Supplements_HPC_v3/runs/run_20261021T192721Z_ba5d610a/source_snapshot/extra_CLR_oatman_bacteria_functions_KO.csv.gz",
+      "sha256": "d078ce1a5f2333f32e2929d4915e205021e3baf1f1158c7730c11e75b5375c33",
+      "bytes": 1851451
+    }
+  ],
+  "runtime_preflight_policy": "Login verifies interpreter directory entry and exact READY hash. Module-managed interpreter executability is required on Puma compute after loading python/3.11/3.11.4."
+}

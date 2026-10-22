@@ -1,0 +1,25 @@
+TEMPORAL DESIGN AND FORECAST EVIDENCE
+
+Roberts DR et al. (2017). Cross-validation strategies for data with temporal,
+spatial, hierarchical, or phylogenetic structure. Ecography 40:913-929.
+DOI: 10.1111/ecog.02881
+Primary publication: https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881
+Accessed 6 October 2026. Supports respecting dependence and the prediction target
+when arranging validation blocks. It does not prescribe a universal visit count
+that establishes validation or permits a ten-year forecast.
+
+Dietze MC et al. (2018). Iterative near-term ecological forecasting: Needs,
+opportunities, and challenges. PNAS 115(7):1424-1432.
+DOI: 10.1073/pnas.1710231115
+Primary publication: https://www.pnas.org/doi/10.1073/pnas.1710231115
+Citation metadata checked 6 October 2026; full-text access was unavailable in
+this session. General background only; no quantitative forecast criterion or
+NRCS-specific model is inferred from it.
+
+PROJECT-SPECIFIC EVIDENCE
+
+The fixed design, source identities, definitions and retained holds are based on
+the pinned Puma outputs and separately stored accepted reviews in CONFIG.json.
+The new 2024 outputs and current-source/runtime checks do not exist yet; they
+must be produced on Puma and reviewed after return. Numerical ten-year support
+is not supplied by these methodological citations.

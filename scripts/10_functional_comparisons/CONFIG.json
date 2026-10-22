@@ -1,0 +1,228 @@
+{
+  "package": "NRCS_functional_comparisons_HPC_v1",
+  "source_runs": {
+    "functional": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2",
+      "job_id": "24067682"
+    },
+    "sensitivity": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b",
+      "job_id": "24073133"
+    }
+  },
+  "runtime_package": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1",
+  "sources": {
+    "functional": {
+      "HPC_STATUS.json": "979ee1d50e61c7a0ec06bafd7455974db37e0b86bb749379e88b5e2f808d83d9",
+      "results/PREDICTION_STATUS.json": "d6d19055405d5dfe6ffe64b1660767e57e04238cec68b4f77408c52936b1b44c",
+      "audit/runtime_environment/environment.json": "34e7f10ad0c13c549e6e3e0347b4328e2b7d54d3f61510a4819df10f0a37dddf",
+      "results/modeling_support/microbiome_cohort_support.csv": "4cb2bbf52487a706edfc528a669a1f870b9a6e2b546c4c37f7829c69f7fb0883",
+      "validated/bacteria/sample_metadata.csv": "b33705cf88732dfa339cf398c6b1ce34ea05c56e568a47323978eb763dc30f8a",
+      "results/bacteria/sample_prediction_QC.csv": "d8aacf3d83d21e2bd34de24441e80cfec5aaa55f26f3a011b2117993c901abe2",
+      "results/bacteria/EC_predicted_abundance.tsv.gz": "57bd11a4eece0cee3747afd091dd6c467fd878f690e3a21089a63d6a89d4b1aa",
+      "results/bacteria/KO_predicted_abundance.tsv.gz": "4e9ff08777d0b9a9a8a9447392bdb6b233016a034e0827e2fc7dfe07e19ffe17",
+      "results/bacteria/METACYC_predicted_abundance.tsv.gz": "d2bde1aa14441bf09a3192ae6794a550dc5771508440911f4d49b2b65ee385f6",
+      "validated/archaea/sample_metadata.csv": "543839fe7b451c9827eeedec87eef9316831098f8105ab8db348caee888893d6",
+      "results/archaea/sample_prediction_QC.csv": "f3f793aed77a28c21bb0b33f71aa477f01361b9881b93a9916a9e117c18fdef9",
+      "results/archaea/EC_predicted_abundance.tsv.gz": "4c273b12d0a2f36b9f6a6af02455eae6cce7b666041a45c2c7815eeb77ca13f6",
+      "results/archaea/KO_predicted_abundance.tsv.gz": "cac832de8ce4c1a368332e213a19187436005f3c1bf49747b02a1b341d1b14c5",
+      "results/archaea/METACYC_predicted_abundance.tsv.gz": "45445b257d055505d5a802146c70f2b0be09b178e627c748f8b81fe2ad0ffc61"
+    },
+    "sensitivity": {
+      "HPC_STATUS.json": "e881caa1dd1157913c58e2f6c38a45ba0264d670180779033958c423f44ededc",
+      "results/SENSITIVITY_STATUS.json": "bd3a709cc5ac7cf9ee825997ffc7d9773ec8298b4638fcb20fcf1c1eb10ccc4f",
+      "results/BASELINE_REPRODUCTION.json": "b116b4f13f5c5b8dd125890c9158292fef1a06917a9d09a5b5756b495ba0e2cc",
+      "results/sample_sensitivity.csv": "b3c35e2a1ed5bda630ef33d4d7b5f77fa38585682993319fa7a8613e4c25cc3f",
+      "results/flagged_ASV_details.csv": "e57dff71fbb983aebccfb897ca036c680a1706a22438ee92d0553586d7db12f0",
+      "results/domain_concordant_EC.tsv.gz": "572cd046417c68a9b633b89123e30d48450c2ff8893dc545d42344806112d9ff",
+      "results/domain_concordant_KO.tsv.gz": "7a31e50fe2260a376fafeb49128aa5258d01ea1d27278f7c3fba43eb8df6f4ac",
+      "results/domain_concordant_METACYC.tsv.gz": "8698767d0405515a32f0fba28a4664fa5016c16ad73619d860a89b4e39374f0e",
+      "results/baseline_reproduced_EC.tsv.gz": "eed717fed262cc60c478646b3b8f246acbc6258c2d3aa36412aa4e50af9baaef",
+      "results/baseline_reproduced_KO.tsv.gz": "0a7742b7b454cb89bdbc72db8b4ffdc014ed50644c2e7730184ca234f1d9a31f",
+      "results/baseline_reproduced_METACYC.tsv.gz": "89494d821efb3f882aec7af14a981e4dbf497766c21b88ef16866b9a53a8754b"
+    }
+  },
+  "cohorts": [
+    {
+      "farm": "Oatman Flats",
+      "system": "OFR_2023_2024_Field",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Cover_crop_and_sheep"
+      ],
+      "control": "Control",
+      "dates": [
+        "2023-11-20",
+        "2024-06-06",
+        "2024-12-06"
+      ],
+      "paired_dates": [
+        "2023-11-20",
+        "2024-12-06"
+      ],
+      "treatment_inference": true
+    },
+    {
+      "farm": "Oatman Flats",
+      "system": "OFR_2025_Field",
+      "treatments": [
+        "Control",
+        "Cover_crop_only"
+      ],
+      "control": "Control",
+      "dates": [
+        "2025-05-21"
+      ],
+      "paired_dates": null,
+      "treatment_inference": false,
+      "hold_reason": "Treatment confounded with field side; one observed collection event"
+    },
+    {
+      "farm": "Page Springs",
+      "system": "Grape_Grenache",
+      "treatments": [
+        "Control_fertigation_only",
+        "Composted_grape_pomace_and_horse_manure",
+        "Composted_horse_manure",
+        "Fresh_grape_pomace"
+      ],
+      "control": "Control_fertigation_only",
+      "dates": [
+        "2023-10-20",
+        "2024-08-05",
+        "2024-11-06"
+      ],
+      "paired_dates": [
+        "2023-10-20",
+        "2024-08-05"
+      ],
+      "treatment_inference": true
+    },
+    {
+      "farm": "Page Springs",
+      "system": "Grape_PetiteSirah",
+      "treatments": [
+        "Control_fertigation_only",
+        "Steer_manure",
+        "Fish_manure",
+        "Horse_manure_pomace"
+      ],
+      "control": "Control_fertigation_only",
+      "dates": [
+        "2023-10-20",
+        "2024-08-05",
+        "2024-11-06",
+        "2025-10-10"
+      ],
+      "paired_dates": [
+        "2023-10-20",
+        "2025-10-10"
+      ],
+      "treatment_inference": true
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Annual",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Blood_meal_and_Feather_meal",
+        "Blood_meal_and_Feather_meal_and_cover_crop"
+      ],
+      "control": "Control",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "paired_dates": [
+        "2023-11-16",
+        "2025-08-17"
+      ],
+      "treatment_inference": true
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Blackberry_Chester",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Blood_meal_and_Feather_meal",
+        "Blood_meal_and_Feather_meal_and_cover_crop"
+      ],
+      "control": "Control",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "paired_dates": [
+        "2023-11-16",
+        "2025-08-17"
+      ],
+      "treatment_inference": true
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Blackberry_Natchez",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Blood_meal_and_Feather_meal",
+        "Blood_meal_and_Feather_meal_and_cover_crop"
+      ],
+      "control": "Control",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "paired_dates": [
+        "2023-11-16",
+        "2025-08-17"
+      ],
+      "treatment_inference": true
+    }
+  ],
+  "families": [
+    "EC",
+    "KO",
+    "METACYC"
+  ],
+  "scopes": [
+    "primary",
+    "depth_sensitivity"
+  ],
+  "min_plots_per_arm": 2,
+  "min_paired_plots": 3,
+  "minimum_label_allocation_space": 20,
+  "permutations": 4999,
+  "exact_limit": 5000,
+  "seed": 20261002,
+  "multiplicity": {
+    "global": "Holm across all planned unique systems/domains/profile families/treatment-time hypotheses, separately by primary/depth scope.",
+    "targeted": "Holm within scope x system x domain x response panel(EC orMetaCyc) x test class(all event/arm contrasts orfixed pairedtime). All planned skips countp1; no projectwide targeted error guarantee.",
+    "archaeal_robustness": "MAX(original,filtered) beforecorrection; bothcomparisons must be estimable onexactlysame population; scalar directionsmustagree."
+  },
+  "resources": {
+    "cpus": 4,
+    "memory": "20G",
+    "time": "04:00:00"
+  },
+  "expected_filtered_ASVs": [
+    "AASV000392",
+    "AASV000393",
+    "AASV000394",
+    "AASV000395",
+    "AASV000396",
+    "AASV000399",
+    "AASV000828",
+    "AASV000829",
+    "AASV013067",
+    "AASV020350"
+  ]
+}

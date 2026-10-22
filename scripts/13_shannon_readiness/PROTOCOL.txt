@@ -1,0 +1,232 @@
+NRCS annual-round retrospective backtest and ten-year forecast readiness
+Protocol v1 — prepared 6 October 2026
+Package: NRCS_validation_forecast_readiness_HPC_v1
+Prepared state: PREPARED_NOT_SUBMITTED / PUMA_CHECKS_PENDING.
+This document freezes the next retrospective design; it reports no new execution,
+eligibility result, error metric, validation success or numerical forecast.
+
+1. User purpose, work authorization and empirical scope
+The user requests predictive validation and ten-year forecasts and specifies use
+of current NRCS files only. Work toward those goals is authorized. Historical
+permission/approval fields in earlier packages are retained as source history;
+they do not negate the current authorization. Authorization is distinct from
+empirical support: the existing files do not establish independent prospective
+predictive validation, transferable long-term calibration, future driver paths
+or calibrated long-horizon uncertainty. This package computes the next defensible
+retrospective check and records what remains unsupported.
+
+All scientific source preprocessing, count/response verification, membership
+and eligibility checks, synthetic scientific fixtures, baseline fits,
+predictions, scoring, readiness assessment and scientific reporting/figures run
+only on genuine Puma compute nodes under Slurm. Local work is static code review,
+syntax/packaging, hashes and editorial status diagrams. No scientific dry run,
+fixture execution, matrix import or eligibility recomputation is permitted locally.
+
+2. Response, domains, identities and immutable sources
+First response only: recorded target-library Shannon for Whipstone Annual known
+physical plots, in natural-log nats, unchanged from the frozen validated metadata.
+Definition: H = -sum(p*ln(p)), positive target-ASV proportions, unrarefied counts.
+Zero terms are omitted; positive total counts are required. A count-derived
+Puma check verifies the recorded response within the existing absolute/relative
+tolerances of 1e-10; it does not replace values, transform, rarefy or depth-adjust
+the response. The raw count/source identity audit is verification only.
+Bacteria and archaea, PRIMARY and DEPTH_SENSITIVITY remain separate.
+Depth is QC; no new threshold, load claim or absolute ecological response.
+
+Source provenance remains corrected job 24067160, functional job 24067682 and
+accepted feasibility v2 job 24110649. Verify exact CONFIG source hashes, review
+locks, frozen code/protocol and successful underlying source execution records
+before use, and again after use. Stage immutable copies in a new run. No source
+file, original run, old status receipt, plot identity or technical merge changes.
+
+Original Shannon engine job 24124251 on Puma r7u03n1 remains whole-job FAILED
+1:0 / pipeline 1 because of its report-table header overflow. Its preserved
+baseline files were verified and reviewed through completed report-only repair
+24126557 on r7u03n1, scheduler 0:0 / pipeline 0. Limited point-diagnostic review
+was accepted separately; original HPC review-pending receipts remain unchanged.
+Repair collector 24126558 was captured RUNNING; final collector accounting is
+absent from the returned archive. Do not relabel the old whole job as successful.
+
+3. New 2024 annual-round information partition
+fold_id: TRAIN2023_TEST2024_ANNUAL_ROUND
+Allowed training date, exactly: 2023-11-16.
+Exclusive administrative cutoff, exactly: 2024-01-01.
+Held-out actual dates, exactly: 2024-07-06 and 2024-08-14.
+Both held-out dates together constitute the one 2024 annual sampling round.
+Every physical plot contributes its one actual recorded target date once.
+Do not fabricate a shared date, duplicate a plot over both subsets, fill a missing
+visit, train on July before predicting August, or treat the two date subsets as
+two complete independent rounds. For each domain/scope fit only once from 2023;
+freeze the same training fit and complete target prediction set before scoring
+either 2024 date subset. No later outcome, depth, community or measured predictor
+may alter training membership, a baseline constant or method support.
+
+Retain exact actual dates, administrative cutoff-to-target horizon, each plot's
+most recent eligible prior date and prior-to-target gap. Historical assay/result
+availability at the nominal cutoff is NOT_VERIFIED: collection-date order is a
+retrospective partition, not a verified information-availability record.
+Current files and prior outcomes have already been inspected. Neither this fold
+nor the prior 2025 fold is an untouched/blinded test or prospective preregistration.
+
+4. Old 2025 calculation reuse
+fold_id: TRAIN2023_2024_TEST2025
+Original cutoff: 2025-01-01; original training dates 2023-11-16, 2024-07-06,
+2024-08-14; original target date 2025-08-17.
+Copy verified 2025 fits, training memberships/means, predictions, errors,
+performance and paired-comparison outputs byte for byte from the immutable
+engine source job 24124251. Preserve original files and verify reuse hashes.
+Do not refit, rescore, revise exclusions, relax the arm-mean gate, select a
+preferred baseline or imply a newly untouched 2025 test. Combining rows for a
+readable report adds fold_id, origin_job_id and origin_kind as provenance fields;
+it does not recompute the original numeric columns or replace original files.
+Use origin_kind NEW_2024_BACKTEST with the current Puma job for the new fold and
+REUSED_2025_ENGINE with origin_job_id 24124251 for prior calculated records.
+
+5. Scope, support and source eligibility contracts
+PRIMARY uses exact Whipstone/Annual/domain, primary_included=True,
+descriptive_reference=False, target_read_count>0 and finite nonnegative Shannon.
+DEPTH_SENSITIVITY adds the original depth_sensitivity_included=True source flag.
+Require explicit valid booleans; missing/malformed/contradictory flags refuse
+execution rather than becoming false or being reinterpreted. Dates, sample IDs,
+domain, treatment and biological_plot_id must be explicit and source-confirmed.
+Require one row per domain/physical plot/date, stable treatment within plot,
+disjoint training/target dates and one target per physical plot in the 2024 round.
+Invalid data or an unexpected primary design require review, not silent repair.
+
+Underlying PRIMARY must reproduce the reviewed twelve Annual plots with their
+2023 visit and one actual 2024 visit: three per each exact declared source arm.
+This is an identity/support assertion against reviewed source design, not a
+power result or a universal minimum visit rule. DEPTH_SENSITIVITY support is
+computed only on Puma from original flags and may be smaller; do not force it
+to reproduce PRIMARY. Eligible training plots contribute even when their target
+is absent/ineligible. Do not fit only future-selected complete cases.
+
+A known-plot evaluation row requires its eligible target and at least one
+eligible 2023 observation from the same physical plot in that same domain/scope.
+Keep all target rows in QC/disposition outputs, including holds. No eligible
+prior means no known-plot prediction/scoring case; do not borrow another plot's
+history. No usable training or known-plot target support yields a recorded
+NOT_ESTIMATED status and no fallback system, domain, scope, date or threshold.
+Preserve fixed source-held rows and their exact reasons.
+
+6. Three frozen point baselines, training-only support
+PERSISTENCE: use the latest eligible training Shannon for that same plot.
+EQUAL_PLOT_TRAINING_MEAN: first average eligible training visits within each
+physical plot, then average those plot means equally over all eligible training
+plots. For the new fold the allowed history is the single 2023 date.
+EQUAL_PLOT_TRAINING_ARM_MEAN: average those plot means equally within the exact
+source arm. All four arms must be present, their training physical-plot counts
+equal, and each have at least two plots. Otherwise skip the entire arm method
+with its existing explicit unbalanced/thin-support reason. No partial arms,
+pooled arm, global fallback under the arm label or fitted treatment coefficient.
+Exact arms: Blood_meal_and_Feather_meal;
+Blood_meal_and_Feather_meal_and_cover_crop; Control; Cover_crop_only.
+These are chosen conservative baseline support conditions, not assurances of
+power, precision, adequate temporal coverage or biological transportability.
+
+Serialize training memberships, support, plot means and predictions before
+held-out Shannon enters scoring; retain training/prediction hashes. No target
+preprocessing, imputation, tuning, depth covariate, interaction, random slope,
+complex model, trend fit or winner selection is included. Known-plot history is
+intentionally used; this is not leave-one-plot-out, new-field or farm transfer.
+
+7. Evaluation within one annual round only
+One equal weight per evaluated physical plot. Preserve observed/predicted values,
+signed error (predicted minus observed), absolute/squared errors, actual date,
+arm, sample/plot IDs, scope, origins, membership and n evaluated plots.
+MAE and RMSE are computed for each fold/domain/scope/method separately.
+Compare estimable methods only on their exact common evaluated plots with
+identical observed response/date. Preserve fixed method fits when choosing a
+common comparison cohort. PRIMARY versus DEPTH comparisons use their respective
+unchanged training fits and a matched target intersection; do not interpret
+this as a pure depth-adjustment effect. Record noncomparability and empty sets.
+
+Report 2024 and reused 2025 results separately. The rounds reuse known plots;
+2024 observations also enter the original 2025 training history. They are not
+independent validation replicates. Do not pool their plot errors into an
+independent n, estimate a general temporal error distribution, select a winner,
+claim causal treatment/time/crop effects or compute intervals/p-values. No
+bootstrap, inferential significance label or prediction interval is generated.
+Actual date subsets remain documented provenance within one 2024 round.
+
+8. Forecast readiness register: current NRCS files only
+Record user_authorized_work=True separately from empirical evidence statuses.
+Audit source-backed availability of: response definition and physical-plot
+identity; admissible chronology and historical assay availability; starting
+states; repeated temporal support and held-out information; management/weather
+drivers over the requested horizon; long-term calibration/transfer evidence;
+uncertainty calibration; scenario definitions and scientifically interpretable
+outcome harmonization. Mark missing/unknown/held evidence explicitly, with exact
+source references and the reason it blocks an empirical numerical forecast.
+Do not invent external calibration, weather, management histories or future
+driver paths. No external data acquisition is included under current-file scope.
+Passing identity or a visit-count gate does not automatically approve a model.
+
+The register is an evidence disposition, not fitted ten-year output. Keep
+predictive_validation_established=False and numerical forecasts withheld when
+the current evidence cannot support them. No ten-year response series, fitted
+trend, curve, interval, ecological process calibration or stock conversion is
+generated here. A smaller error for one baseline or another retrospective round
+does not itself establish prospective skill, farm transfer or decadal validity.
+Conditional numerical scenarios require a separately justified scientific design;
+with these files, provide explicit unresolved needs instead of invented values.
+
+Measured soil/crop responses and predicted functional panels remain additional
+outcome branches held for definition, unit, assay, physical-plot join and support
+crosswalk review before fitting. Existing measured source-method review is not
+calibration, a completed numeric crosswalk or predictor integration. June lab
+34082 remains soil-only. Whipstone 2025 organic carbon is not LOI organic matter;
+no OC-to-OM conversion or stock conversion. Function predictions remain predicted
+functional potential, not measured activity. Read counts remain QC only.
+
+9. Outputs, runtime and truthful status
+Required engine outputs: results/BACKTEST_STATUS.json; FORECAST_READINESS.json;
+forecast_requirements.csv; response_count_verification.csv; RAW_COUNT_AUDIT.json;
+combined per-fold performance/paired_performance/plot_errors/paired_errors and
+cohort_support; results/new_2024/ training fits, means, membership, baseline
+support, frozen predictions, freeze hashes, errors, paired comparisons and QC.
+Preserve the original 2025 engine files and their byte-reuse audit separately.
+An output manifest records relative paths, SHA256 and byte sizes. Return original
+code/protocol/source locks, runtime interpreter/software, Slurm job/node/cluster,
+commands, logs, start/end/exit evidence and source hashes before/after use.
+
+A successfully completed new computation is
+TEMPORAL_BACKTEST_COMPLETED_REVIEW_PENDING, not validated forecast success.
+Forecast evidence status when unsupported is
+NUMERICAL_TEN_YEAR_FORECAST_WITHHELD_NOT_SUPPORTED_CURRENT_DATA.
+Successful source/count/source-eligibility checks are PUMA_CHECKS_PENDING until
+actually executed. A submission receipt does not prove scheduler state. Overall
+report/pipeline failure remains failure even if earlier components finished;
+collector state is separate from main job. Review returned tables and visuals
+before editorial acceptance. Preserve original recorded receipts unchanged.
+
+10. Project and biological interpretation limits
+The PS 2025 T1 merged R39/D139/C139 library remains one physical plot; all prior
+biological profiles and technical merges remain preserved. No Grenache 2025
+observation is invented. Oatman 2025 is a distinct field with field-side/treatment
+confounding; Annual/Chester/Natchez and bacterial/archaeal domains stay separate.
+Ward source report crop context changes Lettuce (2023) to Onion (2024); that
+context is not a verified driver time series. Seasonal, crop, management and
+assay-depth differences cannot be separated by these constant point baselines.
+No long-term treatment benefit, microbial load or causal response is estimated.
+Observed-period manuscripts may continue within their established evidence limits.
+
+11. Primary-source methodological grounding
+Roberts et al. (2017), Cross-validation strategies for data with temporal,
+spatial, hierarchical, or phylogenetic structure. Ecography 40:913-929.
+https://doi.org/10.1111/ecog.02881
+Official full text:
+https://nsojournals.onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881
+This supports aligning evaluation blocks with temporal/dependence structure.
+It does not make two dependent NRCS rounds independent or validate a ten-year
+horizon. The exact annual-round partition is our recorded-study design choice.
+
+Dietze et al. (2018), Iterative near-term ecological forecasting: Needs,
+opportunities, and challenges. PNAS 115:1424-1432.
+https://doi.org/10.1073/pnas.1710231115
+Citation metadata was verified. General background on iterative near-term
+forecasting only; no full-text review or quantitative NRCS forecast criterion
+is inferred. Our evidence requirements are project-specific scientific decisions,
+not a claim that this citation mandates a universal number of visits or bars
+learning through modest point baselines. User authorization is already present.
+See REFERENCES.txt for the source-access and citation-verification record.

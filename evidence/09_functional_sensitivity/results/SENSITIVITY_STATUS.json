@@ -1,0 +1,29 @@
+{
+  "execution": {
+    "job_id": "24073133",
+    "cluster": "puma",
+    "node": "r7u02n1",
+    "job_record": "JobId=24073133 JobName=nrcs_fn_sens UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:15 TimeLimit=04:00:00 TimeMin=N/A SubmitTime=2026-10-02T10:04:20 EligibleTime=2026-10-02T10:04:20 AccrueTime=2026-10-02T10:04:20 StartTime=2026-10-02T10:08:34 EndTime=2026-10-02T14:08:34 Deadline=N/A PreemptEligibleTime=2026-10-02T10:08:34 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-02T10:08:34 Scheduler=Backfill Partition=standard AllocNode:Sid=wentletrap:2164673 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u02n1 BatchHost=r7u02n1 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=20G,node=1,billing=4 AllocTRES=cpu=4,mem=20G,node=1,billing=4 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b/RUN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b StdErr=/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b/logs/analysis.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b/logs/analysis.log TresPerTask=cpu=4"
+  },
+  "source_job": "24067682",
+  "status": "SENSITIVITY_COMPLETED_REVIEW_REQUIRED",
+  "excluded_ASVs_in_sensitivity_only": [
+    "AASV000392",
+    "AASV000393",
+    "AASV000394",
+    "AASV000395",
+    "AASV000396",
+    "AASV000399",
+    "AASV000828",
+    "AASV000829",
+    "AASV013067",
+    "AASV020350"
+  ],
+  "original_ASVs": 283,
+  "sensitivity_ASVs": 273,
+  "samples": 169,
+  "baseline_reproduced": true,
+  "original_scientific_data_changed": false,
+  "limitations": "Diagnostic perturbation only; no taxonomic reclassification, treatment tests, gene measurements or forecasting.",
+  "seed": "Deterministic count filtering and comparisons; existing HSP seed-100 predictions reused"
+}

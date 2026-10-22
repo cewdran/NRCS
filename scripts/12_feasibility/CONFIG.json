@@ -1,0 +1,68 @@
+{
+  "package": "NRCS_ten_year_feasibility_HPC_v2",
+  "package_revision": "ten_year_feasibility_v2",
+  "prepared_date": "2026-10-05",
+  "runtime_package": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1",
+  "source_runs": {
+    "corrected": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8",
+      "job_id": "24067160"
+    },
+    "functional": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2",
+      "job_id": "24067682"
+    },
+    "comparisons": {
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_comparisons_HPC_v1/runs/run_20261002T194428Z_adcafc70",
+      "job_id": "24074507"
+    }
+  },
+  "sources": {
+    "corrected": {
+      "HPC_STATUS.json": "ee3434a9e6ed7bb1c5f2233e03ed44e5c76baf8c85229e19cc80b14ca0539914",
+      "audit/run_end.json": "f05a910d13a7412a9dd44b03306359aa6bbf9687f7e0549a5b8a04c82cf02148",
+      "ANALYSES_COMPLETE.txt": "86d6c23769b75266d87847e902fdd721566461c7b6b82695087d8c8821b557fc",
+      "payload/tables/analysis_observations.csv": "6dc530b9715979691b62137b2e9f80c83135e339ce41911d75bda426379bd1df",
+      "payload/tables/record_disposition.csv": "e0ae3262061f710367916c394e908342223967414939a65468ad33fd24946aa5",
+      "payload/tables/held_records.csv": "3f80fcfc9bf57e35628a6580d751fa9f5f50c0846142636b95841b2a845fd637",
+      "payload/tables/retained_measurements.csv": "6f21230e6f57be7b419257ff918cfbc036dbad2ab1264fd2b57159c43c34ff17",
+      "payload/tables/confirmed_soil_microbiome_matches.csv": "ec0ac146157d0c440d06f2a2cfbc406060def6de8e0a94626487ff5f1c00da77",
+      "payload/corrections/laboratory_records.csv": "7bbd6fee666ee083121b215d5ad7714c68780bd252a51a8b617a448dadd13b6a",
+      "payload/corrections/laboratory_measurements.csv": "14ee08d9c27d7f103c69b552f30c86544c1540aa3115b7c90bf2aa0147f1b5a9",
+      "payload/corrections/NRCS_Sample_Decisions_and_Open_Questions_2026-09-30.txt": "79ac44bcf135c26e3e939736601c78ef69dbb469937975cde30fbb6cf0deddd1",
+      "payload/inputs/workbook_data.json": "80c4e33f4a859115cdf50c58b0c8a1e215487366e63cd83cc25ab101ff4cd4d4"
+    },
+    "functional": {
+      "HPC_STATUS.json": "979ee1d50e61c7a0ec06bafd7455974db37e0b86bb749379e88b5e2f808d83d9",
+      "audit/run_end.json": "753e6521cee47b12e0075a3ab48e7d083f07d9729735dadbcfe11c9a429273fc",
+      "ANALYSES_COMPLETE.txt": "7e26e80defa80c1bb884871a099074623163d4ffb30c8a65269587d7b886acc1",
+      "validated/bacteria/sample_metadata.csv": "b33705cf88732dfa339cf398c6b1ce34ea05c56e568a47323978eb763dc30f8a",
+      "validated/archaea/sample_metadata.csv": "543839fe7b451c9827eeedec87eef9316831098f8105ab8db348caee888893d6",
+      "results/modeling_support/confirmed_join_audit.csv": "4374a0949bdb1b35cd4a3d860080c6fef490e1e454195f8061b4618f8f450d68",
+      "results/modeling_support/SUPPORT_COMPLETION.json": "5cec2e5e1d777010680f519980070fa5f47bb10ce75e0c176966ecd823802f31",
+      "results/modeling_support/microbiome_plot_visit_support.csv": "2d32506b1af4f3a47cfebbb720e860d34ca3ae7f4c4be06c8229f80b40826106",
+      "results/modeling_support/microbiome_cohort_support.csv": "4cb2bbf52487a706edfc528a669a1f870b9a6e2b546c4c37f7829c69f7fb0883",
+      "results/modeling_support/measured_outcome_visit_support.csv": "b7e7cd631386f3d7db3ac6f881a401b8ad73f1f33b697149b5b1d2608dc53e01"
+    },
+    "comparisons": {
+      "HPC_STATUS.json": "1e7adfe300b40574ce99b5e532ed1fa5b652b1d99796830cef297e32703b78f8",
+      "audit/run_end.json": "836edf65a23aa1d28549fecd1dba14dc9e28206fcc5866cae9f3261703774111",
+      "ANALYSES_COMPLETE.txt": "a5c9808e09e8fb62b9b01d357912c291c1e53d744862c7de044b578ca5844a06",
+      "results/COMPARISON_STATUS.json": "aa101cb7aa3f15b4109d1634bf292b27afc83050674f35ec6bbc749b303270e2",
+      "results/FEATURE_PANEL.csv": "0dfacd04c072c1f49012bf416f1531e488a52d454d201b56ced984a64c77e044",
+      "results/feature_summaries.csv": "7eb6253c658f1aa5a8876e6d685c94a64c26f59cb2f23a8cc8ced6c9b8b1709b",
+      "results/sample_eligibility.csv": "08df78a24f26794c6a9bfb24230a4d9b0cc323ca78d0c1ab7eeeaa32411db375",
+      "results/targeted_tests.csv": "acd73a8bd850efb2a114ff206fab558bff3af27814885bb59475ed5ad59dae09"
+    }
+  },
+  "resources": {
+    "cpus": 1,
+    "memory": "5G",
+    "time": "01:00:00"
+  },
+  "scientific_scope": "Outcome-by-outcome temporal and identity support audit only; no model fitting, statistical tests, new normalization, prediction or scenario simulation",
+  "automatic_forecast_authorization": false,
+  "external_calibration_status": "NOT_ASSESSED",
+  "near_term_validation_status": "NOT_PERFORMED",
+  "outcome_plan": "OUTCOME_PLAN.csv"
+}

@@ -1,0 +1,334 @@
+NRCS Whipstone Annual reported LOI organic matter and KCl nitrate-N
+Observed-period trajectories and limited retrospective point-baseline diagnostics
+Package: NRCS_Whipstone_OM_NO3_baselines_HPC_v1
+Specification date: 7 October 2026; recorded execution timestamps use UTC.
+State at preparation: PREPARED_NOT_SUBMITTED; new Puma execution/results pending.
+
+1. Authorized question and specification timing
+
+The user authorized proceeding with the validation/harmonization protocol and
+this bounded Whipstone Annual OM+nitrate Puma package after the accepted pH
+review. Describe observed source-linked values and compare two fixed simple
+baselines separately for W_OM (reported LOI organic matter) and W_NO3
+(KCl-extracted nitrate-N). Each response has only one historical target annual
+round: the whole July/August 2024 round, using 2023-only training.
+
+This design is retrospectively specified and unblinded. Source outcomes, the
+accepted inventory and earlier pH diagnostics were viewed before this protocol.
+The package freeze precedes execution, not observation of historical targets.
+The execution-order prediction freeze does not establish preregistration, an
+untouched test or prospective validation. Responses and baselines are fixed by
+source definitions and the authorized question; no value, p-value, effect-size
+or prior predictive-error selection is permitted.
+
+Ten-year work remains an authorized project goal. This stage implements
+observed-period diagnostics, with no numerical ten-year forecasts, scenario
+curves, uncertainty intervals, significance tests, causal effects, complex,
+tuned or trend models, or chosen general winner. The separate validation/
+harmonization design does not become completed validation merely by being
+written or by running these retrospective diagnostics.
+
+2. Immutable accepted sources and authority
+
+Use accepted measured-inventory main 24147988, recorded COMPLETED 0:0 with
+pipeline exit 0 on Puma r7u11n1. Dated review
+review/ACCEPTED_RETURNED_REVIEW_24147988.json has SHA256
+f71809e6b50c2c4d044f672e0b7249f58217dce07fcedbcb1ecd6fc5a6fabb15
+and accepts source-preserving inventory only. Original pending-review receipts
+are immutable. Collector 24147989 was captured RUNNING on r7u04n2; no final
+collector accounting follows from that capture. Accepted pH stage 24149165
+is historical method/design precedent, not OM/nitrate observations or additional
+independent validation. Its sources/results and dated acceptance remain intact.
+
+Exact accepted measurement_inventory.csv SHA256:
+fbf08ff60e8a35172acf4188aabee2163e22eec57b6d1751f86fd3bd60f12aec.
+Exact accepted record_inventory.csv SHA256:
+ca4b0835b7571a2c36deb844629911823c37f257e0ff53d857a0c958131e4c6f.
+Accepted RESPONSE_TRACKS.json SHA256:
+4dceeb220f75386cc330288e9b8dbda42d5c08df73529c5662e18e9ddc78ba80.
+RESPONSE_SPEC copies the exact selected track definitions and complete accepted
+Annual scope, retaining its 2025 availability metadata only as audit evidence.
+Declared diagnostic rounds and expected-record sources cover existing 2023/2024
+records only. CONFIG locks immutable sources/reviews/package controls;
+OUTPUT_CONTRACT governs canonical output fields and evidence paths.
+
+Authoritative responses are corrected_workbook/Measurements rows, source role
+CORRECTED_PRIMARY_MEASUREMENT_NOT_A_NEW_OBSERVATION, with original
+WB_MEASUREMENT_ inventory row IDs. The engine verifies exact typed raw
+measurement/record objects against the pinned corrected workbook on Puma.
+Laboratory representations are audit copies, never extra observations or
+independent plots. Raw cells/types/nulls, source values, methods/units/headings,
+qualifiers/reporting limits, JSON objects, source/PDF pointers, identities and
+collection/laboratory dates remain unchanged. Derived training means never
+replace or aggregate field plot-event responses.
+
+Existing inventory model_eligible/forecast_eligible=False describes its own
+inventory-only execution. Current response eligibility and authorized baseline
+computation are separately governed by this frozen protocol on Puma; those old
+fields are neither rewritten nor interpreted as new scientific approval.
+
+3. Exact responses, raw source forms and excluded comparators
+
+W_OM: definition "Soil organic matter by reported LOI, percent"; exact raw
+variable/report heading "Organic Matter LOI, %"; original unit "%"; exact
+original/reviewed method "LOI".
+W_NO3: definition "KCl-extracted nitrate-N concentration"; exact raw variable/
+report heading "Nitrate-N KCl, ppm N"; original unit "ppm N"; exact
+original/reviewed method "KCl".
+Both are WHIPSTONE_ANNUAL: Whipstone / Annual crops / Annual analytic system.
+Compatibility is REPORTED_DEFINITION_ONLY. These definitions do not establish
+common ignition conditions, extraction concentration/ratio, interyear assay
+calibration, field sampling equivalence or calibrated prediction uncertainty.
+
+2023 forms for both: R0166-R0177; authoritative Measurement raw source S14;
+preferred PDF S33, Soil_12.2023.pdf, Ward invoice 1417910, Annual pages 1-12,
+laboratory IDs 276269-276280; collection date 2023-11-16.
+S33 SHA256:
+c00673ce8948a8d5a57a6287ea161a15292f63ddc21aa83254bd044df1dc6cf4.
+2024 forms for both: R0194-R0205; authoritative Measurement raw source S37;
+preferred PDF S37, whipstone_2024.pdf, Ward invoice 1430399, Annual pages 1-12,
+laboratory IDs 85219-85230.
+S37 SHA256:
+7a4afd18e969a498a3f456d6e36d8d5ce9cb054290da612da17a884a7e684c2f.
+
+R0194/R0200/R0203/R0205 retain actual date 2024-08-14; other selected 2024
+records retain 2024-07-06. Exact per-record page/lab/date/key declarations
+are in RESPONSE_SPEC. Original Sample-record source S14 remains distinct from
+corrected 2024 Measurement source S37. Historical notes, source block labels
+and old dates remain provenance; they are not silently repaired/substituted.
+
+Retain misleading 2023 PODS source_field headings verbatim. For example, the
+accepted R0166 LOI row retains the legacy Available Organic Nitrogen/ACE Protein
+heading while its corrected variable/unit/method and S33 page identify LOI OM.
+Do not infer an analyte from that old heading. Require the exact corrected form,
+record/source/PDF pointer and method/unit. The accepted 2024 nitrate
+concentration form remains separate from nitrate lbs N / Acre.
+
+Organic carbon, total carbon, ACE protein, nitrate lbs N / Acre and other
+definitions remain separate. No OC-to-OM factor, nitrogen/ion-mass conversion,
+depth/stock conversion or source substitution is permitted. Oatman H3A nitrate
+does not enter the KCl track. Other farms/systems/crops and functional/microbial
+responses remain outside this package. R0025/lab 34082 stays outside Whipstone,
+soil-only with its identity/join holds. Oatman repeated laboratories remain
+held for a separately frozen source/dependence rule; no response averaging here.
+
+4. 2025 availability, dates, depth and historical information
+
+The accepted source review and already-computed availability records state
+that inspected S22 Annual pages do not report compatible W_OM or W_NO3
+measurements: NO_COMPATIBLE_MEASUREMENT_IN_PINNED_SOURCE_EPOCH.
+Pinned track_availability.csv SHA256:
+aa46c20db253997841f400aa5563c7a1d8aa7b3dd419966da5c26cdc5420e10d.
+Copy this absence as audit evidence, without new 2025 eligibility/support
+assessment. There is no 2025 fold, expected response observation, fabricated
+zero, OC substitute or extrapolation. Complete accepted scope metadata may
+still list 2025; that listing does not authorize an absent response/target round.
+
+Use actual corrected record-specific collection dates. Preserve separate
+laboratory_received/reported fields, source block labels and original dates.
+Historical assay-result availability at cutoff 2024-01-01 is NOT_VERIFIED.
+Collection chronology alone does not establish operational access to the
+eventual result. No receipt/report date replaces collection.
+
+Selected S33/S37 depth remains "0-8 (unit not printed)". Separate D14 evidence
+retains excluded surface material and the full remaining column to a 15-20 cm
+terminal depth. S22's "0-8 in" is audit-only evidence. Do not assign a missing
+unit or turn terminal depth into sampled thickness. Confirmed plot continuity
+does not establish equivalent field sampling. Lettuce/Onion labels are source
+context, not inferred treatment, crop/time effects or predictive covariates.
+
+5. Eligibility, source uniqueness and complete audit
+
+On Puma, retain the exact frozen authoritative form/scope/record/PDF/lab
+pointer with an existing explicitly confirmed physical plot and matching
+confirmed key/actual date, no source exclusion, and one finite original
+numeric response that is uncensored, unqualified and free of unresolved
+numeric/text conflict. Preserve typed numeric source values. Strings, Boolean
+values, missing/nonfinite/conflicted/qualified responses are held without
+coercion, imputation, limits substitution or guessed numeric plausibility bounds.
+Exact source/metadata mismatch fails the integrity gate; do not create fuzzy
+aliases or inferred physical identities.
+
+Uniqueness gates are partitioned by response track: OM/nitrate in the same
+specimen are distinct outcomes, not duplicate response rows. Apply gates to
+all authoritative candidates with confirmed physical/date identity BEFORE
+finite-value inclusion. Multiple workbook response rows at the same track/
+plot/event hold all rows even if only one is finite. Multiple actual events in
+one track/plot/annual-round hold all plot-round rows even if another visit is
+missing/censored. Do not select a value/visit, deduplicate, combine labs,
+manufacture replicates or average a field response.
+
+Measured soil retention requires no 16S/PICRUSt2 counterpart, positive reads,
+microbial treatment-arm rule or microbial depth flag. Physical identity must
+still be explicitly confirmed in the pinned accepted measured inventory.
+Optional source treatment/context labels may be blank; never infer treatment
+from plot text, use it as a prediction covariate or make it an eligibility gate.
+Original measurements, identities and exclusions remain unchanged.
+
+observation_audit.csv preserves candidates, original source objects/fields and
+holds. Each declared expected record lacking its track's source row has a
+track-specific audit ID, blank observation_id and no invented response.
+Eligible observation_id equals its original WB inventory ID. Shared scientific
+outputs carry track_id; OUTPUT_CONTRACT is the canonical schema authority.
+
+Outside-scope rows and laboratory representations may be copied without new
+scientific classification. OUTSIDE_FROZEN_WH_ANNUAL_OM_NO3_SCOPE and
+AUDIT_TRANSCRIPTION_COPY_ONLY are separate audit-only dispositions, projected
+into audit eligibility label columns solely for preservation: eligible=False,
+expected_source_row=False, reported_value blank. Existing non-WB audit IDs are
+provenance labels, never observations. These rows enter no selected observation,
+change, training, prediction, score or response support. Do not reassess
+outside-scope duplicates, availability or scientific eligibility.
+
+6. Observed values, units and adjacent-visit differences
+
+eligible_observations.csv copies eligible original reported values with physical,
+source/date/assay/depth provenance. plot_changes.csv contains only adjacent
+eligible visits within the same track and confirmed physical plot, actual
+endpoint dates/observation IDs and to_reported_value minus from_reported_value.
+Missing/held visits remain visible through the audit; no interpolation,
+annualized rate, trend fit, temporal significance or causal contrast.
+Trajectory figures show recorded observations and observed segments only.
+
+W_OM measurement unit remains "%". Arithmetic OM changes/errors are percentage
+points on the recorded percent scale, not relative percent change or an OM/
+carbon stock. W_NO3 changes/errors remain ppm N concentration on the reported
+KCl scale. Derived training means remain in the response's original reported
+unit. No pooled units, cross-response normalization, relative-error calculation,
+concentration-to-stock or ion-mass conversion.
+
+7. Fixed folds and all-track prior-only prediction freeze
+
+W_OM_2024_FROM_2023: W_OM training round 2023 only, strictly before cutoff
+2024-01-01; target is the whole recorded July/August 2024 round.
+W_NO3_2024_FROM_2023: W_NO3 training round 2023 only, same strict cutoff;
+target is the whole recorded July/August 2024 round.
+Each response preserves its actual source dates. July outcomes never enter
+the August fit. Date subsets constitute one target annual round per response;
+shared plots/year across tracks do not create independent validation repeats.
+
+All eligible strictly pre-cutoff observations/plots in each declared track's
+training round enter its pool irrespective of future target presence,
+eligibility, value, laboratory availability or support. No future complete-case
+filter may alter the prior cohort. Create both methods' maps for every eligible
+prior known plot, not just plots that eventually score. Target information
+cannot affect parameters. No other response's target information conditions
+this track's training or prediction map.
+
+Record BOTH tracks' training-only decisions, their actual parameters and
+complete available prior-plot maps (or explicit no-estimate decision when
+there is no eligible prior support); save training_membership.csv,
+training_plot_means.csv, fits.json and
+predictions.csv; then save hashes in prediction_freeze.json BEFORE any target
+scoring for either track/date subset. Verify hashes after scoring. No refit,
+update or rewrite is allowed. This protects retrospective execution order;
+previous viewing and unverified historical availability remain explicit.
+
+8. Exactly two baseline methods, separately by response
+
+PERSISTENCE predicts a known plot's latest eligible strictly pre-cutoff
+original value for that same response. Unique confirmed events permit no
+value-based tie resolution.
+
+EQUAL_PLOT_TRAINING_MEAN takes the arithmetic temporal mean of eligible
+strictly pre-cutoff values within each confirmed physical plot for that same
+response, then the arithmetic mean of those plot means with equal plot weight
+over ALL eligible prior training plots in that response. Unequal visit counts
+do not give a plot more cross-plot weight. No future-conditioned pool, time
+weighting, treatment-arm mean, tuning, regression, trend or process model.
+These means are derived training parameters, not replacement measurements or
+field plot-event response aggregation.
+
+Both methods require a known target plot with at least one eligible prior
+observation of that response. A cold start is COLD_START_NO_PRIOR_RESPONSE for
+both methods even if a pooled mean exists. A training pool needs at least one
+eligible plot to define parameters. Minimum-one gates are existence/design
+rules, not power/estimability/predictive-skill guarantees. If a declared track
+has no eligible training, preserve explicit no-estimate/support status and
+False fitted/parameter/prediction flags for that track. Do not fabricate a fit
+or map. An actually computed prior fit/map retains its True flag even when
+future targets are absent/held or no target can score. Zero scored targets
+yields NOT_ESTIMATED with empty metrics, never a zero-error estimate.
+
+9. Full target ledger and same-track paired point diagnostics
+
+plot_errors.csv contains both methods for every declared target record within
+each track, including holds, missing responses and cold starts. Score only one
+unique eligible actual target event of that response for a known physical plot
+with a finite frozen prediction. Preserve target observation/record/date/value
+identity and prior source/date/visit information. signed_error is predicted_value
+minus reported_value; record absolute/squared errors. Unexpected nonfinite
+derived parameters fail closed.
+
+performance.csv gives MAE/RMSE separately by track/fold/method, equal weight per
+scored physical plot. paired_errors.csv uses exact common eligible same-track
+target plots with both frozen predictions; paired performance gives both
+methods on that exact shared source-outcome set. Per-method/common support
+remain distinct. Different method supports require their intersection to be
+called paired. Empty support has NOT_ESTIMATED and empty MAE/RMSE, not zero;
+positive support has ESTIMATED_POINT_DIAGNOSTIC without an inferential grant.
+
+cohort_support.csv and baseline_support.csv describe actual training/target/
+scored/common support computed on Puma. Never pool tracks or July/August subsets
+as independent repetitions, compare different units as a best-response contest,
+choose a general winner, tune on targets or produce p-values, confidence/
+prediction intervals or causal effects. Plots share annual field/crop/assay
+context; one target round per outcome does not establish external/prospective
+temporal skill.
+
+10. Guarded execution, interfaces and truthful completion
+
+All scientific source extraction, identity/value/duplicate eligibility,
+support/availability calculation, changes, parameter estimation, prediction,
+scoring, metrics, synthetic fixtures and scientific report/figure rendering
+execute only on genuine Puma Slurm compute nodes after guards and exact pinned
+runtime/source/review/package gates. No scientific import, fixture, execution
+or emulated Slurm locally. Local work is limited to immutable saved-source/
+schema/code/PDF reading, administrative byte/schema/syntax checks, protocol
+authoring and fixed editorial artifacts. Source originals/prior receipts stay
+immutable.
+
+OUTPUT_CONTRACT is authoritative for engine/report statuses and paths, exact
+CSV/JSON schemas, manifests and completion sentinel. RESPONSE_SPEC freezes
+responses/rounds/forms/folds/reason codes. Guarded fixtures execute on Puma
+before engine science and enter its exact output manifest. Recheck source/
+control/engine output preservation after computation and report generation.
+Unexpected source/schema change fails closed rather than silently changing
+scope or historical evidence.
+
+models_fitted, baseline_models_fitted, baseline_parameters_computed,
+baseline_predictions_computed and training_baseline_means_computed are dynamic
+execution flags. Each track's flag is True only for its actual corresponding
+computation, otherwise False with explicit no-estimate/support evidence. The
+global flag is the actual any-across-declared-tracks value of that corresponding
+per-track flag; completed diagnostics do not force it True when no fit exists.
+Future target support cannot change a genuine prior fit flag. Complex models,
+statistical tests, intervals, predictive_validation_established and numerical/
+ten-year forecasts remain False. Source measurements and field plot-event
+responses stay unchanged. Preparation pending/False flags are not execution
+evidence. Scientific/visual review remains pending after successful execution.
+
+The renderer displays saved engine values only, without new scientific
+eligibility, support, averaging, fitting, rescoring or metrics. Guarded layout
+checks cover actual report labels/tables. Emit the final sentinel only after
+current status/manifest/source/report integrity. Completed main requires real
+accounting COMPLETED 0:0 plus pipeline exit 0. Collector RUNNING capture does
+not establish its final state. Dated acceptance is separate from run receipts.
+
+11. Interpretation and parallel validation/forecast-readiness design
+
+Accept completed results only after returned source/runtime/manifest/execution
+integrity, full target/paired ledger coherence and scientific/visual review.
+These diagnostics extend observed-period description and can inform the
+independent validation/assay-depth harmonization design. They cannot supply
+absent compatible 2025 OM/nitrate, establish historical operational availability,
+resolve sampling/calibration/dependence limits or make a viewed round prospective.
+
+Separately freeze future response/plot/assay/depth definitions, actual collection
+and result-availability timelines, whole-event holdouts, driver/management
+definitions and methods before using new evaluation outcomes. Numerical ten-year
+readiness additionally requires actual calibration/external evidence, meaningful
+future driver/management/scenario inputs and defensible uncertainty. These
+remain unestablished by this bounded package. Ten-year work is authorized future
+scope, not a numerical execution claim here. This protocol/reference set supplies
+no universal plot/visit threshold.

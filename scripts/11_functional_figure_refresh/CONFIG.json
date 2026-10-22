@@ -1,0 +1,39 @@
+{
+  "package_revision": "functional_figure_refresh_v1",
+  "source_run": {
+    "analysis_job_id": "24074507",
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_comparisons_HPC_v1/runs/run_20261002T194428Z_adcafc70"
+  },
+  "runtime_package": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1",
+  "sources": {
+    "HPC_STATUS.json": "1e7adfe300b40574ce99b5e532ed1fa5b652b1d99796830cef297e32703b78f8",
+    "results/COMPARISON_STATUS.json": "aa101cb7aa3f15b4109d1634bf292b27afc83050674f35ec6bbc749b303270e2",
+    "audit/runtime_environment/environment.json": "92870cbd844b8443ad2c0e7b29091fe014467bcd7affb7307f409f22642958ec",
+    "render_report.R": "4ed733777706095917535f30f12d57976f2e93b2adedc3646a7220fcccad58bd",
+    "PROTOCOL.txt": "659c7e5bc236653f2e834d9f95b7a5c96dfe57732a83158c6b408d02fcef60f6",
+    "results/ordination.csv": "cef503050d5d78601b176cfc3222ac42fbeae2459a10dab1ceba80d6fc1fe005",
+    "results/feature_summaries.csv": "7eb6253c658f1aa5a8876e6d685c94a64c26f59cb2f23a8cc8ced6c9b8b1709b",
+    "results/robustness.csv": "508e0fdf573e40b224f266a3a68d2dff45672d39abe040c8fcdce6a40048f44e",
+    "results/global_tests.csv": "27a369c42ae0472b574969b7913561c4ed603472f21fa92c8989927e83a69ace",
+    "results/targeted_tests.csv": "acd73a8bd850efb2a114ff206fab558bff3af27814885bb59475ed5ad59dae09",
+    "results/RUN_SUMMARY.txt": "79eec8fdd45c2ec22fed0d856cf1c60380972e366c192136aca4ab8279f57aaa",
+    "results/FEATURE_PANEL.csv": "0dfacd04c072c1f49012bf416f1531e488a52d454d201b56ced984a64c77e044",
+    "results/figure_manifest.csv": "2536b6fabd4b5e29616aa622af5b939b56b5a46965cfb7ce772418296ace8569"
+  },
+  "render_input_files": [
+    "ordination.csv",
+    "feature_summaries.csv",
+    "robustness.csv",
+    "global_tests.csv",
+    "targeted_tests.csv",
+    "FEATURE_PANEL.csv"
+  ],
+  "resources": {
+    "cpus": 1,
+    "memory": "5G",
+    "time": "01:00:00"
+  },
+  "scientific_scope": "Re-render existing Puma comparison outputs only; no tests, model fitting, normalization or input changes",
+  "change": "Compact y-axis tick labels and width-aware axis-title spacing",
+  "expected_pdf_count": 64
+}

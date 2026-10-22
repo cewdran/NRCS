@@ -1,0 +1,40 @@
+NRCS FUNCTIONAL DOMAIN SENSITIVITY - VERSION 1
+Prepared 2 October 2026 after review of successful Puma run 24067682.
+
+Question
+Do the ten archaeal-target ASVs assigned to bacterial reference genomes affect
+inferred archaeal EC, KO or MetaCyc profiles materially?
+
+Prespecified diagnostic
+1. Verify the source job status and every frozen source hash. Reuse the exact
+   PICRUSt2 environment and reference files from the successful functional run.
+2. Retrieve original taxonomy and both reference NSTI records for flagged ASVs.
+3. Reproduce original archaeal EC, KO and MetaCyc profiles from existing marker
+   and gene-family predictions. Placement and hidden-state prediction are reused.
+   Require identical feature/sample sets and numerical agreement with returned
+   baseline profiles (rtol 1e-10, atol 1e-8) before interpreting changes.
+4. Make a second count table omitting exactly the ten flagged ASVs listed in
+   CONFIG.json. Keep every sample. Abort if a sample loses all counts.
+   Recompute metagenome and pathway profiles with the same settings, including
+   maximum NSTI 2, predicted 16S normalization, MinPath and default gap filling.
+5. Per sample and function family, report removed reads/fraction, function
+   presence gains/losses, total abundance ratio and Bray-Curtis distance between
+   profiles each scaled to unit sum. All-zero profiles yield missing distance
+   and an explicit flag. Per function, report sample coverage and largest
+   absolute change in relative abundance; provide detailed changed pathways.
+
+Interpretation rules
+This is a sensitivity analysis, not a taxonomic correction. The reference
+choice discrepancy does not prove contamination or misclassification. The
+original input and results remain unchanged. The variant exclusions apply only
+to this functional diagnostic, not to previous alpha diversity or read counts.
+No p-values, treatment contrasts, causal claims, new microbial classifications
+or forecasts are produced. No arbitrary negligible-effect threshold is imposed;
+review both abundance and presence/absence changes before deciding usability.
+
+Reproducibility
+All computations run under verified Puma Slurm allocations. Existing HSP
+predictions used seed 100. Count filtering and comparisons are deterministic;
+PYTHONHASHSEED=0 is exported. Record software/reference hashes, commands, job
+allocation, accounting, input hashes and output hashes. A fresh run is created.
+No scientific execution takes place locally during package preparation.

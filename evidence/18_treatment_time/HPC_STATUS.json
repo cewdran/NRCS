@@ -1,0 +1,29 @@
+{
+  "archive_snapshot_policy": "Collector final END and post-finalization BUNDLE_STATUS are external; live CHECK verifies them.",
+  "collected_utc": "2026-10-16T22:00:48.089460+00:00",
+  "collector_execution": {
+    "cluster": "puma",
+    "job_id": "24276769",
+    "job_record": "JobId=24276769 JobName=nrcs_tt_collector UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:09 TimeLimit=01:00:00 TimeMin=N/A SubmitTime=2026-10-16T14:45:01 EligibleTime=2026-10-16T14:56:01 AccrueTime=2026-10-16T14:56:01 StartTime=2026-10-16T15:00:38 EndTime=2026-10-16T16:00:38 Deadline=N/A PreemptEligibleTime=2026-10-16T15:00:38 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-16T15:00:38 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:544506 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u11n1 BatchHost=r7u11n1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=1,mem=5G,node=1,billing=1 AllocTRES=cpu=1,mem=5G,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/COLLECT.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39 StdErr=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/collector.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1/runs/run_20261016T214458Z_f6486d39/logs/collector.log KillOInInvalidDependent=Yes TresPerTask=cpu=1",
+    "node": "r7u11n1"
+  },
+  "collector_final_completion_verified": false,
+  "collector_running_at_snapshot": true,
+  "download_results": "/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1_24276768_run_20261016T214458Z_f6486d39_results.zip",
+  "download_results_checksum": "/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1_24276768_run_20261016T214458Z_f6486d39_results.zip.sha256.txt",
+  "download_review": "/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1_24276768_run_20261016T214458Z_f6486d39_review.zip",
+  "download_review_checksum": "/xdisk/dinusha1/dinusha1/NRCS_treatment_time_parallel_HPC_v1_24276768_run_20261016T214458Z_f6486d39_review.zip.sha256.txt",
+  "downloads_ready": false,
+  "final_completion_instruction": "Run CHECK.sh after the collector exits.",
+  "full_source_matrices_retained_on_puma": true,
+  "package_integrity_passed": true,
+  "predictive_validation_established": false,
+  "schema_version": 1,
+  "scientific_review_pending": true,
+  "scientific_scripts_completed": true,
+  "source_files_changed": false,
+  "status": "HPC_TREATMENT_TIME_COMPLETED_REVIEW_PENDING",
+  "ten_year_forecast_generated": false,
+  "validation_errors": [],
+  "visual_review_pending": true
+}

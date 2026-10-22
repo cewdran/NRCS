@@ -1,0 +1,47 @@
+{
+  "status": "SUBMITTED_NOT_YET_COMPLETE",
+  "created_utc": "20260915T193437Z",
+  "source_run": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260914T201432Z_3761495",
+  "recovery_run": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3",
+  "archaea_job": "23875047_0",
+  "revision": 2,
+  "original_bacteria_state": "OUT_OF_MEMORY",
+  "launcher_receipt": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_bacteria_memory_recovery_v1/RECOVERY_RECEIPT.json",
+  "archaea_state_at_preparation": "RUNNING",
+  "jobs": {
+    "bacteria": "23881745",
+    "farms": "23881746"
+  },
+  "excluded_samples": [
+    "C108",
+    "C111",
+    "D108",
+    "D111"
+  ],
+  "unchanged_input_metadata_sha256": {
+    "inputs/PREFLIGHT_COMPLETE": "9c2932c2a8042e431f395c229b2a34a802a7ecaa6b1462a3b2cf5a4598466e2e",
+    "inputs/archaea.tsv": "c3acbf38c0d82ef68d5f8d3df5728f2f081b9367f505c6f145a6f13c99baaad7",
+    "inputs/bacteria.tsv": "9b485bd3e143436f175519756904da8493b1a3941b812155be4a1889f1538d92",
+    "inputs/fastq_qc.tsv": "f5705e4ed1077ea97780dbc9030404d3b5df36242fda16af145b00ee645352ac",
+    "inputs/ignored_fastqs.tsv": "1c61ce988474e7ed29ceefab4e9526a71b730b2c19659e280fa5a0434d57e935",
+    "inputs/reference_qc.json": "a63eb3e6df3e87287d557160f2535962ba4342f0cbbddd3255ce5aebd7d26bd3",
+    "inputs/settings.tsv": "e36b230e20779ba3ab75cd3695961659cde3b5baac7da28eed7cbe7eb02957c4",
+    "metadata/NRCS_archaea_metadata.csv": "7b4918e3f67cdaab8175f355521107edbd904fe6b0e435118b3105184bdaf3fe",
+    "metadata/NRCS_bacteria_metadata.csv": "9fb23053c2a94d872dea9119d31b07b89f8b1c74836f96e60b25a0441175a42a"
+  },
+  "original_dada2_script_sha256": "dfb2e3df01344d8dcc6f855536f03c2d404150d9cf495e8a27f312e4efaab0f9",
+  "recovery_dada2_script_sha256": "a490d5845108c391fab382f54a5ef2d80394db3a468350b9b74ab03643ec4462",
+  "method_change": "Native FASTQ filename input, early release of intermediate objects, error-model provenance; scientific parameters preserved.",
+  "restart_scope": "Bacteria from filtering onward; original archaea output linked without rerunning.",
+  "resources": {
+    "SLURM_ACCOUNT": "dinusha1",
+    "SLURM_PARTITION": "standard",
+    "PROCESS_CPUS": "8",
+    "PROCESS_MEMORY": "96G",
+    "PROCESS_TIME": "48:00:00",
+    "FARM_CPUS": "2",
+    "FARM_MEMORY": "24G",
+    "FARM_TIME": "06:00:00"
+  },
+  "old_farm_array": "obsolete pending array cancelled after replacements submitted"
+}

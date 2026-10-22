@@ -1,0 +1,406 @@
+{
+  "package": "NRCS_Whipstone_pH_baselines_HPC_v1",
+  "package_revision": "whipstone_annual_ph_baselines_v1",
+  "prepared_date": "2026-10-07",
+  "runtime_package": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3",
+  "runtime_expected_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "reportlab": "4.4.9",
+    "Pillow": "12.3.0",
+    "pypdf": "6.10.0",
+    "openpyxl": "3.1.5"
+  },
+  "runtime_requirements_sha256": "af523eeb337a4f73489cd16e7c36b60527e48dd6b429736b63ae5670d66516cf",
+  "source_runs": {
+    "corrected": {
+      "analysis_job_id": "24067160",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8"
+    },
+    "functional": {
+      "analysis_job_id": "24067682",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2"
+    },
+    "feasibility_v2": {
+      "analysis_job_id": "24110649",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_ten_year_feasibility_HPC_v2/runs/run_20261005T225135Z_2460a868"
+    },
+    "validation": {
+      "analysis_job_id": "24128032",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_validation_forecast_readiness_HPC_v1/runs/run_20261006T212154Z_1522d202"
+    },
+    "measured_inventory": {
+      "analysis_job_id": "24147988",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_measured_outcomes_HPC_v1/runs/run_20261007T211023Z_5f89d0ab"
+    }
+  },
+  "sources": {
+    "corrected": {
+      "HPC_STATUS.json": "ee3434a9e6ed7bb1c5f2233e03ed44e5c76baf8c85229e19cc80b14ca0539914",
+      "audit/run_end.json": "f05a910d13a7412a9dd44b03306359aa6bbf9687f7e0549a5b8a04c82cf02148",
+      "ANALYSES_COMPLETE.txt": "86d6c23769b75266d87847e902fdd721566461c7b6b82695087d8c8821b557fc",
+      "payload/inputs/workbook_data.json": "80c4e33f4a859115cdf50c58b0c8a1e215487366e63cd83cc25ab101ff4cd4d4",
+      "payload/corrections/laboratory_records.csv": "7bbd6fee666ee083121b215d5ad7714c68780bd252a51a8b617a448dadd13b6a",
+      "payload/corrections/laboratory_measurements.csv": "14ee08d9c27d7f103c69b552f30c86544c1540aa3115b7c90bf2aa0147f1b5a9",
+      "payload/corrections/legacy_record_crosswalk.csv": "828b748f5ca0c7cb70f90f24662a717bea5444c6c8d3fc302fb2a146a8dc2571",
+      "payload/corrections/source_transcription.json": "2349dff6fa58b6baa41139558c6a196df661aa5e8212941f3243bb7f49924034",
+      "payload/corrections/Additional_record_decisions.csv": "75b19dbb58c55971477653bdee90d327b47d452995cf68d5a3a9fc312ee0f230",
+      "payload/corrections/Intentional_exclusions_without_16S.csv": "6f1cd996958a9841a2518e7445c0c2e2f295c5571fcd8153390bcf18f7ad91a8",
+      "payload/corrections/NRCS_Sample_Decisions_and_Open_Questions_2026-09-30.txt": "79ac44bcf135c26e3e939736601c78ef69dbb469937975cde30fbb6cf0deddd1",
+      "payload/corrections/NIFA_Method_Provenance.txt": "0491dcec0555d85551b377c411a91bf15bac3ed62a34556a9b119e2a283dbeb9",
+      "payload/source_identity.py": "1850da9aaffa96e78912effb4b3f31b863b0a54b3d305f71df751abf189b810e",
+      "audit/revision_decisions.json": "f7c7fb303dd75ee0100bf2a85a742895310ceeff265a036f76296d9abf2b084f",
+      "payload/tables/record_disposition.csv": "e0ae3262061f710367916c394e908342223967414939a65468ad33fd24946aa5",
+      "payload/tables/held_records.csv": "3f80fcfc9bf57e35628a6580d751fa9f5f50c0846142636b95841b2a845fd637"
+    },
+    "functional": {
+      "HPC_STATUS.json": "979ee1d50e61c7a0ec06bafd7455974db37e0b86bb749379e88b5e2f808d83d9",
+      "audit/run_end.json": "753e6521cee47b12e0075a3ab48e7d083f07d9729735dadbcfe11c9a429273fc",
+      "ANALYSES_COMPLETE.txt": "7e26e80defa80c1bb884871a099074623163d4ffb30c8a65269587d7b886acc1",
+      "validated/bacteria/sample_metadata.csv": "b33705cf88732dfa339cf398c6b1ce34ea05c56e568a47323978eb763dc30f8a",
+      "validated/archaea/sample_metadata.csv": "543839fe7b451c9827eeedec87eef9316831098f8105ab8db348caee888893d6",
+      "results/INPUT_VALIDATION.json": "ecded4c0c42135d22340dfdb0a8eff22efbe69637f5f993ff52499f82fae9a0d",
+      "prepare.py": "0adfe4d66075d2ece50e068a863435e100d5c4a85aad739d1838285b8d247aea"
+    },
+    "feasibility_v2": {
+      "HPC_STATUS.json": "b5088df26359b666df10b380b98d342a2d877fe920bb707e895cacffc630103a",
+      "audit/run_end.json": "464fba339ff30ab98cb84d53a3dd9a0835600c1757f739c0b0500ca87ef1cad3",
+      "ANALYSES_COMPLETE.txt": "8dfad066060fa652069bd2de97db6f16eeb342f5765f561cf9bc4ac1cf2a0b68",
+      "results/FEASIBILITY_STATUS.json": "0aa5e58444373636021db8a209e90068b7f39ad9718b48fe6ed08a4a19ceb70c",
+      "results/microbiome_sample_audit.csv": "9fd833663f20bccdee9227354433fde7a9e181aa0e3474edafb0ad638f8feee9",
+      "results/integrity_checks.csv": "2b874a59b94b60d6a74e2cc207ca6a1e51bef9a384c7f515d8900a6098dedd95",
+      "results/source_hashes.csv": "d64652a1d570b5be85829e38c585c4f4d6d68b084e2a97be7f670e7e68ba0e7b"
+    },
+    "validation": {
+      "HPC_STATUS.json": "98d958504bf61e85fd12d4264aeb21caf413c93ca9da671988b0a5c64d940c18",
+      "CONFIG.json": "28bc7ca1274864b0684d811ad435bb763fdb0ab39656b3c48b8d28182cb41e2e",
+      "audit/sacct_analysis.tsv": "7583f4f83c666fb0539cf115e71d67a438517089565e6906da4a25e0675349ac",
+      "results/BACKTEST_STATUS.json": "044767eeb89413ee47b617f091a95e6faf4b73890cb2870dc58972e3acdaadd6",
+      "results/FORECAST_READINESS.json": "91d27d8d3cd1498ae003ee8f5aa75089059276219f95796402875b221e53b98b",
+      "results/RAW_COUNT_AUDIT.json": "8deef31fdae0b362892ddb2a00606cc1c0eddb3b05f8a89f890cc16c7d4942b8",
+      "results/REPORT_STATUS.json": "6bba3b24c24087fccc228ce1c567621cb743116fbbb88568e7c3e1a92dc22519",
+      "results/REUSED_2025_OUTPUTS.json": "944d998bd0838c6a3309a78ef3098805db7614e5a6ca4ec995392bb659ef9588",
+      "results/output_manifest.csv": "14408b1d6fa5bc118768c6381f74d190032f30aa941e90cb5cf5c8dc5d9be23f",
+      "results/report_output_manifest.csv": "97580993b8ef9c2c7a04981703235b5f1c8c2791515bfc7edb49145145cd642a",
+      "audit/run_start.json": "8e8a6b879943fdf75418823a4ef95d901884bbfcf202f98380e08f8c26428acf",
+      "audit/run_end.json": "cd9f9e99242141c3cf5944f322537d83846f7215d1b08bf3e4d3adf08438453c",
+      "audit/software/environment.json": "a87a097f37413f3d02b356124230ee8af57f6a1def4882e1ee26b163e2911e56",
+      "audit/software/original_runtime_READY.json": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+      "ANALYSES_COMPLETE.txt": "57081ed63f47a91db35035c6d4dedbdbaa0809629d72cb690cc728fc77634be9",
+      "results/NRCS_validation_forecast_readiness_review.pdf": "63bec08f1497ae1b3b5556cf08a6020ce4a3e359dfbcc89ec5b3f846e430a8d4",
+      "audit/fold_self_checks.json": "cc9184c8f6f669c6c279d295a5ed4f8f39a6f37a9f24cddd946b826607080d6d",
+      "backtest.py": "da0c495f7a8b386f50b078186e45993b331c814712bf681f311d9c901b8ff026",
+      "baseline_core.py": "89b23025829e397fa4dff9352ac82c0dfe66d180b7c5a574bf72ad70ae01d716",
+      "stage_source.py": "b074ba5a68f67b2a458cd1a9803f5b97d69ffd2e740f01a0cd373bce37c8ac2b",
+      "render_report.py": "a84b959813cd4b6b068823b68ed1fd7609c100e3b4189188a673e99f8a65db2c",
+      "environment_check.py": "b3d528e1b302b94e635423b5529dc1cc0a36d25e8cc2002959e30923451de936",
+      "hpc_guard.py": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+      "common.py": "bbfeb71524fc553f4545556b3eca54a56373e20bad8c10c95ea8334510f98467",
+      "record_runtime.py": "7866ab4701bc587fb9b4b1078cebb1d01eae11818f0486b43d5ff6924d13c9e9"
+    },
+    "measured_inventory": {
+      "HPC_STATUS.json": "a7f7426288e1f088459d78a9643cb2800930b3312d1d40c6002d8e99d5cae2b3",
+      "audit/run_end.json": "e29a26f2032e364bc9eefdea84b04a7f77b76acf192a8fca0cb1d00c9bd53bc6",
+      "audit/sacct_analysis.tsv": "a869961d09dd61ef42bb58d6982b89f67dc6f90d996d40af4031b610fb11931c",
+      "ANALYSES_COMPLETE.txt": "24613d36ae1692a376842b7e734538c96ea26f551b8baa91abf07360652272da",
+      "CONFIG.json": "1ab5109bc6a71fe36ae1f2a5e302ea57ca21d97f76afdbea938c297f2ea655f1",
+      "PROTOCOL.txt": "e7151c14053bf63482a08cb6180ba9d0cda0667efe3cc5ead835495279ad2d8c",
+      "RESPONSE_TRACKS.json": "4dceeb220f75386cc330288e9b8dbda42d5c08df73529c5662e18e9ddc78ba80",
+      "PACKAGE_SHA256SUMS.txt": "165e892fde614debbeb495c141bcd7de9e42560ec298a6ec7d8e72e05bb29f59",
+      "audit/INVENTORY_SOURCE_PRESERVATION.json": "30d49632bef5ed837ab4fd2c3e4ab263473283c143db1ffa6613636b86a222a7",
+      "audit/report_layout_receipt.json": "b7314de194bc845a1d7e0f908f7476bd23f3c3535860e63b77053c94de239200",
+      "audit/SOURCE_STAGE_STATUS.json": "44ef50bb8dd759b6aeb54fc2f846cbd86e9d9b22378d6829a24c6542a6c91764",
+      "audit/inventory_self_checks.json": "aa5ed792aaf02a52780e457aa7c0df35c564bc02dc99f483bb5ebfaef5490d81",
+      "results/measurement_inventory.csv": "fbf08ff60e8a35172acf4188aabee2163e22eec57b6d1751f86fd3bd60f12aec",
+      "results/record_inventory.csv": "ca4b0835b7571a2c36deb844629911823c37f257e0ff53d857a0c958131e4c6f",
+      "results/support_inventory.csv": "3b29985ef54b85c6a2f3e8cc60fe4d3492f200c6cd90f233cc62fcb8b5aa17f3",
+      "results/track_availability.csv": "aa46c20db253997841f400aa5563c7a1d8aa7b3dd419966da5c26cdc5420e10d",
+      "results/INVENTORY_STATUS.json": "7ad798d362847d19bfbf13bc975d541a4cc5faae9abbdd3d25992d97c363f49a",
+      "results/INVENTORY_SCHEMA.json": "ef0b9d960767ee1d29ca00c7e4a64468905fdeb9a8b2219fc13ffb63db0b2d93",
+      "results/ENGINE_OUTPUT_MANIFEST.csv": "e57239ca466358187b55aaea17a4d54488a2075fb2d46fb28e3c90502bdd962a",
+      "results/REPORT_STATUS.json": "985cf1cae5fb4ae6353b691c7f4402d8a1a7e118efa57337db492774d954ad44",
+      "results/report_output_manifest.csv": "ecfb4d96c3b80212a6f508064bebd0b9f4db88d3bb5cd204869eda997b619d96",
+      "results/NRCS_measured_outcomes_inventory_review.pdf": "2b5beffb643315fbeba263504635e27f48facbc64d6bb36811dcd2fa19568bec",
+      "results/all_raw_measurements.csv": "13be26940f5f3b37be256da90472e5524afcafbb47379fde7967db9837670d77",
+      "results/confirmed_microbiome_joins.csv": "a6c8ea5453c2520315a8e0486c044ad49b76ba5f6c9770c243cb0bf69fb6b080",
+      "results/source_index_inventory.csv": "a66161fa4315d4df1385ef93749f03ab036cd4b529fcb755977647eb7b7e5966",
+      "results/transcription_reconciliation.csv": "966850d957004e22238eb9f37e87f1584884fcbe5c140d6616e0b86136786fc1"
+    }
+  },
+  "resources": {
+    "cpus": 1,
+    "memory": "5G",
+    "time": "01:00:00"
+  },
+  "scientific_scope": "Observed-period Whipstone Annual reported1:1soilpH trajectories and limited retrospective known-plot twofold simple-baseline point diagnostics only.",
+  "accepted_review_path": "review/ACCEPTED_RETURNED_REVIEW_24147988.json",
+  "accepted_review_sha256": "f71809e6b50c2c4d044f672e0b7249f58217dce07fcedbcb1ecd6fc5a6fabb15",
+  "review_locks": {
+    "review/MEASURED_METHOD_REVIEW.txt": "2393f88d949a3b1d1be589859894fff1e1fbcc8ce91afef254df74aea2995d62",
+    "review/ACCEPTED_RETURNED_REVIEW_24147988.json": "f71809e6b50c2c4d044f672e0b7249f58217dce07fcedbcb1ecd6fc5a6fabb15",
+    "review/ACCEPTED_RETURNED_REVIEW_24128032.json": "b94c4c22ed386f2ad5bfda906f6feca514922cb162e3a1ef54ae06f60996b946",
+    "review/INVENTORY_PROVENANCE_REVIEW.json": "c116c9b4f9456ef85bb82507e4106be8426efb7515d0ba205f0f1889962107e5",
+    "review/INVENTORY_SCIENTIFIC_REVIEW.txt": "2feadc3c3894d437471409b827f26ec1fe3de3f0ad78c531464fe14d23b8d429",
+    "review/INVENTORY_SCIENTIFIC_REVIEW.json": "d3fe02205c355530ba69ff4da884568b28c2622709002c7afb07808ab485f4e2",
+    "review/ACCEPTED_FEASIBILITY_REVIEW_24110649.json": "b609b849d3698c77a86b1aa94e99140e451beee30b707a9e0c8bc842a0429bf2",
+    "review/INVENTORY_VISUAL_REVIEW.txt": "09b0c41ea91f75f6d09d2192d7fce770630b3bf0e635d1ab9e66706717afc145",
+    "review/INVENTORY_PROVENANCE_REVIEW.txt": "0f9d95b4cfacec2fd83596c0d997c55293e9b79192a99a8634a795c1251cab75",
+    "review/INVENTORY_VISUAL_REVIEW.json": "58becd5e4141ea299c00de33b9503d97db648d3e87859482235dee69e27c681b",
+    "review/MEASURED_METHOD_REVIEW.json": "b3f347898efc8027a376a230fa638d8adc5371ddb56db32f78901d0a0fd14ebb",
+    "review/validation_review/VISUAL_REVIEW.txt": "1d70e840f87eeb6959da95a8208ff458ccac218c5cf501197dbc8bf7fb19b69c",
+    "review/validation_review/SCIENTIFIC_REVIEW.json": "5c9cf9c6fd1ad2d2c2bc7ca151eb0663530ff2c60e9b7bd9a589449a0067bc05",
+    "review/validation_review/FORECAST_SCOPE_REVIEW.txt": "f53fdb34e7889747ae62746006f4e38f40813517267d7ae5c50034ec33209608",
+    "review/validation_review/PROVENANCE_REVIEW.json": "0cfe1c2d09088daa265ec70f5e1bfcfb2f581b41898df70baad74c0f98ba017d",
+    "review/validation_review/VISUAL_REVIEW.json": "e4901bba4bf7774eb7a9923fb96d1148b5825c048fd6931c763c87f366ec37e0",
+    "review/validation_review/PROVENANCE_REVIEW.txt": "1b81da54bbc3fadd5202e8c347c86a8e9a0f07df5638aa7e895e48b8914a191d",
+    "review/validation_review/FORECAST_SCOPE_REVIEW.json": "51f28f98e47f2641e90f24d244ab0a1ee5fa9c8592495473106841d99a6ac93e",
+    "review/validation_review/SCIENTIFIC_REVIEW.txt": "3095249114addf988e5f3ebef30927c3f15f306577baf17092a6e92f5b96bc8e",
+    "review/inventory_review/REVIEW_EDITORIAL_CONTENT.txt": "0ecfc5e8c05ba3d1f1bcb11952fada14a10fd2bd85647cc297b3b5952a425f27",
+    "review/inventory_review/REVIEW_EDITORIAL_CONTENT.json": "5deda0270f85deffd1e2017114dc34aaac9357131fa9a3f4681347dde482a073",
+    "review/inventory_review/VISUAL_REVIEW.txt": "09b0c41ea91f75f6d09d2192d7fce770630b3bf0e635d1ab9e66706717afc145",
+    "review/inventory_review/SCIENTIFIC_REVIEW.json": "d3fe02205c355530ba69ff4da884568b28c2622709002c7afb07808ab485f4e2",
+    "review/inventory_review/PROVENANCE_REVIEW.json": "c116c9b4f9456ef85bb82507e4106be8426efb7515d0ba205f0f1889962107e5",
+    "review/inventory_review/VISUAL_REVIEW.json": "58becd5e4141ea299c00de33b9503d97db648d3e87859482235dee69e27c681b",
+    "review/inventory_review/PROVENANCE_REVIEW.txt": "0f9d95b4cfacec2fd83596c0d997c55293e9b79192a99a8634a795c1251cab75",
+    "review/inventory_review/SCIENTIFIC_REVIEW.txt": "2feadc3c3894d437471409b827f26ec1fe3de3f0ad78c531464fe14d23b8d429",
+    "review/source_reports/S22.pdf": "23173a6994ac68270fef0d6ec99c8a42ca2f95dc2be4311a8434e7b32b338b8e",
+    "review/source_reports/S33.pdf": "c00673ce8948a8d5a57a6287ea161a15292f63ddc21aa83254bd044df1dc6cf4",
+    "review/source_reports/S37.pdf": "7a4afd18e969a498a3f456d6e36d8d5ce9cb054290da612da17a884a7e684c2f",
+    "review/inventory_review/visual_reviews/part_4.txt": "39b4c723e405441117f15a851ed869604e0a7c61704ec2e0ecbd143d0be19301",
+    "review/inventory_review/visual_reviews/part_1.txt": "e2edbe54dc15ed315a5661b3fad4f882a0135aba326a9ed14097c8a9d9cd0449",
+    "review/inventory_review/visual_reviews/part_3.txt": "d808806fa1c1a44a4719f9b8c20de4b760badc670af45c0e3386b86a215fa0df",
+    "review/inventory_review/visual_reviews/part_4.json": "eeb93c020d89e9853885229a066b348c7ec7091024ecdd965aea09ad13dc8186",
+    "review/inventory_review/visual_reviews/part_2.json": "814bb159464cbf278e03f4b2656e18bc4759e13becf06d615848198b701f87b7",
+    "review/inventory_review/visual_reviews/part_2.txt": "cccb3ba6ff3f88c8af88b0c333ff39726bd69f8c7885a63b41cdbbb53945029e",
+    "review/inventory_review/visual_reviews/part_3.json": "86862c5bae38af8fe630c9e6b3b59f36539629c8bb400e14bcd2f997fe1c5f05",
+    "review/inventory_review/visual_reviews/part_1.json": "4b90bc2060d0934f66491fd760fa07c0913258f6c6eae7c4d6709e0b99546188",
+    "review/inventory_review/visual_qa/RASTER_INTEGRITY_REVIEW.json": "47e2e340ceeeaeb74d1f4e408441bb4220301c81f5bf4759d98bd297983cdce8",
+    "review/inventory_review/visual_qa/PDF_GEOMETRY_REVIEW.json": "e62bc39ce69a834e8ee622285af834db1b4e86411d6b1a13e5ce29dcca8720ed"
+  },
+  "validation_output_locks": {
+    "results/FORECAST_READINESS.json": "91d27d8d3cd1498ae003ee8f5aa75089059276219f95796402875b221e53b98b",
+    "results/RAW_COUNT_AUDIT.json": "8deef31fdae0b362892ddb2a00606cc1c0eddb3b05f8a89f890cc16c7d4942b8",
+    "results/REUSED_2025_OUTPUTS.json": "944d998bd0838c6a3309a78ef3098805db7614e5a6ca4ec995392bb659ef9588",
+    "results/cohort_support.csv": "facbbb53ca0e0ff3c3fd0e0c3c94975807ce9ccf98493f0d40b9b1aaa25b8896",
+    "results/forecast_requirements.csv": "f2c6a67255fc5052f20eff9c89b676422db638ab937be623fb56ef4346b3b67b",
+    "results/new_2024/baseline_support.csv": "d47597cff679bf0a9b8b82212ec712ade3f4f805f2e06548d2777beeee6a7a0e",
+    "results/new_2024/cohort_qc.csv": "4a9a4e42fa804a388e7d2b87db07c2ba7b0e00e5ff545f14a151bf31c39db52c",
+    "results/new_2024/cohort_support.csv": "915d382874f4c85f779dc6542c5706387f4f1889120641bb225b034cc83c846b",
+    "results/new_2024/paired_errors.csv": "915267723b2b29fa76325208e3b0954893bf6343c215c9b53240f0ca54a87556",
+    "results/new_2024/paired_performance.csv": "89fa859407dd69c9fac78398997ad997e4078198d5b338d9e7e735415ef1c6a5",
+    "results/new_2024/performance.csv": "ad4efaea79d0e087d062afd607f0c4d8e873d7811a17675f1917afd6fd0730e3",
+    "results/new_2024/plot_errors.csv": "15161b284e6ae51b8e0b135a673f42dc6281c465b9d0ce00e5c6f8e8e5a544c7",
+    "results/new_2024/prediction_freeze.json": "fe1e5a7ec2b590528860d9bb1de66d966ed1154070a64d2b5641cb91e70027e8",
+    "results/new_2024/predictions.csv": "f941b2344d9f4e9e07133b334ac6ac6c91c669588ce1bfe8886eb09745eb335e",
+    "results/new_2024/training_fits.json": "f48f639ee3a95d1ace5ce4fcbb6b97b3b537f196fa0cfc5def081e6c41acb138",
+    "results/new_2024/training_membership.csv": "3091262615c771499655e8951f4bb1640b940fd83c14b27dc7023e018801132e",
+    "results/new_2024/training_plot_means.csv": "8f92fa60929bb2a197e1f8d12337e4232b8e463aecb713ef10a358f51d840653",
+    "results/paired_errors.csv": "1b77c1bdde4a5d7f380fea1d959bc832cdb35a022e9c562c0e3ff32f9f96322f",
+    "results/paired_performance.csv": "5af4e5fd80029c4391a0a97de9514dfe33029cebba172f45b4b4ff8593446b91",
+    "results/performance.csv": "9b44ea588453e631bbda578cbba4be4cae2b4b313c40ea55910e5d9c08384e01",
+    "results/plot_errors.csv": "4a402dee78e583151d4e802b729e4b2d359e132fe31c5f46613d344f5e705b2d",
+    "results/response_count_verification.csv": "bf0a660bf4d68c0ebea34e9ed887a9c2b2746427f4c17d3602ddbbbc93037ba6",
+    "results/source_integrity_after_backtest.csv": "b3095acac46018021fb52d5655346b43e78aaf964fd596ea77de69600fbc7609",
+    "figures/bacteria_2024_observed_vs_baselines.pdf": "e00e30e9d6feacda2e24812bc002bbcc64bd0f3006075a28b19ac84196991a5c",
+    "figures/bacteria_2024_primary_absolute_errors.pdf": "877fb8fdc5c4373a4d7495ee27235a3755a283fecff9b506a9062364a56c70f8",
+    "figures/bacteria_2024_depth_sensitivity_absolute_errors.pdf": "640c44bf93d02c615b01bb82bb3150f069c17f9fd063f8f39e2b5d2b60584d38",
+    "figures/archaea_2024_observed_vs_baselines.pdf": "72eef184516160f60babe2a69070555354d4943fd1e30a733ce83a93e03c9c0f",
+    "figures/archaea_2024_primary_absolute_errors.pdf": "2f11ceb378a72a183914a6f2fb8ae24986a163d7b846fdb6eafceaec166311af",
+    "figures/archaea_2024_depth_sensitivity_absolute_errors.pdf": "bdd733758dafe576d77273f4161ce77cd0dd84d1b4c944e902cb90d6ac68985d",
+    "results/NRCS_validation_forecast_readiness_review.pdf": "63bec08f1497ae1b3b5556cf08a6020ce4a3e359dfbcc89ec5b3f846e430a8d4"
+  },
+  "method_review_path": "review/MEASURED_METHOD_REVIEW.json",
+  "source_report_paths": {
+    "S22": "review/source_reports/S22.pdf",
+    "S33": "review/source_reports/S33.pdf",
+    "S37": "review/source_reports/S37.pdf"
+  },
+  "ten_year_forecast_generated": false,
+  "numerical_ten_year_forecast": false,
+  "predictive_validation_established": false,
+  "scientific_review_pending": true,
+  "snapshot_layout": "source_snapshot/{alias}/{relative_path}",
+  "engine_entry_point": "analyze_ph.py",
+  "report_entry_point": "render_ph_report.py",
+  "self_checks_entry_point": "ph_self_checks.py",
+  "numerical_forecast_execution_in_this_stage": false,
+  "user_intent": {
+    "current_files_only": true,
+    "new_stage_authorized": true,
+    "authorization_date": "2026-10-07",
+    "authorization_basis": "User: Thanks Cody! Let us proceed. after accepted inventory and proposed measured-pH cohort/temporal-validation design.",
+    "predictive_validation_and_ten_year_work_previously_authorized": true,
+    "this_stage_scope": "Whipstone Annual reported soilpH observed trajectories and limited retrospective baseline pointdiagnostics; numerical tenyear forecasting unsupported."
+  },
+  "release_state": "PREPARED_NOT_SUBMITTED_PUMA_CHECKS_PENDING",
+  "runtime_expected_python": "3.11.4 (main, Jun 13 2024, 16:31:21) [GCC 13.2.0]",
+  "runtime_ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+  "baseline_point_diagnostics_authorized": true,
+  "reported_ph_arithmetic_training_baseline_authorized": true,
+  "prediction_units": "reported pH units",
+  "statistical_tests_authorized": false,
+  "confidence_or_prediction_intervals_authorized": false,
+  "response_spec_path": "RESPONSE_SPEC.json",
+  "output_contract_path": "OUTPUT_CONTRACT.json",
+  "stage_success_status": "MEASURED_PH_SOURCES_STAGED_VERIFIED",
+  "preparation_evidence": {
+    "models_fitted": false,
+    "measurement_values_aggregated": false,
+    "statistical_tests_performed": false,
+    "forecasts_generated": false,
+    "status": "PREPARED_NOT_SUBMITTED",
+    "scientific_fixtures_executed": false,
+    "new_scientific_results_available": false
+  },
+  "expected_completed_output_flags": {
+    "baseline_parameters_computed": true,
+    "baseline_models_fitted": true,
+    "baseline_predictions_computed": true,
+    "complex_models_fitted": false,
+    "predictive_validation_established": false,
+    "ten_year_forecast_generated": false
+  },
+  "source_measurement_values_modified": false,
+  "plot_event_measurement_response_aggregation_authorized": false,
+  "training_baseline_means_authorized": true,
+  "inventory_acceptance_note_links": {
+    "PROVENANCE_REVIEW.txt": {
+      "package_path": "review/inventory_review/PROVENANCE_REVIEW.txt",
+      "sha256": "0f9d95b4cfacec2fd83596c0d997c55293e9b79192a99a8634a795c1251cab75"
+    },
+    "PROVENANCE_REVIEW.json": {
+      "package_path": "review/inventory_review/PROVENANCE_REVIEW.json",
+      "sha256": "c116c9b4f9456ef85bb82507e4106be8426efb7515d0ba205f0f1889962107e5"
+    },
+    "SCIENTIFIC_REVIEW.txt": {
+      "package_path": "review/inventory_review/SCIENTIFIC_REVIEW.txt",
+      "sha256": "2feadc3c3894d437471409b827f26ec1fe3de3f0ad78c531464fe14d23b8d429"
+    },
+    "SCIENTIFIC_REVIEW.json": {
+      "package_path": "review/inventory_review/SCIENTIFIC_REVIEW.json",
+      "sha256": "d3fe02205c355530ba69ff4da884568b28c2622709002c7afb07808ab485f4e2"
+    },
+    "REVIEW_EDITORIAL_CONTENT.txt": {
+      "package_path": "review/inventory_review/REVIEW_EDITORIAL_CONTENT.txt",
+      "sha256": "0ecfc5e8c05ba3d1f1bcb11952fada14a10fd2bd85647cc297b3b5952a425f27"
+    },
+    "REVIEW_EDITORIAL_CONTENT.json": {
+      "package_path": "review/inventory_review/REVIEW_EDITORIAL_CONTENT.json",
+      "sha256": "5deda0270f85deffd1e2017114dc34aaac9357131fa9a3f4681347dde482a073"
+    },
+    "visual_reviews/part_1.txt": {
+      "package_path": "review/inventory_review/visual_reviews/part_1.txt",
+      "sha256": "e2edbe54dc15ed315a5661b3fad4f882a0135aba326a9ed14097c8a9d9cd0449"
+    },
+    "visual_reviews/part_1.json": {
+      "package_path": "review/inventory_review/visual_reviews/part_1.json",
+      "sha256": "4b90bc2060d0934f66491fd760fa07c0913258f6c6eae7c4d6709e0b99546188"
+    },
+    "visual_reviews/part_2.txt": {
+      "package_path": "review/inventory_review/visual_reviews/part_2.txt",
+      "sha256": "cccb3ba6ff3f88c8af88b0c333ff39726bd69f8c7885a63b41cdbbb53945029e"
+    },
+    "visual_reviews/part_2.json": {
+      "package_path": "review/inventory_review/visual_reviews/part_2.json",
+      "sha256": "814bb159464cbf278e03f4b2656e18bc4759e13becf06d615848198b701f87b7"
+    },
+    "visual_reviews/part_3.txt": {
+      "package_path": "review/inventory_review/visual_reviews/part_3.txt",
+      "sha256": "d808806fa1c1a44a4719f9b8c20de4b760badc670af45c0e3386b86a215fa0df"
+    },
+    "visual_reviews/part_3.json": {
+      "package_path": "review/inventory_review/visual_reviews/part_3.json",
+      "sha256": "86862c5bae38af8fe630c9e6b3b59f36539629c8bb400e14bcd2f997fe1c5f05"
+    },
+    "visual_reviews/part_4.txt": {
+      "package_path": "review/inventory_review/visual_reviews/part_4.txt",
+      "sha256": "39b4c723e405441117f15a851ed869604e0a7c61704ec2e0ecbd143d0be19301"
+    },
+    "visual_reviews/part_4.json": {
+      "package_path": "review/inventory_review/visual_reviews/part_4.json",
+      "sha256": "eeb93c020d89e9853885229a066b348c7ec7091024ecdd965aea09ad13dc8186"
+    },
+    "visual_qa/PDF_GEOMETRY_REVIEW.json": {
+      "package_path": "review/inventory_review/visual_qa/PDF_GEOMETRY_REVIEW.json",
+      "sha256": "e62bc39ce69a834e8ee622285af834db1b4e86411d6b1a13e5ce29dcca8720ed"
+    },
+    "visual_qa/RASTER_INTEGRITY_REVIEW.json": {
+      "package_path": "review/inventory_review/visual_qa/RASTER_INTEGRITY_REVIEW.json",
+      "sha256": "47e2e340ceeeaeb74d1f4e408441bb4220301c81f5bf4759d98bd297983cdce8"
+    },
+    "VISUAL_REVIEW.txt": {
+      "package_path": "review/inventory_review/VISUAL_REVIEW.txt",
+      "sha256": "09b0c41ea91f75f6d09d2192d7fce770630b3bf0e635d1ab9e66706717afc145"
+    },
+    "VISUAL_REVIEW.json": {
+      "package_path": "review/inventory_review/VISUAL_REVIEW.json",
+      "sha256": "58becd5e4141ea299c00de33b9503d97db648d3e87859482235dee69e27c681b"
+    }
+  },
+  "validation_acceptance_note_links": {
+    "PROVENANCE_REVIEW.json": {
+      "package_path": "review/validation_review/PROVENANCE_REVIEW.json",
+      "sha256": "0cfe1c2d09088daa265ec70f5e1bfcfb2f581b41898df70baad74c0f98ba017d"
+    },
+    "PROVENANCE_REVIEW.txt": {
+      "package_path": "review/validation_review/PROVENANCE_REVIEW.txt",
+      "sha256": "1b81da54bbc3fadd5202e8c347c86a8e9a0f07df5638aa7e895e48b8914a191d"
+    },
+    "SCIENTIFIC_REVIEW.json": {
+      "package_path": "review/validation_review/SCIENTIFIC_REVIEW.json",
+      "sha256": "5c9cf9c6fd1ad2d2c2bc7ca151eb0663530ff2c60e9b7bd9a589449a0067bc05"
+    },
+    "SCIENTIFIC_REVIEW.txt": {
+      "package_path": "review/validation_review/SCIENTIFIC_REVIEW.txt",
+      "sha256": "3095249114addf988e5f3ebef30927c3f15f306577baf17092a6e92f5b96bc8e"
+    },
+    "VISUAL_REVIEW.json": {
+      "package_path": "review/validation_review/VISUAL_REVIEW.json",
+      "sha256": "e4901bba4bf7774eb7a9923fb96d1148b5825c048fd6931c763c87f366ec37e0"
+    },
+    "VISUAL_REVIEW.txt": {
+      "package_path": "review/validation_review/VISUAL_REVIEW.txt",
+      "sha256": "1d70e840f87eeb6959da95a8208ff458ccac218c5cf501197dbc8bf7fb19b69c"
+    },
+    "FORECAST_SCOPE_REVIEW.json": {
+      "package_path": "review/validation_review/FORECAST_SCOPE_REVIEW.json",
+      "sha256": "51f28f98e47f2641e90f24d244ab0a1ee5fa9c8592495473106841d99a6ac93e"
+    },
+    "FORECAST_SCOPE_REVIEW.txt": {
+      "package_path": "review/validation_review/FORECAST_SCOPE_REVIEW.txt",
+      "sha256": "f53fdb34e7889747ae62746006f4e38f40813517267d7ae5c50034ec33209608"
+    }
+  },
+  "historical_validation_origin": {
+    "analysis_job_id": "24128032",
+    "cluster": "puma",
+    "node": "r7u09n1",
+    "scheduler_state": "COMPLETED",
+    "scheduler_exit_code": "0:0",
+    "pipeline_exit_code": 0,
+    "original_engine_job_id": "24124251",
+    "original_engine_whole_job_state": "FAILED",
+    "successful_report_repair_job_id": "24126557",
+    "collector_final_accounting_established": false
+  },
+  "engine_output_files": [
+    "results/eligible_observations.csv",
+    "results/observation_audit.csv",
+    "results/plot_changes.csv",
+    "results/cohort_support.csv",
+    "results/training_membership.csv",
+    "results/training_plot_means.csv",
+    "results/predictions.csv",
+    "results/plot_errors.csv",
+    "results/performance.csv",
+    "results/paired_errors.csv",
+    "results/paired_performance.csv",
+    "results/baseline_support.csv",
+    "results/fits.json",
+    "results/prediction_freeze.json",
+    "audit/PH_SOURCE_PRESERVATION.json",
+    "audit/ph_self_checks.json"
+  ]
+}

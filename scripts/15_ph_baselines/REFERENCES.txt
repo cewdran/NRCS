@@ -1,0 +1,67 @@
+Sources and limited methodological relevance
+Prepared 7 October 2026
+
+Primary NRCS source evidence
+
+1. Accepted measured-outcome inventory, Puma main job 24147988,
+   run_20261007T211023Z_5f89d0ab. Main recorded COMPLETED 0:0, pipeline 0;
+   collector 24147989 final accounting remains unestablished. Separate dated
+   root acceptance: review/ACCEPTED_RETURNED_REVIEW_24147988.json, SHA256
+   f71809e6b50c2c4d044f672e0b7249f58217dce07fcedbcb1ecd6fc5a6fabb15.
+   Scope: source-preserving inventory, not modeling or predictive validation.
+
+2. review/MEASURED_METHOD_REVIEW.txt, SHA256
+   2393f88d949a3b1d1be589859894fff1e1fbcc8ce91afef254df74aea2995d62;
+   JSON companion SHA256
+   b3f347898efc8027a376a230fa638d8adc5371ddb56db32f78901d0a0fd14ebb.
+   Source-backed method decisions at reported-definition level only, with
+   original cells/depth/unknowns retained and other tracks held as recorded.
+
+3. S33 Soil_12.2023.pdf, Ward invoice 1417910, Annual pages 1-12,
+   heading 1:1 Soil pH; literal depth 0-8 without a unit.
+   review/source_reports/S33.pdf, SHA256
+   c00673ce8948a8d5a57a6287ea161a15292f63ddc21aa83254bd044df1dc6cf4.
+
+4. S37 whipstone_2024.pdf, Ward invoice 1430399, Annual pages 1-12,
+   heading 1:1 Soil pH; literal depth 0-8 without a unit.
+   review/source_reports/S37.pdf, SHA256
+   7a4afd18e969a498a3f456d6e36d8d5ce9cb054290da612da17a884a7e684c2f.
+
+5. S22 Soil-Results-1506923.pdf, Ward invoice 1506923, Annual odd pages
+   1-23 only, heading Soil pH 1:1; literal depth 0-8 in. The selected Annual
+   pages do not report LOI organic matter or nitrate; organic carbon is distinct.
+   review/source_reports/S22.pdf, SHA256
+   23173a6994ac68270fef0d6ec99c8a42ca2f95dc2be4311a8434e7b32b338b8e.
+
+6. Accepted RESPONSE_TRACKS.json, SHA256
+   4dceeb220f75386cc330288e9b8dbda42d5c08df73529c5662e18e9ddc78ba80,
+   exact W_PH forms/record/PDF/lab/date/key/source roles. Accepted inventory
+   measurement table SHA256
+   fbf08ff60e8a35172acf4188aabee2163e22eec57b6d1751f86fd3bd60f12aec;
+   record table SHA256
+   ca4b0835b7571a2c36deb844629911823c37f257e0ff53d857a0c958131e4c6f.
+   The source spec is the provenance for this package's frozen response boundary;
+   no new identity, assay calibration or numerical response is inferred locally.
+
+Methodological background (primary literature verified by the root reviewer)
+
+7. Roberts, D. R. et al. (2017). Cross-validation strategies for data with
+   temporal, spatial, hierarchical, or phylogenetic structure. Ecography 40,
+   913-929. DOI: 10.1111/ecog.02881.
+   https://onlinelibrary.wiley.com/doi/full/10.1111/ecog.02881
+   Relevance: validation design should account for dependence and the intended
+   transfer question. This motivates maintaining plot identities and blocking
+   whole annual target rounds. It does not establish NRCS predictive skill,
+   specify a universal minimum visit count or validate the present baselines.
+
+8. Dietze, M. C. et al. (2018). Iterative near-term ecological forecasting:
+   Needs, opportunities, and challenges. PNAS 115(7), 1424-1432.
+   DOI: 10.1073/pnas.1710231115.
+   https://pmc.ncbi.nlm.nih.gov/articles/PMC5816139/
+   Relevance: background for iterative near-term forecast evaluation and
+   uncertainty. It does not provide a quantitative NRCS forecast criterion,
+   establish current-file external calibration or justify decadal estimates.
+
+No verbatim literature quotation is used. The existence-only known-plot support
+conditions and the two baseline definitions are explicit design choices, not
+literature-backed guarantees of power, validation or numerical ten-year readiness.

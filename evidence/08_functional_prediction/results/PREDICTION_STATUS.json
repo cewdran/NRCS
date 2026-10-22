@@ -1,0 +1,41 @@
+{
+  "execution": {
+    "job_id": "24067682",
+    "cluster": "puma",
+    "node": "r7u14n1",
+    "job_record": "JobId=24067682 JobName=nrcs_func UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:24 TimeLimit=2-00:00:00 TimeMin=N/A SubmitTime=2026-10-01T15:30:20 EligibleTime=2026-10-01T15:30:23 AccrueTime=2026-10-01T15:30:23 StartTime=2026-10-01T15:33:44 EndTime=2026-10-03T15:33:44 Deadline=N/A PreemptEligibleTime=2026-10-01T15:33:44 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-01T15:33:44 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:1120482 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u14n1 BatchHost=r7u14n1 NumNodes=1 NumCPUs=13 NumTasks=1 CPUs/Task=13 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=8,mem=40G,node=1,billing=8 AllocTRES=cpu=13,mem=65G,node=1,billing=13 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=13 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/RUN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2 StdErr=/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/logs/analysis.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/logs/analysis.log TresPerTask=cpu=13"
+  },
+  "domains": [
+    {
+      "domain": "bacteria",
+      "status": "PREDICTION_COMPLETED_REVIEW_REQUIRED",
+      "input_samples": 170,
+      "ASVs_input": 22411,
+      "ASVs_retained": 22410,
+      "samples_zero_represented_reads": 0,
+      "profile_feature_counts": {
+        "EC": 2979,
+        "KO": 8970,
+        "METACYC": 557
+      },
+      "reference_domain_discordant_ASVs": 0
+    },
+    {
+      "domain": "archaea",
+      "status": "PREDICTION_COMPLETED_REVIEW_REQUIRED",
+      "input_samples": 169,
+      "ASVs_input": 283,
+      "ASVs_retained": 283,
+      "samples_zero_represented_reads": 0,
+      "profile_feature_counts": {
+        "EC": 1609,
+        "KO": 3975,
+        "METACYC": 277
+      },
+      "reference_domain_discordant_ASVs": 10
+    }
+  ],
+  "interpretation": "Inferred genetic potential; not measured genes, expression, process rates or plant benefits.",
+  "contrast_tests_performed": false,
+  "forecast_performed": false
+}

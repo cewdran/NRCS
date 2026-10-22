@@ -1,0 +1,417 @@
+{
+  "schema_version": "1.0",
+  "package": "NRCS_Whipstone_pH_baselines_HPC_v1",
+  "prepared_date": "2026-10-07",
+  "interface_status": "FROZEN_PROSPECTIVE_EXECUTION_CONTRACT",
+  "engine_status_path": "audit/PH_ENGINE_STATUS.json",
+  "engine_success_status": "WHIPSTONE_PH_BASELINE_DIAGNOSTICS_COMPLETED_REVIEW_PENDING",
+  "engine_manifest_path": "audit/PH_ENGINE_OUTPUT_MANIFEST.csv",
+  "source_preservation_path": "audit/PH_SOURCE_PRESERVATION.json",
+  "engine_output_files": [
+    "results/eligible_observations.csv",
+    "results/observation_audit.csv",
+    "results/plot_changes.csv",
+    "results/cohort_support.csv",
+    "results/training_membership.csv",
+    "results/training_plot_means.csv",
+    "results/predictions.csv",
+    "results/plot_errors.csv",
+    "results/performance.csv",
+    "results/paired_errors.csv",
+    "results/paired_performance.csv",
+    "results/baseline_support.csv",
+    "results/fits.json",
+    "results/prediction_freeze.json",
+    "audit/PH_SOURCE_PRESERVATION.json",
+    "audit/ph_self_checks.json"
+  ],
+  "csv_schemas": {
+    "results/eligible_observations.csv": {
+      "required_columns": [
+        "observation_id",
+        "inventory_row_id",
+        "record_id",
+        "confirmed_sample_key",
+        "confirmed_physical_plot_id",
+        "treatment",
+        "collection_date",
+        "annual_round_id",
+        "reported_pH",
+        "unit",
+        "raw_variable",
+        "raw_method",
+        "reviewed_method",
+        "source_id",
+        "preferred_pdf_source_id",
+        "preferred_pdf_page",
+        "original_lab_id",
+        "source_field",
+        "depth_as_reported",
+        "pdf_depth_literal",
+        "field_depth_protocol",
+        "historical_assay_availability_status"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/observation_audit.csv": {
+      "required_columns": [
+        "audit_id",
+        "observation_id",
+        "record_id",
+        "expected_source_row",
+        "source_row_kind",
+        "confirmed_sample_key",
+        "confirmed_physical_plot_id",
+        "collection_date",
+        "annual_round_id",
+        "raw_value",
+        "raw_source_value",
+        "raw_text_value",
+        "raw_unit",
+        "raw_method",
+        "raw_qualifier",
+        "raw_reporting_limit",
+        "eligible",
+        "eligibility_status",
+        "eligibility_reason_codes",
+        "duplicate_or_conflict_status",
+        "source_id",
+        "preferred_pdf_source_id",
+        "preferred_pdf_page",
+        "original_lab_id",
+        "raw_measurement_json",
+        "raw_record_json"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/plot_changes.csv": {
+      "required_columns": [
+        "confirmed_physical_plot_id",
+        "from_observation_id",
+        "to_observation_id",
+        "from_date",
+        "to_date",
+        "from_annual_round_id",
+        "to_annual_round_id",
+        "from_reported_pH",
+        "to_reported_pH",
+        "observed_pH_change",
+        "change_kind"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/cohort_support.csv": {
+      "required_columns": [
+        "fold_id",
+        "training_round_ids",
+        "target_round_id",
+        "cutoff_date",
+        "training_actual_dates",
+        "target_actual_dates",
+        "n_training_observations",
+        "n_training_plots",
+        "n_declared_target_records",
+        "n_target_eligible_plots",
+        "n_target_known_plots",
+        "n_scored_persistence",
+        "n_scored_equal_plot_training_mean",
+        "n_common_paired_plots",
+        "status",
+        "reason"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/training_membership.csv": {
+      "required_columns": [
+        "fold_id",
+        "target_round_id",
+        "cutoff_date",
+        "observation_id",
+        "record_id",
+        "confirmed_physical_plot_id",
+        "collection_date",
+        "annual_round_id",
+        "reported_pH",
+        "future_target_eligibility_used"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/training_plot_means.csv": {
+      "required_columns": [
+        "fold_id",
+        "confirmed_physical_plot_id",
+        "n_training_observations",
+        "training_dates",
+        "arithmetic_temporal_mean_pH",
+        "latest_training_date",
+        "latest_training_pH",
+        "latest_observation_id",
+        "equal_plot_weight"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/predictions.csv": {
+      "required_columns": [
+        "fold_id",
+        "target_round_id",
+        "cutoff_date",
+        "confirmed_physical_plot_id",
+        "method",
+        "predicted_pH",
+        "n_training_observations_for_plot",
+        "training_plot_mean_pH",
+        "latest_training_date",
+        "baseline_status",
+        "skip_reason"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/plot_errors.csv": {
+      "required_columns": [
+        "fold_id",
+        "target_round_id",
+        "method",
+        "target_record_id",
+        "target_observation_id",
+        "confirmed_physical_plot_id",
+        "collection_date",
+        "target_eligible",
+        "known_training_plot",
+        "prediction_available",
+        "reported_pH",
+        "predicted_pH",
+        "signed_error",
+        "absolute_error",
+        "squared_error",
+        "scored",
+        "status",
+        "reason_codes"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/performance.csv": {
+      "required_columns": [
+        "fold_id",
+        "target_round_id",
+        "method",
+        "n_scored_plots",
+        "MAE",
+        "RMSE",
+        "status",
+        "reason",
+        "evaluation_scope",
+        "folds_independent"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/paired_errors.csv": {
+      "required_columns": [
+        "fold_id",
+        "target_round_id",
+        "confirmed_physical_plot_id",
+        "target_record_id",
+        "target_observation_id",
+        "collection_date",
+        "reported_pH",
+        "persistence_prediction",
+        "persistence_signed_error",
+        "persistence_absolute_error",
+        "persistence_squared_error",
+        "equal_plot_training_mean_prediction",
+        "equal_plot_training_mean_signed_error",
+        "equal_plot_training_mean_absolute_error",
+        "equal_plot_training_mean_squared_error",
+        "common_eligible"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/paired_performance.csv": {
+      "required_columns": [
+        "fold_id",
+        "target_round_id",
+        "method",
+        "n_common_plots",
+        "MAE",
+        "RMSE",
+        "status",
+        "reason",
+        "pairing_scope"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    },
+    "results/baseline_support.csv": {
+      "required_columns": [
+        "fold_id",
+        "method",
+        "n_training_observations",
+        "n_training_plots",
+        "support_gate_status",
+        "known_training_plot_required",
+        "minimum_prior_observations_for_plot",
+        "minimum_training_plots",
+        "power_or_validation_established",
+        "reason"
+      ],
+      "additional_source_provenance_columns_allowed": true,
+      "empty_table_retains_header": true
+    }
+  },
+  "json_schemas": {
+    "results/fits.json": {
+      "required_keys": [
+        "status",
+        "folds",
+        "methods",
+        "reported_scale",
+        "future_target_membership_or_value_used_for_training"
+      ],
+      "semantics": "Each fold contains exact cutoff/rounds, all training observation and plot identities, persistence latest-record parameters and equal-plot training mean with its full per-plot basis. Training parameter computation only; source measurements remain unmodified."
+    },
+    "results/prediction_freeze.json": {
+      "required_keys": [
+        "status",
+        "frozen_utc",
+        "execution",
+        "folds",
+        "training_files",
+        "predictions_sha256",
+        "fits_sha256",
+        "freeze_before_any_target_scoring",
+        "target_outcome_used_for_training",
+        "retrospective_execution_order_only",
+        "source_outcomes_previously_viewed"
+      ],
+      "semantics": "Administrative byte freeze of fits/training membership/plot means/predictions before any target scoring, including both 2024 dates. Not historical registration or untouched validation."
+    },
+    "audit/PH_SOURCE_PRESERVATION.json": {
+      "required_keys": [
+        "status",
+        "execution",
+        "source_integrity_passed",
+        "source_files_verified_unchanged",
+        "source_measurement_values_modified"
+      ],
+      "semantics": "Source/review/accepted-inventory pins verified before and after engine read; original raw rows/values and prior receipts untouched."
+    },
+    "audit/ph_self_checks.json": {
+      "required_keys": [
+        "status",
+        "passed",
+        "checks",
+        "execution"
+      ],
+      "semantics": "Recorded passed synthetic scientific fixture receipt from genuine Puma, no real scientific source data read by fixtures; exact bytes included in engine manifest."
+    }
+  },
+  "manifest_columns": [
+    "relative_path",
+    "sha256",
+    "size_bytes"
+  ],
+  "manifest_rule": "Exact declared engine_output_files set; no symlinks, duplicates, unlisted files, parent traversal or absolute paths. Manifest and engine status exclude themselves to avoid circular hashes.",
+  "engine_status_required_keys": [
+    "status",
+    "execution",
+    "engine_output_manifest_sha256",
+    "source_preservation_sha256",
+    "response_spec_sha256",
+    "output_contract_sha256",
+    "models_fitted",
+    "baseline_models_fitted",
+    "baseline_parameters_computed",
+    "baseline_predictions_computed",
+    "complex_models_fitted",
+    "statistical_tests_run",
+    "confidence_or_prediction_intervals_generated",
+    "source_measurement_values_modified",
+    "plot_event_measurement_response_aggregation_performed",
+    "training_baseline_means_computed",
+    "predictive_validation_established",
+    "ten_year_forecast_generated",
+    "numerical_forecasts_generated",
+    "scientific_review_pending",
+    "visual_review_pending"
+  ],
+  "successful_flags": {
+    "models_fitted": true,
+    "baseline_models_fitted": true,
+    "baseline_parameters_computed": true,
+    "baseline_predictions_computed": true,
+    "complex_models_fitted": false,
+    "statistical_tests_run": false,
+    "confidence_or_prediction_intervals_generated": false,
+    "source_measurement_values_modified": false,
+    "plot_event_measurement_response_aggregation_performed": false,
+    "training_baseline_means_computed": true,
+    "predictive_validation_established": false,
+    "ten_year_forecast_generated": false,
+    "numerical_forecasts_generated": false,
+    "scientific_review_pending": true,
+    "visual_review_pending": true
+  },
+  "self_check_receipt_path": "audit/ph_self_checks.json",
+  "self_check_rule": "Genuine Puma synthetic scientific fixtures only; passed receipt before engine, exact receipt bytes included in engine output manifest and verified by collector.",
+  "observation_id_rule": "In eligible_observations.csv, observation_id equals the existing authoritative WB inventory_row_id, with no constructed aliases. Full observation_audit.csv may preserve existing non-WB inventory IDs as audit provenance labels only; they are not field-response identities or observations. A missing expected source row has an audit ID and blank observation_id, never an invented measurement.",
+  "csv_null_rule": "Empty numeric metrics/values mean missing or not estimated, never zero. JSON null preserved within archived source JSON; original raw method null is not relabeled.",
+  "numeric_error_definition": "predicted_pH minus reported_pH; absolute_error=abs(signed_error); squared_error=signed_error squared, computed only on Puma.",
+  "performance_rule": "One declared target actual event per known physical plot; MAE/RMSE separately per fold/method and exactly common paired set. n=0 metrics empty/status NOT_ESTIMATED. Never pool folds or choose a winner.",
+  "full_target_ledger_rule": "plot_errors contains both fixed methods for every declared target record, including held/missing source values and cold starts. predictions contains all eligible training plots for both methods independently of future target eligibility/value.",
+  "report_status_path": "results/REPORT_STATUS.json",
+  "report_success_status": "WHIPSTONE_PH_BASELINES_REPORT_COMPLETED_REVIEW_PENDING",
+  "report_manifest_path": "results/report_output_manifest.csv",
+  "report_output_files": [
+    "results/NRCS_Whipstone_pH_baselines_review.pdf",
+    "audit/report_layout_receipt.json",
+    "figures/whipstone_annual_ph_observed_trajectories.pdf",
+    "figures/whipstone_annual_ph_2024_observed_vs_baselines.pdf",
+    "figures/whipstone_annual_ph_2025_observed_vs_baselines.pdf",
+    "figures/whipstone_annual_ph_2024_absolute_errors.pdf",
+    "figures/whipstone_annual_ph_2025_absolute_errors.pdf"
+  ],
+  "report_rule": "Display and plot saved engine values only. No new eligibility, aggregation, fitting, rescoring or metric computation in renderer. Preserve all discrete fields/source strings in report tables or explicitly linked source companion files. Fixed table wrapping/pagination must fail closed on clipping or overlap.",
+  "report_required_flags": {
+    "models_fitted": true,
+    "baseline_models_fitted": true,
+    "baseline_parameters_computed": true,
+    "baseline_predictions_computed": true,
+    "complex_models_fitted": false,
+    "statistical_tests_run": false,
+    "confidence_or_prediction_intervals_generated": false,
+    "source_measurement_values_modified": false,
+    "plot_event_measurement_response_aggregation_performed": false,
+    "training_baseline_means_computed": true,
+    "predictive_validation_established": false,
+    "ten_year_forecast_generated": false,
+    "numerical_forecasts_generated": false,
+    "scientific_review_pending": true,
+    "visual_review_pending": true
+  },
+  "completion_sentinel_path": "ANALYSES_COMPLETE.txt",
+  "completion_sentinel_lines": [
+    "WHIPSTONE_PH_BASELINES_AND_REPORT_COMPLETED on Puma job {current_main_job_id}; scientific and visual review pending.",
+    "REPORT_STATUS_SHA256={report_status_sha256}"
+  ],
+  "success_requires": "Actual current Puma compute guards, pinned source/runtime/schema integrity, passed scientific fixtures, completed engine exact manifest/status, completed report exact seven-file manifest/layout/status, two-line sentinel, main accounting COMPLETED 0:0 and pipeline 0.",
+  "collector_limits": "Collector state captured while it runs is not final accounting. Never imply collector final COMPLETED without later accounting evidence. Failures, missing evidence and review pending remain explicit.",
+  "prepared_state_is_not_execution": "PREPARED_NOT_SUBMITTED and static review do not establish scientific fixture, support, baseline, report or forecast success.",
+  "audit_taxonomy": {
+    "selected_response_codes_source": "RESPONSE_SPEC.json#/reason_codes",
+    "audit_only_dispositions": [
+      "OUTSIDE_FROZEN_WH_ANNUAL_PH_SCOPE",
+      "AUDIT_TRANSCRIPTION_COPY_ONLY"
+    ],
+    "audit_column_projection": "Audit-only dispositions may appear in observation_audit.csv eligibility_status and eligibility_reason_codes without constituting selected-response eligibility decisions. They have eligible=False, expected_source_row=False, no reported_pH response, and never enter observations, changes, training, scoring or support as field responses.",
+    "outside_scope_rule": "Outside-panel source rows are copied as immutable evidence only; no new value/identity/duplicate eligibility analysis outside W_PH is authorized."
+  }
+}

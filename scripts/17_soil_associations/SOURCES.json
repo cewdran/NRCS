@@ -1,0 +1,130 @@
+{
+  "corrected_source_status": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/HPC_STATUS.json",
+    "sha256": "ee3434a9e6ed7bb1c5f2233e03ed44e5c76baf8c85229e19cc80b14ca0539914",
+    "bytes": 2100,
+    "expected_job_id": "24067160"
+  },
+  "corrected_workbook": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/workbook_data.json",
+    "sha256": "80c4e33f4a859115cdf50c58b0c8a1e215487366e63cd83cc25ab101ff4cd4d4",
+    "bytes": 4033525
+  },
+  "corrected_counts_bacteria": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/bacteria_counts.tsv.gz",
+    "sha256": "c69a2197857a65e525b09edb1e6ab8bd8fe910d5e42067dfd0be282b78337deb",
+    "bytes": 343150
+  },
+  "corrected_counts_archaea": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/inputs/archaea_counts.tsv.gz",
+    "sha256": "5bea33176792ae944f913abf0138159d918b53e30f66fb3cc77b3eec4f88995d",
+    "bytes": 13635
+  },
+  "selected_observations": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/tables/analysis_observations.csv",
+    "sha256": "6dc530b9715979691b62137b2e9f80c83135e339ce41911d75bda426379bd1df",
+    "bytes": 683695
+  },
+  "record_disposition": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/payload/tables/record_disposition.csv",
+    "sha256": "e0ae3262061f710367916c394e908342223967414939a65468ad33fd24946aa5",
+    "bytes": 41218
+  },
+  "taxonomy_bacteria": {
+    "path": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/dada2/bacteria/taxonomy.tsv",
+    "sha256": "ec2b506cd7ecc78cc3152c6d88fb63da26e84c3a126f29a7e0fd578de2c7e300",
+    "bytes": 2031668
+  },
+  "taxonomy_archaea": {
+    "path": "/xdisk/dinusha1/dinusha1/soil_microb/16s_analyses/NRCS/NRCS_16S_results/run_20260914T201432Z_3761495/dada2/archaea/taxonomy.tsv",
+    "sha256": "0d9f4bb14475e603aee81e5d373d22cb02ff358c76e28f4359d98027d9a1cab8",
+    "bytes": 1798033
+  },
+  "functional_metadata_bacteria": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/validated/bacteria/sample_metadata.csv",
+    "sha256": "b33705cf88732dfa339cf398c6b1ce34ea05c56e568a47323978eb763dc30f8a",
+    "bytes": 95728
+  },
+  "functional_qc_bacteria": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/results/bacteria/sample_prediction_QC.csv",
+    "sha256": "d8aacf3d83d21e2bd34de24441e80cfec5aaa55f26f3a011b2117993c901abe2",
+    "bytes": 58514
+  },
+  "functional_bacteria_EC": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/results/bacteria/EC_predicted_abundance.tsv.gz",
+    "sha256": "57bd11a4eece0cee3747afd091dd6c467fd878f690e3a21089a63d6a89d4b1aa",
+    "bytes": 1388117
+  },
+  "functional_bacteria_KO": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/results/bacteria/KO_predicted_abundance.tsv.gz",
+    "sha256": "4e9ff08777d0b9a9a8a9447392bdb6b233016a034e0827e2fc7dfe07e19ffe17",
+    "bytes": 3759942
+  },
+  "functional_bacteria_METACYC": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/results/bacteria/METACYC_predicted_abundance.tsv.gz",
+    "sha256": "d2bde1aa14441bf09a3192ae6794a550dc5771508440911f4d49b2b65ee385f6",
+    "bytes": 722765
+  },
+  "functional_metadata_archaea": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/validated/archaea/sample_metadata.csv",
+    "sha256": "543839fe7b451c9827eeedec87eef9316831098f8105ab8db348caee888893d6",
+    "bytes": 94631
+  },
+  "functional_qc_archaea": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/results/archaea/sample_prediction_QC.csv",
+    "sha256": "f3f793aed77a28c21bb0b33f71aa477f01361b9881b93a9916a9e117c18fdef9",
+    "bytes": 55051
+  },
+  "functional_archaea_EC": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/results/archaea/EC_predicted_abundance.tsv.gz",
+    "sha256": "4c273b12d0a2f36b9f6a6af02455eae6cce7b666041a45c2c7815eeb77ca13f6",
+    "bytes": 145976
+  },
+  "functional_archaea_KO": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/results/archaea/KO_predicted_abundance.tsv.gz",
+    "sha256": "cac832de8ce4c1a368332e213a19187436005f3c1bf49747b02a1b341d1b14c5",
+    "bytes": 295723
+  },
+  "functional_archaea_METACYC": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/results/archaea/METACYC_predicted_abundance.tsv.gz",
+    "sha256": "45445b257d055505d5a802146c70f2b0be09b178e627c748f8b81fe2ad0ffc61",
+    "bytes": 94881
+  },
+  "sensitivity_source_status": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b/HPC_STATUS.json",
+    "sha256": "e881caa1dd1157913c58e2f6c38a45ba0264d670180779033958c423f44ededc",
+    "bytes": 2253,
+    "expected_job_id": "24073133"
+  },
+  "sensitivity_pipeline_status": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b/results/SENSITIVITY_STATUS.json",
+    "sha256": "bd3a709cc5ac7cf9ee825997ffc7d9773ec8298b4638fcb20fcf1c1eb10ccc4f",
+    "bytes": 2364
+  },
+  "archaeal_sensitivity_qc": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b/results/sample_sensitivity.csv",
+    "sha256": "b3c35e2a1ed5bda630ef33d4d7b5f77fa38585682993319fa7a8613e4c25cc3f",
+    "bytes": 94843
+  },
+  "archaeal_filtered_EC": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b/results/domain_concordant_EC.tsv.gz",
+    "sha256": "572cd046417c68a9b633b89123e30d48450c2ff8893dc545d42344806112d9ff",
+    "bytes": 122738
+  },
+  "archaeal_filtered_KO": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b/results/domain_concordant_KO.tsv.gz",
+    "sha256": "7a31e50fe2260a376fafeb49128aa5258d01ea1d27278f7c3fba43eb8df6f4ac",
+    "bytes": 235668
+  },
+  "archaeal_filtered_METACYC": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_sensitivity_HPC_v1/runs/run_20261002T170420Z_3b75a43b/results/domain_concordant_METACYC.tsv.gz",
+    "sha256": "8698767d0405515a32f0fba28a4664fa5016c16ad73619d860a89b4e39374f0e",
+    "bytes": 78426
+  },
+  "functional_source_status": {
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/HPC_STATUS.json",
+    "sha256": "979ee1d50e61c7a0ec06bafd7455974db37e0b86bb749379e88b5e2f808d83d9",
+    "bytes": 2153,
+    "expected_job_id": "24067682"
+  }
+}

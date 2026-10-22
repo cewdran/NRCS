@@ -1,0 +1,45 @@
+{
+  "audit_revision": "v2_catalog_hold_membership_and_missing_method_labels",
+  "automatic_forecast_authorization": false,
+  "completed_utc": "2026-10-05T22:56:25.986726+00:00",
+  "corrected_outcome_groups": 412,
+  "correction_scope": [
+    "Authoritative immutable held-record membership with noninserting catalog lookups",
+    "Explicit missing method text is unknown/held; literal source method text preserved",
+    "Existing measured plot/split counts labeled when provisional recorded identities are included; no identity inference"
+  ],
+  "eligibility_review_pending": true,
+  "execution": {
+    "cluster": "puma",
+    "job_id": "24110649",
+    "job_record": "JobId=24110649 JobName=nrcs_10y_audit UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:06 TimeLimit=01:00:00 TimeMin=N/A SubmitTime=2026-10-05T15:51:36 EligibleTime=2026-10-05T15:51:36 AccrueTime=2026-10-05T15:51:36 StartTime=2026-10-05T15:56:18 EndTime=2026-10-05T16:56:18 Deadline=N/A PreemptEligibleTime=2026-10-05T15:56:18 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-05T15:56:18 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:708060 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u12n2 BatchHost=r7u12n2 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=1,mem=5G,node=1,billing=1 AllocTRES=cpu=1,mem=5G,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_ten_year_feasibility_HPC_v2/runs/run_20261005T225135Z_2460a868/RUN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_ten_year_feasibility_HPC_v2/runs/run_20261005T225135Z_2460a868 StdErr=/xdisk/dinusha1/dinusha1/NRCS_ten_year_feasibility_HPC_v2/runs/run_20261005T225135Z_2460a868/logs/analysis.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_ten_year_feasibility_HPC_v2/runs/run_20261005T225135Z_2460a868/logs/analysis.log TresPerTask=cpu=1",
+    "node": "r7u12n2"
+  },
+  "external_calibration_status": "EXTERNAL_CALIBRATION_NOT_ESTABLISHED",
+  "forecasts_generated": false,
+  "limits": [
+    "Counts and candidate time splits do not authorize model fitting or a numerical forecast.",
+    "A recorded exact event date is not automatically an independently confirmed field collection.",
+    "Unknown methods and units are not pooled or converted; laboratory dates do not establish collection dates.",
+    "Merged libraries, held records, composites, references, separate fields and crop systems retain source identities.",
+    "PICRUSt predictions describe relative functional potential, not measured activity or process rates.",
+    "NIFA/NRCS sample reuse and independent evidence remain unresolved."
+  ],
+  "models_fitted": false,
+  "near_term_validation_status": "VALIDATION_NOT_ESTABLISHED",
+  "numerical_models_fitted": false,
+  "pinned_source_files": 30,
+  "scientific_scope": "Descriptive temporal, assay, identity and candidate validation-design audit only",
+  "selection_policy": "Prespecified source panel and all corrected recorded outcome variables; no p-value selection",
+  "source_files_changed": false,
+  "source_files_verified_unchanged_after_audit": true,
+  "source_integrity_passed": true,
+  "source_jobs": {
+    "comparisons": "24074507",
+    "corrected": "24067160",
+    "functional": "24067682"
+  },
+  "statistical_tests_run": false,
+  "status": "FEASIBILITY_AUDIT_COMPLETED_REVIEW_PENDING",
+  "ten_year_forecast_generated": false
+}

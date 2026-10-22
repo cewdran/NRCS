@@ -1,0 +1,181 @@
+NRCS TREATMENT AND TIME FOLLOW-UP
+Frozen exploratory protocol, version 1, 16 October 2026
+
+1. Scope and selection history
+This follow-up was requested after reviewing earlier NRCS results. It is not
+preregistered confirmation of the existing findings. Four bacterial systems
+are retained separately: Oatman 2023–2024 field, Petite Sirah, Whipstone Annual,
+and Whipstone Chester blackberry. The full original targeted panel, rather than
+only previously supported features, enters the new scalar tests: ten EC
+functions and four MetaCyc pathways. Full EC, KO and MetaCyc profiles enter
+separate multivariate tests. Soil questions are restricted to three Oatman
+endpoints and two Grenache endpoints identified in the presentation discussion.
+No new association-wide search, farm pooling or numerical forecast is fitted.
+
+2. Source provenance and biological units
+SOURCE_MANIFEST.json fixes twelve files from successful jobs 24067160,
+24067682 and 24074507. Check original bytes, copy into a private compute-run
+snapshot, make those copies read-only, and recheck original/private bytes.
+Keep technical merges and exact source library/physical plot identities.
+Observed visits are repeated measurements, never independent plot replicates.
+Do not infer shared spatial blocks from replicate labels such as R1/R2.
+Field randomization and spatial independence have not been established.
+
+3. Functional fixed-date cohorts
+Use the previously fixed common endpoints, not each plot's available first
+and last observation:
+  Oatman:       2023-11-20 and 2024-12-06
+  Petite Sirah: 2023-10-20 and 2025-10-10
+  Annual:       2023-11-16 and 2025-08-17
+  Chester:      2023-11-16 and 2025-08-17
+Only exact physical plots observed at both endpoints, with stable treatment,
+the existing primary flag, and a nonzero full profile enter the primary paired
+cohort. The existing depth-sensitivity flag defines the secondary cohort at
+BOTH endpoints. Preserve all declared arms. Require at least two independent
+pairs in every declared arm and at least twenty distinct label allocations.
+An absent or singleton arm makes the all-arm test untestable. Do not rescue
+it by removing the arm. Retain observed trajectories and explain the gate.
+Keep all matched source rows and all exclusions in audit tables.
+
+4. Scalar functional responses
+Reuse the saved per-sample relative abundance normalized within its complete
+original EC or MetaCyc profile. For each of the fourteen planned functions,
+response = late minus early relative abundance for each matched plot. An
+absent feature identifier (in_original_table=False) is missing for inference,
+not an observed structural-zero feature. Hold that planned test as untestable.
+Report matched early/late means, mean changes, ranges and independent counts
+by treatment. A label-permutation omnibus tests whether mean changes differ
+among the declared treatment groups. It is not a test of the pooled temporal
+change already reported, nor proof that a particular treatment differs from
+another. No pairwise treatment-change claim follows from the omnibus alone.
+
+5. Full functional profile responses
+Normalize within each complete EC, KO or MetaCyc matrix, then take square
+roots (Hellinger coordinates). For each matched plot, form the full coordinate
+vector late minus early. Validate complete-profile sums, sample identities,
+eligibility and reproduction of the saved targeted relative abundances on Puma.
+Do not use a selected-feature normalization or an ordination-axis shortcut.
+The omnibus response is the complete Hellinger change vector. Its null concerns
+the distribution of those vectors across treatment labels; the statistic
+measures separation of group mean vectors in both direction and magnitude.
+Report the norm of each group's mean change vector separately from its mean
+individual Hellinger and Bray–Curtis turnover distances. Those quantities answer
+different questions and must never be substituted for one another. Retain
+group dispersion context and avoid a pure location interpretation if spread
+or imbalance could contribute to the omnibus association.
+
+6. Soil repeated-plot panels
+Use corrected soil observations, not microbiome eligibility. Retain the valid
+June 2024 Oatman sheep-East soil-only record. Exact fixed panels are declared
+in CONFIG, with nine Oatman plots across November 2023, June 2024 and December
+2024, and eight Grenache plots across October 2023 and August 2024. Additional
+baseline plots and the two November 2024 Grenache observations remain
+descriptive and must not be relabelled as August observations. A missing,
+duplicate, censored, nonfinite, unit-mismatched or treatment-inconsistent fixed
+panel record makes its planned full-panel test untestable; do not silently
+substitute a smaller panel. Preserve all observations and reasons in audits.
+
+Two separate estimands per endpoint:
+  A. Average level: each plot's mean across its fixed dates, in reported units.
+     Compare these independent plot averages across treatment groups. This
+     evaluates separation over the observed visits and can include pre-existing
+     baseline differences. Balanced fixed dates give each visit equal weight.
+  B. Temporal change: a vector of each later visit minus the fixed baseline
+     value for each plot. Compare the complete change vectors across groups.
+     For Grenache this is one late-minus-early coordinate. This is a categorical
+     treatment-by-date pattern question, not a fitted linear annual trend.
+Baseline here means the first observed study visit. It does not imply a
+confirmed measurement before treatment began.
+Never shuffle visits within a plot or pool soil visits as independent samples.
+A non-rejection of B neither proves equal trajectories nor establishes that
+an earlier treatment difference persisted. Interpret A and B separately.
+
+7. Soil assay scope
+Oatman endpoints preserve exact reported 1:1 pH, H3A/ICAP sodium (ppm Na) and
+sulfur (ppm S). The pH definition is source-reviewed. Na and S retain their
+reported method label and unit, without asserting a new calibration review.
+Grenache Olsen P explicitly shares its reported method and ppm P unit.
+Total N shares its report heading and ppm N unit, but the method is not
+specified in either report. Its as-reported comparison is explicitly
+conditional on assay comparability. Do not claim validated assay equivalence.
+
+8. Omnibus statistic and label allocations
+Each input has one independent row per physical plot. Center response columns,
+form the plot-by-plot Gram matrix, and compute the between-group centroid sum
+of squares. Statistic R2 = between-group SS / total centered SS. At fixed
+response, group sizes and dimension this orders allocations identically to
+the corresponding between/within pseudo-F. P-values come only from label
+allocations, not from a parametric F distribution. Constant or invalid
+responses are explicit untestable rows. SS roundoff guards are scale-aware.
+
+Permute treatment labels across whole plot responses, preserving every arm's
+count and every plot's paired measurements or temporal vector. No unverified
+spatial restriction is invented. Exact enumeration includes every distinct
+multiset allocation when the space is at most 5000. Otherwise use 19999 seeded
+with-replacement allocations with p = (1 + at-least-observed count) / 20000.
+Exact p is its at-least-observed count divided by all allocations. Include
+ties with the documented scale-aware equality tolerance. Report the number
+of allocations, actual tail count, mode and seed. Label symmetries can make
+the attainable minimum p coarser than the nominal allocation probability grid.
+Canonical plot order and cohort/arm inventory bind the seed schedule.
+Functional endpoints with the same cohort use a common schedule derived from
+base seed 20261016. Soil seeds hash the frozen endpoint, estimand and design.
+Changing a depth cohort changes its schedule and is recorded, rather than
+being treated as the same population.
+
+Inference is conditional on whole-plot label exchangeability under the null.
+Permutation does not establish randomization, independence, identical dispersion
+or causal treatment effects. Small, imbalanced field groups warrant cautious
+association language. More permutations cannot create more independent plots.
+
+9. Planned multiplicity and completeness
+Return 146 unique planned test rows:
+  56 scalar tests in the primary functional scope
+  56 scalar tests in the existing depth-sensitivity scope
+  12 profile tests in the primary functional scope
+  12 profile tests in the existing depth-sensitivity scope
+  10 soil tests in the soil_primary scope
+Apply Holm separately within EACH of these five complete families. Missing
+planned tests enter adjustment as p=1 while retaining missing displayed p/q.
+Do not omit a failed or untestable feature to improve the correction. Report
+family size, tested count, skipped count, raw p and adjusted p for every row.
+This is a family-wise guarantee per listed family, not a guarantee across all
+NRCS work or proof that a selected earlier finding has been independently
+replicated. The depth scope is secondary; do not select its more favorable p.
+
+10. Outputs and interpretation
+Workers expose all planned tests, individual observations, treatment summaries
+and exact cohort audits. Combine only when every worker and stage actually
+completed with zero exit and passed runtime, source, output and self-check
+validation. Generate the review PDF and PNG/SVG figures on Puma. Display a fixed
+subset of functions previously discussed for readable treatment trajectories,
+while retaining the complete fourteen-function tables and adjusted hypotheses.
+Do not choose displayed follow-up panels using newly computed p-values.
+Predicted functions are inferred genomic potential, not measured genes,
+expression, enzyme activity, flux, plant benefit or nutrient budgets.
+Historical results and historical review-status files stay unchanged.
+
+11. Execution checks and record
+All scientific entry points verify a live RUNNING Puma allocation and allocated
+host before numerical imports. The compute node verifies the exact corrected
+Python build, READY bytes and pinned packages. Numerical fixtures run first
+on Puma, including analytic exact tests, tiny-scale and high-dimensional
+responses, exact/Monte Carlo allocations, arm gates and Holm missing values.
+Local preparation performs source/AST/shell/packaging checks only. No local
+scientific calculation, fixture, model, numerical report or data-derived plot
+is run. Submission does not establish completion; returned results require
+scientific and visual review before manuscript use.
+
+12. Peer-reviewed methodological references
+Winkler AM et al. 2014. Permutation inference for the general linear model.
+NeuroImage 92:381–397. https://doi.org/10.1016/j.neuroimage.2014.01.060
+Winkler AM et al. 2015. Multi-level block permutation. NeuroImage 123:253–268.
+https://doi.org/10.1016/j.neuroimage.2015.05.092
+Anderson MJ. 2001. A new method for non-parametric multivariate analysis of
+variance. Austral Ecology 26:32–46.
+https://doi.org/10.1111/j.1442-9993.2001.01070.pp.x
+Legendre P, Gallagher ED. 2001. Ecologically meaningful transformations for
+ordination of species data. Oecologia 129:271–280.
+https://doi.org/10.1007/s004420100716
+Holm S. 1979. A simple sequentially rejective multiple test procedure.
+Scandinavian Journal of Statistics 6:65–70. https://www.jstor.org/stable/4615733

@@ -1,0 +1,5 @@
+Hyndman RJ and Athanasopoulos G. Forecasting Principles and Practice, third edition. OTexts, 2021. Section 5.10, time series cross-validation. https://otexts.com/fpp3/tscv.html
+Dietze MC et al. Iterative near-term ecological forecasting: Needs, opportunities, and challenges. PNAS 115(7), 1424–1432, 2018. https://doi.org/10.1073/pnas.1710231115
+Douglas GM et al. PICRUSt2 for prediction of metagenome functions. Nature Biotechnology 38, 685–688, 2020. https://doi.org/10.1038/s41587-020-0548-6
+
+Response definitions and provenance are governed by the pinned accepted inventory RESPONSE_TRACKS.json, S33 and S37 source reports, method review and RESPONSE_SPEC.json. These methodological references do not supply absent assay equivalence, prospective data, calibration or ten-year forecast support.

@@ -1,0 +1,168 @@
+{
+  "execution": {
+    "job_id": "24074507",
+    "cluster": "puma",
+    "node": "r7u02n1",
+    "job_record": "JobId=24074507 JobName=nrcs_fn_cmp UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:13 TimeLimit=04:00:00 TimeMin=N/A SubmitTime=2026-10-02T12:44:28 EligibleTime=2026-10-02T12:44:28 AccrueTime=2026-10-02T12:44:28 StartTime=2026-10-02T12:45:34 EndTime=2026-10-02T16:45:34 Deadline=N/A PreemptEligibleTime=2026-10-02T12:45:34 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-02T12:45:34 Scheduler=Backfill Partition=standard AllocNode:Sid=wentletrap:2164673 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u02n1 BatchHost=r7u02n1 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=20G,node=1,billing=4 AllocTRES=cpu=4,mem=20G,node=1,billing=4 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_functional_comparisons_HPC_v1/runs/run_20261002T194428Z_adcafc70/RUN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_functional_comparisons_HPC_v1/runs/run_20261002T194428Z_adcafc70 StdErr=/xdisk/dinusha1/dinusha1/NRCS_functional_comparisons_HPC_v1/runs/run_20261002T194428Z_adcafc70/logs/analysis.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_functional_comparisons_HPC_v1/runs/run_20261002T194428Z_adcafc70/logs/analysis.log TresPerTask=cpu=4"
+  },
+  "status": "FUNCTIONAL_COMPARISONS_COMPLETED_REVIEW_PENDING",
+  "source_jobs": [
+    "24067160",
+    "24067682",
+    "24073133"
+  ],
+  "seed": 20261002,
+  "cohorts": [
+    {
+      "farm": "Oatman Flats",
+      "system": "OFR_2023_2024_Field",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Cover_crop_and_sheep"
+      ],
+      "control": "Control",
+      "dates": [
+        "2023-11-20",
+        "2024-06-06",
+        "2024-12-06"
+      ],
+      "paired_dates": [
+        "2023-11-20",
+        "2024-12-06"
+      ],
+      "treatment_inference": true
+    },
+    {
+      "farm": "Oatman Flats",
+      "system": "OFR_2025_Field",
+      "treatments": [
+        "Control",
+        "Cover_crop_only"
+      ],
+      "control": "Control",
+      "dates": [
+        "2025-05-21"
+      ],
+      "paired_dates": null,
+      "treatment_inference": false,
+      "hold_reason": "Treatment confounded with field side; one observed collection event"
+    },
+    {
+      "farm": "Page Springs",
+      "system": "Grape_Grenache",
+      "treatments": [
+        "Control_fertigation_only",
+        "Composted_grape_pomace_and_horse_manure",
+        "Composted_horse_manure",
+        "Fresh_grape_pomace"
+      ],
+      "control": "Control_fertigation_only",
+      "dates": [
+        "2023-10-20",
+        "2024-08-05",
+        "2024-11-06"
+      ],
+      "paired_dates": [
+        "2023-10-20",
+        "2024-08-05"
+      ],
+      "treatment_inference": true
+    },
+    {
+      "farm": "Page Springs",
+      "system": "Grape_PetiteSirah",
+      "treatments": [
+        "Control_fertigation_only",
+        "Steer_manure",
+        "Fish_manure",
+        "Horse_manure_pomace"
+      ],
+      "control": "Control_fertigation_only",
+      "dates": [
+        "2023-10-20",
+        "2024-08-05",
+        "2024-11-06",
+        "2025-10-10"
+      ],
+      "paired_dates": [
+        "2023-10-20",
+        "2025-10-10"
+      ],
+      "treatment_inference": true
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Annual",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Blood_meal_and_Feather_meal",
+        "Blood_meal_and_Feather_meal_and_cover_crop"
+      ],
+      "control": "Control",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "paired_dates": [
+        "2023-11-16",
+        "2025-08-17"
+      ],
+      "treatment_inference": true
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Blackberry_Chester",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Blood_meal_and_Feather_meal",
+        "Blood_meal_and_Feather_meal_and_cover_crop"
+      ],
+      "control": "Control",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "paired_dates": [
+        "2023-11-16",
+        "2025-08-17"
+      ],
+      "treatment_inference": true
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Blackberry_Natchez",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Blood_meal_and_Feather_meal",
+        "Blood_meal_and_Feather_meal_and_cover_crop"
+      ],
+      "control": "Control",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "paired_dates": [
+        "2023-11-16",
+        "2025-08-17"
+      ],
+      "treatment_inference": true
+    }
+  ],
+  "planned_hypotheses": 4144,
+  "global_rows": 252,
+  "targeted_rows": 5964,
+  "inference": "Exploratory conditional associations; no causal or measured functional claims",
+  "original_scientific_data_changed": false,
+  "visual_review": "Pending returned-PDF inspection",
+  "ten_year_forecast_generated": false
+}

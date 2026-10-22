@@ -1,0 +1,414 @@
+[
+  {
+    "item": "analyses/01_core_16s/prepared_source/scripts/02_dada2.R",
+    "reason": "Prepared-source DADA2 hash differs from the original executed script. Replaced here by the exact original bytes recovered by inverting the recorded memory patch and matching the pre-existing execution receipt hash."
+  },
+  {
+    "item": "analyses/01_core_16s/prepared_source/config.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/prepared_source/scripts/01_preflight.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/prepared_source/scripts/02_dada2.R",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/prepared_source/scripts/03_farm_analysis.R",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/prepared_source/scripts/check_r_packages.R",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/prepared_source/scripts/run_stage.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/prepared_source/submit.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/prepared_source/tests/test_preflight.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/prepared_source/tests/test_r_helpers.R",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/package/scripts/01_preflight.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/package/scripts/run_stage.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/package/submit.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/04_farm_interpretation/reference/original_farm_analysis.R",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/06_corrected_companions/payload/corrections/add_clarifications.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/06_corrected_companions/payload/corrections/transcribe_reports.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/11_functional_figure_refresh/source_snapshot/original_comparisons/render_report.R",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/12_feasibility/review/local_release_validation.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/12_feasibility/workflow/build_workflow_v5.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/CHECK.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/COLLECT.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/RUN.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/START_HERE.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/SUBMIT.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/baseline_core.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/check.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/collect.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/common.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/environment_check.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/hpc_guard.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/record_runtime.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/render_report.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/self_checks.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/source_snapshot/corrected/payload/apply_corrections.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/source_snapshot/corrected/payload/prepare_inputs.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/source_snapshot/functional/prepare.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/submit.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/engine_source/workflow/build_workflow_v7.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/review/local_release_validation.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/13_shannon_readiness/workflow/build_workflow_v10.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/review/local_release_validation.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/source_snapshot/corrected/payload/source_identity.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/source_snapshot/functional/prepare.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/source_snapshot/validation/backtest.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/source_snapshot/validation/baseline_core.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/source_snapshot/validation/common.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/source_snapshot/validation/environment_check.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/source_snapshot/validation/hpc_guard.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/source_snapshot/validation/record_runtime.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/source_snapshot/validation/render_report.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/source_snapshot/validation/stage_source.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/14_measured_inventory/workflow/build_workflow_v12.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/review/local_release_validation.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/source_snapshot/corrected/payload/source_identity.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/source_snapshot/functional/prepare.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/source_snapshot/validation/backtest.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/source_snapshot/validation/baseline_core.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/source_snapshot/validation/common.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/source_snapshot/validation/environment_check.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/source_snapshot/validation/hpc_guard.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/source_snapshot/validation/record_runtime.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/source_snapshot/validation/render_report.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/source_snapshot/validation/stage_source.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/workflow/build_workflow_v14.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/15_ph_baselines/workflow/drawing_helpers.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/planning/build_protocol_docx.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/review/local_release_validation.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/review/returned_24150054/freeze_returned_review.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/source_snapshot/corrected/payload/source_identity.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/source_snapshot/functional/prepare.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/source_snapshot/validation/backtest.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/source_snapshot/validation/baseline_core.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/source_snapshot/validation/common.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/source_snapshot/validation/environment_check.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/source_snapshot/validation/hpc_guard.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/source_snapshot/validation/record_runtime.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/source_snapshot/validation/render_report.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/source_snapshot/validation/stage_source.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/workflow/build_workflow_v16.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/workflow/drawing_helpers.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/workflow/v17/build_workflow_v17.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/workflow/v17/drawing_helpers.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/workflow/v17/source_evidence/historical_build_workflow_v16.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/16_nutrient_baselines/workflow/v17/source_evidence/historical_drawing_helpers.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "analyses/17_soil_associations/join_chunks.original.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "data/laboratory_report_review/add_clarifications.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "data/laboratory_report_review/transcribe_reports.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "nrcs.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "provenance/current_results_navigation/workflow/build_workflow_v19.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "provenance/current_results_navigation/workflow/drawing_helpers.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "publication/family_composition_prepared_20261020/CHECK.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "publication/family_composition_prepared_20261020/RUN.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "publication/family_composition_prepared_20261020/START_HERE.sh",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "publication/family_composition_prepared_20261020/check.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "publication/family_composition_prepared_20261020/family_figures.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "publication/family_composition_prepared_20261020/hpc_guard.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "publication/family_composition_prepared_20261020/submit.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "publication/figures_20261019/source_code/build_publication_figures.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "publication/figures_20261019/source_code/build_selected_figure_composites.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "publication/figures_20261019/source_code/reflow_readable_figures.py",
+    "reason": "Unselected historical/duplicate/prepared source, failed predecessor, installation-only material, or source snapshot outside the selected successful workflow scope."
+  },
+  {
+    "item": "NRCS_Figure_Refresh_HPC_v1",
+    "reason": "Login-node launcher failed before job submission; superseded by successful v2."
+  },
+  {
+    "item": "NRCS_Remaining_Manuscripts_HPC_v1",
+    "reason": "Community/extras failed; superseded by successful v2 and subsequent figure refresh."
+  },
+  {
+    "item": "Raw/processed data, source workbooks, figures, manuscripts, database/runtime installations and large historical results",
+    "reason": "Excluded by the requested scripts-only scope; original input paths and checks are preserved in configurations."
+  }
+]

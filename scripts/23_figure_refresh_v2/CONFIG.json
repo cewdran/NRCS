@@ -1,0 +1,110 @@
+{
+  "runtime_python": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/bin/python",
+  "runtime_ready": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runtime_env/READY.json",
+  "runtime_ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0",
+    "scipy": "1.17.0"
+  },
+  "systems": [
+    {
+      "farm": "Page Springs",
+      "system": "Grape_Grenache",
+      "label": "Grenache",
+      "slug": "Grenache",
+      "dates": [
+        "2023-10-20",
+        "2024-08-05",
+        "2024-11-06"
+      ],
+      "treatments": {
+        "ControlFertigationOnly": "T1",
+        "FreshGrapePomace": "T7",
+        "CompostedGrapePomaceHorseManure": "T8",
+        "CompostedHorseManure": "T9"
+      }
+    },
+    {
+      "farm": "Page Springs",
+      "system": "Grape_PetiteSirah",
+      "label": "Petite Sirah",
+      "slug": "PetiteSirah",
+      "dates": [
+        "2023-10-20",
+        "2024-08-05",
+        "2024-11-06",
+        "2025-10-10"
+      ],
+      "treatments": {
+        "ControlFertigationOnly": "T1",
+        "SteerManure": "T2",
+        "FishManure": "T3",
+        "HorseManurePomace": "T4"
+      }
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Annual",
+      "label": "Annual crops",
+      "slug": "Annual",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "treatments": {
+        "Control": "C",
+        "BloodMealFeatherMeal": "A",
+        "CC": "B",
+        "BloodMealFeatherMealCC": "D"
+      }
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Blackberry_Chester",
+      "label": "Chester blackberry",
+      "slug": "Chester",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "treatments": {
+        "Control": "C",
+        "BloodMealFeatherMeal": "A",
+        "CC": "B",
+        "BloodMealFeatherMealCC": "D"
+      }
+    },
+    {
+      "farm": "Whipstone",
+      "system": "Blackberry_Natchez",
+      "label": "Natchez blackberry",
+      "slug": "Natchez",
+      "dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14",
+        "2025-08-17"
+      ],
+      "treatments": {
+        "Control": "C",
+        "BloodMealFeatherMeal": "A",
+        "CC": "B",
+        "BloodMealFeatherMealCC": "D"
+      }
+    }
+  ],
+  "package": "NRCS_Figure_Refresh_HPC_v2",
+  "source_archive": "/xdisk/dinusha1/dinusha1/NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+  "source_archive_sha256": "6cf1ea04c863156a210db3c666dc232a431dcce7915b9c1fb304c7c160b7b692",
+  "source_run": "run_20261022T193217Z_1a7828f4",
+  "account": "dinusha1",
+  "partition": "standard",
+  "pcoa_eigen_relative_tolerance": 1e-12
+}

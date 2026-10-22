@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-22",
+  "scope": "Source-only curation and static validation; no scientific execution",
+  "workflow_count": 23,
+  "source_archives_hash_verified": 8,
+  "original_files_byte_identical_to_source_archive": 424,
+  "original_archaea_source_recovered_and_matched_to_recorded_sha256": 1,
+  "python_ast_parsed_files": 197,
+  "bash_syntax_checked_files": 85,
+  "R_source_files_retained": 11,
+  "R_local_parse": "NOT_RUN: Rscript is unavailable; successful historical runtime records are retained",
+  "new_documentation_relative_links_checked": 118,
+  "latest_v2_original_manifest_entries_verified": 16,
+  "new_integrity_checker_positive_and_tamper_checks": "PASS",
+  "dataset_figure_manuscript_binary_files_included": false,
+  "scientific_scripts_or_scientific_self_tests_run_locally": false,
+  "latest_job": {
+    "job_id": "24371235",
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "evidence": "User-provided CHECK.sh output",
+    "returned_result_bytes_independently_verified": false,
+    "scientific_and_visual_review_complete": false
+  },
+  "status": "PASS_STATIC_CURATION_CHECKS"
+}

@@ -1,0 +1,39 @@
+{
+  "state": "HPC_OUTPUTS_CREATED_REVIEW_PENDING",
+  "scientific_execution_completed": true,
+  "new_inferential_tests": false,
+  "observed_Shannon_recomputed": false,
+  "FDR_recalculated": false,
+  "manuscripts_edited": false,
+  "visual_review_complete": false,
+  "scheduler_workers_verified": true,
+  "collector_terminal_state_verified": false,
+  "figure_count": 38,
+  "workers": {
+    "communities": {
+      "state": "COMPLETE_REVIEW_PENDING",
+      "new_inferential_tests": false,
+      "observed_Shannon_recomputed": false,
+      "figures_expected": 25,
+      "manual_visual_review_complete": false
+    },
+    "extras": {
+      "state": "COMPLETE_REVIEW_PENDING",
+      "figures_expected": 11,
+      "new_inferential_tests": false,
+      "manual_visual_review_complete": false
+    },
+    "maps": {
+      "state": "COMPLETE_REVIEW_PENDING",
+      "figures_expected": 2,
+      "manuscript_codes_authoritative": true,
+      "georeferenced": false,
+      "analytical_sample_positions_inferred": false,
+      "manual_visual_review_complete": false
+    }
+  },
+  "archive_prepared": true,
+  "archive_path": "/xdisk/dinusha1/dinusha1/NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+  "checksum_path": "/xdisk/dinusha1/dinusha1/NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip.sha256.txt",
+  "archive_kind": "results"
+}

@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "corrected",
+      "root": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8",
+      "job_id": "24067160",
+      "files": [
+        {
+          "path": "HPC_STATUS.json",
+          "sha256": "ee3434a9e6ed7bb1c5f2233e03ed44e5c76baf8c85229e19cc80b14ca0539914"
+        },
+        {
+          "path": "payload/tables/analysis_observations.csv",
+          "sha256": "6dc530b9715979691b62137b2e9f80c83135e339ce41911d75bda426379bd1df"
+        }
+      ]
+    },
+    {
+      "id": "comparisons",
+      "root": "/xdisk/dinusha1/dinusha1/NRCS_functional_comparisons_HPC_v1/runs/run_20261002T194428Z_adcafc70",
+      "job_id": "24074507",
+      "files": [
+        {
+          "path": "HPC_STATUS.json",
+          "sha256": "1e7adfe300b40574ce99b5e532ed1fa5b652b1d99796830cef297e32703b78f8"
+        },
+        {
+          "path": "CONFIG.json",
+          "sha256": "a80ede56ecef3c2cfa744cc238bf4bc4c13e37f8c258b049cad13b7759541ebc"
+        },
+        {
+          "path": "results/FEATURE_PANEL.csv",
+          "sha256": "0dfacd04c072c1f49012bf416f1531e488a52d454d201b56ced984a64c77e044"
+        },
+        {
+          "path": "results/feature_sample_values.csv",
+          "sha256": "a8bf7b1e6f424506d3de71afb617f23e41df46b9175b60c81e541709a31c1c97"
+        },
+        {
+          "path": "results/sample_eligibility.csv",
+          "sha256": "08df78a24f26794c6a9bfb24230a4d9b0cc323ca78d0c1ab7eeeaa32411db375"
+        }
+      ]
+    },
+    {
+      "id": "prediction",
+      "root": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2",
+      "job_id": "24067682",
+      "files": [
+        {
+          "path": "HPC_STATUS.json",
+          "sha256": "979ee1d50e61c7a0ec06bafd7455974db37e0b86bb749379e88b5e2f808d83d9"
+        },
+        {
+          "path": "validated/bacteria/sample_metadata.csv",
+          "sha256": "b33705cf88732dfa339cf398c6b1ce34ea05c56e568a47323978eb763dc30f8a"
+        },
+        {
+          "path": "results/bacteria/EC_predicted_abundance.tsv.gz",
+          "sha256": "57bd11a4eece0cee3747afd091dd6c467fd878f690e3a21089a63d6a89d4b1aa"
+        },
+        {
+          "path": "results/bacteria/KO_predicted_abundance.tsv.gz",
+          "sha256": "4e9ff08777d0b9a9a8a9447392bdb6b233016a034e0827e2fc7dfe07e19ffe17"
+        },
+        {
+          "path": "results/bacteria/METACYC_predicted_abundance.tsv.gz",
+          "sha256": "d2bde1aa14441bf09a3192ae6794a550dc5771508440911f4d49b2b65ee385f6"
+        }
+      ]
+    }
+  ],
+  "rule": "Require original and private snapshot bytes to match these frozen successful HPC sources before and after work."
+}

@@ -1,0 +1,139 @@
+NRCS UPDATED ANALYSIS PLAN - 30 SEPTEMBER 2026 - VERSION 3
+Approved scope: three farm manuscripts (Oatman Flats, Page Springs, Whipstone)
+and a fourth cross-farm synthesis, with long-term functional interpretation.
+This is a prospective plan extension, not completed modeling or preregistration.
+
+1. CURRENT STATUS
+The companion computation (Puma 24054963; collector 24054964) completed and its
+returned report/figures were reviewed. Core 16S community/depth workflows have
+separate earlier HPC provenance. Remaining work includes functional prediction,
+broader taxonomic/diversity extensions, eligible repeated-measures and cross-data
+models, cross-farm synthesis, and the newly approved modeling branch.
+The earlier Page Springs genus CLR analysis requires its own HPC rerun. It is
+not ANCOM-BC2 and was not rerun by the companion job.
+
+2. IMMEDIATE HPC READINESS AUDIT
+Read the frozen outputs of successful companion run 24054963 after verifying
+exact SHA-256 hashes. Copy them into a new run; preserve all earlier runs.
+Produce physical-plot visit summaries, cohort/date coverage, outcome-specific
+visit support, exact confirmed join records, and a bounded inventory of candidate
+ASV sequence, taxonomy and tree files from the original and bacterial-recovery
+DADA2 directories. Do not invent sequences from ASV identifiers.
+Report primary-included and all-positive, non-reference microbiome scopes
+separately. Domain rows do not multiply the number of independent plots.
+Do not fit models, perform PICRUSt2 prediction, generate scientific figures or
+simulate long-term outcomes in this readiness package. Its success means only
+that the audit executed; it does not grant scientific eligibility.
+
+3. DESIGN AND INPUT GATES
+Keep Oatman's 2023-2024 and 2025 fields separate. The EAST/WEST 2025 soil pools
+remain descriptive and do not supply plot replication. Both field areas had a
+burn and 4-inch tillage; treatment and side are confounded.
+Keep Whipstone annual crops, Natchez and Chester separate until a supported
+contrast is defined. Preserve the confirmed 16 November 2023 soil-16S date and
+unconfirmed 2025 joins. Page Springs soil-16S joins remain unconfirmed.
+Actual collection dates, physical plots and compatible assays govern joins.
+A candidate key, a common year, a submission date or a field-side label is
+insufficient. Confirm crop plot-season matches separately from soil aliquots.
+Laboratory duplicates are not biological replicates. Missing nutrient headings,
+ambiguous units, undefined treatments, detection limits and unverified yield
+area remain explicit holds. A numerical model cannot resolve identities.
+Audit exact NIFA/NRCS sample reuse before claiming independent evidence.
+
+4. REMAINING ANALYTICAL TRACKS
+Adapt NIFA's questions to verified NRCS design rather than copying its thresholds.
+- Diversity/community: justified additional alpha metrics, phylogenetic distances
+  only with suitable trees, and repeated-plot models only where estimable.
+- Taxa: frozen-protocol HPC rerun of legacy genus tests; prespecified broader
+  differential-abundance models, filtering, contrasts and sensitivity checks.
+- Functions: representative sequences plus matched unrarefied target counts;
+  validated references/domain support; PICRUSt2 gene-family and pathway profiles;
+  global composition and limited pathway contrasts with declared multiplicity.
+- Soil/crop: eligible repeated measurements, soil gradients and comparable ionome
+  panels; preserve source units, censoring, timing and field independence.
+- Integration: a small declared predictor set, confirmed matches, treatment/time
+  adjustment where estimable, and dependence-aware uncertainty.
+All numerical preprocessing and scientific outputs run on Puma.
+
+5. MODELING FEASIBILITY AND VALIDATION
+After readiness review, freeze the exact outcome IDs, cohorts, predictor sets,
+transformations, contrasts and model alternatives in an immutable protocol.
+Choose outcomes by biological relevance and coverage, not by prior p-values.
+Start with parsimonious repeated-measures models where identifiable. Plot
+intercepts or slopes are not automatically estimable from sparse observations.
+Use suitable compositional microbial responses; raw proportions are not
+independent unconstrained response variables. Do not add thousands of predictors.
+Finlay-Wilkinson is an environmental-response analogy, not an automatic temporal
+forecast. State-space or MDSINE-type interaction models require stronger temporal
+information; the latter additionally requires microbial-load information in its
+original implementation. Neither is the default method for these field data.
+For supported forecasts, train on earlier events and evaluate later events.
+Compare against persistence and appropriate simple treatment/season baselines.
+Separate predicting later observations on known plots from transfer to new plots
+or farms. Block validation accordingly. Fit scaling, imputation, feature selection
+and dimensionality reduction within each training set. Report prediction errors,
+interval coverage and baseline-relative skill, with their sampling uncertainty.
+Few held-out occasions may prevent reliable validation even when a model fits.
+Report inability to validate instead of treating a training fit as predictive skill.
+
+6. TEN-YEAR SCENARIO GATE
+Define the origin as the last eligible observation for each modeled system;
+state the calendar end date explicitly. Ten years is a scenario horizon, not an
+already demonstrated forecast horizon. Near-term skill alone does not validate it.
+Quantitative long-term simulation needs a suitable process model or relevant
+external long-term calibration evidence, plus actual starting states and driver
+records. Audit climate, irrigation, amendments, fertilizer, crop/management history,
+soil texture and (for stocks) depth and bulk density as appropriate to the model.
+Candidate scenarios: continued management under a defined climate distribution;
+continued management with greater water limitation; a specified management change.
+Do not assume future management or invent missing rates. Use documented assumptions
+and distinguish probabilistic uncertainty within a scenario from differences
+between scenarios. Propagate initial-state, parameter, driver and model uncertainty;
+show sensitivity to literature-derived assumptions and transferability limits.
+If support is insufficient, use literature-grounded conceptual trajectories and
+testable hypotheses only. Wider intervals do not validate unsupported extrapolation.
+Allow improvement, little change and deterioration; short-term null results do not
+establish delayed benefit. No ten-year effect sizes are generated in this package.
+
+7. FOUR-MANUSCRIPT STRUCTURE
+Each farm manuscript will include a final Discussion subsection:
+"Potential long-term trajectories and testable microbial functions".
+Oatman: nutrient turnover/organic matter and eligible grain yield/composition links.
+Page Springs: vineyard management and potential nutrient availability pathways.
+Whipstone: within-system annual/blackberry nutrient-cycling responses and limits.
+Cross-farm: comparable within-farm contrasts, shared/divergent potential functions,
+context-dependent scenario responses and uncertainty. Three farms do not provide
+independent replication of crop, location and management effects. Keep unique
+questions, disclose shared samples, and avoid duplicate principal results.
+For every proposed functional statement, retain an evidence row with observed
+response, inferred genetic potential, plausible process, projected direction/range
+(if supported), assumptions, uncertainty, alternatives and validation measurements.
+16S-inferred pathways are not measured genes, expression, enzymes, nutrient flux or
+plant benefit. Taxon names alone do not establish functions. External studies
+support hypotheses; they do not establish that these functions occurred here.
+
+8. EXECUTION AND REVIEW ORDER
+Readiness audit -> reviewed eligibility/protocol -> remaining functional/taxonomic/
+soil/crop extensions -> near-term modeling/validation -> supported scenario branch
+or conceptual branch -> visual/numerical review -> manuscript evidence synthesis.
+Record code/input hashes, software/reference versions, seeds (or deterministic
+status), commands, Slurm allocation/accounting, start/end times and explicit skips.
+All result ZIPs and ZIP checksum files go directly in /xdisk/dinusha1/dinusha1/.
+The prepared package has not been submitted from this chat.
+
+9. PEER-REVIEWED METHODS REFERENCES
+Dietze MC et al. 2018. Iterative near-term ecological forecasting: Needs,
+opportunities, and challenges. PNAS 115:1424-1432. doi:10.1073/pnas.1710231115.
+Petchey OL et al. 2015. The ecological forecast horizon, and examples of its uses
+and determinants. Ecology Letters 18:597-611. doi:10.1111/ele.12443.
+Roberts DR et al. 2017. Cross-validation strategies for data with temporal, spatial,
+hierarchical, or phylogenetic structure. Ecography 40:913-929. doi:10.1111/ecog.02881.
+Bucci V et al. 2016. MDSINE: Microbial Dynamical Systems INference Engine for
+microbiome time-series analyses. Genome Biology 17:121. doi:10.1186/s13059-016-0980-6.
+Douglas GM et al. 2020. PICRUSt2 for prediction of metagenome functions.
+Nature Biotechnology 38:685-688. doi:10.1038/s41587-020-0548-6.
+Matchado MS et al. 2024. On the limits of 16S rRNA gene-based metagenome prediction
+and functional profiling. Microbial Genomics 10:001203. doi:10.1099/mgen.0.001203.
+Finlay KW, Wilkinson GN. 1963. The analysis of adaptation in a plant-breeding
+programme. Australian Journal of Agricultural Research 14:742-754.
+doi:10.1071/AR9630742.

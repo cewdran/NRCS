@@ -1,0 +1,57 @@
+Targeted NRCS JOIN repair: frozen scope
+
+Reuse exactly ten fully completed original logical workers and six fully
+completed Page Springs/Whipstone bacterial-function class chunks. Preserve
+actual old computation job/node identities and complete numerical output bytes.
+Verify the full source package and all current original/private/source/output
+hashes on Puma before readonly import. Do not read or accept partial joined
+logical-worker directories from the failed recovery. Stage import includes
+historical source-stage and orchestration evidence as byte-identical copies.
+
+Only four new actual roles exist: import stage, JOIN, global combine, collector.
+Old worker and chunk aliases are provenance only. The new actual JOIN job/node
+is the assembly identity for both reconstructed logical workers; its provenance
+lists their three actual old class jobs. Historical receipts are never relabelled.
+
+Frozen CONFIG.analysis, CONFIG.recovery, SOURCES.json, SHARDS.json, association
+and categorical statistical cores, the original three numerical self-check
+suites, figure module and scientific combine implementation are unchanged.
+Keep corrected library/sample identities, biological independence, cohorts,
+feature nomination, source variants, zero rules, seeds and canonical test IDs.
+The unchanged twelve-logical-worker global correction families remain primary
+BY and supplementary BH, including original treatment of eligible failed tests.
+
+Optimization alters computation and encoding only. Batch existing identity
+rows into disposable node-local heap tables; build the original unique keys
+before accepting any validation record. Validate diagnostic-to-association
+references and source classes with the same logical rule. Count rows against
+completed source receipts and compare decoded shared contexts. A single-header
+class union uses unchanged decoded CSV bytes; gzip encoding may differ. Record
+both compressed and decoded digests and verify the finished output. No existing
+p-value, q-value, effect, rank, seed or scientific decision is recomputed by JOIN.
+
+The new optimization fixtures execute only on a guarded live Puma allocation.
+They require rejection of invalid IDs/classes/references/duplicates/counters/
+contexts/headers and equality of streamed decoded unions with literal reference
+bytes, including duplicates across insertion batches. The original self-check
+suites also run on Puma. A passed static inspection is not a numerical fixture
+pass or performance benchmark. Runtime optimization validation remains pending.
+
+Source digest caching is limited to an already SHA-verified path observed again
+within one immutable phase, guarded by device/inode/size/mtime/ctime identity.
+Every unique input is fully rehashed after work. Source-evidence output paths
+are distinct from and forbidden to collide with immutable inputs. No source
+changes, missing completion records, false scheduler aliases or failed fixtures
+are accepted. Durable progress records do not authorize partial resumption.
+
+Submission freezes its complete receipt before releasing the held stage.
+Release outcomes and live polling reports remain outside archived run bytes.
+The collector freezes its scientific status in the full byte snapshot and
+records later packaging outcomes separately in BUNDLE_STATUS. Final CHECK must
+verify actual collector COMPLETED 0:0, matching zero runtime END/environment,
+packaging identity and archive/checksum evidence before exposing download paths.
+
+The compact review copies existing globally corrected PRIMARY BY flags and
+PRIMARY failed eligible rows; it does not recompute scientific statistics.
+Complete tables stay in the full Puma archive. Scientific/visual acceptance,
+predictive validation and numerical ten-year forecasts are not established here.

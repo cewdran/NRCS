@@ -1,0 +1,1 @@
+PASS: identical cohort inputs give identical raw statistics across depth variants

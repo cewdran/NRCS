@@ -1,0 +1,237 @@
+{
+  "package": "NRCS_correlations_join_repair_HPC_v1",
+  "version": 1,
+  "account": "dinusha1",
+  "partition": "standard",
+  "runtime_package": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3",
+  "resources": {
+    "stage": {
+      "cpus": 4,
+      "memory": "20G",
+      "time": "04:00:00"
+    },
+    "join": {
+      "cpus": 4,
+      "memory": "20G",
+      "time": "48:00:00"
+    },
+    "combine": {
+      "cpus": 4,
+      "memory": "20G",
+      "time": "24:00:00"
+    },
+    "collector": {
+      "cpus": 4,
+      "memory": "20G",
+      "time": "08:00:00"
+    }
+  },
+  "analysis": {
+    "minimum_inferential_plots": 6,
+    "minimum_descriptive_plots": 3,
+    "minimum_distinct_values": 3,
+    "minimum_feature_positive_plots": 3,
+    "minimum_feature_positive_fraction": 0.5,
+    "exact_permutation_max_n": 8,
+    "monte_carlo_permutations": 19999,
+    "zero_delta": 1e-06,
+    "zero_delta_sensitivity": [
+      1e-07,
+      1e-05
+    ],
+    "primary_correction": "BY",
+    "supplementary_correction": "BH",
+    "fdr_alpha": 0.05,
+    "metadata_scope_fields": [
+      "analytic_system",
+      "collection_date",
+      "plant_type",
+      "cultivar"
+    ],
+    "biological_units": "biological_plot_id",
+    "numeric_estimation": "marginal_within_event_across_treatments",
+    "categorical_factors": [
+      "treatment",
+      "crop_within_treatment"
+    ],
+    "cross_farm_pooling": false,
+    "year_pooling": false,
+    "numerical_ten_year_forecast": false
+  },
+  "source_status_jobs": {
+    "corrected_source_status": "24067160",
+    "functional_source_status": "24067682",
+    "sensitivity_source_status": "24073133"
+  },
+  "scientific_execution": "Puma Slurm compute nodes only",
+  "prepared_only": true,
+  "recovery": {
+    "old_run": "/xdisk/dinusha1/dinusha1/NRCS_correlations_parallel_HPC_v1/runs/run_20261010T005932Z_492b3fb4",
+    "original_package_manifest_sha256": "c7e859e36e09b097a303558a72781f3f55363b2df34f6be4d244994e4d45fd93",
+    "original_submission_sha256": "f803f3267ca912bcb9f822acf306aa5e333bd622ea642301d8241d194f57b86d",
+    "original_status_sha256": "7ae56dec437283c044339949f37b347efe422d9ce91db96b46a884f98724a9cd",
+    "expected_runtime_ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+    "original_code_hashes": {
+      "combine.py": "4bfff515514f4dec4da6f9bf488f77a3f9182d17824d2017216251715538c83e",
+      "categorical_core.py": "40192b83d54aeb59bc6420fc77b6463fd21247766325cf7bda8357563c84035c",
+      "orchestration_common.py": "2bdc60f4c1d522bf068afad45aec594e27af59e07c7f036db21b1aa032ac2a2e",
+      "hpc_guard.py": "7240a5f33c5ee1c97d4e95d20ce3316fd54e8af6e6d93f2cdd62a1e29fd93f2d",
+      "submit.py": "4e6ec0157d850ed99d7f3b96fdcb4509ee30cbca4108cbd85114f15ec25e5e0d",
+      "association_core.py": "ab9e58502fac01fbc5914cbdaab69e3ef1d5a84d21efdf751a6d56d5da4f3128",
+      "categorical_self_checks.py": "1bf3b2a078bfd210dc22cc000453a68f7bc112bde85f88d2ff2a6b5fb04316ca",
+      "association_figures.py": "73570cc88634e5f7a1d5940ebfff04f91973e270ef3b670b0b1e4829be24201d",
+      "record_runtime.py": "99e65fd6cc57d999aa42db5ad07fda918543d64657ab727d6c20c5f6015ad5ce",
+      "adapter_self_checks.py": "c5c8e1500cf08ac203fc65ea0b6534c0d4773d1f6de3347d56f43ab52a3bd922",
+      "collector.py": "8d2824340391b8eb4ade5f0cfab6bbddc84b65170984b744eb117cf9ad64169a",
+      "feature_adapters.py": "97c9d326c9ab119386e941879c56a69abe52a5f155de401fbfed998bd4c08ba3",
+      "association_self_checks.py": "f64ceedb3a5a1d533d3be23962c859297ec5c76f5c2977b7ecde0f9c2cb11841",
+      "worker.py": "b04af049530d6df9d9a50e155ccc78a56394e3e4ce688393629871ca29fc9bac",
+      "runtime_guard.py": "808bfd1a51a26bbc9debcbc0dd3da1eb2ebc882c90911da66b82be3eb700ad33",
+      "environment_check.py": "ad57b95191fd97bf64ee4f6892591fdbf9f5de97b09d1247ff1c3dfed87a50cd"
+    },
+    "reuse_origin_worker_jobs": {
+      "oatman_bacteria_taxa": "24186799",
+      "oatman_bacteria_functions": "24186800",
+      "oatman_archaea_taxa": "24186801",
+      "oatman_archaea_functions": "24186802",
+      "pagesprings_bacteria_taxa": "24186803",
+      "pagesprings_archaea_taxa": "24186805",
+      "pagesprings_archaea_functions": "24186806",
+      "whipstone_bacteria_taxa": "24186807",
+      "whipstone_archaea_taxa": "24186809",
+      "whipstone_archaea_functions": "24186810"
+    },
+    "failed_origin_worker_jobs": {
+      "pagesprings_bacteria_functions": "24186804",
+      "whipstone_bacteria_functions": "24186808"
+    },
+    "preserved_worker_ids": [
+      "oatman_bacteria_taxa",
+      "oatman_bacteria_functions",
+      "oatman_archaea_taxa",
+      "oatman_archaea_functions",
+      "pagesprings_bacteria_taxa",
+      "pagesprings_archaea_taxa",
+      "pagesprings_archaea_functions",
+      "whipstone_bacteria_taxa",
+      "whipstone_archaea_taxa",
+      "whipstone_archaea_functions"
+    ],
+    "retry_chunks": [
+      {
+        "id": "pagesprings_bacteria_functions_ec",
+        "shard_id": "pagesprings_bacteria_functions",
+        "feature_class": "EC"
+      },
+      {
+        "id": "pagesprings_bacteria_functions_ko",
+        "shard_id": "pagesprings_bacteria_functions",
+        "feature_class": "KO"
+      },
+      {
+        "id": "pagesprings_bacteria_functions_metacyc",
+        "shard_id": "pagesprings_bacteria_functions",
+        "feature_class": "METACYC"
+      },
+      {
+        "id": "whipstone_bacteria_functions_ec",
+        "shard_id": "whipstone_bacteria_functions",
+        "feature_class": "EC"
+      },
+      {
+        "id": "whipstone_bacteria_functions_ko",
+        "shard_id": "whipstone_bacteria_functions",
+        "feature_class": "KO"
+      },
+      {
+        "id": "whipstone_bacteria_functions_metacyc",
+        "shard_id": "whipstone_bacteria_functions",
+        "feature_class": "METACYC"
+      }
+    ],
+    "preserved_worker_status_sha256": {
+      "oatman_bacteria_taxa": "853c624135a91b2ab74aa3a4fee7b98cb6730b1e5fb4bd2cd4950a9f5158897a",
+      "oatman_bacteria_functions": "0aebf14ee97026f38f16ed7fc8c9ed654f082098f81531349d639af55dda92d6",
+      "oatman_archaea_taxa": "261f0d4fc33b6a8ea30b9bf8e9a87ae36e455228ab997d3a8757de6064be796b",
+      "oatman_archaea_functions": "221988fd73b308d52001dbcb8751920c262bbccb334a89c7e90ce9b759e7e1ca",
+      "pagesprings_bacteria_taxa": "87c166e07d6ce43904ccc3e36d80a2db3a991f03da48d9ee3bb577346c061960",
+      "pagesprings_archaea_taxa": "8b31b1917d0975a196dc9336f38ec89cc959b718a424558c6d153c68a5c07db3",
+      "pagesprings_archaea_functions": "338db8d6a3856ee074803a3b478ceda7b3a6301913e5146714568196c9953a71",
+      "whipstone_bacteria_taxa": "88b378883f704cf106156556fc9e3620e433c2892bc177fc6e57e7edc1a8c90b",
+      "whipstone_archaea_taxa": "d37ac367d79c072f020d40f9de43933285634a669ec08554b6d0b30f7c56c2b7",
+      "whipstone_archaea_functions": "1965a996055e98a7945744e0d4f2adb350ab34d5a0d2c415248610cdff0588d5"
+    },
+    "resume_partial_csv": false,
+    "scientific_settings_changed": false,
+    "global_families_changed": false,
+    "logical_shard_ids_changed": false,
+    "full_archive_stays_on_puma": true,
+    "review_archive_max_bytes": 134217728
+  },
+  "join_repair": {
+    "source_run": "/xdisk/dinusha1/dinusha1/NRCS_correlations_recovery_HPC_v1/runs/run_20261012T190218Z_ed60131a",
+    "source_manifest_sha256": "00f27df3d5f3dc0cb24382f3f68af5689391b2e5c726beaeddecb91fa212d343",
+    "source_submission_sha256": "d1243f4e50d0a0370fe8c5a7d5ca1f4c91dd7f60e8ba066ca8a34d308ef46de2",
+    "source_status_sha256": "f7aab8834d96d13d3bc405ff76cfef4b79f43fc271d33424ad0eda715ba746b2",
+    "source_stage_job_id": "24223733",
+    "source_stage_status_sha256": "34ad29e638f5598bf13e370d7f64f15d662cba9b5b230dc8692262f2ed92e423",
+    "source_collector_job_id": "24223742",
+    "source_code_sha256": {
+      "categorical_core.py": "40192b83d54aeb59bc6420fc77b6463fd21247766325cf7bda8357563c84035c",
+      "compute_guard.py": "995011afc89c9f8b1d57f879711085da6326ff07f033c8c762100415797bf2d0",
+      "submit.py": "74835f5d57086d3b9d0a33b6737c65f4f0d361bc6ab5cfa4d454f4f18cbf2f54",
+      "combine.py": "111190688ff728bfd12eb839c78591f9da454e10ae8e75b5af635895d66e2eb7",
+      "recovery_common.py": "ddd17297cd2272800e0fe4c69e452a36b706e40ee6a7959a0ce1dfe951d14a19",
+      "hpc_guard.py": "7240a5f33c5ee1c97d4e95d20ce3316fd54e8af6e6d93f2cdd62a1e29fd93f2d",
+      "collector.py": "abf44b948502392242fc6ec48c8088b8514c8477bb087720c71c8e25224871b3",
+      "worker.py": "377debd245a83d0897b1d61b5afaf30b236b1caa6c32c4cc6491f7c6695b84e0",
+      "association_core.py": "ab9e58502fac01fbc5914cbdaab69e3ef1d5a84d21efdf751a6d56d5da4f3128",
+      "environment_check.py": "a8b62d2889c33b178f437bff638b554877d20201cbb6890246875dbc2fddcda3",
+      "check.py": "f12459160376081653842035f86055175feeca2b33f16186ebcb631a1dac0e88",
+      "association_figures.py": "73570cc88634e5f7a1d5940ebfff04f91973e270ef3b670b0b1e4829be24201d",
+      "feature_adapters.py": "8528186079196bff2097cd98debfd6ce5079102ba416d887dfdefc0d73ffd942",
+      "association_self_checks.py": "f64ceedb3a5a1d533d3be23962c859297ec5c76f5c2977b7ecde0f9c2cb11841",
+      "orchestration_common.py": "2bdc60f4c1d522bf068afad45aec594e27af59e07c7f036db21b1aa032ac2a2e",
+      "join_chunks.py": "f9b1bda469ebdac54e25c89d8417721c8926bc63f899815bff14f7cd28a5c8bc",
+      "record_runtime.py": "99e65fd6cc57d999aa42db5ad07fda918543d64657ab727d6c20c5f6015ad5ce",
+      "compact_review_export.py": "ec5819fae04248c0c8c7868114be0cc264c07fcc82f2fc0f61a26741945f88aa",
+      "recovery_validation.py": "0b02969a33d79bf8fc8e3702fad350ebf0bbb28bf5466f9cadd7c32cbc9ecbbd",
+      "adapter_self_checks.py": "c5c8e1500cf08ac203fc65ea0b6534c0d4773d1f6de3347d56f43ab52a3bd922",
+      "runtime_guard.py": "808bfd1a51a26bbc9debcbc0dd3da1eb2ebc882c90911da66b82be3eb700ad33",
+      "stage_source.py": "9a869fcbf50052caac0fad20d1680bcf613128ce4d387cd9698f08658eb52bca",
+      "categorical_self_checks.py": "1bf3b2a078bfd210dc22cc000453a68f7bc112bde85f88d2ff2a6b5fb04316ca"
+    },
+    "reuse_completed_chunks": true,
+    "scientific_inference_recomputed": false,
+    "old_partial_join_outputs_imported": false,
+    "scientific_settings_changed": false,
+    "global_families_changed": false,
+    "review_archive_max_bytes": 134217728,
+    "source_join_job_id": "24223740",
+    "source_combine_job_id": "24223741",
+    "source_chunk_jobs": {
+      "pagesprings_bacteria_functions_ec": "24223734",
+      "pagesprings_bacteria_functions_ko": "24223735",
+      "pagesprings_bacteria_functions_metacyc": "24223736",
+      "whipstone_bacteria_functions_ec": "24223737",
+      "whipstone_bacteria_functions_ko": "24223738",
+      "whipstone_bacteria_functions_metacyc": "24223739"
+    },
+    "source_chunk_status_sha256": {
+      "pagesprings_bacteria_functions_ec": "96a3255393618b466f7c7f0efc73f1ff6e033d1597a4b47a76ba257ca753c58a",
+      "pagesprings_bacteria_functions_ko": "3a96b1278c7a6d6f7af5ec5f811beaac3345cda2c42f617e5871c9c332bbdd56",
+      "pagesprings_bacteria_functions_metacyc": "b458096fd836706d11a3a72c3f59525338fc0c7596a5df19f7912d2d0aed9b61",
+      "whipstone_bacteria_functions_ec": "7e84450508a20661aaf74ad483ec212b429bb2055843e1da31b3db8911da2979",
+      "whipstone_bacteria_functions_ko": "e9f1453b97123c8dbddae1dd9dee5e5bebd6f09287cfa3d4da48ba997e13d80d",
+      "whipstone_bacteria_functions_metacyc": "fb188046e8919238a8be2f798813eababbe62133930c2f6e4705422237257b4c"
+    },
+    "source_chunk_output_manifest_sha256": {
+      "pagesprings_bacteria_functions_ec": "501ed4554b1897e88fc174ae28969c56cf511ef6b543ad4f7f2657c5dac2abf9",
+      "pagesprings_bacteria_functions_ko": "1a7254aa32726874779847a42271b540d9fbaf24bc10d69644eaaaea7839930c",
+      "pagesprings_bacteria_functions_metacyc": "d2e1e9677cab2339a596b15224558f7d4fdaf43884d383a6d0c415e32acb80a5",
+      "whipstone_bacteria_functions_ec": "31f986c7ba16afe0541ad7ce847c0d2de2dff667ee2cb4a6aa5cb8570dcba063",
+      "whipstone_bacteria_functions_ko": "6cc1a2427924c37b9fcc0018cc0bc27297ec18960bac6c1aa61a773277fd6e3e",
+      "whipstone_bacteria_functions_metacyc": "c464ae4c944fd861b9db49950a3fdc773097c83f73779047d23855d84612ec13"
+    }
+  }
+}

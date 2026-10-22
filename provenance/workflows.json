@@ -1,0 +1,369 @@
+[
+  {
+    "id": "01_core_16s",
+    "title": "PacBio 16S processing and original farm community analyses",
+    "scope": "All three farms; domain-specific executed versions",
+    "jobs": [
+      "23875047_0",
+      "23881745",
+      "23881746_0",
+      "23881746_1",
+      "23881746_2"
+    ],
+    "evidence": [
+      "evidence/01_core_16s/RECOVERY_RECEIPT.json",
+      "evidence/01_core_16s/dada2/bacteria/sessionInfo.txt",
+      "evidence/01_core_16s/dada2/archaea/sessionInfo.txt",
+      "evidence/01_core_16s/ARCHAEA_SOURCE_RECOVERY.json",
+      "evidence/01_core_16s/bacteria_recovery_23881745.log.completion.txt",
+      "evidence/01_core_16s/farms_23881746_0.log.completion.txt",
+      "evidence/01_core_16s/farms_23881746_1.log.completion.txt",
+      "evidence/01_core_16s/farms_23881746_2.log.completion.txt",
+      "evidence/01_core_16s/OatmanFlatsRanch_COMPLETE.txt",
+      "evidence/01_core_16s/PageSpringsCellars_COMPLETE.txt",
+      "evidence/01_core_16s/Whipstone_COMPLETE.txt"
+    ],
+    "confirmation": "Completed bacterial/farm logs and outputs; original archaeal output retained.",
+    "entry": "package/run_recovery_stage.sh (bacteria or farm)",
+    "notes": "The exact successful original archaeal script, bacterial memory-recovery script and both-domain farm-analysis scripts are included. The archaeal script was recovered by reversing the recorded literal memory patch and matches the original execution-receipt SHA256 exactly. Its memory-heavy bacterial branch must not be used; the successful streaming bacterial version is separate. Recovery launcher restores the original source-run layout; this is not a fresh all-domain launcher."
+  },
+  {
+    "id": "02_depth_review",
+    "title": "Read-depth grid and cohort retention",
+    "scope": "All three farms, bacteria and archaea",
+    "jobs": [
+      "24003880"
+    ],
+    "evidence": [
+      "evidence/02_depth_review/submission.txt",
+      "evidence/02_depth_review/COMPLETE.txt",
+      "evidence/02_depth_review/PERMUTATION_SELFTEST_PASS.txt",
+      "evidence/02_depth_review/REUSE_VALIDATION_PASS.txt",
+      "evidence/02_depth_review/sessionInfo.txt"
+    ],
+    "confirmation": "Returned completion marker, runtime session, permutation self-test and identical-cohort reuse check passed. Submission receipt identifies the original package and job; no frozen execution-time code digest is present.",
+    "entry": "SUBMIT.sh -> RUN.sh -> run_review.R",
+    "notes": "The original delivered source matches its package checksum manifest. The later returned results replace the prepared-package PENDING_ON_PUMA state. No primary depth threshold was selected. Historical provenance is by named package and completed output; exact runtime source bytes were not independently frozen."
+  },
+  {
+    "id": "03_sampling_influence",
+    "title": "Sequencing-depth diagnostics and C012 influence",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [],
+    "evidence": [
+      "evidence/03_sampling_influence/VALIDATION.json",
+      "evidence/03_sampling_influence/environment.json"
+    ],
+    "confirmation": "Historical completed output and validation records; no Slurm terminal receipt supplied for this early workflow.",
+    "entry": "analyze.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged. Historical non-HPC workflow, retained as provisional historical evidence rather than labeled HPC-derived. Scientific reruns now belong on Puma only."
+  },
+  {
+    "id": "04_farm_interpretation",
+    "title": "Farm community interpretation and consolidation",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [],
+    "evidence": [
+      "evidence/04_farm_interpretation/VALIDATION.json",
+      "evidence/04_farm_interpretation/environment.json"
+    ],
+    "confirmation": "Historical completed output and validation records; no Slurm terminal receipt supplied for this early workflow.",
+    "entry": "consolidate.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged. Historical non-HPC workflow, retained as provisional historical evidence rather than labeled HPC-derived. Scientific reruns now belong on Puma only."
+  },
+  {
+    "id": "05_pagesprings_taxon",
+    "title": "Historical Page Springs genus log-ratio follow-up",
+    "scope": "Page Springs",
+    "jobs": [],
+    "evidence": [
+      "evidence/05_pagesprings_taxon/VALIDATION.json",
+      "evidence/05_pagesprings_taxon/RELEASE_CHECKS.json",
+      "evidence/05_pagesprings_taxon/ENVIRONMENT.json"
+    ],
+    "confirmation": "Historical completed output and validation records; no Slurm terminal receipt supplied for this early workflow.",
+    "entry": "analyze.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged. Historical non-HPC workflow, retained as provisional historical evidence rather than labeled HPC-derived. Scientific reruns now belong on Puma only."
+  },
+  {
+    "id": "06_corrected_companions",
+    "title": "Corrected soil/crop companion and confirmed-pair analyses",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [
+      "24067160"
+    ],
+    "evidence": [
+      "evidence/06_corrected_companions/HPC_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> payload/extended_analysis.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged."
+  },
+  {
+    "id": "07_source_readiness",
+    "title": "Pre-functional source and runtime readiness",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [
+      "24055317"
+    ],
+    "evidence": [
+      "evidence/07_source_readiness/HPC_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> audit.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged."
+  },
+  {
+    "id": "08_functional_prediction",
+    "title": "PICRUSt2 functional prediction",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [
+      "24067682"
+    ],
+    "evidence": [
+      "evidence/08_functional_prediction/HPC_STATUS.json",
+      "evidence/08_functional_prediction/results/PREDICTION_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> prepare.py / predict.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged."
+  },
+  {
+    "id": "09_functional_sensitivity",
+    "title": "Archaeal reference-domain sensitivity",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [
+      "24073133"
+    ],
+    "evidence": [
+      "evidence/09_functional_sensitivity/HPC_STATUS.json",
+      "evidence/09_functional_sensitivity/results/SENSITIVITY_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> sensitivity.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged."
+  },
+  {
+    "id": "10_functional_comparisons",
+    "title": "Functional profile and targeted temporal/treatment comparisons",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [
+      "24074507"
+    ],
+    "evidence": [
+      "evidence/10_functional_comparisons/HPC_STATUS.json",
+      "evidence/10_functional_comparisons/results/COMPARISON_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> compare_functions.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged."
+  },
+  {
+    "id": "11_functional_figure_refresh",
+    "title": "Functional presentation refresh",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [
+      "24109279"
+    ],
+    "evidence": [
+      "evidence/11_functional_figure_refresh/HPC_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> render_figures.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged."
+  },
+  {
+    "id": "12_feasibility",
+    "title": "Ten-year feasibility assessment",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [
+      "24110649"
+    ],
+    "evidence": [
+      "evidence/12_feasibility/HPC_STATUS.json",
+      "evidence/12_feasibility/results/FEASIBILITY_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> audit_feasibility.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged. Feasibility/retrospective diagnostics do not establish ten-year predictive skill."
+  },
+  {
+    "id": "13_shannon_readiness",
+    "title": "Shannon retrospective baselines and forecast readiness",
+    "scope": "Whipstone annual crops; project readiness context",
+    "jobs": [
+      "24128032"
+    ],
+    "evidence": [
+      "evidence/13_shannon_readiness/HPC_STATUS.json",
+      "evidence/13_shannon_readiness/results/BACKTEST_STATUS.json",
+      "evidence/13_shannon_readiness/results/REPORT_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> backtest.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged. The successful job dynamically imported the original pilot.py verifier. That dependency is retained because this import ran successfully; its old failed reporting driver and failed launch are excluded. This is retrospective known-plot evaluation, not independent prospective validation."
+  },
+  {
+    "id": "14_measured_inventory",
+    "title": "Measured-outcome source inventory",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [
+      "24147988"
+    ],
+    "evidence": [
+      "evidence/14_measured_inventory/HPC_STATUS.json",
+      "evidence/14_measured_inventory/results/INVENTORY_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> inventory_outcomes.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged."
+  },
+  {
+    "id": "15_ph_baselines",
+    "title": "Whipstone pH retrospective baselines",
+    "scope": "Whipstone annual crops; project readiness context",
+    "jobs": [
+      "24149165"
+    ],
+    "evidence": [
+      "evidence/15_ph_baselines/HPC_STATUS.json",
+      "evidence/15_ph_baselines/audit/PH_ENGINE_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> analyze_ph.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged. Feasibility/retrospective diagnostics do not establish ten-year predictive skill."
+  },
+  {
+    "id": "16_nutrient_baselines",
+    "title": "Whipstone organic-matter/nitrate retrospective baselines v2",
+    "scope": "Whipstone annual crops; project readiness context",
+    "jobs": [
+      "24164598"
+    ],
+    "evidence": [
+      "evidence/16_nutrient_baselines/HPC_STATUS.json",
+      "evidence/16_nutrient_baselines/audit/NUTRIENT_ENGINE_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN.sh -> analyze_nutrients.py",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged. Feasibility/retrospective diagnostics do not establish ten-year predictive skill."
+  },
+  {
+    "id": "17_soil_associations",
+    "title": "Project-wide soil associations with joined recovery",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [
+      "24253500",
+      "24253501"
+    ],
+    "evidence": [
+      "evidence/17_soil_associations/HPC_STATUS.json",
+      "evidence/17_soil_associations/audit/join/JOIN_STATUS.json",
+      "evidence/17_soil_associations/results/COMBINE_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN_STAGE.sh -> RUN_JOIN.sh -> RUN_COMBINE.sh",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged. Exact successful join_chunks.py replaces the excluded join_chunks.original.py. Original completed workers/chunks are retained on Puma; this recovery entry point reuses them."
+  },
+  {
+    "id": "18_treatment_time",
+    "title": "Treatment-specific paired changes and repeated-soil follow-up",
+    "scope": "All three farms / shared project workflow",
+    "jobs": [
+      "24276768"
+    ],
+    "evidence": [
+      "evidence/18_treatment_time/HPC_STATUS.json",
+      "evidence/18_treatment_time/results/COMBINE_STATUS.json",
+      "evidence/18_treatment_time/audit/collector/VALIDATION_STATUS.json"
+    ],
+    "confirmation": "Scientific/main stage completion recorded; any collector snapshot limits are retained.",
+    "entry": "RUN_STAGE.sh -> RUN_WORKER.sh -> RUN_COMBINE.sh",
+    "notes": "Original guards, numerical code, source pins and methods are unchanged."
+  },
+  {
+    "id": "19_oatman_supplements_v3",
+    "title": "Oatman family composition, saved diversity support and supplemental comparisons",
+    "scope": "Oatman Flats",
+    "jobs": [
+      "24334143",
+      "24334144",
+      "24334145",
+      "24334146",
+      "24334147"
+    ],
+    "evidence": [
+      "evidence/19_oatman_supplements_v3/FINAL_STATUS.json",
+      "evidence/19_oatman_supplements_v3/submission.json"
+    ],
+    "confirmation": "Completed returned output archive; manual review recorded in the project conversation. Original pre-review status remains unchanged.",
+    "entry": "RUN.sh",
+    "notes": "Compute/source stage. Its initial Shannon/depth/PCoA presentation is superseded by the next two successful layout stages."
+  },
+  {
+    "id": "20_oatman_layout_v3",
+    "title": "Oatman Shannon and read-depth layout refresh",
+    "scope": "Oatman Flats",
+    "jobs": [
+      "24347273"
+    ],
+    "evidence": [
+      "evidence/20_oatman_layout_v3/FINAL_STATUS.json",
+      "evidence/20_oatman_layout_v3/submission.json"
+    ],
+    "confirmation": "Completed returned output archive; manual review recorded in the project conversation. Original pre-review status remains unchanged.",
+    "entry": "START_HERE.sh",
+    "notes": "Final source for the main Shannon panel, separate-field Shannon panel and depth display. Its S7 output is superseded by stage 21."
+  },
+  {
+    "id": "21_oatman_pcoa_layout_v5",
+    "title": "Oatman final S7 saved-coordinate layout",
+    "scope": "Oatman Flats",
+    "jobs": [
+      "24348914"
+    ],
+    "evidence": [
+      "evidence/21_oatman_pcoa_layout_v5/FINAL_STATUS.json",
+      "evidence/21_oatman_pcoa_layout_v5/submission.json"
+    ],
+    "confirmation": "Completed returned output archive; manual review recorded in the project conversation. Original pre-review status remains unchanged.",
+    "entry": "START_HERE.sh",
+    "notes": "Final S7 padding and marker-containment renderer; no coordinates or tests are recomputed."
+  },
+  {
+    "id": "22_remaining_manuscripts_v2",
+    "title": "Page Springs, Whipstone and cross-farm figure/source preparation",
+    "scope": "Page Springs, Whipstone, cross-farm synthesis",
+    "jobs": [
+      "24369735",
+      "24369736",
+      "24369737",
+      "24369738"
+    ],
+    "evidence": [
+      "evidence/22_remaining_manuscripts_v2/FINAL_STATUS.json",
+      "evidence/22_remaining_manuscripts_v2/audit/worker_scheduler_receipts.json",
+      "evidence/22_remaining_manuscripts_v2/audit/environment_24369736.json",
+      "evidence/22_remaining_manuscripts_v2/audit/environment_24369737.json",
+      "evidence/22_remaining_manuscripts_v2/audit/environment_24369738.json"
+    ],
+    "confirmation": "All four scientific workers recorded COMPLETED 0:0.",
+    "entry": "START_HERE.sh",
+    "notes": "Successful source-generation stage. Community and association layouts are intermediate: use stage 23 for their revised publication presentation. Maps and 15 other figures are reused unchanged by stage 23."
+  },
+  {
+    "id": "23_figure_refresh_v2",
+    "title": "Latest consolidated figure refresh",
+    "scope": "Page Springs, Whipstone and cross-farm synthesis",
+    "jobs": [
+      "24371235"
+    ],
+    "evidence": [
+      "evidence/23_figure_refresh_v2/USER_PROVIDED_CHECK_OUTPUT.txt",
+      "evidence/23_figure_refresh_v2/EVIDENCE_SCOPE.json"
+    ],
+    "confirmation": "User-provided CHECK reports COMPLETED 0:0 and RESULTS_READY=true; returned archive and figures not yet inspected here.",
+    "entry": "START_HERE.sh",
+    "notes": "Latest successful run included at the user’s explicit request. Consumes stage 22’s exact ZIP; designed to redraw 23 displays, reuse 17 and return 40 candidates. Actual returned contents and visual/scientific review remain pending."
+  }
+]

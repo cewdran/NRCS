@@ -1,0 +1,6 @@
+RUN_DIRECTORY=/xdisk/dinusha1/dinusha1/NRCS_Figure_Refresh_HPC_v2/runs/run_20261022T212520Z_e89d54e9
+refresh job=24371235 state=COMPLETED exit=0:0
+RESULTS_READY=true
+SCIENTIFIC_AND_VISUAL_REVIEW_PENDING=true
+RETURN_ZIP=/xdisk/dinusha1/dinusha1/NRCS_Figure_Refresh_HPC_v2_run_20261022T212520Z_e89d54e9_results.zip
+RETURN_CHECKSUM=/xdisk/dinusha1/dinusha1/NRCS_Figure_Refresh_HPC_v2_run_20261022T212520Z_e89d54e9_results.zip.sha256.txt

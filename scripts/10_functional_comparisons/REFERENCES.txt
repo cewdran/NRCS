@@ -1,0 +1,33 @@
+Methods / official annotation references consulted 2 October 2026
+
+Legendre P and Legendre L. Hellinger transformation and ordination (author copy):
+https://www.numericalecology.com/Reprints/Legendre_Ordination_chapter_in_Palaeolimnology_book_2012.pdf
+Winkler AM et al. 2014. Permutation inference for the general linear model.
+NeuroImage 92:381-397. doi:10.1016/j.neuroimage.2014.01.060
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4010955/
+Winkler AM et al. 2015. Multi-level block permutation. NeuroImage 123:253-268.
+doi:10.1016/j.neuroimage.2015.05.092
+https://pmc.ncbi.nlm.nih.gov/articles/PMC4644991/
+Anderson MJ and Walsh DCI. 2013. PERMANOVA, ANOSIM, and the Mantel test in the
+face of heterogeneous dispersions: What null hypothesis are you testing?
+Ecological Monographs 83:557-574. doi:10.1890/12-2010.1
+https://doi.org/10.1890/12-2010.1
+Holm S. 1979. A simple sequentially rejective multiple test procedure.
+Scandinavian Journal of Statistics 6:65-70.
+https://www.ime.usp.br/~abe/lista/pdf4R8xPVzCnX.pdf
+https://www.jstor.org/stable/4615733
+PICRUSt2 official domain choice (lowest reference NSTI):
+https://github.com/picrust/picrust2/wiki/Get-the-best-domain-for-each-sequence-PICRUSt2%E2%80%90SC-database
+PICRUSt2 limitations:
+https://github.com/picrust/picrust2/wiki/Key-Limitations
+MetaCyc names are taken from the official version-fixed PICRUSt2 map:
+https://raw.githubusercontent.com/picrust/picrust2/v2.6.3/picrust2/default_files/description_mapfiles/metacyc-pwy_name.txt.gz
+Compressed SHA-256: 5fafe928b89cadd9dc79ae62cebbed4f30b1afab987f5530b32821877897383c
+Decompressed SHA-256: a3d0b5af689394ebfa7d101ba9080235274521fede2c8cf801c912d3c0a92adc
+Ten exact IUBMB enzyme URLs are recorded in FEATURE_PANEL.csv.
+
+The Python tests are transparent custom implementations, not an invocation of
+vegan/adonis2. Hellinger/whole-block permutation principles motivate the design.
+Statistical validity remains conditional on the exchangeability and symmetry
+assumptions declared in PROTOCOL.txt. Source code and analytical fixtures are
+included for independent review; fixtures execute on Puma, never locally.

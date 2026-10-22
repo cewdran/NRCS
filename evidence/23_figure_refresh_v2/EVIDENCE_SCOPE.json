@@ -1,0 +1,11 @@
+{
+  "job_id": "24371235",
+  "scheduler_state": "COMPLETED",
+  "exit_code": "0:0",
+  "evidence_source": "User pasted CHECK.sh output in this conversation on 2026-10-22",
+  "results_ready_reported": true,
+  "source_package_sha256": "72dd8cbb93f5df88c2098a991879236f4584bd3d9db5a2716436ec57b7d99988",
+  "returned_results_archive_received": false,
+  "returned_results_independently_verified": false,
+  "scientific_and_visual_review_complete": false
+}

@@ -1,0 +1,13 @@
+{
+  "rarefaction_vs_integer_combinations": "PASS",
+  "exact_permutation_vs_brute_force": "PASS",
+  "euclidean_SS_vs_direct_ANOVA": "PASS",
+  "count_metadata_alignment": "PASS",
+  "integer_nonnegative_counts": "PASS",
+  "rarefaction_endpoints_and_monotonicity": "PASS",
+  "one_date_independent_plot_design": "PASS",
+  "full_and_C012_omitted_statistics_vs_vegan": "PASS",
+  "all_permutation_allocation_counts": "PASS",
+  "no_primary_sample_removal": true,
+  "not_performed": "No local R execution; p values are Python exhaustive tests, not the original R Monte Carlo values."
+}

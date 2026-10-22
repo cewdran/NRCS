@@ -1,0 +1,129 @@
+{
+  "chunk_content_verification_passed": true,
+  "chunk_count": 6,
+  "completed": true,
+  "completed_utc": "2026-10-14T18:46:45.706420+00:00",
+  "engine_self_checks_passed": true,
+  "engine_self_checks_sha256": "3d996bcf64141d1b9a121a2678184d286d0244a4b5de259b76de62e114968304",
+  "execution": {
+    "cluster": "puma",
+    "job_id": "24253500",
+    "job_record": "JobId=24253500 JobName=nrcs_recover_join UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:10 TimeLimit=2-00:00:00 TimeMin=N/A SubmitTime=2026-10-14T11:06:48 EligibleTime=2026-10-14T11:10:11 AccrueTime=2026-10-14T11:10:11 StartTime=2026-10-14T11:14:12 EndTime=2026-10-16T11:14:12 Deadline=N/A PreemptEligibleTime=2026-10-14T11:14:12 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-14T11:14:12 Scheduler=Backfill Partition=standard AllocNode:Sid=wentletrap:3094220 ReqNodeList=(null) ExcNodeList=(null) NodeList=r4u09n2 BatchHost=r4u09n2 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=20G,node=1,billing=4 AllocTRES=cpu=4,mem=20G,node=1,billing=4 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/RUN_JOIN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b StdErr=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/logs/join.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/logs/join.log KillOInInvalidDependent=Yes TresPerTask=cpu=4",
+    "node": "r4u09n2"
+  },
+  "historical_partial_output_read": false,
+  "logical_worker_count": 2,
+  "numerical_self_checks_passed": true,
+  "package_integrity_passed": true,
+  "scientific_review_pending": true,
+  "source_file_count": 2971,
+  "source_files_changed": false,
+  "source_verification_sha256": "dc6376e3e9acfcb3278f0fefe8aedcdbe633d682ef7b84c5c7e5efcf0c92acc9",
+  "visual_review_pending": true,
+  "workers": [
+    {
+      "output_manifest_sha256": "9c2d6be53156ba35ade6c44bd5def964c064121f982b0d499e9a311e897f1feb",
+      "shard_id": "pagesprings_bacteria_functions",
+      "status": {
+        "aggregation_kind": "CLASS_CHUNK_ASSEMBLY",
+        "chunk_content_verification_passed": true,
+        "chunk_ids": [
+          "pagesprings_bacteria_functions_ec",
+          "pagesprings_bacteria_functions_ko",
+          "pagesprings_bacteria_functions_metacyc"
+        ],
+        "chunk_job_ids": [
+          "24223734",
+          "24223735",
+          "24223736"
+        ],
+        "cohort_count": 217,
+        "completed": true,
+        "completed_utc": "2026-10-14T18:43:20.716983+00:00",
+        "descriptive_rows": 1474200,
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24253500",
+          "job_record": "JobId=24253500 JobName=nrcs_recover_join UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:10 TimeLimit=2-00:00:00 TimeMin=N/A SubmitTime=2026-10-14T11:06:48 EligibleTime=2026-10-14T11:10:11 AccrueTime=2026-10-14T11:10:11 StartTime=2026-10-14T11:14:12 EndTime=2026-10-16T11:14:12 Deadline=N/A PreemptEligibleTime=2026-10-14T11:14:12 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-14T11:14:12 Scheduler=Backfill Partition=standard AllocNode:Sid=wentletrap:3094220 ReqNodeList=(null) ExcNodeList=(null) NodeList=r4u09n2 BatchHost=r4u09n2 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=20G,node=1,billing=4 AllocTRES=cpu=4,mem=20G,node=1,billing=4 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/RUN_JOIN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b StdErr=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/logs/join.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/logs/join.log KillOInInvalidDependent=Yes TresPerTask=cpu=4",
+          "node": "r4u09n2"
+        },
+        "failed_eligible_rows": 293760,
+        "feature_classes": [
+          "EC",
+          "KO",
+          "METACYC"
+        ],
+        "inferential_rows": 7696734,
+        "numerical_self_checks_passed": true,
+        "output_manifest_sha256": "9c2d6be53156ba35ade6c44bd5def964c064121f982b0d499e9a311e897f1feb",
+        "package_integrity_passed": true,
+        "predictive_validation_established": false,
+        "scientific_review_pending": true,
+        "shard": {
+          "domain": "bacteria",
+          "farm": "Page Springs",
+          "feature_type": "functions",
+          "id": "pagesprings_bacteria_functions"
+        },
+        "skipped_rows": 692202,
+        "source_file_count": 2971,
+        "source_files_changed": false,
+        "ten_year_forecast_generated": false,
+        "tests_rows": 10156896,
+        "visual_review_pending": true
+      }
+    },
+    {
+      "output_manifest_sha256": "013fa23ed3a581ff141fe5c37db2257dd7f04b30c99fd593e83ef3c382367961",
+      "shard_id": "whipstone_bacteria_functions",
+      "status": {
+        "aggregation_kind": "CLASS_CHUNK_ASSEMBLY",
+        "chunk_content_verification_passed": true,
+        "chunk_ids": [
+          "whipstone_bacteria_functions_ec",
+          "whipstone_bacteria_functions_ko",
+          "whipstone_bacteria_functions_metacyc"
+        ],
+        "chunk_job_ids": [
+          "24223737",
+          "24223738",
+          "24223739"
+        ],
+        "cohort_count": 323,
+        "completed": true,
+        "completed_utc": "2026-10-14T18:46:38.374253+00:00",
+        "descriptive_rows": 4291530,
+        "execution": {
+          "cluster": "puma",
+          "job_id": "24253500",
+          "job_record": "JobId=24253500 JobName=nrcs_recover_join UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:10 TimeLimit=2-00:00:00 TimeMin=N/A SubmitTime=2026-10-14T11:06:48 EligibleTime=2026-10-14T11:10:11 AccrueTime=2026-10-14T11:10:11 StartTime=2026-10-14T11:14:12 EndTime=2026-10-16T11:14:12 Deadline=N/A PreemptEligibleTime=2026-10-14T11:14:12 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-14T11:14:12 Scheduler=Backfill Partition=standard AllocNode:Sid=wentletrap:3094220 ReqNodeList=(null) ExcNodeList=(null) NodeList=r4u09n2 BatchHost=r4u09n2 NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=4,mem=20G,node=1,billing=4 AllocTRES=cpu=4,mem=20G,node=1,billing=4 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=4 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/RUN_JOIN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b StdErr=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/logs/join.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_correlations_join_repair_HPC_v1/runs/run_20261014T180647Z_6158100b/logs/join.log KillOInInvalidDependent=Yes TresPerTask=cpu=4",
+          "node": "r4u09n2"
+        },
+        "failed_eligible_rows": 676836,
+        "feature_classes": [
+          "EC",
+          "KO",
+          "METACYC"
+        ],
+        "inferential_rows": 9779730,
+        "numerical_self_checks_passed": true,
+        "output_manifest_sha256": "013fa23ed3a581ff141fe5c37db2257dd7f04b30c99fd593e83ef3c382367961",
+        "package_integrity_passed": true,
+        "predictive_validation_established": false,
+        "scientific_review_pending": true,
+        "shard": {
+          "domain": "bacteria",
+          "farm": "Whipstone",
+          "feature_type": "functions",
+          "id": "whipstone_bacteria_functions"
+        },
+        "skipped_rows": 1241220,
+        "source_file_count": 2971,
+        "source_files_changed": false,
+        "ten_year_forecast_generated": false,
+        "tests_rows": 15989316,
+        "visual_review_pending": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source_archive_sha256": "6cf1ea04c863156a210db3c666dc232a431dcce7915b9c1fb304c7c160b7b692",
+  "archive_crc_passed": true,
+  "return_manifest_entries_verified": 594,
+  "candidate_figures_visually_reviewed": 38,
+  "legacy_figures_visually_reviewed": 10,
+  "source_workers_completed": [
+    "stage",
+    "community",
+    "maps",
+    "extras"
+  ],
+  "source_collector_terminal_status_not_recorded_inside_archive": true,
+  "issues": [
+    "Association statistics collide with multirow global legends on both Page Springs four-panel pages and the synthesis page.",
+    "Shannon limits clip marker edges at maximum and zero values; use explicit common within-domain limits with margin.",
+    "Depth symlog autoscaling includes large negative regions despite nonnegative counts, and retention annotations cross the threshold line.",
+    "PCoA columns are narrow; reflow dates as rows and domains as columns using saved coordinates.",
+    "The Oatman synthesis association axis uses an internal variable name and omits its saved ppm C unit."
+  ],
+  "refresh_scope": "Saved-table plotting only on Puma; no ASV processing, distance/ordination fitting, CLR calculation, hypothesis tests, correction-family changes, or manuscript revision.",
+  "figures_reused_unchanged": 17,
+  "figures_redrawn": 21,
+  "additional_measured_soil_displays": 2,
+  "consolidated_figure_count": 40,
+  "manuscripts_pending": "Finalize after refreshed figure review; current three manuscript versions remain unchanged.",
+  "editorial_requirements": "Omit companion inventory sections; retain scientific figures/tables. Treatment codes are authoritative. Field-plan maps provide general layout only."
+}

@@ -1,0 +1,224 @@
+{
+  "package": "NRCS_validation_forecast_readiness_HPC_v1",
+  "package_revision": "temporal_validation_readiness_v1",
+  "prepared_date": "2026-10-06",
+  "runtime_package": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3",
+  "runtime_expected_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "reportlab": "4.4.9",
+    "Pillow": "12.3.0",
+    "pypdf": "6.10.0",
+    "openpyxl": "3.1.5"
+  },
+  "runtime_requirements_sha256": "af523eeb337a4f73489cd16e7c36b60527e48dd6b429736b63ae5670d66516cf",
+  "source_runs": {
+    "corrected": {
+      "analysis_job_id": "24067160",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8"
+    },
+    "functional": {
+      "analysis_job_id": "24067682",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2"
+    },
+    "feasibility_v2": {
+      "analysis_job_id": "24110649",
+      "path": "/xdisk/dinusha1/dinusha1/NRCS_ten_year_feasibility_HPC_v2/runs/run_20261005T225135Z_2460a868"
+    }
+  },
+  "sources": {
+    "corrected": {
+      "HPC_STATUS.json": "ee3434a9e6ed7bb1c5f2233e03ed44e5c76baf8c85229e19cc80b14ca0539914",
+      "audit/run_end.json": "f05a910d13a7412a9dd44b03306359aa6bbf9687f7e0549a5b8a04c82cf02148",
+      "ANALYSES_COMPLETE.txt": "86d6c23769b75266d87847e902fdd721566461c7b6b82695087d8c8821b557fc",
+      "payload/inputs/workbook_data.json": "80c4e33f4a859115cdf50c58b0c8a1e215487366e63cd83cc25ab101ff4cd4d4",
+      "payload/inputs/workbook_data_before_revision.json": "00dadbca5998aa3da40fc48e5bbea1af733264b08604f30a641a607c8f430aef",
+      "payload/inputs/bacteria_counts.tsv.gz": "c69a2197857a65e525b09edb1e6ab8bd8fe910d5e42067dfd0be282b78337deb",
+      "payload/inputs/archaea_counts.tsv.gz": "5bea33176792ae944f913abf0138159d918b53e30f66fb3cc77b3eec4f88995d",
+      "audit/derived_inputs.json": "f3e419389aa176f5c9bb3d3f3e0594ddd2dd8d99a06813243835756186a40556",
+      "payload/prepare_inputs.py": "53d60e618b3c1c9a0cd366334020c6ca969717cac0067eca4eee58518e3a5af5",
+      "payload/apply_corrections.py": "1380438f7719bffcda20123b3158981cf4b6ee658b7c7d653015c591a6db55f9",
+      "payload/METHODS.md": "08a5c9ff87f9454b37b1d56a6e14c9f6716c67768bfcf7a152197133dd8bea09",
+      "audit/software/environment.json": "660e17e7916ffac18b9421b4b9fb8976496f7b795338345116621cf2fb98120d",
+      "payload/requirements.txt": "af523eeb337a4f73489cd16e7c36b60527e48dd6b429736b63ae5670d66516cf"
+    },
+    "functional": {
+      "HPC_STATUS.json": "979ee1d50e61c7a0ec06bafd7455974db37e0b86bb749379e88b5e2f808d83d9",
+      "audit/run_end.json": "753e6521cee47b12e0075a3ab48e7d083f07d9729735dadbcfe11c9a429273fc",
+      "ANALYSES_COMPLETE.txt": "7e26e80defa80c1bb884871a099074623163d4ffb30c8a65269587d7b886acc1",
+      "validated/bacteria/sample_metadata.csv": "b33705cf88732dfa339cf398c6b1ce34ea05c56e568a47323978eb763dc30f8a",
+      "validated/archaea/sample_metadata.csv": "543839fe7b451c9827eeedec87eef9316831098f8105ab8db348caee888893d6",
+      "prepare.py": "0adfe4d66075d2ece50e068a863435e100d5c4a85aad739d1838285b8d247aea",
+      "results/INPUT_VALIDATION.json": "ecded4c0c42135d22340dfdb0a8eff22efbe69637f5f993ff52499f82fae9a0d"
+    },
+    "feasibility_v2": {
+      "HPC_STATUS.json": "b5088df26359b666df10b380b98d342a2d877fe920bb707e895cacffc630103a",
+      "audit/run_end.json": "464fba339ff30ab98cb84d53a3dd9a0835600c1757f739c0b0500ca87ef1cad3",
+      "ANALYSES_COMPLETE.txt": "8dfad066060fa652069bd2de97db6f16eeb342f5765f561cf9bc4ac1cf2a0b68",
+      "results/FEASIBILITY_STATUS.json": "0aa5e58444373636021db8a209e90068b7f39ad9718b48fe6ed08a4a19ceb70c",
+      "results/microbiome_sample_audit.csv": "9fd833663f20bccdee9227354433fde7a9e181aa0e3474edafb0ad638f8feee9",
+      "results/microbiome_plot_visit_support.csv": "8df4d8a1d5063a953104c3216378eb6d15c9ddd1046329568bbb687626cdd2f1",
+      "results/microbiome_cohort_support.csv": "3fe10c8dd1450ccadf195121aed2e708281858396a8e2b719a0a0c0a3263a64d",
+      "results/time_split_candidate_designs.csv": "489cd4aef8871f3ab1539a24bd071bf0b435dd2d938aea7280e0f0fba46b30e7",
+      "results/integrity_checks.csv": "2b874a59b94b60d6a74e2cc207ca6a1e51bef9a384c7f515d8900a6098dedd95",
+      "results/source_hashes.csv": "d64652a1d570b5be85829e38c585c4f4d6d68b084e2a97be7f670e7e68ba0e7b"
+    }
+  },
+  "resources": {
+    "cpus": 1,
+    "memory": "5G",
+    "time": "01:00:00"
+  },
+  "scientific_scope": "Compute additional Whipstone Annual Shannon 2023-to-entire-2024 annual-round point-baseline backtest on Puma; reuse verified 2025 fits/predictions/errors without recomputation; audit empirical ten-year forecast readiness with numerical forecast withheld when unsupported.",
+  "automatic_forecast_authorization": false,
+  "ten_year_forecast_generated": false,
+  "predictive_validation_established": false,
+  "protocol": {
+    "farm": "Whipstone",
+    "system": "Annual",
+    "domains": [
+      "bacteria",
+      "archaea"
+    ],
+    "scopes": [
+      "PRIMARY",
+      "DEPTH_SENSITIVITY"
+    ],
+    "response": "Shannon",
+    "response_unit": "nats",
+    "response_definition": "H=-sum(p*ln(p)); positive-ASV counts / total; unrarefied target counts",
+    "source_definition_gate": "PASSED_EXECUTED_PUMA_GENERATOR_VERIFIED",
+    "source_definition_record": "review/SHANNON_DEFINITION_GATE.txt",
+    "training_dates": [
+      "2023-11-16",
+      "2024-07-06",
+      "2024-08-14"
+    ],
+    "cutoff_date": "2025-01-01",
+    "held_out_date": "2025-08-17",
+    "treatment_arms": [
+      "Blood_meal_and_Feather_meal",
+      "Blood_meal_and_Feather_meal_and_cover_crop",
+      "Control",
+      "Cover_crop_only"
+    ],
+    "primary_expected_plots": 12,
+    "primary_expected_plots_per_arm": 3,
+    "Shannon_count_audit_abs_tolerance": 1e-10,
+    "Shannon_count_audit_rel_tolerance": 1e-10,
+    "methods": [
+      "PERSISTENCE",
+      "EQUAL_PLOT_TRAINING_MEAN",
+      "EQUAL_PLOT_TRAINING_ARM_MEAN"
+    ],
+    "depth_rule": "PRIMARY and original source depth_sensitivity_included; no new threshold or fitted depth covariate",
+    "arm_baseline_rule": "All four declared arms present with equal training physical-plot counts and at least two plots in each; otherwise skip entire arm method",
+    "evaluation": "One held-out occasion; equal-plot MAE/RMSE and same-plot descriptive comparisons; no intervals or p-values",
+    "historical_assay_availability": "NOT_VERIFIED; retrospective collection-date partition only"
+  },
+  "engine_source": {
+    "analysis_job_id": "24124251",
+    "node": "r7u03n1",
+    "cluster": "puma",
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_Shannon_hindcast_HPC_v2/runs/run_20261006T172508Z_ffdd5c3e",
+    "scheduler_state": "FAILED",
+    "scheduler_exit_code": "1:0",
+    "pipeline_exit_code": 1,
+    "failure_marker": "Report table header overflow.",
+    "expected_package_manifest": "review/EXPECTED_SOURCE_PACKAGE_SHA256SUMS.txt",
+    "expected_package_manifest_sha256": "8d16c29b808f7cd7037c0427aba940fe84316f716010df2b65861fbe012b09dd",
+    "source_package": "NRCS_Shannon_hindcast_HPC_v2",
+    "source_package_revision": "shannon_known_plot_hindcast_v2_runtime_preflight"
+  },
+  "user_intent": {
+    "predictive_validation_and_ten_year_work_authorized": true,
+    "independent_information_available": "CURRENT_NRCS_FILES_ONLY",
+    "authorization_date": "2026-10-06",
+    "prior_approval_fields_are_historical_not_current_permission": true
+  },
+  "backtest_protocol": {
+    "farm": "Whipstone",
+    "system": "Annual",
+    "domains": [
+      "bacteria",
+      "archaea"
+    ],
+    "scopes": [
+      "PRIMARY",
+      "DEPTH_SENSITIVITY"
+    ],
+    "response": "Shannon",
+    "treatment_arms": [
+      "Blood_meal_and_Feather_meal",
+      "Blood_meal_and_Feather_meal_and_cover_crop",
+      "Control",
+      "Cover_crop_only"
+    ],
+    "methods": [
+      "PERSISTENCE",
+      "EQUAL_PLOT_TRAINING_MEAN",
+      "EQUAL_PLOT_TRAINING_ARM_MEAN"
+    ],
+    "new_fold": {
+      "fold_id": "TRAIN2023_TEST2024_ANNUAL_ROUND",
+      "training_dates": [
+        "2023-11-16"
+      ],
+      "held_out_dates": [
+        "2024-07-06",
+        "2024-08-14"
+      ],
+      "cutoff_date": "2024-01-01",
+      "target_annual_round": "2024",
+      "one_observation_per_physical_plot_in_round": true
+    },
+    "reused_fold": {
+      "fold_id": "TRAIN2023_2024_TEST2025",
+      "training_dates": [
+        "2023-11-16",
+        "2024-07-06",
+        "2024-08-14"
+      ],
+      "held_out_dates": [
+        "2025-08-17"
+      ],
+      "cutoff_date": "2025-01-01",
+      "origin_job_id": "24124251",
+      "recompute_fits_predictions_errors": false
+    },
+    "evaluation_scope": "RETROSPECTIVE_KNOWN_PLOT_ANNUAL_ROUND_POINT_DIAGNOSTICS",
+    "future_assay_availability_verified": false,
+    "pool_rounds_as_independent_plot_samples": false,
+    "select_winner": false,
+    "intervals_or_p_values": false,
+    "ten_year_numerical_values": false
+  },
+  "repair_source": {
+    "analysis_job_id": "24126557",
+    "path": "/xdisk/dinusha1/dinusha1/NRCS_Shannon_report_repair_HPC_v1/runs/run_20261006T195916Z_3050d2a7",
+    "cluster": "puma",
+    "node": "r7u03n1",
+    "files": {
+      "HPC_STATUS.json": "bcb9423f89e8217707b2ca0f1e1cbcb7a91015b615033ce90f99324cc650c9fc",
+      "audit/run_end.json": "de2df6bc2db73c9c9186b86ae308a0b954098184b00ae56fca50aed62f8cd7a1",
+      "results/REPORT_STATUS.json": "9270cda80a1f07e1d947f70138abcc18ac28d4d66f5e606bed2a5643f31b3a81",
+      "results/report_output_manifest.csv": "1b21f438639628f463a7d6f5794c53af31e5d7f6027ab68426d6218b48c16c7a",
+      "results/NRCS_Shannon_hindcast_review.pdf": "1fc6c6fe3b006a34b5b97efd629a47d07d0e2ea1fc063a000ec2c948572d7316",
+      "OUTPUT_SHA256SUMS.txt": "2f2f4ca3469a30dc449c101b05f1ef7f33336fdd1dc8951ac3ae3cbd78cbbdbb"
+    }
+  },
+  "review_locks": {
+    "review/ACCEPTED_RETURNED_REVIEW_24126557.json": "d93ef3e6b13906aa71226a35f9c1a165f64f3cc7baee7c14185167b39725c66b",
+    "review/ACCEPTED_FEASIBILITY_REVIEW_24110649.json": "b609b849d3698c77a86b1aa94e99140e451beee30b707a9e0c8bc842a0429bf2"
+  },
+  "source_core_sha256": "89b23025829e397fa4dff9352ac82c0dfe66d180b7c5a574bf72ad70ae01d716",
+  "planned_execution": {
+    "new2024_baseline_fits_predictions_errors": "PENDING_PUMA_ONLY",
+    "new2024_raw_count_response_verification": "PENDING_PUMA_ONLY",
+    "puma_synthetic_fixtures": "PENDING_PUMA_ONLY",
+    "reused2025_fits_predictions_errors": "EXACT_REUSE_NO_RECOMPUTATION",
+    "numerical_ten_year_forecast": "WITHHELD_CURRENT_EVIDENCE_UNSUPPORTED"
+  }
+}

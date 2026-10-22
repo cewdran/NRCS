@@ -1,0 +1,230 @@
+NRCS TEN-YEAR FEASIBILITY AUDIT - PROVENANCE PROTOCOL v2
+Prepared 5 October 2026. Scientific execution is exclusively on Puma under Slurm.
+
+Correction rerun scope
+This version corrects two output-label defects identified while reviewing the
+completed v1 Puma audit 24110010, run_20261005T221732Z_e5c3074d. That run remains
+immutable. First, source-catalog hold flags were contaminated by empty keys
+created during lookups in a defaultdict of held reasons. A retained S1 record
+R0102 was correctly unheld in laboratory_record_catalog but falsely held in
+laboratory_measurement_catalog. Second, a nonempty literal method placeholder
+'Not specified on report' was classified as a recorded assay rather than an
+unknown method requiring a hold. Neither defect authorized or changed a model,
+statistical test, forecast, source value or main confirmed join: all approvals
+in v1 remained false and main joins used a separate actual held-ID set.
+
+The v2 run repeats the same descriptive source/design audit with corrected
+catalog and assay annotations. Catalog hold flags and reasons must derive from
+the authoritative corrected held-record IDs; reading an absent reason must not
+create membership. Preserve literal source method text, including unknown-method
+placeholders, but classify missing, unknown, conflicting or partially recorded
+methods as unresolved/held. A reported variable name is not proof of assay
+compatibility. Preserve the frozen sources, fixed candidate panel, corrected
+identities, exclusions and scope. This version is not a harmonization pass,
+approved within-study model, validation analysis or ten-year projection.
+
+Purpose and authorization
+Implement the feasibility stage of the approved planning extension in
+NRCS_Workflow_Status_20260930_v3.pdf, version 2, pages 5-7. The approved sequence
+is: small within-study response models where estimable; earlier-event training
+and later-event validation; and, only with additional evidence, externally
+calibrated conditional ten-year scenarios. This package performs the preceding
+source/design audit. It does not fit response models, run forecasts, simulate
+ten-year effects, claim validation, or establish external calibration.
+
+Source precedence
+The corrected successful Puma run 24067160 governs sample identities, D1-D18
+decisions, retained measurements, disposition and confirmed matches. Functional
+run 24067682 governs validated microbiome metadata and prediction support;
+sensitivity run 24073133 and comparison run 24074507 govern their respective
+recorded functional outputs. Verify the exact frozen sources and code hashes,
+copy source snapshots into an isolated run and preserve all earlier results.
+Historical workflow statements about unresolved identities are superseded only
+by explicit corrected decisions, not by plausible names or a matching year.
+Prior p-values and support labels do not choose this audit's outcomes.
+
+Outcome inventory and candidate plan
+Inventory every corrected measured outcome, keeping farm, biological system,
+dataset, exact variable identifier, source assay/method and unit distinct.
+OUTCOME_PLAN.csv names candidate response tracks and a small illustrative panel;
+its rows are CANDIDATES or QC_ONLY, not approved numerical model outcomes.
+Retain all inventory rows, including sparse, held, composite, censored, reference,
+missing-unit and missing-date records. Presence in an inventory does not authorize
+inference. A later immutable model protocol must freeze the exact response IDs,
+cohort, transformations, predictors, contrasts, multiplicity and alternatives
+after this audit is reviewed. Do not select targets because earlier tests were
+significant, replace an absent target with a favorable one, or import earlier
+CLR/FDR defaults without a newly declared analysis protocol.
+
+Microbial candidates are Shannon, observed ASV richness, community structure and
+the previously fixed ten EC/four MetaCyc targets. Bacteria and archaea remain
+separate responses. Preserve original and filtered archaeal functional versions
+and their matched population; inferential claims later require declared
+sensitivity handling. Functional values are inferred relative genetic potential,
+not measured genes, activities, fluxes or nutrient budgets. Read counts remain
+sequencing-depth QC/covariate candidates, never absolute microbial load and never
+a biological ten-year outcome. Community summary definitions and depth handling
+remain a later modeling choice; do not invent extra derived responses here.
+
+Measured candidates include verified soil variables, crop biomass, reported
+grain yield and grain composition. Keep Haney, Ward and IAS assays distinct.
+Organic matter by loss on ignition is not soil organic-carbon stock; organic
+carbon is not active carbon; missing active-carbon/ACE-protein measurements are
+not reconstructed. Yield retains its reported unit and unverified harvest-area
+or conversion assumptions. Crop plot-season identity must be confirmed separately
+from a soil aliquot or soil-16S match. Grain records with a year-only event cannot
+be assigned a fabricated collection day. Petiole/juice variables, if present,
+remain subject to their own matrix, identity, method and timing gates.
+
+Independent units and mandatory design holds
+Keep the seven microbiome systems separate: Oatman 2023-24 field, Oatman 2025
+field, Grenache, Petite Sirah, Whipstone annual crops, Chester and Natchez. Each
+measured-outcome system must map through evidence, not through a shared year.
+The physical plot is the biological unit. Technical libraries, laboratory
+duplicates, repeated visits and sequencing domains do not create extra plots.
+Preserve corrected technical merges; do not split the 2025 Petite Sirah T1
+library into replicates. All ten 2025 Petite Sirah biological profiles remain in
+the audit, including the single T1 plot D139/C139. Its standalone four-arm
+treatment comparison remains held because arm counts are 1/3/3/3. It may enter
+descriptive and properly defined paired-plot summaries. No Grenache 2025 record
+is present in the supplied inventory; do not invent one or imply none was ever
+collected outside these sources.
+
+Oatman 2025 uses distinct physical plots from the 2023-24 field. Cover crop WEST
+and Control EAST are confounded with field side; shared burning/tillage does
+not create an unburned or untilled control. Do not pool reused R1/R2/R3 labels
+across fields, infer shared spatial blocks, treat EAST/WEST soil pools as plot
+replication or estimate a causal treatment effect by adding field side to an
+aliased model. Preserve intentional exclusions, descriptive references and held
+joins. Whipstone annual crops and each blackberry cultivar remain separate.
+NIFA/NRCS sample reuse remains unresolved; do not claim independent evidence.
+
+Required provenance fields and audit outputs
+For each source observation preserve source run/job, file and SHA-256, source
+record/member IDs, farm/system/dataset, variable, assay/method, matrix, unit,
+value availability, censoring/detection-limit status, actual collection date or
+date precision, physical plot, treatment, primary/depth flags, duplicate or pool
+membership, disposition and the exact identity decision supporting any join.
+Missing fields are reported as missing; never fill them from similar records.
+
+The HPC audit should provide: (1) source verification/disposition; (2) outcome
+and plot/event support with actual dates and treatment counts; (3) duplicate,
+technical, composite/reference and censored-record holds; (4) exact confirmed
+relationship matches and unmatched records; (5) chronological validation-design
+possibilities and limitations; (6) a per-outcome gate/evidence table; and (7) an
+external-driver/calibration evidence checklist. Summaries of recorded support
+are audit results, not fitted models. Figures, if any, are support diagrams or
+recorded-data displays generated on Puma, not projected trajectories.
+
+Relationship and assay gates
+An explicit confirmed sample key with an eligible source disposition supports
+identity only. It does not establish compatible assays, independent replication,
+model rank or causality. Audit corrected confirmed match tables alongside
+functional confirmed_join_audit and source decisions. Do not generate a join by
+parsing a candidate key, matching only year, choosing a nearest date, assuming a
+submission date is a collection date or matching a pooled specimen to every
+member plot. For each proposed soil/crop/microbe relationship report timing,
+matrix, physical unit, match evidence, dependence, units and all held reasons.
+Compatible-looking variable names never justify cross-laboratory pooling.
+Literal method placeholders such as 'Not specified on report' record that the
+method is unknown; their nonempty text does not establish a known assay. Keep
+that provenance text visible and the compatibility gate held. Future source-
+driven harmonization must resolve exact analytical methods and units separately
+from identity confirmation before pooling year-specific response records.
+
+Within-study model feasibility: audit only
+Report how many independent plots and genuinely dated events support each
+response, observations per plot, treatment changes, arm sizes, missingness,
+method discontinuities and treatment/date/field confounding. Visit counts are
+necessary descriptors, not power calculations or an automatic eligibility pass.
+A later small predictor set must have identifiable treatment/time/driver effects
+and an estimable dependence structure. Plot intercepts/slopes are not assumed
+estimable from sparse records. A fit, converged optimizer or nonzero rank does
+not by itself establish a scientifically interpretable or generalizable model.
+
+Chronological validation feasibility: audit only
+Inventory possible earlier-training/later-testing event cut points using actual
+response dates, distinguishing known-plot forecasting from transfer to new plots
+or farms. Report whether the same physical plots and compatible outcomes recur,
+whether proposed predictors would be available at the forecast origin, and how
+many later occasions could supply independent temporal validation. Year-only
+crop events and different fields are explicit obstacles. This package generates
+no predictions and evaluates no predictive errors, coverage or skill.
+
+Later validation must fit imputation, scaling, feature selection and ordination
+within training data; preserve plot/time dependence and prevent future-response
+or future-driver leakage. Compare against persistence and appropriate simple
+treatment/season baselines with uncertainty in error and interval coverage.
+Insufficient later occasions remains VALIDATION_NOT_ESTABLISHED even if a model
+fits. Known-plot performance is not new-plot/farm transfer performance. Near-term
+skill is not validation of a ten-year forecast horizon.
+
+External long-term calibration and driver gates: not completed here
+Do not browse, download or claim external calibration in this correction audit.
+Preserve evidence present in frozen source catalogs; label unassessed evidence
+NOT_ASSESSED_IN_THIS_RUN without inferring its global absence. A future numerical long-term
+branch needs a suitable process model or transferable long-term field calibration,
+actual starting states, documented management and driver histories, a defined
+future climate/water distribution and scientifically defensible parameter and
+boundary conditions. Depending on the process, these include soil texture,
+sampling depth, bulk density for stocks, crop/rotation history, irrigation,
+fertilizer/amendment amounts and timing, tillage/fire and water constraints.
+Assay equivalence, climatic/soil/crop transferability and calibration independence
+must be reviewed, with external sources and versions recorded. Literature
+functions or pathway annotations are not calibration of this field's response.
+MDSINE-type interaction models require stronger temporal information and microbial
+load data; target sequencing reads do not supply microbial loads. No such model
+is authorized merely because a microbiome series exists.
+
+Ten-year scenario and uncertainty review gates
+Every prospective outcome needs an explicit last eligible observed origin and
+calendar end date ten years later; compute these from actual dates on Puma only
+where identity/date precision permits. This defines a requested horizon, not
+validated prediction skill. Future scenarios may be continued management under a
+specified climate distribution, greater water limitation or a precisely specified
+management change. Do not invent management rates or future weather. Numerical
+scenarios require joint review of identifiable models, demonstrated short-horizon
+performance, transferable external long-term evidence, plausible drivers and
+uncertainty propagation. Carry initial-state, observation/assay, parameter, driver,
+model and transfer uncertainty; distinguish within-scenario uncertainty from
+differences between scenarios. Wider bands cannot validate unsupported
+extrapolation. Allow stable, improving and deteriorating responses.
+
+Audit gate schema (multiple held reasons may apply)
+METADATA_SUPPORTED_REVIEW_PENDING: recorded identities/design support further
+review; this never authorizes modeling or numerical projection.
+HELD_IDENTITY: collection/plot/matrix/join identity or assay/units not resolved.
+HELD_REPLICATION: independent units or arm support inadequate for the proposed
+contrast; report the proposal, not a universal visit threshold.
+DESCRIPTIVE_ONLY: reference/composite/confounded/one-event evidence permits only
+the explicitly stated descriptive question.
+VALIDATION_NOT_ESTABLISHED: useful earlier-to-later validation has not been
+demonstrated. A potential split is not successful validation.
+EXTERNAL_CALIBRATION_NOT_ESTABLISHED: long-term external calibration/process
+support, starting states or plausible drivers have not passed review.
+CONCEPTUAL_ONLY: numerical ten-year projection is unsupported; use literature-
+grounded conditional hypotheses after separate literature review.
+QC_ONLY: sequencing depth or other diagnostic, not a biological forecast outcome.
+Candidate-plan status is CANDIDATE_AUDIT_ONLY or QC_ONLY. Model/validation/external
+calibration status must remain NOT_PERFORMED/NOT_ESTABLISHED in this package.
+
+Completion and manuscript use
+Success means the auditable inventory and gate evidence were produced on Puma.
+It does not grant a numerical model, forecast, external calibration or manuscript
+scientific approval. The next model/protocol decision follows review of this
+audit. Until all numerical gates are supported, retain a conceptual branch with
+testable functions and stable/improving/deteriorating alternatives, not ten-year
+effect sizes. Oatman may address nutrient turnover/organic matter and eligible
+grain links; Page Springs management pathways and nutrient availability with
+matrix/join holds; Whipstone within-system nutrient cycling; the cross-farm paper
+compares equivalent within-system questions without treating three farms as
+independent replication of crop, location or management effects.
+
+Execution record
+Guard all audit/numerical entry points before scientific imports and run only on
+Puma compute nodes under Slurm. Preserve sources, code/runtime hashes, versions,
+seeds or deterministic status, commands, allocation/accounting, start/end/exit
+state and explicit skips. Local work prepares text/code/packages, reads returned
+outputs and checks syntax/packaging; it executes no scientific audit, numerical
+preprocessing, synthetic statistical fixture, model or forecast. A prepared
+package has not been submitted or completed until HPC evidence is returned.

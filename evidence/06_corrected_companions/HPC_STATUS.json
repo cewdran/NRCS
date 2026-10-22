@@ -1,0 +1,17 @@
+{
+  "status": "HPC_COMPUTATION_COMPLETED_VISUAL_REVIEW_PENDING",
+  "collected_utc": "2026-10-01T21:43:21.614282Z",
+  "analysis_job_id": "24067160",
+  "collector_execution": {
+    "job_id": "24067161",
+    "cluster": "puma",
+    "node": "r7u07n1",
+    "job_record": "JobId=24067161 JobName=nrcs_audit UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:04 TimeLimit=00:15:00 TimeMin=N/A SubmitTime=2026-10-01T14:35:15 EligibleTime=2026-10-01T14:39:24 AccrueTime=2026-10-01T14:39:24 StartTime=2026-10-01T14:43:17 EndTime=2026-10-01T14:58:17 Deadline=N/A PreemptEligibleTime=2026-10-01T14:43:17 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-01T14:43:17 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:1120482 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u07n1 BatchHost=r7u07n1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=1,mem=5G,node=1,billing=1 AllocTRES=cpu=1,mem=5G,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/COLLECT.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8 StdErr=/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/logs/collector.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3/runs/run_20261001T213514Z_4cb2ebf8/logs/collector.log TresPerTask=cpu=1"
+  },
+  "scheduler_state": "COMPLETED",
+  "scheduler_exit_code": "0:0",
+  "pipeline_exit_code": 0,
+  "scientific_scripts_completed": true,
+  "visual_review": "Pending inspection of the newly generated HPC figures and PDF.",
+  "prior_results": "Non-HPC results remain a historical comparison only."
+}

@@ -1,0 +1,22 @@
+{
+  "stage": {
+    "job_id": "24369735",
+    "state": "COMPLETED",
+    "exit_code": "0:0"
+  },
+  "community": {
+    "job_id": "24369736",
+    "state": "COMPLETED",
+    "exit_code": "0:0"
+  },
+  "maps": {
+    "job_id": "24369737",
+    "state": "COMPLETED",
+    "exit_code": "0:0"
+  },
+  "extras": {
+    "job_id": "24369738",
+    "state": "COMPLETED",
+    "exit_code": "0:0"
+  }
+}

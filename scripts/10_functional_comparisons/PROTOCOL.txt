@@ -1,0 +1,179 @@
+NRCS FUNCTIONAL COMPARISONS - FROZEN PROTOCOL v1 - 2 OCTOBER 2026
+
+Purpose and provenance
+Compare 16S-inferred functional profiles after successful Puma predictions
+24067682 and domain sensitivity 24073133. Corrected metadata originates in
+24067160. Verify 25 frozen source files and successful source scheduler states,
+copy them into a new isolated run, and reuse the checked PICRUSt2 environment.
+Recheck returned baseline reproduction numerically before testing. All source
+inputs/results remain intact. No computation or statistical fixture is run
+locally during preparation. This is a prospective protocol for new comparisons,
+not a claim of preregistration before earlier data inspection.
+
+Analysis units and scope
+Keep bacteria and archaea as separate responses, and keep seven systems apart:
+Oatman 2023-24 field; Oatman 2025 field; Page Springs Grenache; Page Springs
+Petite Sirah; Whipstone Annual; Whipstone Chester; Whipstone Natchez. Physical
+plot/event identity and original technical merges are fixed. Sequencing domains
+and visits do not increase the number of independent plots.
+Primary scope: frozen primary-included positive non-reference samples with a
+nonzero functional profile. Depth sensitivity: additionally require the existing
+corrected depth_sensitivity_included flag. Do not introduce a new read-depth,
+NSTI, function prevalence or statistical-significance selection threshold.
+Retain original QC coverage/NSTI diagnostics, explicitly labelled as original
+prediction diagnostics for the filtered variant. Zero profiles are logged and
+held for their affected family. No imputation or rarefaction. No combining of
+bacterial and archaeal library abundances.
+
+Frozen functional panel
+Ten ECs, separately, verified against IUBMB before these comparisons:
+1.18.6.1 nitrogenase; 1.14.99.39 ammonia monooxygenase; 3.5.1.5 urease;
+1.7.5.1 nitrate reductase (quinone); 1.7.2.2 nitrite reductase (cytochrome,
+ammonia-forming); 1.7.2.1 nitrite reductase (NO-forming); 1.7.2.5 nitric oxide
+reductase (cytochrome c); 1.7.2.4 nitrous-oxide reductase; 3.1.3.1 alkaline
+phosphatase; 3.1.3.2 acid phosphatase.
+Four MetaCyc IDs/names verified in the official PICRUSt2 v2.6.3 description map:
+DENITRIFICATION-PWY: nitrate reduction I (denitrification);
+GLYCOLYSIS: glycolysis I (from glucose 6-phosphate);
+GLYOXYLATE-BYPASS: glyoxylate cycle; TCA: TCA cycle I (prokaryotic).
+FEATURE_PANEL.csv records exact IDs, names, topic and annotation URLs. Selection
+was based on biology/official annotations, without querying NRCS feature values
+or p-values to choose targets. Missing IDs or all-zero responses are explicit
+skips; never replace a selected ID with a more significant available feature.
+No automatic old-EC alias remapping and no sum claiming a complete process.
+
+Normalization and global composition
+Normalize each sample to unit sum within its FULL EC, KO or MetaCyc profile,
+then use square roots (Hellinger coordinates). No normalization over only the
+curated panel. Descriptive PCA uses centered Hellinger coordinates, with all
+primary samples displayed. A plot's observed visits are connected in date order.
+No p-values or biological interpretation arise from ordination alone.
+
+Global treatment associations
+For each system/domain/scope/family and each version, consider the frozen exact
+collection dates in CONFIG. A collection event enters treatment inference only
+if EVERY declared arm has at least two independent physical plots. The same
+all-arm gate controls targeted event contrasts; do not rescue a sparse T1 by
+silently dropping it or testing selected other arms. All observations remain
+in descriptive tables/figures and eligible paired temporal diagnostics.
+This retains Petite Sirah 2025 T1, but withholds its standalone four-arm test.
+Oatman 2025 treatment comparisons are wholly descriptive because treatment and
+field side are confounded; its single event also has no paired temporal test.
+
+Use one reduced model of actual collection-event indicators and one full model
+adding treatment indicators. Give each plot total weight 1 (visit weight 1/v).
+Response and design rows are multiplied by sqrt(weight). Report partial R2 as
+(SSE_reduced-SSE_full)/SSE_reduced and a multivariate partial-F statistic. The
+nominal row-based degrees of freedom scale the statistic only; never report an
+F-distribution p-value or regard the visits as independent errors.
+Permute treatment labels at WHOLE-PLOT level only within strata of identical
+sorted actual visit-date patterns in the included events. Preserve every
+plot's response sequence, weights, dates and treatment count per stratum.
+Record all visit patterns, fixed versus movable labels, ranks, independent arm
+counts and assignment-space size. No shared spatial blocks are inferred from
+R1/R2/R3 replicate names. Skip aliased designs, no residual variation after
+event adjustment, fewer than 20 distinct assignments or absent eligible events.
+Zero full-model SSE can yield an infinite F; expose that flag and obtain its
+p-value solely from permutations.
+Exact unique multiset allocations when space <=5000, including the identity;
+otherwise 4999 seeded Monte Carlo permutations with replacement and
+p=(1+number_at_least_observed)/(1+4999). Equality tolerance is documented in
+statistics_core.py. Report the assignment probability grid; ties/symmetry may
+make the true minimum p larger. More random resamples do not create plots.
+
+Fixed paired temporal comparisons
+Use only these exact shared date pairs, never each plot's own first/last dates:
+Oatman 2023-24: 2023-11-20 -> 2024-12-06;
+Grenache: 2023-10-20 -> 2024-08-05;
+Petite Sirah: 2023-10-20 -> 2025-10-10;
+Whipstone Annual/Chester/Natchez: 2023-11-16 -> 2025-08-17.
+Keep only physical plots observed at BOTH dates with constant treatment and
+nonzero profiles. Log paired plots by treatment. Other date-pair observations
+are descriptive only. Require at least three independent pairs for inference.
+Global statistic: squared norm of the mean Hellinger-change vector. Whole-plot
+sign flips preserve cross-function dependence; enumerate 2^n signs when <=5000,
+otherwise use 4999 plus-one Monte Carlo flips. This assumes independent plots
+and joint sign symmetry of each change vector under the null. The two-sided
+sign symmetry makes the exact minimum p at least 2/2^n (ties may increase it).
+Report mean-change norm, all individual Hellinger/Bray-Curtis paired distances,
+pair count, dates and treatment mix. This is observed temporal association over
+the retained plot mixture, not a causal treatment effect or a season-free trend.
+
+Targeted associations and uncertainty
+At each all-arm-eligible event, compare each declared noncontrol arm to its
+prespecified control. One response per physical plot; >=2 plots in BOTH arms.
+Statistic: absolute difference in mean FULL-table relative abundance. Permute
+labels over the two independent arms, exact allocations <=5000, otherwise
+4999 plus-one draws. Signed effect is treatment minus control. Sparse-event
+contrasts and Oatman 2025 are explicitly skipped for inference.
+For fixed shared dates, test the mean late-minus-early relative-abundance change
+for each target across the matched cohort plot mixture, with whole-plot sign
+flips and >=3 pairs. Treatment mix is reported; no treatment-by-time interaction
+or unsupported treatment-specific temporal claim is fitted.
+Return all per-sample values, event/arm means and observed minima/maxima. Return
+approximate Welch or paired-t 95% intervals for scalar effects when sample
+variance permits. These intervals rely on small-sample distribution assumptions
+and have no guaranteed coverage for sparse/zero-heavy profiles. Degenerate
+zero-width intervals are suppressed and flagged. P-values use permutation,
+not Welch/paired-t distribution tests. Figure min-max bars are observed plot
+ranges, not confidence intervals. No confidence interval is invented for global
+R2. Report within-event distances to treatment centroids as descriptive spread
+diagnostics; location/dispersion differences may be confounded with imbalance.
+
+Multiplicity and archaeal robustness
+Original and filtered archaea implement the SAME planned hypotheses and seed
+schedule. Require identical nonzero-profile eligibility masks before any testing,
+so the versions use the same eligible samples, events and paired physical plots.
+Abort if eligibility differs; do not combine tests of different populations. Bacteria has one version. Retain every component result. A primary
+archaeal robustness p is MAX(original p, filtered p); if either is untestable,
+robust inference is untestable. Never select the lower p or preferred effect.
+Apply Holm family-wise adjustment across all PLANNED unique GLOBAL hypotheses
+(systems, domains, profile families and both treatment/paired-time test classes),
+separately for primary and existing depth-sensitivity scopes.
+For TARGETED results, freeze a family within each scope x system x domain x
+response panel (ten ECs or four MetaCyc pathways) x test class. All declared
+event/arm contrasts and dates are together within the event class; selected
+features are together within the fixed-pair temporal class. This reflects distinct
+biological systems/questions. The targeted family-wise guarantee applies only
+within each listed family; there is NO project-wide targeted guarantee. Report
+every family/effect and do not select positive families for broad study-wide
+claims. Families are fixed before any new comparison results. This is not
+hierarchical gatekeeping; targeted tests are not gated by global rejection.
+Untestable planned hypotheses count as p=1
+in adjustment and are displayed NA; they cannot receive support. Scalar
+robustness also requires matching signed effect direction. Global support has
+no single signed direction. Holm-adjusted conservative p<=.05 is a conditional
+association label, not proof of a microbial process. Depth-sensitivity results
+are secondary diagnostics; disagreement with primary must be disclosed rather
+than resolved by picking a favorable branch. The report retains both scopes.
+
+Interpretation and later work
+These are exploratory conditional associations: field randomization and spatial
+independence have not been established. Exchangeability/sign-symmetry assumptions
+cannot be verified from a small field dataset. Treatment, season, weather,
+irrigation, sequencing depth and management can affect these patterns. A null
+result may reflect low independent replication and coarse attainable p-values.
+In particular, 3 versus 3 plot two-sided scalar tests have minimum p=.10 and
+2 versus 2 have minimum p=1/3; they cannot provide .05-level treatment support.
+Those comparisons chiefly provide exploratory effect estimates and robustness
+diagnostics. Short paired series can likewise have coarse or unattainable
+corrected significance; absence of support is not evidence of no difference.
+Predicted EC/pathway abundance is inferred relative genetic potential, not
+measured genes, expression, enzyme activity, nutrient flux, yield benefit or a
+quantitative nitrogen/carbon/phosphorus budget. This package does not fit soil-
+microbiome models, forecasts, taxonomic reclassifications or ten-year scenarios.
+Original diversity/richness/read-count results remain separate. Later integration
+needs confirmed assay identities, a frozen small predictor set and eligible
+model design. NIFA/NRCS sample reuse is still unresolved.
+
+Execution and validation
+All normalization, statistics, permutation fixtures, diagnostics, ordination and
+scientific figures run under an auditable Puma allocation. Guard scientific
+entry points before numerical imports. Seed 20261002 with SHA-256-derived
+hypothesis-specific seeds; original/filtered versions share seeds. Record exact
+source/code hashes, runtime/reference versions, Slurm allocation/accounting,
+commands and start/end/exit state. Analytical validation fixtures execute first
+on Puma; failure stops the run. Source checks, syntax, packaging and HPC-guard
+refusal are the only local checks. Submit analysis held until after-any collector
+and receipt are staged. Collect both successful and failed runs. Completed
+computation does not imply visual/scientific approval of returned figures.

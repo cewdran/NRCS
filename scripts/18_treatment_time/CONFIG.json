@@ -1,0 +1,231 @@
+{
+  "package": "NRCS_treatment_time_parallel_HPC_v1",
+  "version": 1,
+  "prepared_only": true,
+  "account": "dinusha1",
+  "partition": "standard",
+  "runtime_package": "/xdisk/dinusha1/dinusha1/NRCS_corrected_rerun_HPC_v3",
+  "runtime_ready_sha256": "6acaa39f5023c9f61a7cbe69d6c5687f634efb2b56e3907158003a41e1f6bf30",
+  "resources": {
+    "stage": {
+      "cpus": 4,
+      "memory": "20G",
+      "time": "04:00:00"
+    },
+    "worker": {
+      "cpus": 2,
+      "memory": "10G",
+      "time": "08:00:00"
+    },
+    "combine": {
+      "cpus": 2,
+      "memory": "10G",
+      "time": "02:00:00"
+    },
+    "collector": {
+      "cpus": 1,
+      "memory": "5G",
+      "time": "01:00:00"
+    }
+  },
+  "workers": [
+    "oatman_scalar",
+    "petitesirah_scalar",
+    "annual_scalar",
+    "chester_scalar",
+    "oatman_profile",
+    "petitesirah_profile",
+    "annual_profile",
+    "chester_profile",
+    "oatman_soil",
+    "grenache_soil"
+  ],
+  "functional_systems": [
+    {
+      "id": "oatman",
+      "farm": "Oatman Flats",
+      "system": "OFR_2023_2024_Field",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Cover_crop_and_sheep"
+      ],
+      "paired_dates": [
+        "2023-11-20",
+        "2024-12-06"
+      ]
+    },
+    {
+      "id": "petitesirah",
+      "farm": "Page Springs",
+      "system": "Grape_PetiteSirah",
+      "treatments": [
+        "Control_fertigation_only",
+        "Steer_manure",
+        "Fish_manure",
+        "Horse_manure_pomace"
+      ],
+      "paired_dates": [
+        "2023-10-20",
+        "2025-10-10"
+      ]
+    },
+    {
+      "id": "annual",
+      "farm": "Whipstone",
+      "system": "Annual",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Blood_meal_and_Feather_meal",
+        "Blood_meal_and_Feather_meal_and_cover_crop"
+      ],
+      "paired_dates": [
+        "2023-11-16",
+        "2025-08-17"
+      ]
+    },
+    {
+      "id": "chester",
+      "farm": "Whipstone",
+      "system": "Blackberry_Chester",
+      "treatments": [
+        "Control",
+        "Cover_crop_only",
+        "Blood_meal_and_Feather_meal",
+        "Blood_meal_and_Feather_meal_and_cover_crop"
+      ],
+      "paired_dates": [
+        "2023-11-16",
+        "2025-08-17"
+      ]
+    }
+  ],
+  "soil_systems": [
+    {
+      "id": "oatman",
+      "worker_id": "oatman_soil",
+      "farm": "Oatman Flats",
+      "system": "Shared 2023\u20132024 field",
+      "datasets": [
+        "Haney soil"
+      ],
+      "dates": [
+        "2023-11-20",
+        "2024-06-06",
+        "2024-12-06"
+      ],
+      "treatments": [
+        "Control",
+        "CC",
+        "CCS"
+      ],
+      "fixed_plots": {
+        "OFR_Control_1_East": "Control",
+        "OFR_Control_2_Mid": "Control",
+        "OFR_Control_3_West": "Control",
+        "OFR_CC_1_East": "CC",
+        "OFR_CC_2_Mid": "CC",
+        "OFR_CC_3_West": "CC",
+        "OFR_CC_sheep_1_East": "CCS",
+        "OFR_CC_sheep_2_Mid": "CCS",
+        "OFR_CC_sheep_3_West": "CCS"
+      },
+      "variables": [
+        {
+          "name": "soil_haney_1_1_Soil_pH",
+          "unit": "pH units",
+          "assay_status": "REPORTED_1_TO_1_DEFINITION_SOURCE_BACKED",
+          "methodnote": "Reported 1:1 soil pH; reviewed method definition in S24, S25 and S26. Accepted source plot/event laboratory means are reused without additional averaging of source laboratory records."
+        },
+        {
+          "name": "soil_haney_H3A_ICAP_Sodium",
+          "unit": "ppm Na",
+          "assay_status": "CONDITIONAL_REPORTED_H3A_ICAP_DEFINITION",
+          "methodnote": "Same accepted reported H3A/ICAP sodium label and ppm Na at S24, S25 and S26. Source raw method field is blank. Comparison concerns as-reported values; no calibration or new assay harmonization is asserted."
+        },
+        {
+          "name": "soil_haney_H3A_ICAP_Sulfur",
+          "unit": "ppm S",
+          "assay_status": "CONDITIONAL_REPORTED_H3A_ICAP_DEFINITION",
+          "methodnote": "Same accepted reported H3A/ICAP sulfur label and ppm S at S24, S25 and S26. Source raw method field is blank. Comparison concerns as-reported values; no calibration or new assay harmonization is asserted."
+        }
+      ]
+    },
+    {
+      "id": "grenache",
+      "worker_id": "grenache_soil",
+      "farm": "Page Springs",
+      "system": "Grenache",
+      "datasets": [
+        "Page Springs 2023 verified Ward soil",
+        "Page Springs 2024 verified Ward soil"
+      ],
+      "dates": [
+        "2023-10-20",
+        "2024-08-05"
+      ],
+      "treatments": [
+        "T1",
+        "T7",
+        "T8",
+        "T9"
+      ],
+      "fixed_plots": {
+        "GR_R5_T1": "T1",
+        "GR_R15_T1": "T1",
+        "GR_R6_T7": "T7",
+        "GR_R12_T7": "T7",
+        "GR_R10_T8": "T8",
+        "GR_R17_T8": "T8",
+        "GR_R13_T9": "T9",
+        "GR_R16_T9": "T9"
+      },
+      "variables": [
+        {
+          "name": "Phosphorus Olsen P, ppm P",
+          "unit": "ppm P",
+          "assay_status": "REPORTED_OLSEN_METHOD_AND_UNIT_AGREE",
+          "methodnote": "Source S35 (2023) and S36 (2024) both explicitly report Olsen P in ppm P. Only exact-date complete plot pairs are compared."
+        },
+        {
+          "name": "Total N, ppm N",
+          "unit": "ppm N",
+          "assay_status": "CONDITIONAL_ASSAY_COMPARABILITY_METHOD_NOT_REPORTED",
+          "methodnote": "Source S35 and S36 use the same Total N, ppm N heading and ppm N unit; each records method as Not specified on report. Exploratory comparison of as-reported total N; no documented assay equivalence or new harmonization is asserted."
+        }
+      ]
+    }
+  ],
+  "scopes": [
+    "primary",
+    "depth_sensitivity"
+  ],
+  "families": [
+    "EC",
+    "KO",
+    "METACYC"
+  ],
+  "analysis": {
+    "exact_limit": 5000,
+    "permutations": 19999,
+    "minimum_plots_per_arm": 2,
+    "minimum_label_allocations": 20,
+    "seed": 20261016,
+    "posthoc_exploratory": true,
+    "treatment_difference_in_change": true,
+    "numerical_ten_year_forecast": false,
+    "predictive_validation": false
+  },
+  "min_plots_per_arm": 2,
+  "exact_limit": 5000,
+  "permutations": 19999,
+  "seed": 20261016,
+  "expected_planned_counts": {
+    "scalar": 56,
+    "profile": 12,
+    "soil": 10
+  },
+  "multiplicity": "Holm across all 56 scalar hypotheses in each functional scope; across all 12 profile hypotheses in each functional scope; across all 10 soil hypotheses. Missing tests count as p=1 and remain missing in display. No family combines primary and depth-sensitivity cohorts.",
+  "expected_test_rows_total": 146
+}

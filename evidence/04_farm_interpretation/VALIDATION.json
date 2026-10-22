@@ -1,0 +1,20 @@
+{
+  "source_checksums": "PASS",
+  "positive_sample_identity_and_count_totals": "PASS",
+  "relative_abundance_and_sample_denominators": "PASS",
+  "BH_adjustment_all_existing_families": "PASS",
+  "all_depth_sample_sets_and_sizes": "PASS",
+  "new_PCoA_reconstruction": "PASS",
+  "PCoA_vs_existing_R_eigenvalues_and_coordinates": "PASS",
+  "approved_sample_domain_records": 342,
+  "positive_sample_domain_records": 341,
+  "primary_cohort_domain_rows": 38,
+  "primary_treatment_tests": 30,
+  "depth_grid_rows": 228,
+  "new_treatment_or_taxon_hypothesis_tests": 0,
+  "report_local_links": "PASS",
+  "reported_primary_test_counts": "PASS",
+  "sample_handling_ledger": "PASS",
+  "seven_PNG_and_SVG_figure_pairs": "PASS",
+  "figure_visual_review": "PASS"
+}

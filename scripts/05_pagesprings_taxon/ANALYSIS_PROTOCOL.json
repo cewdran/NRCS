@@ -1,0 +1,55 @@
+{
+  "created_utc": "2026-09-24T22:10:29.741051+00:00",
+  "status": "Rules written before any genus hypothesis tests in this follow-up",
+  "analysis_scope": "Exploratory follow-up of three cohorts selected during community review; not independent validation",
+  "cohorts": [
+    "Grape_PetiteSirah__2023",
+    "Grape_PetiteSirah__2024",
+    "Grape_Grenache__2023"
+  ],
+  "sample_rule": "All 12 positive-target bacterial samples in each cohort; no new depth exclusions",
+  "feature_rule": {
+    "minimum_reads_per_present_sample": 10,
+    "minimum_samples": 6,
+    "minimum_mean_sample_relative_abundance": 0.001,
+    "exclude_label_from_testing_and_primary_reference": "Unclassified_Genus",
+    "note": "Apply within cohort, pooling treatments without looking at treatment associations. Database-assigned genus labels may include uncultured groups."
+  },
+  "primary_transform": "log2(count+0.5) minus sample mean log2(count+0.5) across all eligible genus labels in that cohort",
+  "primary_reference": "All eligible genus labels for that cohort; fixed for every permutation",
+  "model": "CLR ~ treatment (2023); CLR ~ collection_date + treatment (Petite Sirah 2024)",
+  "omnibus_test": "Exact permutation F for the treatment term. Free assignments in 2023, assignments preserving counts of each treatment within each date in 2024. All group sizes three. Use label-invariant partitions with equal multiplicity.",
+  "hypothesis": "No treatment association with a genus log-ratio to the specified reference, under within-date exchangeability",
+  "multiple_testing": "BH across all eligible genus-by-cohort primary omnibus tests jointly; per-cohort BH provided as secondary context only; threshold 0.05",
+  "sensitivities": [
+    {
+      "name": "pseudocount_0.1",
+      "pseudocount": 0.1,
+      "reference": "eligible"
+    },
+    {
+      "name": "pseudocount_1",
+      "pseudocount": 1.0,
+      "reference": "eligible"
+    },
+    {
+      "name": "all_positive_reference",
+      "pseudocount": 0.5,
+      "reference": "all genus labels positive anywhere in the cohort including Unclassified_Genus"
+    }
+  ],
+  "sensitivity_adjustment": "Same joint BH family in each sensitivity; no replacement of primary estimates",
+  "contrasts": "Each noncontrol treatment vs ControlFertigationOnly, from full additive OLS model; no pairwise hypothesis-test p values",
+  "uncertainty": "Nominal model-based 95% t intervals assuming independent homoskedastic normal residuals; not simultaneous intervals; plus range of contrasts after each single-sample omission, not a confidence interval",
+  "robustness_reporting": "Report primary and all sensitivity q values and effect directions separately, without selecting the most favorable transform",
+  "validation": "Brute-force enumeration on toy designs; linear-model projections vs group sums; representative primary statistics vs R/lm numerical oracle if R is available, otherwise independent QR/SVD and direct residual sums; exact assignment counts and date balances; sample identity/abundance checks",
+  "limits": [
+    "Three plots per treatment",
+    "No established field randomization or technical batch adjustment",
+    "CLR reference determines effect interpretation",
+    "Unclassified reads remain in descriptive summaries but are not a biological genus",
+    "Community-screen-selected follow-up; adjusted p values are exploratory",
+    "Permutation validity requires exchangeability; unequal distributions/variances can affect interpretation",
+    "No soil nutrient/environmental covariates yet"
+  ]
+}

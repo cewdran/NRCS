@@ -1,0 +1,19 @@
+{
+  "status": "HPC_FUNCTIONAL_PREDICTIONS_COMPLETED_REVIEW_PENDING",
+  "analysis_job_id": "24067682",
+  "collector_execution": {
+    "job_id": "24067683",
+    "cluster": "puma",
+    "node": "r7u01n1",
+    "job_record": "JobId=24067683 JobName=nrcs_fn_audit UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:02 TimeLimit=02:00:00 TimeMin=N/A SubmitTime=2026-10-01T15:30:20 EligibleTime=2026-10-01T16:48:00 AccrueTime=2026-10-01T16:48:00 StartTime=2026-10-01T16:49:44 EndTime=2026-10-01T18:49:44 Deadline=N/A PreemptEligibleTime=2026-10-01T16:49:44 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-01T16:49:44 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:1120482 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u01n1 BatchHost=r7u01n1 NumNodes=1 NumCPUs=1 NumTasks=1 CPUs/Task=1 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=1,mem=5G,node=1,billing=1 AllocTRES=cpu=1,mem=5G,node=1,billing=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=1 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/COLLECT.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2 StdErr=/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/logs/collector.log StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2/logs/collector.log TresPerTask=cpu=1"
+  },
+  "scheduler_state": "COMPLETED",
+  "scheduler_exit_code": "0:0",
+  "pipeline_exit_code": 0,
+  "scientific_scripts_completed": true,
+  "corrected_metadata_source_job": "24067160",
+  "collected_utc": "2026-10-01T23:49:46.304586+00:00",
+  "scientific_review": "Prediction quality, reference-domain agreement and sample support require review.",
+  "models_fitted": false,
+  "ten_year_forecast_generated": false
+}

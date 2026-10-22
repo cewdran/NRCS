@@ -1,0 +1,96 @@
+NRCS FUNCTIONAL PREDICTION AND CORRECTED MODELING SUPPORT - VERSION 1
+Prepared 1 October 2026. Execution is exclusively on Puma compute nodes.
+
+Purpose
+Validate representative ASVs and generate functional profiles for the retained
+experimental samples, separately for bacteria and archaea. Update modeling
+support after the D1-D18 corrections. This implements the next approved step.
+
+Source precedence
+Corrected successful job 24067160 supplies metadata, counts, sample disposition
+and soil/crop observations. Readiness job 24055317 supplies candidate sequence
+paths and hashes only. Older unconfirmed-join language in the historical approved
+plan is superseded by researcher decisions incorporated in 24067160. Original
+source paths and exact SHA-256 values are frozen in CONFIG.json.
+
+Input gates, enforced before prediction
+1. Source run must be the expected successful HPC run; verify every source hash.
+2. Exact original target-count matrix must equal the frozen corrected input.
+3. FASTA and count ASV sets must agree; catalogue sequence and length must match.
+4. Every target ASV must have matching bacterial or archaeal Kingdom taxonomy.
+5. Count values must be finite nonnegative integers; sample totals must equal
+   corrected metadata totals. All-positive experimental samples are predicted;
+   primary-inclusion flags are retained for later statistical eligibility.
+6. Zero-target-read samples, descriptive references and count libraries absent
+   from corrected metadata are explicitly omitted and listed. T5 and other
+   historical exclusions are not reintroduced. No extra sample-depth threshold
+   is applied to the biological sample set in this prediction stage.
+7. Technical-replicate merges are preserved exactly; no extra biological
+   replication is created. Within domain, farm/system/plot/date must be unique.
+8. Features absent across selected samples are removed; counts are transposed
+   to ASV rows on HPC. No rarefaction, rounding or fabricated sequences.
+
+Prediction settings
+PICRUSt2 2.6.3, Bioconda build pyhdfd78af_2. The reference directory is taken
+from the official 2.6.3 source tarball with the Bioconda recipe's SHA-256:
+c06afafb0d37b1451a1e112a18887c733ad3dc9c6d171a44a364ef22a21df03b
+Reference files, installed software versions and pipeline commands are logged.
+The bacterial and archaeal input libraries are run separately. Each run uses
+the default PICRUSt2-SC dual-reference workflow, so domain disagreements can
+be audited. No summation across bacterial and archaeal sequencing libraries.
+EPA-ng placement; minimum alignment fraction 0.8; maximum NSTI 2.0;
+maximum-parsimony hidden-state prediction, edge exponent 0.5. PICRUSt2's
+internal HSP calls use seed 100; PYTHONHASHSEED=0 is exported. Parallel tools
+may still have floating-point or ordering variation; no bitwise claim is made.
+Predict EC, KO and EC-derived MetaCyc pathway abundances, with predicted
+16S-copy-number normalization and default MinPath/gap filling. Unstratified
+profiles only. No KEGG pathway/module remapping, experimental pathway coverage,
+per-ASV pathway contribution analysis or statistical contrasts in this stage.
+
+Quality review outputs
+Per-ASV catalogue agreement, lengths, sequence hashes and duplicated-sequence
+counts. No distinct ASV IDs are merged because their sequences happen to match.
+Per-ASV placement/prediction retention, NSTI, marker copies and best reference
+domain. Domain disagreement is exposed for review, never silently relabeled.
+Per-sample represented raw reads and fraction, zero-coverage flags, observed
+retained ASVs, raw-read-weighted NSTI and representation at NSTI <= 0.2, 0.5,
+1.0 and 2.0. These are retention diagnostics, not separately rerun profiles.
+PICRUSt2's own weighted NSTI is returned separately; it uses copy-normalized
+abundances and differs from the raw-read-weighted diagnostic. Prediction labels
+and values are checked. Zero-function profiles and missing pathway samples
+remain visible in the sample QC table. No universal sample pass threshold is
+invented from this dataset. Contrasts await coverage/domain-agreement review
+and a frozen contrast protocol.
+
+Modeling support
+Use exact physical plots, dates and analytic systems from corrected metadata.
+Keep Oatman 2023-24 and 2025 fields separate; keep Whipstone crop/cultivar
+systems separate. Domains are separate responses, not extra independent plots.
+Audit primary and all-positive non-reference scopes, visits per physical plot,
+treatment changes, and duplicate plot/event rows. Count cohort dates separately
+from within-plot visits. Soil outcomes remain grouped by dataset, variable and
+unit; method equivalence is not inferred from shared names. Exact confirmed
+soil-16S identity alone does not establish outcome or model eligibility.
+Composite, intentionally excluded and held source records cannot receive an
+eligible join status. Candidate microbial responses are Shannon and observed
+ASV richness; read count is a depth diagnostic. No response is selected because
+of prior significance. Later fits need prespecified depth handling, estimability
+checks, contrasts and validation. No models or ten-year effect sizes fit here.
+NIFA/NRCS reuse remains unresolved; do not claim the projects are independent.
+
+Interpretation
+These outputs represent 16S-inferred genetic potential, not measured gene
+abundance, expression, enzyme activity, nutrient flux or plant benefit. Presence
+of an inferred pathway does not demonstrate that the process occurred.
+
+References and software interfaces checked during package preparation
+https://github.com/picrust/picrust2/wiki/Full-pipeline-script
+https://github.com/picrust/picrust2/wiki/Installation
+https://github.com/picrust/picrust2/blob/v2.6.3/scripts/picrust2_pipeline.py
+https://github.com/picrust/picrust2/blob/v2.6.3/picrust2/pipeline.py
+https://github.com/picrust/picrust2/blob/v2.6.3/picrust2/metagenome_pipeline.py
+https://github.com/bioconda/bioconda-recipes/blob/master/recipes/picrust2/meta.yaml
+https://anaconda.org/bioconda/picrust2/files
+https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
+Douglas et al. 2020. Nature Biotechnology. doi:10.1038/s41587-020-0548-6
+Matchado et al. 2024. Microbial Genomics. doi:10.1099/mgen.0.001203

@@ -1,0 +1,9 @@
+{
+  "method": "Static inverse of recorded literal memory patch; scientific code was not executed.",
+  "expected_sha256": "dfb2e3df01344d8dcc6f855536f03c2d404150d9cf495e8a27f312e4efaab0f9",
+  "recovered_sha256": "dfb2e3df01344d8dcc6f855536f03c2d404150d9cf495e8a27f312e4efaab0f9",
+  "exact_match": true,
+  "recovered_path": "scripts/01_core_16s/archaea_original/02_dada2.R",
+  "recorded_hash_source": "RECOVERY_RECEIPT.json",
+  "use": "Successful original archaea branch only; use recovered streaming code for bacteria."
+}

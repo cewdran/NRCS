@@ -1,0 +1,25 @@
+{
+  "execution": {
+    "job_id": "24347273",
+    "cluster": "puma",
+    "node": "r7u11n1",
+    "job_record": "JobId=24347273 JobName=OFR_layout_refresh UserId=dinusha1(47561) GroupId=jkbrown(30043) MCS_label=N/A Priority=5001 Nice=0 Account=dinusha1 QOS=part_qos_standard JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=00:00:03 TimeLimit=01:00:00 TimeMin=N/A SubmitTime=2026-10-21T15:17:47 EligibleTime=2026-10-21T15:17:49 AccrueTime=2026-10-21T15:17:49 StartTime=2026-10-21T15:22:20 EndTime=2026-10-21T16:22:20 Deadline=N/A PreemptEligibleTime=2026-10-21T15:22:20 PreemptTime=None SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-21T15:22:20 Scheduler=Backfill Partition=standard AllocNode:Sid=junonia:4159007 ReqNodeList=(null) ExcNodeList=(null) NodeList=r7u11n1 BatchHost=r7u11n1 NumNodes=1 NumCPUs=3 NumTasks=1 CPUs/Task=3 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=2,mem=10G,node=1,billing=2 AllocTRES=cpu=3,mem=15G,node=1,billing=3 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=3 MinMemoryCPU=5G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null) Command=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v3/RUN.sh WorkDir=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v3/runs/run_20261021T221747Z_5c5765c1 StdErr=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v3/runs/run_20261021T221747Z_5c5765c1/logs/24347273_refresh.err StdIn=/dev/null StdOut=/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v3/runs/run_20261021T221747Z_5c5765c1/logs/24347273_refresh.out TresPerTask=cpu=3"
+  },
+  "scientific_values_recomputed": false,
+  "visual_review_complete": false,
+  "output_figures": [
+    "Fig2_Oatman_Flats_Ranch_Shannon_all_shared_field_events",
+    "FigS3_Oatman_Flats_Ranch_Shannon_separate_2025_field",
+    "FigS4_Oatman_Flats_Ranch_target_read_depth_and_retention",
+    "FigS7_Oatman_Flats_Ranch_descriptive_Bray_Curtis_PCoA"
+  ],
+  "exact_saved_plot_data_audits_passed": true,
+  "canvas_and_legend_gutter_checks_passed": true,
+  "utc": "2026-10-21T22:22:40.069789+00:00",
+  "state": "LAYOUT_REFRESH_CREATED_VISUAL_REVIEW_PENDING",
+  "rendering_completed": true,
+  "downloads_ready": true,
+  "diagnostic_only": false,
+  "download_results": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+  "download_checksum": "/xdisk/dinusha1/dinusha1/NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip.sha256.txt"
+}

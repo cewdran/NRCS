@@ -1,0 +1,3828 @@
+[
+  {
+    "path": "scripts/01_core_16s/package/run_recovery_stage.sh",
+    "stage": "01_core_16s",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/package/run_recovery_stage.sh",
+    "sha256": "82a4f7571c454234134e2686cf011dd302824a5990b3453759f6148c447f8b8c",
+    "bytes": 1576
+  },
+  {
+    "path": "scripts/01_core_16s/package/validate_recovery_runtime.R",
+    "stage": "01_core_16s",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/package/validate_recovery_runtime.R",
+    "sha256": "0998faa21f98b97f25fbd80603f22852c41e45ef6d784edf2ffe8ed41a45dcc6",
+    "bytes": 4731
+  },
+  {
+    "path": "scripts/01_core_16s/package/config.sh",
+    "stage": "01_core_16s",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/package/config.sh",
+    "sha256": "7dbf26cf6ca79914dfe038700caec38011bf1b6e0f40025750e4860963c1f985",
+    "bytes": 640
+  },
+  {
+    "path": "scripts/01_core_16s/package/scripts/02_dada2.R",
+    "stage": "01_core_16s",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/package/scripts/02_dada2.R",
+    "sha256": "a490d5845108c391fab382f54a5ef2d80394db3a468350b9b74ab03643ec4462",
+    "bytes": 22155
+  },
+  {
+    "path": "scripts/01_core_16s/package/scripts/03_farm_analysis.R",
+    "stage": "01_core_16s",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/package/scripts/03_farm_analysis.R",
+    "sha256": "a346d29657acba01420969bc93733aa9ac3fd217236181ea9adf68e7a2186545",
+    "bytes": 32705
+  },
+  {
+    "path": "scripts/01_core_16s/package/scripts/check_r_packages.R",
+    "stage": "01_core_16s",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/package/scripts/check_r_packages.R",
+    "sha256": "402c717917169161bce8092cda296e75da33ce8eaafc42cfab38119f34769db3",
+    "bytes": 2671
+  },
+  {
+    "path": "scripts/01_core_16s/recovery_launcher/RECOVER.py",
+    "stage": "01_core_16s",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/memory_recovery_source/RECOVER.py",
+    "sha256": "2755151c92d9781fd7961210a20bfdf14b861f1896fd8af19198f900fc5c593b",
+    "bytes": 15681
+  },
+  {
+    "path": "scripts/01_core_16s/recovery_launcher/CHECK_PROGRESS.py",
+    "stage": "01_core_16s",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/memory_recovery_source/CHECK_PROGRESS.py",
+    "sha256": "bbdf695c05caa5cf50a7813a03445e5f1375af01bdda05c2df59286f6add5038",
+    "bytes": 1754
+  },
+  {
+    "path": "scripts/01_core_16s/recovery_launcher/run_recovery_stage.sh",
+    "stage": "01_core_16s",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/memory_recovery_source/run_recovery_stage.sh",
+    "sha256": "82a4f7571c454234134e2686cf011dd302824a5990b3453759f6148c447f8b8c",
+    "bytes": 1576
+  },
+  {
+    "path": "scripts/01_core_16s/recovery_launcher/validate_recovery_runtime.R",
+    "stage": "01_core_16s",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/memory_recovery_source/validate_recovery_runtime.R",
+    "sha256": "0998faa21f98b97f25fbd80603f22852c41e45ef6d784edf2ffe8ed41a45dcc6",
+    "bytes": 4731
+  },
+  {
+    "path": "scripts/01_core_16s/archaea_original/02_dada2.R",
+    "stage": "01_core_16s",
+    "role": "exact_hash_recovered_source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/package/scripts/02_dada2.R",
+    "sha256": "dfb2e3df01344d8dcc6f855536f03c2d404150d9cf495e8a27f312e4efaab0f9",
+    "bytes": 21449,
+    "recovery": "Reverse literal MEMORY_EDITS in reverse order, then NEW_BLOCK -> OLD_BLOCK from recovery_launcher/RECOVER.py; final bytes must equal original_dada2_script_sha256 in RECOVERY_RECEIPT.json."
+  },
+  {
+    "path": "evidence/01_core_16s/RECOVERY_RECEIPT.json",
+    "stage": "01_core_16s",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/RECOVERY_RECEIPT.json",
+    "sha256": "6ed43f4aa45e48d342f0f091ea5986ab28bf09790f47fc92f88e6261cec1ddb2",
+    "bytes": 2506
+  },
+  {
+    "path": "evidence/01_core_16s/dada2/bacteria/sessionInfo.txt",
+    "stage": "01_core_16s",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/dada2/bacteria/sessionInfo.txt",
+    "sha256": "b91af669e432a91dfc2bb09f2b1c9addb90c6cfe3c34e02cdeeadb752c09ddf1",
+    "bytes": 3399
+  },
+  {
+    "path": "evidence/01_core_16s/dada2/archaea/sessionInfo.txt",
+    "stage": "01_core_16s",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260914T201432Z_3761495/dada2/archaea/sessionInfo.txt",
+    "sha256": "b91af669e432a91dfc2bb09f2b1c9addb90c6cfe3c34e02cdeeadb752c09ddf1",
+    "bytes": 3399
+  },
+  {
+    "path": "evidence/01_core_16s/OatmanFlatsRanch_COMPLETE.txt",
+    "stage": "01_core_16s",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/farm_analysis/OatmanFlatsRanch/FARM_ANALYSIS_COMPLETE.txt",
+    "sha256": "96c75d26e5fa18ecaa6ce123b1d1beed91548734b26d41ccffe3308365b67982",
+    "bytes": 24
+  },
+  {
+    "path": "evidence/01_core_16s/PageSpringsCellars_COMPLETE.txt",
+    "stage": "01_core_16s",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/farm_analysis/PageSpringsCellars/FARM_ANALYSIS_COMPLETE.txt",
+    "sha256": "1ad7dda7182a0f60597715027c28ab3d60da9980f2072426792627fb8e78bb2e",
+    "bytes": 24
+  },
+  {
+    "path": "evidence/01_core_16s/Whipstone_COMPLETE.txt",
+    "stage": "01_core_16s",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/01_core_16s/returned/run_20260915T193437Z_bacteria_memory_recovery_9633c9d3/farm_analysis/Whipstone/FARM_ANALYSIS_COMPLETE.txt",
+    "sha256": "87950680e5949e72a902d5f8e40c8a3b4f77c545b36b2ee40469f61b4b8be012",
+    "bytes": 24
+  },
+  {
+    "path": "scripts/02_depth_review/RUN.sh",
+    "stage": "02_depth_review",
+    "role": "source",
+    "source_archive": "NRCS_depth_review_v1.zip",
+    "source_member": "NRCS_depth_review_v1/RUN.sh",
+    "sha256": "b88420b3d98d9c2480e351ee3f5d854845df8f41310e2c3dc44109198ed98109",
+    "bytes": 706
+  },
+  {
+    "path": "scripts/02_depth_review/SUBMIT.sh",
+    "stage": "02_depth_review",
+    "role": "source",
+    "source_archive": "NRCS_depth_review_v1.zip",
+    "source_member": "NRCS_depth_review_v1/SUBMIT.sh",
+    "sha256": "00cf95c546a081bb04e2a98c2115187e6a5a986cdb9ae2cacf3c61dae14919b7",
+    "bytes": 540
+  },
+  {
+    "path": "scripts/02_depth_review/cohort_test.R",
+    "stage": "02_depth_review",
+    "role": "source",
+    "source_archive": "NRCS_depth_review_v1.zip",
+    "source_member": "NRCS_depth_review_v1/cohort_test.R",
+    "sha256": "af281ac16a9e7dd4ea4b8d34260853b04d8eb839def9f4bd26e865190993e176",
+    "bytes": 8155
+  },
+  {
+    "path": "scripts/02_depth_review/original_farm_analysis.R",
+    "stage": "02_depth_review",
+    "role": "source",
+    "source_archive": "NRCS_depth_review_v1.zip",
+    "source_member": "NRCS_depth_review_v1/original_farm_analysis.R",
+    "sha256": "a346d29657acba01420969bc93733aa9ac3fd217236181ea9adf68e7a2186545",
+    "bytes": 32705
+  },
+  {
+    "path": "scripts/02_depth_review/run_review.R",
+    "stage": "02_depth_review",
+    "role": "source",
+    "source_archive": "NRCS_depth_review_v1.zip",
+    "source_member": "NRCS_depth_review_v1/run_review.R",
+    "sha256": "7984d493b97829173a33b276e9befcf30a67b70e18cf540034832dc1790546be",
+    "bytes": 5436
+  },
+  {
+    "path": "evidence/02_depth_review/submission.txt",
+    "stage": "02_depth_review",
+    "role": "execution_evidence",
+    "source_archive": "results_VNJJgJBd.zip",
+    "source_member": "results_VNJJgJBd/submission.txt",
+    "sha256": "64d0143d3ab73eab15bdaad648806c40b6ef9e37138a9eee7dad99809f16464d",
+    "bytes": 96
+  },
+  {
+    "path": "evidence/02_depth_review/COMPLETE.txt",
+    "stage": "02_depth_review",
+    "role": "execution_evidence",
+    "source_archive": "results_VNJJgJBd.zip",
+    "source_member": "results_VNJJgJBd/COMPLETE.txt",
+    "sha256": "1142c7f752dd3d2540c6e5ef2efa25d29ebf591c365302e3cddc2c170208d2d6",
+    "bytes": 77
+  },
+  {
+    "path": "evidence/02_depth_review/PERMUTATION_SELFTEST_PASS.txt",
+    "stage": "02_depth_review",
+    "role": "execution_evidence",
+    "source_archive": "results_VNJJgJBd.zip",
+    "source_member": "results_VNJJgJBd/PERMUTATION_SELFTEST_PASS.txt",
+    "sha256": "744b46bcf519bdf3411935d6ad9dc0d7b28f50207b6f08eeab035566af82c43f",
+    "bytes": 87
+  },
+  {
+    "path": "evidence/02_depth_review/REUSE_VALIDATION_PASS.txt",
+    "stage": "02_depth_review",
+    "role": "execution_evidence",
+    "source_archive": "results_VNJJgJBd.zip",
+    "source_member": "results_VNJJgJBd/REUSE_VALIDATION_PASS.txt",
+    "sha256": "69b1c63f34695c6a7f15a2ed7d9940ad3f6786f136b29bf9d36b5687dc65ea55",
+    "bytes": 82
+  },
+  {
+    "path": "evidence/02_depth_review/sessionInfo.txt",
+    "stage": "02_depth_review",
+    "role": "execution_evidence",
+    "source_archive": "results_VNJJgJBd.zip",
+    "source_member": "results_VNJJgJBd/sessionInfo.txt",
+    "sha256": "2fc3901fc24c8bb1c5701918fbfed6fff82dfc09b2e61ba67b734a1a74cbc95d",
+    "bytes": 1044
+  },
+  {
+    "path": "scripts/03_sampling_influence/analyze.py",
+    "stage": "03_sampling_influence",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/03_sampling_influence/analyze.py",
+    "sha256": "1225f0b7f0cca8df4570350ed24c5feb8756b5bbfb5949b097e843bfd0740db1",
+    "bytes": 21843
+  },
+  {
+    "path": "scripts/03_sampling_influence/build_report.py",
+    "stage": "03_sampling_influence",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/03_sampling_influence/build_report.py",
+    "sha256": "a856b9dd6aba32ccc66a6bba130d598ddd44f1ced6f6b6c781e566a06e31e241",
+    "bytes": 13696
+  },
+  {
+    "path": "scripts/03_sampling_influence/requirements.txt",
+    "stage": "03_sampling_influence",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/03_sampling_influence/requirements.txt",
+    "sha256": "d0066322d3ef6a963dfc3d2534ab36e16274c51b251f0aa9d5e6e4cdfab4504c",
+    "bytes": 60
+  },
+  {
+    "path": "evidence/03_sampling_influence/VALIDATION.json",
+    "stage": "03_sampling_influence",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/03_sampling_influence/VALIDATION.json",
+    "sha256": "4ed780a12e224f56f1259a36f66107e7e1be6f7b196ce16362d61a88bacdf200",
+    "bytes": 576
+  },
+  {
+    "path": "evidence/03_sampling_influence/environment.json",
+    "stage": "03_sampling_influence",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/03_sampling_influence/environment.json",
+    "sha256": "ef9c671b8293510c226fd38a4cb679f7f57cbaa792c12e6fcda26da66bf2d4b9",
+    "bytes": 213
+  },
+  {
+    "path": "scripts/04_farm_interpretation/build_report.py",
+    "stage": "04_farm_interpretation",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/04_farm_interpretation/build_report.py",
+    "sha256": "d2746a5d90f105d023fa46cd05a7caa5a8ce6dd74702bbdce50d238ae736434a",
+    "bytes": 25727
+  },
+  {
+    "path": "scripts/04_farm_interpretation/consolidate.py",
+    "stage": "04_farm_interpretation",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/04_farm_interpretation/consolidate.py",
+    "sha256": "1909af81b310fd314a3df7792762d55d1b17802f9d81eb00266390413682e68d",
+    "bytes": 25317
+  },
+  {
+    "path": "evidence/04_farm_interpretation/VALIDATION.json",
+    "stage": "04_farm_interpretation",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/04_farm_interpretation/VALIDATION.json",
+    "sha256": "fb1f96d597c021df299ca42b8457c80444440c6b7686589f71cef371e8431639",
+    "bytes": 748
+  },
+  {
+    "path": "evidence/04_farm_interpretation/environment.json",
+    "stage": "04_farm_interpretation",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/04_farm_interpretation/environment.json",
+    "sha256": "3b3ede4c0ae15266d0422923b6944b108412675835d03c55769874794f41f7b0",
+    "bytes": 160
+  },
+  {
+    "path": "scripts/05_pagesprings_taxon/ANALYSIS_PROTOCOL.json",
+    "stage": "05_pagesprings_taxon",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/05_pagesprings_taxon/ANALYSIS_PROTOCOL.json",
+    "sha256": "da4debd25475abe040a09a912809ab949946fd284ae30f57ba23dcd8e114be72",
+    "bytes": 3546
+  },
+  {
+    "path": "scripts/05_pagesprings_taxon/analyze.py",
+    "stage": "05_pagesprings_taxon",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/05_pagesprings_taxon/analyze.py",
+    "sha256": "0f49439effd222aec9ef8b8b6feb251d8ba0169b17bbd51565dc0f110f078b26",
+    "bytes": 21228
+  },
+  {
+    "path": "scripts/05_pagesprings_taxon/build_report.py",
+    "stage": "05_pagesprings_taxon",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/05_pagesprings_taxon/build_report.py",
+    "sha256": "4845c8f0d5c634194b3cc1338b30b477ab97f8aa3ef9953881993a16d6bfd180",
+    "bytes": 32727
+  },
+  {
+    "path": "scripts/05_pagesprings_taxon/requirements-used.txt",
+    "stage": "05_pagesprings_taxon",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/05_pagesprings_taxon/requirements-used.txt",
+    "sha256": "d0066322d3ef6a963dfc3d2534ab36e16274c51b251f0aa9d5e6e4cdfab4504c",
+    "bytes": 60
+  },
+  {
+    "path": "evidence/05_pagesprings_taxon/VALIDATION.json",
+    "stage": "05_pagesprings_taxon",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/05_pagesprings_taxon/VALIDATION.json",
+    "sha256": "1cd936ec0ab527c6247b1fc1fcad1e54e1d5abc4ab3c6c8769d9bf643ac481ef",
+    "bytes": 2464
+  },
+  {
+    "path": "evidence/05_pagesprings_taxon/RELEASE_CHECKS.json",
+    "stage": "05_pagesprings_taxon",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/05_pagesprings_taxon/RELEASE_CHECKS.json",
+    "sha256": "a9af639e7b5898752da659594edf8a00821a03883b04230e2258d292751e16d3",
+    "bytes": 321
+  },
+  {
+    "path": "evidence/05_pagesprings_taxon/ENVIRONMENT.json",
+    "stage": "05_pagesprings_taxon",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/05_pagesprings_taxon/ENVIRONMENT.json",
+    "sha256": "ef9c671b8293510c226fd38a4cb679f7f57cbaa792c12e6fcda26da66bf2d4b9",
+    "bytes": 213
+  },
+  {
+    "path": "scripts/06_corrected_companions/AGENTS.md",
+    "stage": "06_corrected_companions",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/AGENTS.md",
+    "sha256": "1d22bb775b54338ab0b21442c2013c03cf518dbaa6b451b383676e6632ac4c04",
+    "bytes": 1291
+  },
+  {
+    "path": "scripts/06_corrected_companions/CHECK.sh",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/CHECK.sh",
+    "sha256": "670717f0dd4f4b0c052fb2fb741ae7d88f293fca131acd56ab011156e2bc9373",
+    "bytes": 158
+  },
+  {
+    "path": "scripts/06_corrected_companions/COLLECT.sh",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/COLLECT.sh",
+    "sha256": "6abdb355814c0212cd8059a4c5d58574951e65d9dc96349c32098991d97de1f8",
+    "bytes": 134
+  },
+  {
+    "path": "scripts/06_corrected_companions/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "06_corrected_companions",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "9fe450a5ab99859a53b36d9af6d2c21d993b52a449d7a45a669a4574c5ab3122",
+    "bytes": 1779
+  },
+  {
+    "path": "scripts/06_corrected_companions/RUN.sh",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/RUN.sh",
+    "sha256": "adb6314ca3a53509daa518811baa14bee071663cf0034a329377db9db0588ee4",
+    "bytes": 1282
+  },
+  {
+    "path": "scripts/06_corrected_companions/SETUP_ENV.sh",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/SETUP_ENV.sh",
+    "sha256": "54db6b82d470e69df5d160eb7c60a1e04e2cda9d9ca93d2d128d21086455fc08",
+    "bytes": 1107
+  },
+  {
+    "path": "scripts/06_corrected_companions/START_HERE.sh",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/START_HERE.sh",
+    "sha256": "83da2936308c7469aec10f55ef51fc05178d61ce8947841f810b138c2cdf2aca",
+    "bytes": 1578
+  },
+  {
+    "path": "scripts/06_corrected_companions/SUBMIT.sh",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/SUBMIT.sh",
+    "sha256": "07d993d0099ae7fe7223685e14fe71980b6edbd6d1c37c30982410490fcd06e6",
+    "bytes": 150
+  },
+  {
+    "path": "scripts/06_corrected_companions/check.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/check.py",
+    "sha256": "dd5a07d9235838c8c6ada0b2e22a10a7c5d8ca8acfe7240bd8fd1a61dd5ab8ee",
+    "bytes": 1186
+  },
+  {
+    "path": "scripts/06_corrected_companions/collect.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/collect.py",
+    "sha256": "d2eab5b90cfb8e7fb64c71238037eea1d32daa567e6d15a78a88a55702215b51",
+    "bytes": 3744
+  },
+  {
+    "path": "scripts/06_corrected_companions/environment_check.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/environment_check.py",
+    "sha256": "46b41c2f5debbcedca52842e2dac6da4ff262ebd5adb4e333961a9eb5980033f",
+    "bytes": 1300
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/METHODS.md",
+    "stage": "06_corrected_companions",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/METHODS.md",
+    "sha256": "08a5c9ff87f9454b37b1d56a6e14c9f6716c67768bfcf7a152197133dd8bea09",
+    "bytes": 13951
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/analyze.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/analyze.py",
+    "sha256": "e67e46d07932e859a8a78f980231115f42cf790bb6b90a5cf5c7b0befaf8e05f",
+    "bytes": 29595
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/apply_corrections.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/apply_corrections.py",
+    "sha256": "1380438f7719bffcda20123b3158981cf4b6ee658b7c7d653015c591a6db55f9",
+    "bytes": 5816
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/build_report.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/build_report.py",
+    "sha256": "7eecdfd1a333353470033f9150f0f24a0fa79027bf9bcbe13aca00e7fed0fbe3",
+    "bytes": 25189
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/compare_prior.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/compare_prior.py",
+    "sha256": "93e268106eac565431258a6ab93b4a040a24dfd51d81b451f24fb34e14f82563",
+    "bytes": 1119
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/extended_analysis.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/extended_analysis.py",
+    "sha256": "d51c7e319cf0581da1512c3f310d8dd94daade84ccfea8d1a6a3066b6f2d676a",
+    "bytes": 5277
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/hpc_guard.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/prepare_inputs.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/prepare_inputs.py",
+    "sha256": "53d60e618b3c1c9a0cd366334020c6ca969717cac0067eca4eee58518e3a5af5",
+    "bytes": 6605
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/requirements.txt",
+    "stage": "06_corrected_companions",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/requirements.txt",
+    "sha256": "af523eeb337a4f73489cd16e7c36b60527e48dd6b429736b63ae5670d66516cf",
+    "bytes": 122
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/source_identity.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/source_identity.py",
+    "sha256": "1850da9aaffa96e78912effb4b3f31b863b0a54b3d305f71df751abf189b810e",
+    "bytes": 3044
+  },
+  {
+    "path": "scripts/06_corrected_companions/payload/verify_outputs.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/payload/verify_outputs.py",
+    "sha256": "02e0ff970fe6b56256fdf52ad3b74f21f842afdc2a976c048f76ed615dca0840",
+    "bytes": 5776
+  },
+  {
+    "path": "scripts/06_corrected_companions/record_runtime.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/record_runtime.py",
+    "sha256": "7ea3a3d79a79c08b26329a6af5c26b5f87009b1c7dad7e404f0d9c442eb036dd",
+    "bytes": 817
+  },
+  {
+    "path": "scripts/06_corrected_companions/submit.py",
+    "stage": "06_corrected_companions",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/submit.py",
+    "sha256": "74b1ded2d53d5390d3fc79ced1c79825ffc4b4068fc40e0471624be45e7654db",
+    "bytes": 3846
+  },
+  {
+    "path": "evidence/06_corrected_companions/HPC_STATUS.json",
+    "stage": "06_corrected_companions",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/06_corrected_companions/HPC_STATUS.json",
+    "sha256": "ee3434a9e6ed7bb1c5f2233e03ed44e5c76baf8c85229e19cc80b14ca0539914",
+    "bytes": 2100
+  },
+  {
+    "path": "scripts/07_source_readiness/AGENTS.md",
+    "stage": "07_source_readiness",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/AGENTS.md",
+    "sha256": "1d22bb775b54338ab0b21442c2013c03cf518dbaa6b451b383676e6632ac4c04",
+    "bytes": 1291
+  },
+  {
+    "path": "scripts/07_source_readiness/CHECK.sh",
+    "stage": "07_source_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/CHECK.sh",
+    "sha256": "21875ac913f5352e9148aff0d7d6712879777d54813b0a51ad65c7e6f9a9113d",
+    "bytes": 133
+  },
+  {
+    "path": "scripts/07_source_readiness/COLLECT.sh",
+    "stage": "07_source_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/COLLECT.sh",
+    "sha256": "4d7d71d50c81b9174e5f69efcdfef14e99faf6d94dd37699e6e82913b6154757",
+    "bytes": 205
+  },
+  {
+    "path": "scripts/07_source_readiness/CONFIG.json",
+    "stage": "07_source_readiness",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/CONFIG.json",
+    "sha256": "828736f1fa88dc2709bd9c707756b89a6901909e6e4f406d87ffddf5fbe374d3",
+    "bytes": 1397
+  },
+  {
+    "path": "scripts/07_source_readiness/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "07_source_readiness",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "9fe450a5ab99859a53b36d9af6d2c21d993b52a449d7a45a669a4574c5ab3122",
+    "bytes": 1779
+  },
+  {
+    "path": "scripts/07_source_readiness/READINESS_PROTOCOL.txt",
+    "stage": "07_source_readiness",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/READINESS_PROTOCOL.txt",
+    "sha256": "8c742e25c839345ea2823f01dea01534fee8d3032640384773ec0c13345f1e96",
+    "bytes": 9636
+  },
+  {
+    "path": "scripts/07_source_readiness/RUN.sh",
+    "stage": "07_source_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/RUN.sh",
+    "sha256": "50fe42e6f3e9c989213d41ad046ea2f3378a369d7844f45103a2012043f003a8",
+    "bytes": 414
+  },
+  {
+    "path": "scripts/07_source_readiness/SUBMIT.sh",
+    "stage": "07_source_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/SUBMIT.sh",
+    "sha256": "dcc05e6367f886d2d2881afb7ee849880803bb7e81b99c892954b8cf5723b793",
+    "bytes": 134
+  },
+  {
+    "path": "scripts/07_source_readiness/audit.py",
+    "stage": "07_source_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/audit.py",
+    "sha256": "56fdbb45325f7ecbde1cb2df6b82b0c7fca014317615c587b34ab876da325f91",
+    "bytes": 11782
+  },
+  {
+    "path": "scripts/07_source_readiness/check.py",
+    "stage": "07_source_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/check.py",
+    "sha256": "2598f1b075f83f0fa7fa895fcdaf3455db4ed8f0504cc8687fb7c70a6a223387",
+    "bytes": 834
+  },
+  {
+    "path": "scripts/07_source_readiness/collect.py",
+    "stage": "07_source_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/collect.py",
+    "sha256": "909cedc4abcd395f497ad9fcdbe5ed739a0bc282b8d709ea8c743c56e55c0493",
+    "bytes": 2739
+  },
+  {
+    "path": "scripts/07_source_readiness/hpc_guard.py",
+    "stage": "07_source_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/07_source_readiness/submit.py",
+    "stage": "07_source_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/submit.py",
+    "sha256": "10a3b4ea965552f105a38eea45996a0d04de885fe47f5109d3c219aaad002484",
+    "bytes": 3754
+  },
+  {
+    "path": "evidence/07_source_readiness/HPC_STATUS.json",
+    "stage": "07_source_readiness",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/07_source_readiness/HPC_STATUS.json",
+    "sha256": "84d37e89c680b9150bed87e9d9d0b2fbea868a9d9784bb543701a72e590d4d15",
+    "bytes": 1979
+  },
+  {
+    "path": "scripts/08_functional_prediction/AGENTS.md",
+    "stage": "08_functional_prediction",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/AGENTS.md",
+    "sha256": "1d22bb775b54338ab0b21442c2013c03cf518dbaa6b451b383676e6632ac4c04",
+    "bytes": 1291
+  },
+  {
+    "path": "scripts/08_functional_prediction/CHECK.sh",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/CHECK.sh",
+    "sha256": "670717f0dd4f4b0c052fb2fb741ae7d88f293fca131acd56ab011156e2bc9373",
+    "bytes": 158
+  },
+  {
+    "path": "scripts/08_functional_prediction/COLLECT.sh",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/COLLECT.sh",
+    "sha256": "77910581ce55dcac0e21fccbafd91be7786d825658d7ea2df13d6e0bdf378007",
+    "bytes": 101
+  },
+  {
+    "path": "scripts/08_functional_prediction/CONFIG.json",
+    "stage": "08_functional_prediction",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/CONFIG.json",
+    "sha256": "f513405f8ab759d7f19d445d6b960d099444225b7b806d4ed83caf72478bd095",
+    "bytes": 3864
+  },
+  {
+    "path": "scripts/08_functional_prediction/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "08_functional_prediction",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "9fe450a5ab99859a53b36d9af6d2c21d993b52a449d7a45a669a4574c5ab3122",
+    "bytes": 1779
+  },
+  {
+    "path": "scripts/08_functional_prediction/PROTOCOL.txt",
+    "stage": "08_functional_prediction",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/PROTOCOL.txt",
+    "sha256": "e03462ddb9f2fb994b9957a427145c0419076bdf956f3b8a1b23f21d738d4b3f",
+    "bytes": 6242
+  },
+  {
+    "path": "scripts/08_functional_prediction/RUN.sh",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/RUN.sh",
+    "sha256": "ec9db751f960b4134be5f57fe5940dbe2a60dbf2b360f1ad89c8cee45122efab",
+    "bytes": 1081
+  },
+  {
+    "path": "scripts/08_functional_prediction/SETUP_ENV.sh",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/SETUP_ENV.sh",
+    "sha256": "fb5af72a88f2abbd7f18f3215ef6e9313d25199ea5be24f23c5181573aff35ec",
+    "bytes": 2372
+  },
+  {
+    "path": "scripts/08_functional_prediction/START_HERE.sh",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/START_HERE.sh",
+    "sha256": "47859c1b6ea71f8a1a8ecc34612ba0d160c513980bcb03e1a312afe8dc7a8ea2",
+    "bytes": 1100
+  },
+  {
+    "path": "scripts/08_functional_prediction/check.py",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/check.py",
+    "sha256": "ccf84f773abca405e0898b1f37bd90fdec92e7bb757330bf4fc66cdb9c591f8e",
+    "bytes": 1332
+  },
+  {
+    "path": "scripts/08_functional_prediction/collect.py",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/collect.py",
+    "sha256": "db4672a170b654300ac8e1ae9a3c19fe2f2345e11c2b90f28448d1c724addd5b",
+    "bytes": 5097
+  },
+  {
+    "path": "scripts/08_functional_prediction/common.py",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/common.py",
+    "sha256": "bccafe937ae86b38e948c5a4cd5cdd0e670bd377ccbfb6a245cdde825f0338c3",
+    "bytes": 2692
+  },
+  {
+    "path": "scripts/08_functional_prediction/environment_check.py",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/environment_check.py",
+    "sha256": "74084ef922c6486035c0ef90da2ce2ad6ed94f7ddf3f0eda7c5b25819915c626",
+    "bytes": 4326
+  },
+  {
+    "path": "scripts/08_functional_prediction/hpc_guard.py",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/08_functional_prediction/modeling_support.py",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/modeling_support.py",
+    "sha256": "86473053ec275c30b0e88091d087ecf9a32f5264c06c410c7b2d45a4350d7c90",
+    "bytes": 7972
+  },
+  {
+    "path": "scripts/08_functional_prediction/predict.py",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/predict.py",
+    "sha256": "acadab4a42dabecf3cfa7b4a1296f012f7110a1ae4d5edaafc6cdf59d6698aa0",
+    "bytes": 8939
+  },
+  {
+    "path": "scripts/08_functional_prediction/prepare.py",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/prepare.py",
+    "sha256": "0adfe4d66075d2ece50e068a863435e100d5c4a85aad739d1838285b8d247aea",
+    "bytes": 6828
+  },
+  {
+    "path": "scripts/08_functional_prediction/record_runtime.py",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/record_runtime.py",
+    "sha256": "220e283ada0c30b2b1dc7125ee80e33049bfc11ce0bab7ec795e28b995c9a6a3",
+    "bytes": 809
+  },
+  {
+    "path": "scripts/08_functional_prediction/submit.py",
+    "stage": "08_functional_prediction",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/submit.py",
+    "sha256": "91ea1378f4969d4fe9320aab4ae40510a25831250ca6ccbd00753f57f2f01965",
+    "bytes": 3995
+  },
+  {
+    "path": "evidence/08_functional_prediction/HPC_STATUS.json",
+    "stage": "08_functional_prediction",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/HPC_STATUS.json",
+    "sha256": "979ee1d50e61c7a0ec06bafd7455974db37e0b86bb749379e88b5e2f808d83d9",
+    "bytes": 2153
+  },
+  {
+    "path": "evidence/08_functional_prediction/results/PREDICTION_STATUS.json",
+    "stage": "08_functional_prediction",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/08_functional_prediction/results/PREDICTION_STATUS.json",
+    "sha256": "d6d19055405d5dfe6ffe64b1660767e57e04238cec68b4f77408c52936b1b44c",
+    "bytes": 2583
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/AGENTS.md",
+    "stage": "09_functional_sensitivity",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/AGENTS.md",
+    "sha256": "1d22bb775b54338ab0b21442c2013c03cf518dbaa6b451b383676e6632ac4c04",
+    "bytes": 1291
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/CHECK.sh",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/CHECK.sh",
+    "sha256": "670717f0dd4f4b0c052fb2fb741ae7d88f293fca131acd56ab011156e2bc9373",
+    "bytes": 158
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/COLLECT.sh",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/COLLECT.sh",
+    "sha256": "77910581ce55dcac0e21fccbafd91be7786d825658d7ea2df13d6e0bdf378007",
+    "bytes": 101
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/CONFIG.json",
+    "stage": "09_functional_sensitivity",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/CONFIG.json",
+    "sha256": "6d01441c4d679f393bc26c884a3485c81408b920214274d291db695ee295ce2c",
+    "bytes": 2611
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "09_functional_sensitivity",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "9fe450a5ab99859a53b36d9af6d2c21d993b52a449d7a45a669a4574c5ab3122",
+    "bytes": 1779
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/PROTOCOL.txt",
+    "stage": "09_functional_sensitivity",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/PROTOCOL.txt",
+    "sha256": "4074ef6f600fc323e65c65151e309ed3b3919f5c42a63d2a04004cb4ddb37272",
+    "bytes": 2497
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/RUN.sh",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/RUN.sh",
+    "sha256": "24b242e30accd68ebf3d1918ce1369c5a112112e3fede3926993f506122c20a7",
+    "bytes": 902
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/START_HERE.sh",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/START_HERE.sh",
+    "sha256": "80aac268a6c7dfd96e73c000c3701caf3b3d512844d012badbf817d083e02314",
+    "bytes": 192
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/check.py",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/check.py",
+    "sha256": "cdbc5e2aba379238c2b9eb28474935546489fb04baa58c145a3e3d37ac84659e",
+    "bytes": 1389
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/collect.py",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/collect.py",
+    "sha256": "4004ebe01a63760ff2cc083bc966215e02f222b57da0b5388a05eb535d8747a4",
+    "bytes": 5226
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/common.py",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/common.py",
+    "sha256": "bccafe937ae86b38e948c5a4cd5cdd0e670bd377ccbfb6a245cdde825f0338c3",
+    "bytes": 2692
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/environment_check.py",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/environment_check.py",
+    "sha256": "74084ef922c6486035c0ef90da2ce2ad6ed94f7ddf3f0eda7c5b25819915c626",
+    "bytes": 4326
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/hpc_guard.py",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/record_runtime.py",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/record_runtime.py",
+    "sha256": "220e283ada0c30b2b1dc7125ee80e33049bfc11ce0bab7ec795e28b995c9a6a3",
+    "bytes": 809
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/sensitivity.py",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/sensitivity.py",
+    "sha256": "1e4ce3a3558c7c3b548516bc307efd8dbbaf42b5aff1188bf970c8e8276ef4d8",
+    "bytes": 10324
+  },
+  {
+    "path": "scripts/09_functional_sensitivity/submit.py",
+    "stage": "09_functional_sensitivity",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/submit.py",
+    "sha256": "b13fcb08bf8393a8c1d5086260c47aa3744242377ec981661b8cc83bfc5bf9e4",
+    "bytes": 4144
+  },
+  {
+    "path": "evidence/09_functional_sensitivity/HPC_STATUS.json",
+    "stage": "09_functional_sensitivity",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/HPC_STATUS.json",
+    "sha256": "e881caa1dd1157913c58e2f6c38a45ba0264d670180779033958c423f44ededc",
+    "bytes": 2253
+  },
+  {
+    "path": "evidence/09_functional_sensitivity/results/SENSITIVITY_STATUS.json",
+    "stage": "09_functional_sensitivity",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/09_functional_sensitivity/results/SENSITIVITY_STATUS.json",
+    "sha256": "bd3a709cc5ac7cf9ee825997ffc7d9773ec8298b4638fcb20fcf1c1eb10ccc4f",
+    "bytes": 2364
+  },
+  {
+    "path": "scripts/10_functional_comparisons/AGENTS.md",
+    "stage": "10_functional_comparisons",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/AGENTS.md",
+    "sha256": "1d22bb775b54338ab0b21442c2013c03cf518dbaa6b451b383676e6632ac4c04",
+    "bytes": 1291
+  },
+  {
+    "path": "scripts/10_functional_comparisons/CHECK.sh",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/CHECK.sh",
+    "sha256": "670717f0dd4f4b0c052fb2fb741ae7d88f293fca131acd56ab011156e2bc9373",
+    "bytes": 158
+  },
+  {
+    "path": "scripts/10_functional_comparisons/COLLECT.sh",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/COLLECT.sh",
+    "sha256": "77910581ce55dcac0e21fccbafd91be7786d825658d7ea2df13d6e0bdf378007",
+    "bytes": 101
+  },
+  {
+    "path": "scripts/10_functional_comparisons/CONFIG.json",
+    "stage": "10_functional_comparisons",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/CONFIG.json",
+    "sha256": "a80ede56ecef3c2cfa744cc238bf4bc4c13e37f8c258b049cad13b7759541ebc",
+    "bytes": 7842
+  },
+  {
+    "path": "scripts/10_functional_comparisons/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "10_functional_comparisons",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "9fe450a5ab99859a53b36d9af6d2c21d993b52a449d7a45a669a4574c5ab3122",
+    "bytes": 1779
+  },
+  {
+    "path": "scripts/10_functional_comparisons/PROTOCOL.txt",
+    "stage": "10_functional_comparisons",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/PROTOCOL.txt",
+    "sha256": "659c7e5bc236653f2e834d9f95b7a5c96dfe57732a83158c6b408d02fcef60f6",
+    "bytes": 12203
+  },
+  {
+    "path": "scripts/10_functional_comparisons/REFERENCES.txt",
+    "stage": "10_functional_comparisons",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/REFERENCES.txt",
+    "sha256": "803a28a397be10ace517a5268a775f407c150203ed4ace2ae96f058ebd2d668b",
+    "bytes": 2114
+  },
+  {
+    "path": "scripts/10_functional_comparisons/RUN.sh",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/RUN.sh",
+    "sha256": "7f0cdd72daaa09b2e407c6a657ee0f23364ac454767f1aade12274a56158acb3",
+    "bytes": 999
+  },
+  {
+    "path": "scripts/10_functional_comparisons/START_HERE.sh",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/START_HERE.sh",
+    "sha256": "80aac268a6c7dfd96e73c000c3701caf3b3d512844d012badbf817d083e02314",
+    "bytes": 192
+  },
+  {
+    "path": "scripts/10_functional_comparisons/check.py",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/check.py",
+    "sha256": "fb365e72e843b1317e6c8004b725ea3b27da509c9ae8bab82918ad3ff2a50abb",
+    "bytes": 1330
+  },
+  {
+    "path": "scripts/10_functional_comparisons/collect.py",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/collect.py",
+    "sha256": "bef384311dfb25044b801804695939873bb1d2514c6a04d7ebab989fc3defc6e",
+    "bytes": 5332
+  },
+  {
+    "path": "scripts/10_functional_comparisons/common.py",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/common.py",
+    "sha256": "bccafe937ae86b38e948c5a4cd5cdd0e670bd377ccbfb6a245cdde825f0338c3",
+    "bytes": 2692
+  },
+  {
+    "path": "scripts/10_functional_comparisons/compare_functions.py",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/compare_functions.py",
+    "sha256": "4030d4140e81496fe41f3abddda55b7a7851dc9dc1594fa66b119e245396cbcb",
+    "bytes": 27128
+  },
+  {
+    "path": "scripts/10_functional_comparisons/environment_check.py",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/environment_check.py",
+    "sha256": "74084ef922c6486035c0ef90da2ce2ad6ed94f7ddf3f0eda7c5b25819915c626",
+    "bytes": 4326
+  },
+  {
+    "path": "scripts/10_functional_comparisons/hpc_guard.py",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/10_functional_comparisons/record_runtime.py",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/record_runtime.py",
+    "sha256": "220e283ada0c30b2b1dc7125ee80e33049bfc11ce0bab7ec795e28b995c9a6a3",
+    "bytes": 809
+  },
+  {
+    "path": "scripts/10_functional_comparisons/render_report.R",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/render_report.R",
+    "sha256": "4ed733777706095917535f30f12d57976f2e93b2adedc3646a7220fcccad58bd",
+    "bytes": 24395
+  },
+  {
+    "path": "scripts/10_functional_comparisons/self_checks.py",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/self_checks.py",
+    "sha256": "69613acb2503c98fcad56143793a0a3369c1b7d55efb406f6413f2a699c54b08",
+    "bytes": 3402
+  },
+  {
+    "path": "scripts/10_functional_comparisons/statistics_core.py",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/statistics_core.py",
+    "sha256": "ef8d7ebf4d559a040146310d6430e7fea46a0104172538f09ec950a5c1f464d5",
+    "bytes": 25849
+  },
+  {
+    "path": "scripts/10_functional_comparisons/submit.py",
+    "stage": "10_functional_comparisons",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/submit.py",
+    "sha256": "e704873d34b7ffa39865eedc31d9e617cc9e7cb19d46f2c2cb527067ce314805",
+    "bytes": 4143
+  },
+  {
+    "path": "evidence/10_functional_comparisons/HPC_STATUS.json",
+    "stage": "10_functional_comparisons",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/HPC_STATUS.json",
+    "sha256": "1e7adfe300b40574ce99b5e532ed1fa5b652b1d99796830cef297e32703b78f8",
+    "bytes": 2332
+  },
+  {
+    "path": "evidence/10_functional_comparisons/results/COMPARISON_STATUS.json",
+    "stage": "10_functional_comparisons",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/10_functional_comparisons/results/COMPARISON_STATUS.json",
+    "sha256": "aa101cb7aa3f15b4109d1634bf292b27afc83050674f35ec6bbc749b303270e2",
+    "bytes": 5444
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/AGENTS.md",
+    "stage": "11_functional_figure_refresh",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/AGENTS.md",
+    "sha256": "1d22bb775b54338ab0b21442c2013c03cf518dbaa6b451b383676e6632ac4c04",
+    "bytes": 1291
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/CHECK.sh",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/CHECK.sh",
+    "sha256": "670717f0dd4f4b0c052fb2fb741ae7d88f293fca131acd56ab011156e2bc9373",
+    "bytes": 158
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/COLLECT.sh",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/COLLECT.sh",
+    "sha256": "77910581ce55dcac0e21fccbafd91be7786d825658d7ea2df13d6e0bdf378007",
+    "bytes": 101
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/CONFIG.json",
+    "stage": "11_functional_figure_refresh",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/CONFIG.json",
+    "sha256": "197426953a0d7d9cbb0ae79e48267b884e690b1623a6042122d82afe283d5b5b",
+    "bytes": 2108
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "11_functional_figure_refresh",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "9fe450a5ab99859a53b36d9af6d2c21d993b52a449d7a45a669a4574c5ab3122",
+    "bytes": 1779
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/RUN.sh",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/RUN.sh",
+    "sha256": "ba76006527ceaf0094d81492ed29105ae193fdccb092eac2815d7299f76266c3",
+    "bytes": 905
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/START_HERE.sh",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/START_HERE.sh",
+    "sha256": "80aac268a6c7dfd96e73c000c3701caf3b3d512844d012badbf817d083e02314",
+    "bytes": 192
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/check.py",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/check.py",
+    "sha256": "2af7ef8d54b9679623e9cef1badb711522f5c6a20d0f6f346f99262c54e62b13",
+    "bytes": 1330
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/collect.py",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/collect.py",
+    "sha256": "c99023323b585a8c1a40a39581e0956525a1f8dc8aeb612507d241e980f8af26",
+    "bytes": 5489
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/common.py",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/common.py",
+    "sha256": "bccafe937ae86b38e948c5a4cd5cdd0e670bd377ccbfb6a245cdde825f0338c3",
+    "bytes": 2692
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/environment_check.py",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/environment_check.py",
+    "sha256": "4c560c540a5933f20555df28e59fc8d6d36b7df45fca13814bcdac3174fba086",
+    "bytes": 3381
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/hpc_guard.py",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/record_runtime.py",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/record_runtime.py",
+    "sha256": "220e283ada0c30b2b1dc7125ee80e33049bfc11ce0bab7ec795e28b995c9a6a3",
+    "bytes": 809
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/render_figures.py",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/render_figures.py",
+    "sha256": "a9c883b4c69418a49c652e8746e2b4bf5af297cba13534320fa30dae3ad720f7",
+    "bytes": 4258
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/render_report.R",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/render_report.R",
+    "sha256": "c20dcabd0fdaca02bdf2c8fd1e7560308788ab42005a6dede38ebfd4f62fdcb0",
+    "bytes": 27715
+  },
+  {
+    "path": "scripts/11_functional_figure_refresh/submit.py",
+    "stage": "11_functional_figure_refresh",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/submit.py",
+    "sha256": "f45b67b1ec78a8fc8a01e885b34a014b8a2c2cabedd3f394f170e24009b0c6c4",
+    "bytes": 4146
+  },
+  {
+    "path": "evidence/11_functional_figure_refresh/HPC_STATUS.json",
+    "stage": "11_functional_figure_refresh",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/11_functional_figure_refresh/HPC_STATUS.json",
+    "sha256": "84a006d78f676299a9f321982e1a57e9e35056dffc6da11404cab16e0dd7e128",
+    "bytes": 2449
+  },
+  {
+    "path": "scripts/12_feasibility/AGENTS.md",
+    "stage": "12_feasibility",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/AGENTS.md",
+    "sha256": "55e61b9f2953af4d313b63ecd8a715b3645b39aa5ce8e19cd55e1bcb64acb136",
+    "bytes": 1670
+  },
+  {
+    "path": "scripts/12_feasibility/CHECK.sh",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/CHECK.sh",
+    "sha256": "670717f0dd4f4b0c052fb2fb741ae7d88f293fca131acd56ab011156e2bc9373",
+    "bytes": 158
+  },
+  {
+    "path": "scripts/12_feasibility/COLLECT.sh",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/COLLECT.sh",
+    "sha256": "77910581ce55dcac0e21fccbafd91be7786d825658d7ea2df13d6e0bdf378007",
+    "bytes": 101
+  },
+  {
+    "path": "scripts/12_feasibility/CONFIG.json",
+    "stage": "12_feasibility",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/CONFIG.json",
+    "sha256": "11a8dca577657fcf68d19ddf12215f54d87ba5debe4ced8221b9d8b0d6465e32",
+    "bytes": 4625
+  },
+  {
+    "path": "scripts/12_feasibility/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "12_feasibility",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "a7ee08c93aae7fd54abd6228ba36117a719ac1378805f27bee6ce4ea29f14cd2",
+    "bytes": 1716
+  },
+  {
+    "path": "scripts/12_feasibility/PROTOCOL.txt",
+    "stage": "12_feasibility",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/PROTOCOL.txt",
+    "sha256": "1630cb610cfae339aa4d8517b7150750c3f08e9f65bf8f9c80ff3e501ffd191d",
+    "bytes": 15652
+  },
+  {
+    "path": "scripts/12_feasibility/RUN.sh",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/RUN.sh",
+    "sha256": "eb68ee73b764a8f3497e2f3d9cc3d99a66d4004f570d3ccf76ec96b0b8731428",
+    "bytes": 470
+  },
+  {
+    "path": "scripts/12_feasibility/START_HERE.sh",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/START_HERE.sh",
+    "sha256": "80aac268a6c7dfd96e73c000c3701caf3b3d512844d012badbf817d083e02314",
+    "bytes": 192
+  },
+  {
+    "path": "scripts/12_feasibility/audit_feasibility.py",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/audit_feasibility.py",
+    "sha256": "4a532eb70808025ee4c916a9951f33192bc59de519f64c490640718ac711471b",
+    "bytes": 72929
+  },
+  {
+    "path": "scripts/12_feasibility/check.py",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/check.py",
+    "sha256": "e0debc3ddf3c864ccabad4156470baf684e1c97e17102234737c81704ae926e5",
+    "bytes": 1681
+  },
+  {
+    "path": "scripts/12_feasibility/collect.py",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/collect.py",
+    "sha256": "f33c5a02c820596fcf155eec36081fa5152e1bd2723f38557e42b3a6411d0fc0",
+    "bytes": 7627
+  },
+  {
+    "path": "scripts/12_feasibility/common.py",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/common.py",
+    "sha256": "bccafe937ae86b38e948c5a4cd5cdd0e670bd377ccbfb6a245cdde825f0338c3",
+    "bytes": 2692
+  },
+  {
+    "path": "scripts/12_feasibility/hpc_guard.py",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/12_feasibility/record_runtime.py",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/record_runtime.py",
+    "sha256": "927b6f07b1c84115f26838547070cd1955872265567ed99d775ecf2d3e32fcbe",
+    "bytes": 1303
+  },
+  {
+    "path": "scripts/12_feasibility/submit.py",
+    "stage": "12_feasibility",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/submit.py",
+    "sha256": "b32d326aa984e1efa4dedf794e7ac5af398a74115e1ddecd62b4eaf381024c11",
+    "bytes": 4815
+  },
+  {
+    "path": "evidence/12_feasibility/HPC_STATUS.json",
+    "stage": "12_feasibility",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/HPC_STATUS.json",
+    "sha256": "b5088df26359b666df10b380b98d342a2d877fe920bb707e895cacffc630103a",
+    "bytes": 2322
+  },
+  {
+    "path": "evidence/12_feasibility/results/FEASIBILITY_STATUS.json",
+    "stage": "12_feasibility",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/12_feasibility/results/FEASIBILITY_STATUS.json",
+    "sha256": "0aa5e58444373636021db8a209e90068b7f39ad9718b48fe6ed08a4a19ceb70c",
+    "bytes": 3730
+  },
+  {
+    "path": "scripts/13_shannon_readiness/AGENTS.md",
+    "stage": "13_shannon_readiness",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/AGENTS.md",
+    "sha256": "e488712dd02f1ec4ff051602a9414df85b55c897f2ede3401f6cf40e65ce7aa5",
+    "bytes": 1885
+  },
+  {
+    "path": "scripts/13_shannon_readiness/CHECK.sh",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/CHECK.sh",
+    "sha256": "670717f0dd4f4b0c052fb2fb741ae7d88f293fca131acd56ab011156e2bc9373",
+    "bytes": 158
+  },
+  {
+    "path": "scripts/13_shannon_readiness/COLLECT.sh",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/COLLECT.sh",
+    "sha256": "242879a092258835037a9232b64491aeb66fe729d4c37bb0e1e80085b8b18775",
+    "bytes": 1055
+  },
+  {
+    "path": "scripts/13_shannon_readiness/CONFIG.json",
+    "stage": "13_shannon_readiness",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/CONFIG.json",
+    "sha256": "28bc7ca1274864b0684d811ad435bb763fdb0ab39656b3c48b8d28182cb41e2e",
+    "bytes": 10495
+  },
+  {
+    "path": "scripts/13_shannon_readiness/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "13_shannon_readiness",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "18d7bf41fc8887b9d526df893681a44872f3190914da6748677dae48c3fcef1e",
+    "bytes": 1057
+  },
+  {
+    "path": "scripts/13_shannon_readiness/PROTOCOL.txt",
+    "stage": "13_shannon_readiness",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/PROTOCOL.txt",
+    "sha256": "e80249b8e9fbcb04c9f652e0677e4f2d0dc397e450d5dc727b63c6fe3dd50e69",
+    "bytes": 15407
+  },
+  {
+    "path": "scripts/13_shannon_readiness/REFERENCES.txt",
+    "stage": "13_shannon_readiness",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/REFERENCES.txt",
+    "sha256": "689377c58dac2e1067cd985067be61797175842389120b7f20b5dafb2be51a94",
+    "bytes": 1350
+  },
+  {
+    "path": "scripts/13_shannon_readiness/RUN.sh",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/RUN.sh",
+    "sha256": "68b92ecf72030453a23ef5a1c9055c52bbb5e7e593f2eb17512d467aa56a865b",
+    "bytes": 2210
+  },
+  {
+    "path": "scripts/13_shannon_readiness/START_HERE.sh",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/START_HERE.sh",
+    "sha256": "51edc4c0d9dacb70257ea9449dfe683594bb7381252fa77a26d81b86ee91846d",
+    "bytes": 131
+  },
+  {
+    "path": "scripts/13_shannon_readiness/SUBMIT.sh",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/SUBMIT.sh",
+    "sha256": "80aac268a6c7dfd96e73c000c3701caf3b3d512844d012badbf817d083e02314",
+    "bytes": 192
+  },
+  {
+    "path": "scripts/13_shannon_readiness/backtest.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/backtest.py",
+    "sha256": "da0c495f7a8b386f50b078186e45993b331c814712bf681f311d9c901b8ff026",
+    "bytes": 33364
+  },
+  {
+    "path": "scripts/13_shannon_readiness/baseline_core.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/baseline_core.py",
+    "sha256": "89b23025829e397fa4dff9352ac82c0dfe66d180b7c5a574bf72ad70ae01d716",
+    "bytes": 9804
+  },
+  {
+    "path": "scripts/13_shannon_readiness/check.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/check.py",
+    "sha256": "4683a057ab60093c25c34d89b1f868a2f2160bdd1929a1d9f2da69da69db5665",
+    "bytes": 2031
+  },
+  {
+    "path": "scripts/13_shannon_readiness/collect.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/collect.py",
+    "sha256": "322090846584e7ee3b24c7a78761320347f410559ead94c2fb9689c51396785a",
+    "bytes": 19255
+  },
+  {
+    "path": "scripts/13_shannon_readiness/common.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/common.py",
+    "sha256": "bbfeb71524fc553f4545556b3eca54a56373e20bad8c10c95ea8334510f98467",
+    "bytes": 1728
+  },
+  {
+    "path": "scripts/13_shannon_readiness/environment_check.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/environment_check.py",
+    "sha256": "b3d528e1b302b94e635423b5529dc1cc0a36d25e8cc2002959e30923451de936",
+    "bytes": 3558
+  },
+  {
+    "path": "scripts/13_shannon_readiness/fold_self_checks.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/fold_self_checks.py",
+    "sha256": "7d30d5255ebde949bc7ce4c7dab842f712b15a90a89164ad122e6306397fd20f",
+    "bytes": 7251
+  },
+  {
+    "path": "scripts/13_shannon_readiness/hpc_guard.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/13_shannon_readiness/record_runtime.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/record_runtime.py",
+    "sha256": "7866ab4701bc587fb9b4b1078cebb1d01eae11818f0486b43d5ff6924d13c9e9",
+    "bytes": 1861
+  },
+  {
+    "path": "scripts/13_shannon_readiness/render_report.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/render_report.py",
+    "sha256": "a84b959813cd4b6b068823b68ed1fd7609c100e3b4189188a673e99f8a65db2c",
+    "bytes": 71550
+  },
+  {
+    "path": "scripts/13_shannon_readiness/self_checks.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/self_checks.py",
+    "sha256": "4ec5e834482a74c8e9e47010d96b7f839d9b54c139ba65e63a753067d62e749b",
+    "bytes": 5855
+  },
+  {
+    "path": "scripts/13_shannon_readiness/stage_source.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/stage_source.py",
+    "sha256": "b074ba5a68f67b2a458cd1a9803f5b97d69ffd2e740f01a0cd373bce37c8ac2b",
+    "bytes": 33851
+  },
+  {
+    "path": "scripts/13_shannon_readiness/submit.py",
+    "stage": "13_shannon_readiness",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/submit.py",
+    "sha256": "532bf8b1943993929af90091773356ae651f5829385d1f9104a08ae04dc35420",
+    "bytes": 8443
+  },
+  {
+    "path": "evidence/13_shannon_readiness/HPC_STATUS.json",
+    "stage": "13_shannon_readiness",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/HPC_STATUS.json",
+    "sha256": "98d958504bf61e85fd12d4264aeb21caf413c93ca9da671988b0a5c64d940c18",
+    "bytes": 3089
+  },
+  {
+    "path": "evidence/13_shannon_readiness/results/BACKTEST_STATUS.json",
+    "stage": "13_shannon_readiness",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/results/BACKTEST_STATUS.json",
+    "sha256": "044767eeb89413ee47b617f091a95e6faf4b73890cb2870dc58972e3acdaadd6",
+    "bytes": 4810
+  },
+  {
+    "path": "evidence/13_shannon_readiness/results/REPORT_STATUS.json",
+    "stage": "13_shannon_readiness",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/results/REPORT_STATUS.json",
+    "sha256": "6bba3b24c24087fccc228ce1c567621cb743116fbbb88568e7c3e1a92dc22519",
+    "bytes": 4436
+  },
+  {
+    "path": "scripts/13_shannon_readiness/engine_source/pilot.py",
+    "stage": "13_shannon_readiness",
+    "role": "executed_dependency",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/13_shannon_readiness/engine_source/pilot.py",
+    "sha256": "d3560eadffd7b31f0eab5a77bfdfa43ae884b62877691b7c5e7130a26ae541a5",
+    "bytes": 39939
+  },
+  {
+    "path": "scripts/14_measured_inventory/AGENTS.md",
+    "stage": "14_measured_inventory",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/AGENTS.md",
+    "sha256": "c3a33abf82daea1f02dc1b8bb25de7f148219b7cc9f88114ada1d2f97109bd64",
+    "bytes": 1986
+  },
+  {
+    "path": "scripts/14_measured_inventory/CHECK.sh",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/CHECK.sh",
+    "sha256": "670717f0dd4f4b0c052fb2fb741ae7d88f293fca131acd56ab011156e2bc9373",
+    "bytes": 158
+  },
+  {
+    "path": "scripts/14_measured_inventory/COLLECT.sh",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/COLLECT.sh",
+    "sha256": "242879a092258835037a9232b64491aeb66fe729d4c37bb0e1e80085b8b18775",
+    "bytes": 1055
+  },
+  {
+    "path": "scripts/14_measured_inventory/CONFIG.json",
+    "stage": "14_measured_inventory",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/CONFIG.json",
+    "sha256": "1ab5109bc6a71fe36ae1f2a5e302ea57ca21d97f76afdbea938c297f2ea655f1",
+    "bytes": 15730
+  },
+  {
+    "path": "scripts/14_measured_inventory/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "14_measured_inventory",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "a4921ee8f91195e5bf6b7f94b91b2add4555e5aa51fd1b861712e10088baf3ec",
+    "bytes": 2181
+  },
+  {
+    "path": "scripts/14_measured_inventory/PROTOCOL.txt",
+    "stage": "14_measured_inventory",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/PROTOCOL.txt",
+    "sha256": "e7151c14053bf63482a08cb6180ba9d0cda0667efe3cc5ead835495279ad2d8c",
+    "bytes": 15075
+  },
+  {
+    "path": "scripts/14_measured_inventory/REFERENCES.txt",
+    "stage": "14_measured_inventory",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/REFERENCES.txt",
+    "sha256": "f2608d32e4c2eadb9f3077a12fe5654bf1603a78f6a0d2c1f0a9fbb79a93ea33",
+    "bytes": 3210
+  },
+  {
+    "path": "scripts/14_measured_inventory/RESPONSE_TRACKS.json",
+    "stage": "14_measured_inventory",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/RESPONSE_TRACKS.json",
+    "sha256": "4dceeb220f75386cc330288e9b8dbda42d5c08df73529c5662e18e9ddc78ba80",
+    "bytes": 44503
+  },
+  {
+    "path": "scripts/14_measured_inventory/RUN.sh",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/RUN.sh",
+    "sha256": "4bff3e9e4633ecec6c8b493eec205cdabbda096835b36df8117494911cdca72e",
+    "bytes": 2193
+  },
+  {
+    "path": "scripts/14_measured_inventory/START_HERE.sh",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/START_HERE.sh",
+    "sha256": "51edc4c0d9dacb70257ea9449dfe683594bb7381252fa77a26d81b86ee91846d",
+    "bytes": 131
+  },
+  {
+    "path": "scripts/14_measured_inventory/SUBMIT.sh",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/SUBMIT.sh",
+    "sha256": "80aac268a6c7dfd96e73c000c3701caf3b3d512844d012badbf817d083e02314",
+    "bytes": 192
+  },
+  {
+    "path": "scripts/14_measured_inventory/check.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/check.py",
+    "sha256": "4a0884655ed94560be4304da9a94f953cf98fde7b83c02271beee5273cad58b8",
+    "bytes": 1947
+  },
+  {
+    "path": "scripts/14_measured_inventory/collect.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/collect.py",
+    "sha256": "eee571d801f375bfabfb990a1d2b9bef4278a02aff8f6357c94446f90115eac8",
+    "bytes": 19572
+  },
+  {
+    "path": "scripts/14_measured_inventory/common.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/common.py",
+    "sha256": "08f8048fc487e6e749fa0b3c00403882b6e06c747e4ef4a01e38e9d9728b8bbf",
+    "bytes": 5250
+  },
+  {
+    "path": "scripts/14_measured_inventory/environment_check.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/environment_check.py",
+    "sha256": "6b934382a67e287abbfb0d038971707fd5505bf4d08e5dbfd6e6ad2b05beaf49",
+    "bytes": 3837
+  },
+  {
+    "path": "scripts/14_measured_inventory/hpc_guard.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/14_measured_inventory/inventory_core.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/inventory_core.py",
+    "sha256": "f738774ed749116880400231c637a1b9316c7e4fa1710bcb65fab6d77f1a1e77",
+    "bytes": 32857
+  },
+  {
+    "path": "scripts/14_measured_inventory/inventory_outcomes.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/inventory_outcomes.py",
+    "sha256": "45b599ec52c34b16f98bb6a6dde36d6a710cdeee1929b5fde7ecccfc5c2183bd",
+    "bytes": 22262
+  },
+  {
+    "path": "scripts/14_measured_inventory/inventory_self_checks.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/inventory_self_checks.py",
+    "sha256": "c5ae28ee238554c7a93d5f4d971a8fe98bf90309960fff6df6c629b095e34649",
+    "bytes": 14765
+  },
+  {
+    "path": "scripts/14_measured_inventory/record_runtime.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/record_runtime.py",
+    "sha256": "44cba8cb0d374b14ca5adaea7cd9209da4ccef34fedd7fcd1408cba0f0befc21",
+    "bytes": 1863
+  },
+  {
+    "path": "scripts/14_measured_inventory/render_inventory_report.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/render_inventory_report.py",
+    "sha256": "152f56c60b6160decadde7e54107cd5ff5ae574ebeed84a8bb3beb59152a43a3",
+    "bytes": 51965
+  },
+  {
+    "path": "scripts/14_measured_inventory/stage_source.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/stage_source.py",
+    "sha256": "b7862aae961ac4921197a63b96f499dd371c997b3335d98518ed993b0a70a19e",
+    "bytes": 13329
+  },
+  {
+    "path": "scripts/14_measured_inventory/submit.py",
+    "stage": "14_measured_inventory",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/submit.py",
+    "sha256": "2b4443b1947a736b03dd97e25e24ea45eb33f3d0fdd3d9de0d7719369257b92e",
+    "bytes": 7962
+  },
+  {
+    "path": "evidence/14_measured_inventory/HPC_STATUS.json",
+    "stage": "14_measured_inventory",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/HPC_STATUS.json",
+    "sha256": "a7f7426288e1f088459d78a9643cb2800930b3312d1d40c6002d8e99d5cae2b3",
+    "bytes": 3214
+  },
+  {
+    "path": "evidence/14_measured_inventory/results/INVENTORY_STATUS.json",
+    "stage": "14_measured_inventory",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/14_measured_inventory/results/INVENTORY_STATUS.json",
+    "sha256": "7ad798d362847d19bfbf13bc975d541a4cc5faae9abbdd3d25992d97c363f49a",
+    "bytes": 4193
+  },
+  {
+    "path": "scripts/15_ph_baselines/AGENTS.md",
+    "stage": "15_ph_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/AGENTS.md",
+    "sha256": "416195975f2d9a0d6fa5b37c5bf9168452b2f93da7b63aba8a601c0cd9c99a5a",
+    "bytes": 2793
+  },
+  {
+    "path": "scripts/15_ph_baselines/CHECK.sh",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/CHECK.sh",
+    "sha256": "670717f0dd4f4b0c052fb2fb741ae7d88f293fca131acd56ab011156e2bc9373",
+    "bytes": 158
+  },
+  {
+    "path": "scripts/15_ph_baselines/COLLECT.sh",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/COLLECT.sh",
+    "sha256": "242879a092258835037a9232b64491aeb66fe729d4c37bb0e1e80085b8b18775",
+    "bytes": 1055
+  },
+  {
+    "path": "scripts/15_ph_baselines/CONFIG.json",
+    "stage": "15_ph_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/CONFIG.json",
+    "sha256": "335a7fdb6b223f3b176fc769f3b84dfbf5d71030fe0ca99732a1d370a7de8835",
+    "bytes": 27752
+  },
+  {
+    "path": "scripts/15_ph_baselines/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "15_ph_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "f7f3a0e5afe7f13d8e9ba0be898beae5a09e56158b0d4892c89729d4c836978d",
+    "bytes": 2503
+  },
+  {
+    "path": "scripts/15_ph_baselines/OUTPUT_CONTRACT.json",
+    "stage": "15_ph_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/OUTPUT_CONTRACT.json",
+    "sha256": "863a120c3b47b4237d177fba38197867c6ddc4ea80f58f34a990a81caa45d532",
+    "bytes": 16412
+  },
+  {
+    "path": "scripts/15_ph_baselines/PROTOCOL.txt",
+    "stage": "15_ph_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/PROTOCOL.txt",
+    "sha256": "f8802d7cea6a5193bfd8ff944c43ff11bb581b9687add4db7a2883b580dd6053",
+    "bytes": 16715
+  },
+  {
+    "path": "scripts/15_ph_baselines/REFERENCES.txt",
+    "stage": "15_ph_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/REFERENCES.txt",
+    "sha256": "f513156c11bb7e1d39edcf61e78192fbc8fd5edff991062094c3de49c60e3308",
+    "bytes": 3588
+  },
+  {
+    "path": "scripts/15_ph_baselines/RESPONSE_SPEC.json",
+    "stage": "15_ph_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/RESPONSE_SPEC.json",
+    "sha256": "99a7b53318b5131fca126bb55d64339121e79dc49f6937d78eaaf11a2419e79d",
+    "bytes": 25638
+  },
+  {
+    "path": "scripts/15_ph_baselines/RUN.sh",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/RUN.sh",
+    "sha256": "c3420ebf9055147e438f5468b2d4b7c4fc9822ba7078d2efe3fb4c9185bc61e4",
+    "bytes": 2171
+  },
+  {
+    "path": "scripts/15_ph_baselines/START_HERE.sh",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/START_HERE.sh",
+    "sha256": "51edc4c0d9dacb70257ea9449dfe683594bb7381252fa77a26d81b86ee91846d",
+    "bytes": 131
+  },
+  {
+    "path": "scripts/15_ph_baselines/SUBMIT.sh",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/SUBMIT.sh",
+    "sha256": "80aac268a6c7dfd96e73c000c3701caf3b3d512844d012badbf817d083e02314",
+    "bytes": 192
+  },
+  {
+    "path": "scripts/15_ph_baselines/analyze_ph.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/analyze_ph.py",
+    "sha256": "c723b5da57cd6a2504365a7c8c61bcde4758db636e144992e8ca76026a260224",
+    "bytes": 13646
+  },
+  {
+    "path": "scripts/15_ph_baselines/check.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/check.py",
+    "sha256": "0d6e9eb49b0caabec56befbc30223dbba5268ea21f389b778d2893dfb876ec87",
+    "bytes": 2159
+  },
+  {
+    "path": "scripts/15_ph_baselines/collect.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/collect.py",
+    "sha256": "f18994a430948bcad1a3f9da6c91ca942b8c53c322373a8b3e9923ae2ca77ebf",
+    "bytes": 28727
+  },
+  {
+    "path": "scripts/15_ph_baselines/common.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/common.py",
+    "sha256": "44449d131aaa62a246b0ece30799598538e9ef6a3b78db14cc82532d777bae0a",
+    "bytes": 8897
+  },
+  {
+    "path": "scripts/15_ph_baselines/environment_check.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/environment_check.py",
+    "sha256": "6b934382a67e287abbfb0d038971707fd5505bf4d08e5dbfd6e6ad2b05beaf49",
+    "bytes": 3837
+  },
+  {
+    "path": "scripts/15_ph_baselines/hpc_guard.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/15_ph_baselines/ph_core.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/ph_core.py",
+    "sha256": "e29a826326c587772a7b8ca4cf1d59540283c1c3dbc41a72e68737a7747cabb9",
+    "bytes": 39965
+  },
+  {
+    "path": "scripts/15_ph_baselines/ph_self_checks.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/ph_self_checks.py",
+    "sha256": "d350acddbc4670d08f9f95b9beaea47e892bb604e4e01ceb41277e34e481c68f",
+    "bytes": 20562
+  },
+  {
+    "path": "scripts/15_ph_baselines/record_runtime.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/record_runtime.py",
+    "sha256": "a0e896963469a399fd8db3dda84d93ddae13b11892a314ab78832fbbfa42785f",
+    "bytes": 2139
+  },
+  {
+    "path": "scripts/15_ph_baselines/render_ph_report.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/render_ph_report.py",
+    "sha256": "6032fdd7defbe57b82927c1e2793ceaf0064eab723a914cc664143db38f52919",
+    "bytes": 61698
+  },
+  {
+    "path": "scripts/15_ph_baselines/stage_source.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/stage_source.py",
+    "sha256": "a4ec6671bff35d00ea081ba3178b73ca47a11b798568abac6663c6432c09dba8",
+    "bytes": 19431
+  },
+  {
+    "path": "scripts/15_ph_baselines/submit.py",
+    "stage": "15_ph_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/submit.py",
+    "sha256": "9d45d89b85ce2e1e28caa64525efcfde2021970756f1e97d86f471ce363c1ea9",
+    "bytes": 8327
+  },
+  {
+    "path": "evidence/15_ph_baselines/HPC_STATUS.json",
+    "stage": "15_ph_baselines",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/HPC_STATUS.json",
+    "sha256": "86389ffc0513c9b4ec7d7510514b15df7c16a213f7fe335041b05a73f2b38907",
+    "bytes": 3931
+  },
+  {
+    "path": "evidence/15_ph_baselines/audit/PH_ENGINE_STATUS.json",
+    "stage": "15_ph_baselines",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/15_ph_baselines/audit/PH_ENGINE_STATUS.json",
+    "sha256": "05b4481683f51525056eea036eaf7cc0722871c61c7063bc0d1488be69470dc5",
+    "bytes": 3753
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/AGENTS.md",
+    "stage": "16_nutrient_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/AGENTS.md",
+    "sha256": "a5f53181baff04ed46a84105abc2bfd019d69bbf54e8b04333a818a5f1f64651",
+    "bytes": 3852
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/CHECK.sh",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/CHECK.sh",
+    "sha256": "670717f0dd4f4b0c052fb2fb741ae7d88f293fca131acd56ab011156e2bc9373",
+    "bytes": 158
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/COLLECT.sh",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/COLLECT.sh",
+    "sha256": "242879a092258835037a9232b64491aeb66fe729d4c37bb0e1e80085b8b18775",
+    "bytes": 1055
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/CONFIG.json",
+    "stage": "16_nutrient_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/CONFIG.json",
+    "sha256": "b0064397c464ca9d554d3a619e7426b850e3a4c651452e94685accaa7eaefb9e",
+    "bytes": 37871
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "16_nutrient_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "7bc48fd1838b2f2dc7491567b52e816781e0753760c96a5d27023128a8aa2267",
+    "bytes": 2859
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/OUTPUT_CONTRACT.json",
+    "stage": "16_nutrient_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/OUTPUT_CONTRACT.json",
+    "sha256": "5b551cd9aede3d26f9c2a443b42f157a4e200311ddd78b9a8bb9a67910d865a5",
+    "bytes": 18349
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/PROTOCOL.txt",
+    "stage": "16_nutrient_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/PROTOCOL.txt",
+    "sha256": "e7ddaf47cd24faa222259609026d8c107574ae288e5a7719ac6851d282b7e60b",
+    "bytes": 20456
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/REFERENCES.txt",
+    "stage": "16_nutrient_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/REFERENCES.txt",
+    "sha256": "886a1972ea51c33423ba3cbdf4c6eda10758807b0c5d3f05353a615a0422ef3f",
+    "bytes": 802
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/RESPONSE_SPEC.json",
+    "stage": "16_nutrient_baselines",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/RESPONSE_SPEC.json",
+    "sha256": "8e6b27e981a5c2917009e07e2c4ffaa02ba4e09f277cb47117998895460568d6",
+    "bytes": 30990
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/RUN.sh",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/RUN.sh",
+    "sha256": "d3eec0329a5610c247cee7758dddb65ac02ce770bc7fb4f9f4e679d6fc915eb9",
+    "bytes": 2190
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/START_HERE.sh",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/START_HERE.sh",
+    "sha256": "51edc4c0d9dacb70257ea9449dfe683594bb7381252fa77a26d81b86ee91846d",
+    "bytes": 131
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/SUBMIT.sh",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/SUBMIT.sh",
+    "sha256": "80aac268a6c7dfd96e73c000c3701caf3b3d512844d012badbf817d083e02314",
+    "bytes": 192
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/analyze_nutrients.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/analyze_nutrients.py",
+    "sha256": "3698acc91a975ddffd6ad88f33880e3b7e29e7814bbb8516758aed3b51f6db32",
+    "bytes": 14579
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/check.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/check.py",
+    "sha256": "fb005e2d9dee7f87d5116da7e02d95340f1f2578c1a94ca382791b22b6f8c197",
+    "bytes": 2195
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/collect.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/collect.py",
+    "sha256": "01cec04141b22ab5a2ad5f7b4ddd4b277f08a31d85092fbc34379ced4fc91e7c",
+    "bytes": 35096
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/common.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/common.py",
+    "sha256": "1c1905cbbd3575fee3e7dd6b48c334e33e871b35888ef8f3d9922bef7c3d6f90",
+    "bytes": 9048
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/environment_check.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/environment_check.py",
+    "sha256": "6b934382a67e287abbfb0d038971707fd5505bf4d08e5dbfd6e6ad2b05beaf49",
+    "bytes": 3837
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/hpc_guard.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/hpc_guard.py",
+    "sha256": "1f3184e9863250f2f3f5f130bb03b3669fc7746c492ec15556dcd7d82b147367",
+    "bytes": 1452
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/nutrient_core.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/nutrient_core.py",
+    "sha256": "1c325dbc9ece2640f96ab8af34a55a0de4b18a5e25968eaa564114c8a33231a8",
+    "bytes": 46178
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/nutrient_self_checks.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/nutrient_self_checks.py",
+    "sha256": "63c81e7e73828b2bb7b4d7074695cad8aa868b628187196030cea423cdc060f5",
+    "bytes": 24211
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/record_runtime.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/record_runtime.py",
+    "sha256": "344c4086dae467f450e62dc8a9aa303c6e19806b7aa77ca33da50afb11bcabc9",
+    "bytes": 2172
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/render_nutrient_report.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/render_nutrient_report.py",
+    "sha256": "af878bfd356b73bebad2a88676a1ce8d3c6b0387a0f845415fd0288471e4607d",
+    "bytes": 71369
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/stage_source.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/stage_source.py",
+    "sha256": "649c654d8f086f29eab3484fbae78a934aed9be02aa64ee03d00d8caf0807498",
+    "bytes": 26355
+  },
+  {
+    "path": "scripts/16_nutrient_baselines/submit.py",
+    "stage": "16_nutrient_baselines",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/submit.py",
+    "sha256": "4a910ac8d7a9c285a38fe6e1d5434c833afb5b8c62d48761426c8a237724f224",
+    "bytes": 8423
+  },
+  {
+    "path": "evidence/16_nutrient_baselines/HPC_STATUS.json",
+    "stage": "16_nutrient_baselines",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/HPC_STATUS.json",
+    "sha256": "6878dbdb9c6776e72760cce93f609acda6e4e617446446c60bd758ee1f1ca8c6",
+    "bytes": 5469
+  },
+  {
+    "path": "evidence/16_nutrient_baselines/audit/NUTRIENT_ENGINE_STATUS.json",
+    "stage": "16_nutrient_baselines",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/16_nutrient_baselines/audit/NUTRIENT_ENGINE_STATUS.json",
+    "sha256": "afaa2eeae6b75583557d53ba5ccf387450ce69a086937ae5cde50c4ec8b7206c",
+    "bytes": 5131
+  },
+  {
+    "path": "scripts/17_soil_associations/AGENTS.md",
+    "stage": "17_soil_associations",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/AGENTS.md",
+    "sha256": "b20bf1873c42804ccab361bcf826e8c1478d50341ee168985334dbefcd6567b6",
+    "bytes": 1345
+  },
+  {
+    "path": "scripts/17_soil_associations/CHECK.sh",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/CHECK.sh",
+    "sha256": "ae583cd0ccff5d83c096739b32a2bcd56e2c48f785e4aaace5a19493bb80a063",
+    "bytes": 279
+  },
+  {
+    "path": "scripts/17_soil_associations/COLLECT.sh",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/COLLECT.sh",
+    "sha256": "3e0bf37a83fd8a9a427593b744897198478b44c0fba658713ab058e2fcb82dc9",
+    "bytes": 267
+  },
+  {
+    "path": "scripts/17_soil_associations/CONFIG.json",
+    "stage": "17_soil_associations",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/CONFIG.json",
+    "sha256": "3cc29cc0cbefa5979580a1cbfdeaa1b98486aa8c08416917789c20c84438bcc8",
+    "bytes": 12063
+  },
+  {
+    "path": "scripts/17_soil_associations/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "17_soil_associations",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "9d33b8840c084050f5f951d1e8af031392c650d63573eb89caed3ff3fde1e6e6",
+    "bytes": 1028
+  },
+  {
+    "path": "scripts/17_soil_associations/JOIN_REPAIR_PROTOCOL.txt",
+    "stage": "17_soil_associations",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/JOIN_REPAIR_PROTOCOL.txt",
+    "sha256": "38f90eaafef11697ba86f2f04d4e80af0472b516e890d3e92b99a36abac9dc65",
+    "bytes": 3784
+  },
+  {
+    "path": "scripts/17_soil_associations/RUN_COMBINE.sh",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/RUN_COMBINE.sh",
+    "sha256": "0d34e2b8d93f7cdfe620ab16c8c088892ade9e483b664ebe3e8b51c4e900b325",
+    "bytes": 263
+  },
+  {
+    "path": "scripts/17_soil_associations/RUN_COMMON.sh",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/RUN_COMMON.sh",
+    "sha256": "9f9841d739e23106066b20b697b2419e7caab3c5d20851438e4045f8bd94eff2",
+    "bytes": 870
+  },
+  {
+    "path": "scripts/17_soil_associations/RUN_JOIN.sh",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/RUN_JOIN.sh",
+    "sha256": "6addb0d6b39a396708bf24babdf3b65e1c8a1f7b292cb5c45fb5edd54ffd42b0",
+    "bytes": 264
+  },
+  {
+    "path": "scripts/17_soil_associations/RUN_STAGE.sh",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/RUN_STAGE.sh",
+    "sha256": "03f52234ad68c92fbfb6cafdd30f20d7a8ca29a932a14db61cbd52939bde92d3",
+    "bytes": 266
+  },
+  {
+    "path": "scripts/17_soil_associations/SHARDS.json",
+    "stage": "17_soil_associations",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/SHARDS.json",
+    "sha256": "121dd728559f85ada2d68bf37ec0553388fcbd861c83cc5a3062df0a0b82bf53",
+    "bytes": 1559
+  },
+  {
+    "path": "scripts/17_soil_associations/SOURCES.json",
+    "stage": "17_soil_associations",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/SOURCES.json",
+    "sha256": "b1172f36f1f6b2e8d66e3fa954ff9931da221a86dae01377187ba0c53ae8c8d5",
+    "bytes": 7064
+  },
+  {
+    "path": "scripts/17_soil_associations/START_HERE.sh",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/START_HERE.sh",
+    "sha256": "d2b1873bfb65c7087c17691f9d9f852072a64d4af1615ca46494dfd0b3fc9375",
+    "bytes": 271
+  },
+  {
+    "path": "scripts/17_soil_associations/STATISTICAL_PROTOCOL.txt",
+    "stage": "17_soil_associations",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/STATISTICAL_PROTOCOL.txt",
+    "sha256": "4e6933ff09886a235751d87640cd8ce50fd6b397a9d68a2b8374546282ad30c5",
+    "bytes": 22820
+  },
+  {
+    "path": "scripts/17_soil_associations/adapter_self_checks.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/adapter_self_checks.py",
+    "sha256": "c5c8e1500cf08ac203fc65ea0b6534c0d4773d1f6de3347d56f43ab52a3bd922",
+    "bytes": 6841
+  },
+  {
+    "path": "scripts/17_soil_associations/association_core.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/association_core.py",
+    "sha256": "ab9e58502fac01fbc5914cbdaab69e3ef1d5a84d21efdf751a6d56d5da4f3128",
+    "bytes": 14513
+  },
+  {
+    "path": "scripts/17_soil_associations/association_figures.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/association_figures.py",
+    "sha256": "73570cc88634e5f7a1d5940ebfff04f91973e270ef3b670b0b1e4829be24201d",
+    "bytes": 10107
+  },
+  {
+    "path": "scripts/17_soil_associations/association_self_checks.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/association_self_checks.py",
+    "sha256": "f64ceedb3a5a1d533d3be23962c859297ec5c76f5c2977b7ecde0f9c2cb11841",
+    "bytes": 5888
+  },
+  {
+    "path": "scripts/17_soil_associations/categorical_core.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/categorical_core.py",
+    "sha256": "40192b83d54aeb59bc6420fc77b6463fd21247766325cf7bda8357563c84035c",
+    "bytes": 11877
+  },
+  {
+    "path": "scripts/17_soil_associations/categorical_self_checks.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/categorical_self_checks.py",
+    "sha256": "1bf3b2a078bfd210dc22cc000453a68f7bc112bde85f88d2ff2a6b5fb04316ca",
+    "bytes": 5997
+  },
+  {
+    "path": "scripts/17_soil_associations/check.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/check.py",
+    "sha256": "b274c736d1dfce93b8dd6fd002ec2a3416115c48a04231dbabafe7b57d165330",
+    "bytes": 15226
+  },
+  {
+    "path": "scripts/17_soil_associations/collector.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/collector.py",
+    "sha256": "deab9659107629fee1d643ac135eae20d8627d75e1c37b6fae5a1f80fff61d49",
+    "bytes": 36354
+  },
+  {
+    "path": "scripts/17_soil_associations/combine.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/combine.py",
+    "sha256": "111190688ff728bfd12eb839c78591f9da454e10ae8e75b5af635895d66e2eb7",
+    "bytes": 34348
+  },
+  {
+    "path": "scripts/17_soil_associations/compact_review_export.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/compact_review_export.py",
+    "sha256": "eb722aa3161b7a201325c9e539f125752dd5bec317b0b82ccac1db6ac5b91b5e",
+    "bytes": 17640
+  },
+  {
+    "path": "scripts/17_soil_associations/compute_guard.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/compute_guard.py",
+    "sha256": "995011afc89c9f8b1d57f879711085da6326ff07f033c8c762100415797bf2d0",
+    "bytes": 232
+  },
+  {
+    "path": "scripts/17_soil_associations/environment_check.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/environment_check.py",
+    "sha256": "a8b62d2889c33b178f437bff638b554877d20201cbb6890246875dbc2fddcda3",
+    "bytes": 2899
+  },
+  {
+    "path": "scripts/17_soil_associations/feature_adapters.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/feature_adapters.py",
+    "sha256": "8528186079196bff2097cd98debfd6ce5079102ba416d887dfdefc0d73ffd942",
+    "bytes": 42433
+  },
+  {
+    "path": "scripts/17_soil_associations/hpc_guard.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/hpc_guard.py",
+    "sha256": "7240a5f33c5ee1c97d4e95d20ce3316fd54e8af6e6d93f2cdd62a1e29fd93f2d",
+    "bytes": 1832
+  },
+  {
+    "path": "scripts/17_soil_associations/join_chunks.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/join_chunks.py",
+    "sha256": "200e5f67a7467123107c49c8420aa2a5c49f049b28469a5ecde2856d3750ccd2",
+    "bytes": 37602
+  },
+  {
+    "path": "scripts/17_soil_associations/orchestration_common.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/orchestration_common.py",
+    "sha256": "2bdc60f4c1d522bf068afad45aec594e27af59e07c7f036db21b1aa032ac2a2e",
+    "bytes": 4832
+  },
+  {
+    "path": "scripts/17_soil_associations/record_runtime.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/record_runtime.py",
+    "sha256": "99e65fd6cc57d999aa42db5ad07fda918543d64657ab727d6c20c5f6015ad5ce",
+    "bytes": 1197
+  },
+  {
+    "path": "scripts/17_soil_associations/recovery_common.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/recovery_common.py",
+    "sha256": "41e0839407c9286c274a3ee5b204ebb53e4f18e312f5086c520c1d4603f78fe9",
+    "bytes": 13193
+  },
+  {
+    "path": "scripts/17_soil_associations/recovery_validation.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/recovery_validation.py",
+    "sha256": "045ea77e4c97ca6ea48f1a90af5c8cb06e02d20971cf867da055ebc188507bed",
+    "bytes": 44192
+  },
+  {
+    "path": "scripts/17_soil_associations/runtime_guard.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/runtime_guard.py",
+    "sha256": "808bfd1a51a26bbc9debcbc0dd3da1eb2ebc882c90911da66b82be3eb700ad33",
+    "bytes": 139
+  },
+  {
+    "path": "scripts/17_soil_associations/stage_source.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/stage_source.py",
+    "sha256": "2cd0f6777b3a63dd7f058999b64a7fedbcab9d8b25763c5d4d2354d5fe72e773",
+    "bytes": 10321
+  },
+  {
+    "path": "scripts/17_soil_associations/submit.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/submit.py",
+    "sha256": "7783cd14ac53584ff2d2f7e7e8cb70932132b1295d0c0dc180c0e24c304835f5",
+    "bytes": 16558
+  },
+  {
+    "path": "scripts/17_soil_associations/worker.py",
+    "stage": "17_soil_associations",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/worker.py",
+    "sha256": "377debd245a83d0897b1d61b5afaf30b236b1caa6c32c4cc6491f7c6695b84e0",
+    "bytes": 19996
+  },
+  {
+    "path": "evidence/17_soil_associations/HPC_STATUS.json",
+    "stage": "17_soil_associations",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/HPC_STATUS.json",
+    "sha256": "213bcae54ddd88a9af52d5fb66f52c766a4628ba5322e35a270d2c386042ab2c",
+    "bytes": 8537939
+  },
+  {
+    "path": "evidence/17_soil_associations/audit/join/JOIN_STATUS.json",
+    "stage": "17_soil_associations",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/audit/join/JOIN_STATUS.json",
+    "sha256": "b891e178c0527d8cd12e3ad6fba6cfba0a6f9c7bbfd998f42fac8ffc5d5790b6",
+    "bytes": 9070
+  },
+  {
+    "path": "evidence/17_soil_associations/results/COMBINE_STATUS.json",
+    "stage": "17_soil_associations",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/17_soil_associations/results/COMBINE_STATUS.json",
+    "sha256": "293a6d6f8ffd8510fdb4976cf77c7ccf29a46b30207a41b48318e9d50ac0e462",
+    "bytes": 2585
+  },
+  {
+    "path": "scripts/18_treatment_time/AGENTS.md",
+    "stage": "18_treatment_time",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/AGENTS.md",
+    "sha256": "59da16294e9ff9e8232936164a01d2f724f2d187ea4fe71a7ce1cbb009ff18c5",
+    "bytes": 1466
+  },
+  {
+    "path": "scripts/18_treatment_time/CHECK.sh",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/CHECK.sh",
+    "sha256": "87410a9cad4ac93a4594779217dc0a8a527064d01420fbd200a25730c6fc7bf2",
+    "bytes": 270
+  },
+  {
+    "path": "scripts/18_treatment_time/COLLECT.sh",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/COLLECT.sh",
+    "sha256": "4ed22eef68d177a7238efaa0282def67873cb4540dec22fa29080aa9004cf3c1",
+    "bytes": 245
+  },
+  {
+    "path": "scripts/18_treatment_time/CONFIG.json",
+    "stage": "18_treatment_time",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/CONFIG.json",
+    "sha256": "bf6300e8dacf0a34ea74e327d1c61d29604d1089774822c67d74040c68c4aed7",
+    "bytes": 6558
+  },
+  {
+    "path": "scripts/18_treatment_time/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "18_treatment_time",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "780dce60bdcd4f7df1d33bf2dacfd6ee65c61ff354142404143597bbca57207d",
+    "bytes": 1171
+  },
+  {
+    "path": "scripts/18_treatment_time/METHODS_RECORD.txt",
+    "stage": "18_treatment_time",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/METHODS_RECORD.txt",
+    "sha256": "80f2bf8b7c019ea63957676b08f96809c184f05ee02a02ce39b80bc402adc1f2",
+    "bytes": 2269
+  },
+  {
+    "path": "scripts/18_treatment_time/PROTOCOL.txt",
+    "stage": "18_treatment_time",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/PROTOCOL.txt",
+    "sha256": "ad054ee3226004f7f4ed63a41b70bdb9669fea1d0dbb4d8ca79737eadd8f9e86",
+    "bytes": 11442
+  },
+  {
+    "path": "scripts/18_treatment_time/RUN_COMBINE.sh",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/RUN_COMBINE.sh",
+    "sha256": "82a4acd66331b911ab8367a0cdabb98bb60f0cd3262b75705e5fe58a8c354ca4",
+    "bytes": 241
+  },
+  {
+    "path": "scripts/18_treatment_time/RUN_COMMON.sh",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/RUN_COMMON.sh",
+    "sha256": "bc8c8e0a7f3eb7b4adbb05e9ff89bfd2f88746c69ad62e01a1cb831f67a2fe0a",
+    "bytes": 822
+  },
+  {
+    "path": "scripts/18_treatment_time/RUN_STAGE.sh",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/RUN_STAGE.sh",
+    "sha256": "0a9185524ee066d7b6c493a01b40527722b0558b784a880fd8fec8d9dccec39b",
+    "bytes": 317
+  },
+  {
+    "path": "scripts/18_treatment_time/RUN_WORKER.sh",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/RUN_WORKER.sh",
+    "sha256": "51774a67e1bd6f2d0ae85760b83042c5ff151a9cb3f1659b141430525b311427",
+    "bytes": 374
+  },
+  {
+    "path": "scripts/18_treatment_time/SOURCE_MANIFEST.json",
+    "stage": "18_treatment_time",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/SOURCE_MANIFEST.json",
+    "sha256": "67c009192cb88db086b046d34995bfc23b8cf0737e3d75f0939826b085282267",
+    "bytes": 2678
+  },
+  {
+    "path": "scripts/18_treatment_time/START_HERE.sh",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/START_HERE.sh",
+    "sha256": "d2b1873bfb65c7087c17691f9d9f852072a64d4af1615ca46494dfd0b3fc9375",
+    "bytes": 271
+  },
+  {
+    "path": "scripts/18_treatment_time/check.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/check.py",
+    "sha256": "481f1d619381deab988baab1ea1400d2dfdbb0530d93b19477fabafca4a98d68",
+    "bytes": 8061
+  },
+  {
+    "path": "scripts/18_treatment_time/collector.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/collector.py",
+    "sha256": "e57604015a0980f9f47fa50de64404cc519f172af941c9c810aea1c2c37a056b",
+    "bytes": 12641
+  },
+  {
+    "path": "scripts/18_treatment_time/combine.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/combine.py",
+    "sha256": "8f41efe4b9e64d2cb1acfb6660747dd87014ff41a8e1bae298e6e98be34ca710",
+    "bytes": 39049
+  },
+  {
+    "path": "scripts/18_treatment_time/common.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/common.py",
+    "sha256": "88cc21fecb434cebe048b6dec37f3bbaeed97511c1f334405fc8cf3924683680",
+    "bytes": 6570
+  },
+  {
+    "path": "scripts/18_treatment_time/compute_guard.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/compute_guard.py",
+    "sha256": "c28cc8240021984d7b88dc07fdb70003ae82b4d4287a49ea489480f75857ba67",
+    "bytes": 189
+  },
+  {
+    "path": "scripts/18_treatment_time/environment_check.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/environment_check.py",
+    "sha256": "64dcc6e3c9e93b9874a969d1842682893a3014d30f56daed976037b94a4e0af2",
+    "bytes": 3661
+  },
+  {
+    "path": "scripts/18_treatment_time/functional_worker.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/functional_worker.py",
+    "sha256": "5a62da53bbc6b7649a30f6811762127799f9d26fa75f4ee9b0932e56213ac8b6",
+    "bytes": 27920
+  },
+  {
+    "path": "scripts/18_treatment_time/hpc_guard.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/hpc_guard.py",
+    "sha256": "7240a5f33c5ee1c97d4e95d20ce3316fd54e8af6e6d93f2cdd62a1e29fd93f2d",
+    "bytes": 1832
+  },
+  {
+    "path": "scripts/18_treatment_time/numeric_self_checks.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/numeric_self_checks.py",
+    "sha256": "b502eee19cb6d5042a8d0e473c4275fd59bb8934b58cefa243b9e4d7bc4ed1ff",
+    "bytes": 8497
+  },
+  {
+    "path": "scripts/18_treatment_time/record_runtime.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/record_runtime.py",
+    "sha256": "6edc1442a3ac601a1b2fc58f92aa8b5e1a533c720f50e867cee027de7881e4e9",
+    "bytes": 1019
+  },
+  {
+    "path": "scripts/18_treatment_time/soil_worker.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/soil_worker.py",
+    "sha256": "049620ec155b66d8960193feae8df14dbd7de938470c19202ac7228e2b4f4a23",
+    "bytes": 16515
+  },
+  {
+    "path": "scripts/18_treatment_time/source_guard.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/source_guard.py",
+    "sha256": "8f10a5ff34cfb1b1f89453f3f8bc63e6dcc2c7dd13c2ef634bb7f1b259099edf",
+    "bytes": 2309
+  },
+  {
+    "path": "scripts/18_treatment_time/stage_source.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/stage_source.py",
+    "sha256": "633732d5b6ef4893202c9ae4cc13b2e04aa3ac2e568deac38ad48421c65352c0",
+    "bytes": 2683
+  },
+  {
+    "path": "scripts/18_treatment_time/statistics_core.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/statistics_core.py",
+    "sha256": "391c0681de741bfb7221334b1234d1f2f68265b08399e33fc572b0bfc962c44e",
+    "bytes": 11108
+  },
+  {
+    "path": "scripts/18_treatment_time/submit.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/submit.py",
+    "sha256": "7a9c08b6d0a4529e6e8dcce2522b6b6c52e5881ed2efc52d8ee8e4593204d0af",
+    "bytes": 11452
+  },
+  {
+    "path": "scripts/18_treatment_time/worker.py",
+    "stage": "18_treatment_time",
+    "role": "source",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/worker.py",
+    "sha256": "8b95c0a90c305c730b2e9cf322c3effcf3c9130faaf36cf8695110aa1152bbbf",
+    "bytes": 3798
+  },
+  {
+    "path": "evidence/18_treatment_time/HPC_STATUS.json",
+    "stage": "18_treatment_time",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/HPC_STATUS.json",
+    "sha256": "f056f743fe1345e3273a612a1fd62cc2f0b023ae9beed1c0d46f42e199c6d1d4",
+    "bytes": 3111
+  },
+  {
+    "path": "evidence/18_treatment_time/results/COMBINE_STATUS.json",
+    "stage": "18_treatment_time",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/results/COMBINE_STATUS.json",
+    "sha256": "8b4877b0befd57254a0d8463f9cbdf5f1cf5b15d7dbd036556b5943b773998de",
+    "bytes": 2883
+  },
+  {
+    "path": "evidence/18_treatment_time/audit/collector/VALIDATION_STATUS.json",
+    "stage": "18_treatment_time",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Repository_2026-10-20.zip",
+    "source_member": "NRCS_Repository_2026-10-20/analyses/18_treatment_time/audit/collector/VALIDATION_STATUS.json",
+    "sha256": "c55d758f283a1de9733e6daa5e43495dc853e51fd135afbd960e68022115b1ed",
+    "bytes": 98605
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/CHECK.sh",
+    "stage": "19_oatman_supplements_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/CHECK.sh",
+    "sha256": "07220998f37e306c65901b293927b45a7087ca25a5033b2ef14f3ff0a95c2664",
+    "bytes": 128
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/CONFIG.json",
+    "stage": "19_oatman_supplements_v3",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/CONFIG.json",
+    "sha256": "696dbaebd9fb646547147a7ec42aa94c26ddadf200a0bb229277e0f6b13c20cb",
+    "bytes": 4931
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/HPC_ONLY_ANALYSIS_POLICY.md",
+    "stage": "19_oatman_supplements_v3",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/HPC_ONLY_ANALYSIS_POLICY.md",
+    "sha256": "e1eb3f2e857416df6afc64ed6a439167c0541d8a4f2320dfb442593d7ce08fb1",
+    "bytes": 1036
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/RUN.sh",
+    "stage": "19_oatman_supplements_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/RUN.sh",
+    "sha256": "4b49972beacea5a08a4fb9108e40bead489cb76a692d1a017e9ed1d6251d4a7b",
+    "bytes": 2228
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/START_HERE.sh",
+    "stage": "19_oatman_supplements_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/START_HERE.sh",
+    "sha256": "7556ba6eaa450b37fdb033b62321229b0850d34403f1336e082e29cfb35f83ff",
+    "bytes": 160
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/check.py",
+    "stage": "19_oatman_supplements_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/check.py",
+    "sha256": "13da42cbc98fafa9e59f746d893b43b2ca3a13c018ead7092d9c0fbcc7845b14",
+    "bytes": 686
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/diversity_panels.py",
+    "stage": "19_oatman_supplements_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/diversity_panels.py",
+    "sha256": "d86117b4ba19f368a808ef65a68e93bb00b326c28dfcba081548ba73260af352",
+    "bytes": 31888
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/family_figures.py",
+    "stage": "19_oatman_supplements_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/family_figures.py",
+    "sha256": "f342e43585550daa0d35dd1350264e549c82fe0079143830651d3d1e33f78d00",
+    "bytes": 22794
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/hpc_guard.py",
+    "stage": "19_oatman_supplements_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/hpc_guard.py",
+    "sha256": "7240a5f33c5ee1c97d4e95d20ce3316fd54e8af6e6d93f2cdd62a1e29fd93f2d",
+    "bytes": 1832
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/structural_index_self_check.py",
+    "stage": "19_oatman_supplements_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/structural_index_self_check.py",
+    "sha256": "0b361280d454ee8ec7f51c427c01954e52bd45360e9e963316a0c077e2c1b64d",
+    "bytes": 4209
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/submit.py",
+    "stage": "19_oatman_supplements_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/submit.py",
+    "sha256": "cc47e10c1c99a7d655355ed3f9347b85ba4f385179e82f85d068dcb7ea377194",
+    "bytes": 3759
+  },
+  {
+    "path": "scripts/19_oatman_supplements_v3/supplement_extras.py",
+    "stage": "19_oatman_supplements_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/audit/frozen_package_code/supplement_extras.py",
+    "sha256": "b3ac8304b5336ab0b362b454706fce41ee4d115d35ede1b0bf010f236e8169f3",
+    "bytes": 40084
+  },
+  {
+    "path": "evidence/19_oatman_supplements_v3/FINAL_STATUS.json",
+    "stage": "19_oatman_supplements_v3",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/FINAL_STATUS.json",
+    "sha256": "b7abb6a42c24024658cd93107d1a0910138134246869243e3379e47bc61cc8be",
+    "bytes": 4578
+  },
+  {
+    "path": "evidence/19_oatman_supplements_v3/submission.json",
+    "stage": "19_oatman_supplements_v3",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Oatman_Diversity_Supplements_HPC_v3_run_20261021T192721Z_ba5d610a_results.zip",
+    "source_member": "run_20261021T192721Z_ba5d610a/submission.json",
+    "sha256": "4c28a4c96c407f3516c7c950a3c4e189614ef2cead84bb3a55197c949d073811",
+    "bytes": 437
+  },
+  {
+    "path": "scripts/20_oatman_layout_v3/CHECK.sh",
+    "stage": "20_oatman_layout_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/audit/code/CHECK.sh",
+    "sha256": "07220998f37e306c65901b293927b45a7087ca25a5033b2ef14f3ff0a95c2664",
+    "bytes": 128
+  },
+  {
+    "path": "scripts/20_oatman_layout_v3/CONFIG.json",
+    "stage": "20_oatman_layout_v3",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/audit/code/CONFIG.json",
+    "sha256": "646a035b9e263d2c3c4eb0dc9ab25c75b54d20f6126b8dd5b5f59da961ab5798",
+    "bytes": 15377
+  },
+  {
+    "path": "scripts/20_oatman_layout_v3/RUN.sh",
+    "stage": "20_oatman_layout_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/audit/code/RUN.sh",
+    "sha256": "b77d6371d9d9ec9342bdeed8a6359102346e38452d22bc09dbb35858a4ce19a0",
+    "bytes": 1464
+  },
+  {
+    "path": "scripts/20_oatman_layout_v3/START_HERE.sh",
+    "stage": "20_oatman_layout_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/audit/code/START_HERE.sh",
+    "sha256": "7556ba6eaa450b37fdb033b62321229b0850d34403f1336e082e29cfb35f83ff",
+    "bytes": 160
+  },
+  {
+    "path": "scripts/20_oatman_layout_v3/check.py",
+    "stage": "20_oatman_layout_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/audit/code/check.py",
+    "sha256": "564e6351b9ee2cc762f41e0828c55ef36bc8eb1435f9214cebbff1e6f21e83ef",
+    "bytes": 1222
+  },
+  {
+    "path": "scripts/20_oatman_layout_v3/collect_archive.py",
+    "stage": "20_oatman_layout_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/audit/code/collect_archive.py",
+    "sha256": "cb208c5bb957d7dd91d3b5b24d240dbcbe30931b015d03ccfa32a4849cdfa04e",
+    "bytes": 1936
+  },
+  {
+    "path": "scripts/20_oatman_layout_v3/hpc_guard.py",
+    "stage": "20_oatman_layout_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/audit/code/hpc_guard.py",
+    "sha256": "7240a5f33c5ee1c97d4e95d20ce3316fd54e8af6e6d93f2cdd62a1e29fd93f2d",
+    "bytes": 1832
+  },
+  {
+    "path": "scripts/20_oatman_layout_v3/refresh.py",
+    "stage": "20_oatman_layout_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/audit/code/refresh.py",
+    "sha256": "6f3726d5f74036546d9c25014c9da93dbff20c932d99a65293d343ff8070527e",
+    "bytes": 4904
+  },
+  {
+    "path": "scripts/20_oatman_layout_v3/render_saved_figures.py",
+    "stage": "20_oatman_layout_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/audit/code/render_saved_figures.py",
+    "sha256": "414e918834d3b8f1635297b2229fd41838bac187467ea5c4bb0347e773dd3dea",
+    "bytes": 23299
+  },
+  {
+    "path": "scripts/20_oatman_layout_v3/submit.py",
+    "stage": "20_oatman_layout_v3",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/audit/code/submit.py",
+    "sha256": "a50a92f929ebf88a4579e82ec2e8d7e1dcd962135f37496690614e618278adf3",
+    "bytes": 4037
+  },
+  {
+    "path": "evidence/20_oatman_layout_v3/FINAL_STATUS.json",
+    "stage": "20_oatman_layout_v3",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/FINAL_STATUS.json",
+    "sha256": "7af76b149e76d560006092cdc0751dc2ba044203135fbdabed3e0203221f144d",
+    "bytes": 2561
+  },
+  {
+    "path": "evidence/20_oatman_layout_v3/submission.json",
+    "stage": "20_oatman_layout_v3",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v3_run_20261021T221747Z_5c5765c1_results.zip",
+    "source_member": "run_20261021T221747Z_5c5765c1/submission.json",
+    "sha256": "fd061464a70fbab43cc195009c6aae7ddbf08ecb777d4624d93f23e2a9726a7a",
+    "bytes": 281
+  },
+  {
+    "path": "scripts/21_oatman_pcoa_layout_v5/CHECK.sh",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/audit/code/CHECK.sh",
+    "sha256": "07220998f37e306c65901b293927b45a7087ca25a5033b2ef14f3ff0a95c2664",
+    "bytes": 128
+  },
+  {
+    "path": "scripts/21_oatman_pcoa_layout_v5/CONFIG.json",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/audit/code/CONFIG.json",
+    "sha256": "520df3b39d2b11a329602b4f34540e4655ac86b79e29d5e2635115fdff491776",
+    "bytes": 15187
+  },
+  {
+    "path": "scripts/21_oatman_pcoa_layout_v5/RUN.sh",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/audit/code/RUN.sh",
+    "sha256": "b77d6371d9d9ec9342bdeed8a6359102346e38452d22bc09dbb35858a4ce19a0",
+    "bytes": 1464
+  },
+  {
+    "path": "scripts/21_oatman_pcoa_layout_v5/START_HERE.sh",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/audit/code/START_HERE.sh",
+    "sha256": "7556ba6eaa450b37fdb033b62321229b0850d34403f1336e082e29cfb35f83ff",
+    "bytes": 160
+  },
+  {
+    "path": "scripts/21_oatman_pcoa_layout_v5/check.py",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/audit/code/check.py",
+    "sha256": "564e6351b9ee2cc762f41e0828c55ef36bc8eb1435f9214cebbff1e6f21e83ef",
+    "bytes": 1222
+  },
+  {
+    "path": "scripts/21_oatman_pcoa_layout_v5/collect_archive.py",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/audit/code/collect_archive.py",
+    "sha256": "cb208c5bb957d7dd91d3b5b24d240dbcbe30931b015d03ccfa32a4849cdfa04e",
+    "bytes": 1936
+  },
+  {
+    "path": "scripts/21_oatman_pcoa_layout_v5/hpc_guard.py",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/audit/code/hpc_guard.py",
+    "sha256": "7240a5f33c5ee1c97d4e95d20ce3316fd54e8af6e6d93f2cdd62a1e29fd93f2d",
+    "bytes": 1832
+  },
+  {
+    "path": "scripts/21_oatman_pcoa_layout_v5/refresh.py",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/audit/code/refresh.py",
+    "sha256": "137ecbe57fe5f4830234b64e2a9e0f99fc52df06c0c07d4bb0a00d43efce480a",
+    "bytes": 5991
+  },
+  {
+    "path": "scripts/21_oatman_pcoa_layout_v5/render_saved_figures.py",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/audit/code/render_saved_figures.py",
+    "sha256": "37ef330dc6c4fa024f54910e2298819f976040264065b3f27b588b9572aa82ec",
+    "bytes": 41687
+  },
+  {
+    "path": "scripts/21_oatman_pcoa_layout_v5/submit.py",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "source",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/audit/code/submit.py",
+    "sha256": "a50a92f929ebf88a4579e82ec2e8d7e1dcd962135f37496690614e618278adf3",
+    "bytes": 4037
+  },
+  {
+    "path": "evidence/21_oatman_pcoa_layout_v5/FINAL_STATUS.json",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/FINAL_STATUS.json",
+    "sha256": "0a05142edeae577b20183e9314f473c07726c281f8a1a7c177bbeac7152b6202",
+    "bytes": 2483
+  },
+  {
+    "path": "evidence/21_oatman_pcoa_layout_v5/submission.json",
+    "stage": "21_oatman_pcoa_layout_v5",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Oatman_Layout_Refresh_HPC_v5_run_20261021T234034Z_195ab1b1_results.zip",
+    "source_member": "run_20261021T234034Z_195ab1b1/submission.json",
+    "sha256": "dc01a4b34d2cd89ca2aca369a3aa0c3068aa8f8d3e368e38bc7742028fd7cb86",
+    "bytes": 281
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/CHECK.sh",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/CHECK.sh",
+    "sha256": "07220998f37e306c65901b293927b45a7087ca25a5033b2ef14f3ff0a95c2664",
+    "bytes": 128
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/CONFIG.json",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/CONFIG.json",
+    "sha256": "434eb1fd21b1c3ad48d7ad066dc640c6badcb93f656cd056a7b5839031221ef8",
+    "bytes": 38406
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/EXPECTED_FIGURES.json",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/EXPECTED_FIGURES.json",
+    "sha256": "fce79d9b3fcd3e802dfa4ba94ee002c09ab1438185e795027e26d809b936e294",
+    "bytes": 2079
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/RUN.sh",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/RUN.sh",
+    "sha256": "145ad93fb530e7ec2a8059f839af08c54938789bec933ebc63f3c69d0667e5a9",
+    "bytes": 1899
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/SELECTED_ASSOCIATIONS.json",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/SELECTED_ASSOCIATIONS.json",
+    "sha256": "91767ee8e7736a9713344049e9a028f6a8f8cfc527735d510b716a68763256a5",
+    "bytes": 43318
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/START_HERE.sh",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/START_HERE.sh",
+    "sha256": "7556ba6eaa450b37fdb033b62321229b0850d34403f1336e082e29cfb35f83ff",
+    "bytes": 160
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/check.py",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/check.py",
+    "sha256": "a5520cfb6e32f6bb547c4fe5e5c20ecf1d1cb8f7cfa52b1675de84bfc813a3c6",
+    "bytes": 1743
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/common.py",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/common.py",
+    "sha256": "3d6c55c39862d4fc980382e6718251f7052a08b866692b2a02227ded0990651a",
+    "bytes": 5019
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/community.py",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/community.py",
+    "sha256": "6a9ee614ba66f9da19a8a1c86b2180e3539e924f17d8fed6d66dde9b454db3ad",
+    "bytes": 17253
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/extras.py",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/extras.py",
+    "sha256": "eb7ff458ac8b8956e8748c64fabd6f27dfdf8ec7bd8f30c7419661efbfbd1fc9",
+    "bytes": 20957
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/hpc_guard.py",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/hpc_guard.py",
+    "sha256": "7240a5f33c5ee1c97d4e95d20ce3316fd54e8af6e6d93f2cdd62a1e29fd93f2d",
+    "bytes": 1832
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/layout_audit.py",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/layout_audit.py",
+    "sha256": "ba3c9fe2ba13bd077936541d39a9b7ae87a6a81a46e0de6d47b69d6a9ed93743",
+    "bytes": 2624
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/maps.py",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/maps.py",
+    "sha256": "b66e173f20902bab1a1c32f48b156c9c1584d278c95372eb73837ab7ac99fbd9",
+    "bytes": 6832
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/pipeline.py",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/pipeline.py",
+    "sha256": "fa646270da38ebbdf4ed40ab215390121f04e74cc0a86eb7a01acb9afd64f1eb",
+    "bytes": 9855
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/submit.py",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/submit.py",
+    "sha256": "424b49c1b3a9e87f850810fc7907de10f1308017597bca3c30e2a70107020d7d",
+    "bytes": 3751
+  },
+  {
+    "path": "scripts/22_remaining_manuscripts_v2/test_layout_audit.py",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "source",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/package_snapshot/test_layout_audit.py",
+    "sha256": "174ee851ccb4d2d30a204522550598c60cc74c6e2c404b66980dd69794aa764a",
+    "bytes": 3945
+  },
+  {
+    "path": "evidence/22_remaining_manuscripts_v2/FINAL_STATUS.json",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/FINAL_STATUS.json",
+    "sha256": "99b0a720616562289e68f138c775415e0060ccb2128533f0952e8daaf1abe8bb",
+    "bytes": 1372
+  },
+  {
+    "path": "evidence/22_remaining_manuscripts_v2/audit/worker_scheduler_receipts.json",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/worker_scheduler_receipts.json",
+    "sha256": "01fd9a439b14db48055f28ce4275a7b7f49a2c06fd364765ec35a41cd429497c",
+    "bytes": 379
+  },
+  {
+    "path": "evidence/22_remaining_manuscripts_v2/audit/environment_24369736.json",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/environment_24369736.json",
+    "sha256": "4ba707f6848a574c0115726825c12967f3ca67456a612749c1d60a6c9ba97f4e",
+    "bytes": 2042
+  },
+  {
+    "path": "evidence/22_remaining_manuscripts_v2/audit/environment_24369737.json",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/environment_24369737.json",
+    "sha256": "1a02940a2fc5a450ec6cf3221464fa731772af8a1ccd55338825989d0e25c16a",
+    "bytes": 2025
+  },
+  {
+    "path": "evidence/22_remaining_manuscripts_v2/audit/environment_24369738.json",
+    "stage": "22_remaining_manuscripts_v2",
+    "role": "execution_evidence",
+    "source_archive": "NRCS_Remaining_Manuscripts_HPC_v2_run_20261022T193217Z_1a7828f4_results.zip",
+    "source_member": "run_20261022T193217Z_1a7828f4/audit/environment_24369738.json",
+    "sha256": "4dda9b41d2f9a21f4e9bfd80a49b7cab4cf0a65de432020f2cdde40f2402a83e",
+    "bytes": 2033
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/CHECK.sh",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/CHECK.sh",
+    "sha256": "0faee122a0a23283bffa1bebe29b94a82e173a8f15f419f7f59760033ba2ef05",
+    "bytes": 178
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/CONFIG.json",
+    "stage": "23_figure_refresh_v2",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/CONFIG.json",
+    "sha256": "f427878a3c2f072b968d4b82c5b5a903cdcb51b55c19048d76383b649c5378b6",
+    "bytes": 2867
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/RUN.sh",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/RUN.sh",
+    "sha256": "354af957eca03e4c5361b0ede9d3cab61c1c5e76070c1da77f04800fb1590647",
+    "bytes": 1803
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/SHA256SUMS.txt",
+    "stage": "23_figure_refresh_v2",
+    "role": "configuration_or_protocol",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/SHA256SUMS.txt",
+    "sha256": "2c7adaf6d5507fedbbaa81762bf3d1f6cba91558e1579435cff31845c67a6a6b",
+    "bytes": 1300
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/START_HERE.sh",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/START_HERE.sh",
+    "sha256": "a4bf5459cd8f18f94903b739bd0255d85d1751312683a004d6fd5cab9089142b",
+    "bytes": 230
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/check.py",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/check.py",
+    "sha256": "7c74fbf7c3dbe3c5f403a2dc4cbafc591cf5a8f449c8e2b85b5b89296e516de4",
+    "bytes": 2047
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/hpc_guard.py",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/hpc_guard.py",
+    "sha256": "7240a5f33c5ee1c97d4e95d20ce3316fd54e8af6e6d93f2cdd62a1e29fd93f2d",
+    "bytes": 1832
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/layout_audit.py",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/layout_audit.py",
+    "sha256": "ba3c9fe2ba13bd077936541d39a9b7ae87a6a81a46e0de6d47b69d6a9ed93743",
+    "bytes": 2624
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/plot_layouts.py",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/plot_layouts.py",
+    "sha256": "a534c870d149334c867b1fb4a78668037c0bb806b97dbcd2a6208de8bbb8039d",
+    "bytes": 14296
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/submit.py",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/submit.py",
+    "sha256": "425ad89994d76d453fabf3ea9f6e394feea1885258fcd878a16394439f680f87",
+    "bytes": 3421
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/test_launcher.py",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/test_launcher.py",
+    "sha256": "bd61d7a2e39022f0660c0f83ea4d778bf188e00e413bbc5272015211d70cbbb8",
+    "bytes": 4475
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/test_synthetic_layouts.py",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/test_synthetic_layouts.py",
+    "sha256": "0b0d0a9dcb7d8d8e06882458408867e37e3c99fd336fafe5a241e17bd8916aa3",
+    "bytes": 4242
+  },
+  {
+    "path": "scripts/23_figure_refresh_v2/worker.py",
+    "stage": "23_figure_refresh_v2",
+    "role": "source",
+    "source_archive": "NRCS_FigRefresh_v2.zip",
+    "source_member": "NRCS_Figure_Refresh_HPC_v2/worker.py",
+    "sha256": "591b0c4f2a702e29757d6c9f8090a1a1f99f9c97dcbcaf878d2b2093aa21a8df",
+    "bytes": 14271
+  }
+]

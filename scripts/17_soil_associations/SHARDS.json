@@ -1,0 +1,74 @@
+[
+  {
+    "id": "oatman_bacteria_taxa",
+    "farm": "Oatman Flats",
+    "domain": "bacteria",
+    "feature_type": "taxa"
+  },
+  {
+    "id": "oatman_bacteria_functions",
+    "farm": "Oatman Flats",
+    "domain": "bacteria",
+    "feature_type": "functions"
+  },
+  {
+    "id": "oatman_archaea_taxa",
+    "farm": "Oatman Flats",
+    "domain": "archaea",
+    "feature_type": "taxa"
+  },
+  {
+    "id": "oatman_archaea_functions",
+    "farm": "Oatman Flats",
+    "domain": "archaea",
+    "feature_type": "functions"
+  },
+  {
+    "id": "pagesprings_bacteria_taxa",
+    "farm": "Page Springs",
+    "domain": "bacteria",
+    "feature_type": "taxa"
+  },
+  {
+    "id": "pagesprings_bacteria_functions",
+    "farm": "Page Springs",
+    "domain": "bacteria",
+    "feature_type": "functions"
+  },
+  {
+    "id": "pagesprings_archaea_taxa",
+    "farm": "Page Springs",
+    "domain": "archaea",
+    "feature_type": "taxa"
+  },
+  {
+    "id": "pagesprings_archaea_functions",
+    "farm": "Page Springs",
+    "domain": "archaea",
+    "feature_type": "functions"
+  },
+  {
+    "id": "whipstone_bacteria_taxa",
+    "farm": "Whipstone",
+    "domain": "bacteria",
+    "feature_type": "taxa"
+  },
+  {
+    "id": "whipstone_bacteria_functions",
+    "farm": "Whipstone",
+    "domain": "bacteria",
+    "feature_type": "functions"
+  },
+  {
+    "id": "whipstone_archaea_taxa",
+    "farm": "Whipstone",
+    "domain": "archaea",
+    "feature_type": "taxa"
+  },
+  {
+    "id": "whipstone_archaea_functions",
+    "farm": "Whipstone",
+    "domain": "archaea",
+    "feature_type": "functions"
+  }
+]

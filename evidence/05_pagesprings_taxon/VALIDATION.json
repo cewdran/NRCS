@@ -1,0 +1,71 @@
+{
+  "protocol_sha256": "da4debd25475abe040a09a912809ab949946fd284ae30f57ba23dcd8e114be72",
+  "input_hashes_verified": true,
+  "toy_tests": [
+    {
+      "design": "free",
+      "labelled_allocations": 20,
+      "unlabelled_partitions": 10,
+      "exact_p_matches_brute_force": true
+    },
+    {
+      "design": "within_date",
+      "labelled_allocations": 8,
+      "unlabelled_partitions": 4,
+      "exact_p_matches_brute_force": true
+    }
+  ],
+  "cohorts": [
+    {
+      "cohort": "Grape_PetiteSirah__2023",
+      "samples": 12,
+      "distinct_plots": 12,
+      "eligible_taxa": 38,
+      "positive_genus_labels": 264,
+      "exact_unlabelled_partitions": 15400,
+      "exact_labelled_allocations": 369600,
+      "all_partition_constraints_verified": true,
+      "observed_assignment_in_enumeration": true,
+      "max_absolute_F_difference_from_QR": 4.440892098500626e-15,
+      "counts_sum_to_target_reads": true,
+      "relative_abundances_match_counts": true
+    },
+    {
+      "cohort": "Grape_PetiteSirah__2024",
+      "samples": 12,
+      "distinct_plots": 12,
+      "eligible_taxa": 63,
+      "positive_genus_labels": 326,
+      "exact_unlabelled_partitions": 2520,
+      "exact_labelled_allocations": 60480,
+      "all_partition_constraints_verified": true,
+      "observed_assignment_in_enumeration": true,
+      "max_absolute_F_difference_from_QR": 4.618527782440651e-14,
+      "counts_sum_to_target_reads": true,
+      "relative_abundances_match_counts": true
+    },
+    {
+      "cohort": "Grape_Grenache__2023",
+      "samples": 12,
+      "distinct_plots": 12,
+      "eligible_taxa": 54,
+      "positive_genus_labels": 306,
+      "exact_unlabelled_partitions": 15400,
+      "exact_labelled_allocations": 369600,
+      "all_partition_constraints_verified": true,
+      "observed_assignment_in_enumeration": true,
+      "max_absolute_F_difference_from_QR": 4.831690603168681e-13,
+      "counts_sum_to_target_reads": true,
+      "relative_abundances_match_counts": true
+    }
+  ],
+  "status": "PASS",
+  "primary_tests": 155,
+  "sensitivity_tests": 465,
+  "primary_contrasts": 465,
+  "primary_leave_one_out_estimates": 5580,
+  "all_155_tests_adjusted_together_per_variant": true,
+  "R_used": false,
+  "R_note": "Rscript not available locally; independently verified with QR/SVD and exhaustive toy allocations",
+  "limitations": "Numerical validation does not establish biological independence, field randomization, exchangeability, or causal effects"
+}

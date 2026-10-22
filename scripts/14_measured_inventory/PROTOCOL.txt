@@ -1,0 +1,226 @@
+NRCS MEASURED OUTCOME INVENTORY — FROZEN PROSPECTIVE PROTOCOL
+Package: NRCS_measured_outcomes_HPC_v1
+Prepared: 7 October 2026 (UTC)
+Disposition at preparation: PREPARED_NOT_SUBMITTED; genuine Puma checks pending.
+User-authorized scope: proceed using the current NRCS files only.
+
+1. Purpose and acceptance boundary
+This stage prepares a source-preserving inventory and support audit for six
+prospectively named measured soil-response tracks. It implements the accepted
+MEASURED_METHOD_REVIEW.txt decisions, before any new response model or numerical
+forecast is attempted. It does not compute an effect, response mean, change,
+relationship, statistical test, model, prediction, confidence interval, scenario
+curve or ten-year forecast. A completed inventory is not predictive validation
+and is not a model-eligibility, power or forecasting approval.
+
+The preceding current-file Shannon backtest/readiness stage completed on Puma
+(job 24128032) and was reviewed as limited descriptive diagnostics and a readiness
+register. Numerical ten-year forecasts remained unsupported. The source
+baseline-engine whole job 24124251 remains FAILED after a report-layout error;
+the report-only repair job 24126557 completed and was accepted for limited point
+diagnostics. A later repair does not rewrite the original job state. Archived
+pending-review receipts remain immutable; dated editorial acceptance is separate.
+
+2. Authoritative sources and immutable originals
+RESPONSE_TRACKS.json is the machine-readable prospective specification. It lists
+exact raw identifiers, units, original-method vocabulary (including JSON null),
+record IDs, preferred PDF IDs/pages and laboratory IDs. The embedded expected
+record metadata is copied from corrected Sample records, not a numerical
+crosswalk. The accepted method-review SHA256 is
+2393f88d949a3b1d1be589859894fff1e1fbcc8ce91afef254df74aea2995d62.
+CONFIG and the source manifest pin the actual corrected/functional/feasibility
+and accepted-review lineage; verify these pins on Puma before and after reading.
+The six selected primary reports are S22/S24/S25/S26/S33/S37, packaged unchanged
+under review/source_reports and individually pinned in RESPONSE_TRACKS.json.
+
+Serialize every corrected workbook Measurements row and every laboratory
+measurement/record/source-catalog row supplied by the frozen source manifest.
+Keep each source row's original table, row position, fields, types and values,
+including nulls, text, qualifiers, reporting limits, source_value, old worksheet
+headings, notes, preferred PDF pointers and original method cells. A row outside
+the declared panel is still archived and labeled outside scope. Laboratory
+transcriptions and workbook measurements are distinct source representations,
+not extra biological observations. Do not merge, average or deduplicate them.
+Retain corrected exclusions, held IDs, composites, references and original
+pool/technical-replicate decisions. Administrative row IDs provide traceability,
+not new scientific identity.
+
+Add reviewed_response_definition, reviewed_method, reviewed_unit and explicit
+source evidence in separate columns. Never fill an original blank method cell,
+relabel an original analyte/unit, alter a source value or erase a contradictory
+old heading. Unknown/nonselected method handling remains conservative globally;
+only the exact source forms named below acquire the separate reported-definition
+classification. No full raw matrix imputation or p-value-based selection occurs.
+
+3. Prespecified systems, records and epochs
+OATMAN_OLDER is the older Wheat / cover-crop rotation field only:
+  S24/R0001-R0018: collection 2023-11-20;
+  S25/R0019-R0027: collection 2024-06-06;
+  S26/R0028-R0036: collection 2024-12-06.
+S24 record pages are respectively
+3,4,5,6,10,12,13,14,15,16,17,18,19,20,21,22,23,24.
+S25 and S26 record pages are respectively 1,2,3,7,8,9,10,11,12.
+All exact page/laboratory/source/key pointers are frozen per record in JSON.
+Other source pages and Oatman 2025 remain preserved outside this selected track.
+Do not pool the older field with the field-side-confounded Oatman 2025 system.
+
+WHIPSTONE_ANNUAL is separate from Chester, Natchez and other blackberry records:
+  S33/R0166-R0177: Annual pages 1-12; collection 2023-11-16;
+  S37/R0194-R0205: Annual pages 1-12; exact per-record 2024 dates;
+  S22/R0217,R0219,R0221,R0223,R0225,R0227,R0229,R0231,R0233,R0235,
+      R0237,R0239: Annual odd pages 1-23; collection 2025-08-17.
+S37 R0194/R0200/R0203/R0205 collected 2024-08-14; the other selected S37
+Annual records collected 2024-07-06. Preserve each date once per actual plot
+visit. An annual-round label does not collapse these dates into simultaneous
+observations or turn July/August subsets into independent annual validation
+replicates. D10 confirms the exact nutrient/16S material/date linkage; old
+period/sample labels may still say July and are retained as source provenance.
+
+Use Sample records.collection_date and the matching explicit confirmed key,
+not receipt/report/csv/linked-event dates or a plausible nearby date. Laboratory
+received/reported dates are separately sourced audit fields. For example S22
+receipt 2025-10-06 and report 2025-10-08 do not replace collection 2025-08-17.
+Calendar order alone does not establish when an assay result was available to
+a real historical forecast. No historical assay-availability claim is made.
+Crop contexts Lettuce 2023 and Onion 2024 are retained; they do not identify a
+crop effect separately from year, weather and management.
+
+4. Exact selected response forms
+Track | System | Raw variable | Raw unit | Reviewed reported definition
+O_PH | older Oatman | soil_haney_1_1_Soil_pH | pH units | 1:1 soil pH
+O_OM | older Oatman | soil_haney_Organic_Matter | % LOI | Soil OM by LOI
+O_NO3 | older Oatman | soil_haney_H3A_Nitrate | ppm NO3-N | H3A nitrate-N
+W_PH | Annual 2023/24 | 1:1 Soil pH | pH units | 1:1 soil pH
+W_PH | Annual 2025 | Soil pH 1:1 [one trailing space] | pH units | 1:1 soil pH
+W_OM | Annual 2023/24 | Organic Matter LOI, % | % | LOI organic matter
+W_NO3 | Annual 2023/24 | Nitrate-N KCl, ppm N | ppm N | KCl nitrate-N
+
+Oatman raw sources are S03/S04/S05 with preferred PDFs S24/S25/S26. Their
+original target method cells are null; the report explicitly prints Soil pH
+with 1:1, Soil OM with % LOI and Nitrate/ppm NO3-N under Nitrogen/H3A Extract.
+Reviewed method strings1:1/LOI/H3A are added separately only for those forms.
+Whipstone 2023 Measurements target raw source S14 points to S33;2024 target raw
+source S37 points to S37 (Sample records may retain source S14 separately).
+The original 2023/24 target methods are exactly 1:1/LOI/KCl. Whipstone 2025 raw
+source S16 points to S22; its exact pH variable has a trailing space and its
+original method is null. JSON contains exact whitespace and null vocabulary;
+matching must not silently strip/alias names.
+
+Whipstone 2023 source_field still includes legacy PODS headings. In particular,
+the corrected LOI organic-matter row may retain G24:'Available Organic Nitrogen
+(ACE Protein...)' as its original worksheet trace. The authoritative analyte
+mapping here is the exact corrected variable/unit/method plus record/PDF page
+and accepted report heading. Preserve the old heading; do not infer ACE protein
+is LOI organic matter or rewrite the original source_field. The report heading
+is a new separate evidence field. Preferred-PDF ID, page, record, laboratory ID,
+original source, farm/system/dataset and sample identity must agree with the
+frozen form; ambiguity/conflict remains a hold, never a fuzzy match.
+
+Whipstone 2025 S22 extends W_PH only. Its Organic Carbon,%C is a different
+response with unrecorded analytical method. W_OM/W_NO3 availability rows for
+this source/epoch must record the absent declared definition, without creating
+measurement rows, zero concentrations or synthetic visits. Do not substitute
+organic carbon, total N, buffer pH, soluble salts, nitrate pounds/acre, adjacent
+H2O N or another farm/year's result. H3A nitrate and KCl nitrate remain separate
+tracks; no cross-farm extraction-equivalence claim or pooling is permitted.
+
+5. Method compatibility and sampling-depth limits
+The reported definitions match within each named source series. This establishes
+neither complete analytical protocols nor interyear laboratory calibration.
+Reagents/pH calibration, LOI temperature/duration, nitrate extraction formulation
+and lab precision are not established beyond the report labels. This inventory
+may label REPORTED_DEFINITION_COMPATIBLE_SOURCE_BACKED, but never calibrated,
+sampling-equivalent, statistically estimable or forecast-ready from that label.
+
+Keep original depth_as_reported, literal PDF depth and researcher D14 full-column
+field protocol as separate fields. Oatman S24/S25/S26 and Whipstone S33/S37 print
+unitless 0-8. S22 prints 0-8 in while corrected depth may be '-'. D14 describes
+surface-layer exclusion and the remaining column to 15-20 cm terminal depth.
+Do not reconcile these literals by assumption, supply a missing unit, calculate
+sampled thickness/bulk density/carbon or nutrient stocks, or assert unchanged
+sampling equivalence. Depth uncertainty remains a documented design limitation.
+
+6. Identity and joining rules
+Only an explicit corrected confirmed_sample_key/date, consistent with the
+preserved corrected microbiome metadata and physical biological_plot_id, can
+establish a confirmed plot-event identity for support. Candidate keys, manuscript
+labels, matching spelling, treatment labels and adjacent dates are not join keys.
+Use literal corrected domain identities; retain bacterial/archaeal availability
+separately. A soil record can exist without a microbial counterpart. Do not
+manufacture a counterpart, align a different event, create a new specimen or
+split a corrected merged library. Domain join/support audits are inventory
+metadata only, not new microbial responses or recomputed read/alpha quantities.
+
+R0025/lab34082, S04 row11, S25 page10, collection 2024-06-06, original label
+'50:50 SHEEP 1 EAST', keeps blank confirmed/candidate keys. Its report-method
+mapping may be source-backed, while its confirmed physical-plot identity and
+16S join remain held. The source label/previous provisional plot do not resolve
+this. It must not enter confirmed physical-plot counts or microbiome joins.
+Repeated Oatman lab records with the same confirmed plot/date remain repeated
+laboratory source records. Do not count them as independent field plots, create
+new plot IDs, recalculate prior means or choose one record by its response value.
+
+7. Value, censoring and duplicate dispositions
+All original rows and values remain archived. Finite numeric source values may
+be classified as recorded point values only when no source censoring/qualifier,
+reporting limit, conflicting text or ambiguous selected-row key requires a hold.
+A numeric source field is authoritative; do not parse a text value into a new
+measurement. Preserve legitimate recorded zero; missing/--/blank/null is not
+zero. Preserve inequalities, qualifiers and reporting limits verbatim; no
+zero/half-limit/limit/midpoint substitution. Nonfinite numeric tokens and
+nonnumeric fields remain visible and held. A recorded qualifier or reporting
+limit is conservatively held for source review even if a number accompanies it.
+No arbitrary biological range exclusion or winsorization is introduced.
+
+Within the complete declared candidate panel (selected tracks and the exact
+non-equivalent comparator allowlists), retain exact duplicate source rows and
+flag them; retain duplicate record/response keys and flag ambiguity. Full raw
+rows outside that panel are archived without new scientific value or duplicate
+eligibility classification. No automatic averaging, deduplication or response-
+value selection. Multiple original laboratory records for one confirmed plot/date
+are a separate repeated-laboratory flag, not duplicate biological samples.
+Report exact source-row/page IDs supporting each hold. If schema, immutable
+source hash, unique authoritative record ID, cross-domain identity or frozen
+record/page/lab/date/key assertion fails, stop with a truthful failure receipt.
+An individual unresolved method/value/source-form/identity row remains held and
+visible; its presence is not silently treated as an eligible observation.
+
+8. Puma inventory outputs and acceptance checks
+The engine must retain full raw source inventories plus a selected/candidate
+measurement table with explicit source, mapping, value, duplicate and identity
+dispositions. Support and availability tables may count source rows and distinct
+confirmed physical plots/events, with held/nonselected/composite/reference rows
+shown separately. Distinguish source-record counts from confirmed plot counts.
+A finite source-row inventory flag or confirmed physical identity indicates only
+recorded source support. Repeated laboratory rows can contribute to that support
+without approving one unique plot-event response value. The separate prospective
+single-plot-event value flag stays held when multiple source rows need a frozen
+aggregation/dependence rule; it never grants statistical or forecast eligibility.
+Audit the declared epochs even when the specified response definition is absent;
+structural absence is not an observation. Preserve per-record actual dates and
+verify source and output manifests/lineage before and after reading.
+
+Output acceptance requires exact source/schema/record identity preservation,
+all original rows archived, source-backed forms applied only within the frozen
+panel, original method/unit/value/depth cells unchanged, R0025 hold intact,
+2025 W_OM/W_NO3 absence retained, duplicates/censor/nonfinite holds visible and
+no aggregation/model/forecast claim. Review the returned tables/PDF/figures
+separately; computation completion leaves scientific and visual review pending.
+A static syntax/source review is not a genuine Puma scientific-check pass.
+All statistical model/forecast flags must remain false or not approved.
+
+9. Execution and next review gate
+All scientific source inventory parsing/normalization, numerical classifications,
+support/eligibility counts, checks/fixtures and scientific report rendering run
+only under the genuine Puma guard. Local work is limited to immutable source/PDF
+reading, static code/docs review, administrative hashes/syntax and fixed editorial
+status diagrams. Never fabricate SLURM environment variables to bypass the guard.
+
+No automatic number-of-visits, complete-track or method-compatibility threshold
+approves a model. After the genuine Puma inventory is returned and reviewed,
+a later protocol may specify a small measured response, predictors, plot
+relationships, temporal validation and uncertainty under the actual support.
+It must separately establish identification, assay availability, sampling/assay
+harmonization, measured starting states, plausible management/weather drivers,
+external calibration where needed and uncertainty before a defensible numerical
+ten-year projection. Current files remain the authorized data boundary.

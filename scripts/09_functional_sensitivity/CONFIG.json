@@ -1,0 +1,43 @@
+{
+  "package": "NRCS_functional_sensitivity_HPC_v1",
+  "source_run": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1/runs/run_20261001T223020Z_200c85d2",
+  "source_analysis_job_id": "24067682",
+  "runtime_package": "/xdisk/dinusha1/dinusha1/NRCS_functional_HPC_v1",
+  "sources": {
+    "HPC_STATUS.json": "979ee1d50e61c7a0ec06bafd7455974db37e0b86bb749379e88b5e2f808d83d9",
+    "results/PREDICTION_STATUS.json": "d6d19055405d5dfe6ffe64b1660767e57e04238cec68b4f77408c52936b1b44c",
+    "results/archaea/ASV_prediction_QC.csv": "5a7f5ae1bf7afeb8d72b0365f1870c062754ff50dcffac503db1b4a9778c6156",
+    "results/archaea/sample_prediction_QC.csv": "f3f793aed77a28c21bb0b33f71aa477f01361b9881b93a9916a9e117c18fdef9",
+    "validated/archaea/asv_by_sample.tsv": "4c8ada117f3dd1139de5e22a01679d6ae89697dab0eca2065d8e64334df5f6fb",
+    "validated/archaea/sample_metadata.csv": "543839fe7b451c9827eeedec87eef9316831098f8105ab8db348caee888893d6",
+    "validated/archaea/ASVs.fasta": "bc8924fb864636ff2bf4f7d83708a7268414931560d795b254e4d7a2045ffd13",
+    "results/archaea/combined_marker_predicted_and_nsti.tsv.gz": "638bbfa8f573fd54db717c3f7048c996912d27667ad6557a2580095fb22b789a",
+    "audit/runtime_environment/environment.json": "34e7f10ad0c13c549e6e3e0347b4328e2b7d54d3f61510a4819df10f0a37dddf",
+    "results/archaea/EC_predicted_abundance.tsv.gz": "4c273b12d0a2f36b9f6a6af02455eae6cce7b666041a45c2c7815eeb77ca13f6",
+    "results/archaea/KO_predicted_abundance.tsv.gz": "cac832de8ce4c1a368332e213a19187436005f3c1bf49747b02a1b341d1b14c5",
+    "results/archaea/METACYC_predicted_abundance.tsv.gz": "45445b257d055505d5a802146c70f2b0be09b178e627c748f8b81fe2ad0ffc61",
+    "predictions/archaea/combined_EC_predicted.tsv.gz": "678ef5633bd343a82a075f5bf4ee1d565338645f0ca063765776f636a756d353",
+    "predictions/archaea/combined_KO_predicted.tsv.gz": "187d43dfb53b3db068578cdddd763cfb90bba881cab967cf80d6e933da5847da",
+    "predictions/archaea/bac_marker_predicted_and_nsti.tsv.gz": "f0461ce202011d16d68db96b8b9300bb2d463eb39702ef448e526a1b55ce4f58",
+    "predictions/archaea/arc_marker_predicted_and_nsti.tsv.gz": "176d485bccc700d682b6ede8bc77a3ac34b3e18a4b84bbd04aa3e934d380d104",
+    "source_snapshot/candidates/archaea/taxonomy.tsv": "0d9f4bb14475e603aee81e5d373d22cb02ff358c76e28f4359d98027d9a1cab8"
+  },
+  "resources": {
+    "cpus": 4,
+    "memory": "20G",
+    "time": "04:00:00"
+  },
+  "max_nsti": 2.0,
+  "expected_discordant_ASVs": [
+    "AASV000392",
+    "AASV000393",
+    "AASV000394",
+    "AASV000395",
+    "AASV000396",
+    "AASV000399",
+    "AASV000828",
+    "AASV000829",
+    "AASV013067",
+    "AASV020350"
+  ]
+}
